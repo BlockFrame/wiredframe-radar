@@ -1,0 +1,1305 @@
+{
+  "schema_version": "1.0",
+  "category": "news",
+  "date": "2026-09-07",
+  "category_summary": "### Executive Signal\n- The frontier is shifting from model size to system efficiency and responsibility. Streaming voice, leaner [multimodal](/?date=2026-09-07&category=news#item-44fe6a483bcb) architectures, and GPU-optimized [embedding](/?date=2026-09-07&category=news#item-ae79a757e0be) stacks are reshaping the cost curve, while alignment, IP, and clinical risk frameworks remain unresolved governance questions.\n\n### Priority Developments\n- Always-on voice is productizing. [Meta's](/?date=2026-09-07&category=news#item-b7b3d1dd272c) Muse leads on accuracy and cost at 80ms latency, resetting the competitive bar for streaming transcription and live assistants.\n- Multimodal architectures are consolidating. H Company's NeoMME drops [the vision tower and causal decoder](/?date=2026-09-07&category=news#item-44fe6a483bcb) into a single tower, signaling architecture simplification as the next efficiency frontier.\n- Research velocity is becoming agent-driven. OpenAI's internal data positions coding agents as the new experimental throughput moat, beyond raw model capability.\n- Embedding infrastructure is being engineered for scale. [Perplexity](/?date=2026-09-07&category=news#item-ae79a757e0be)'s GPU stack and emerging geometric research together elevate [embeddings](/?date=2026-09-07&category=news#item-b76d2590d6e4) to a first-class systems concern.\n- Governance gaps are widening. Alignment, copyright allocation, and the AI-psychosis clinical debate together demand stronger external frameworks and clearer enterprise policy.\n\n### Leadership Implications\n- Reassess voice, multimodal, and [embedding](/?date=2026-09-07&category=news#item-ae79a757e0be) roadmaps against the new cost and accuracy benchmarks set by Muse, [NeoMME](/?date=2026-09-07&category=news#item-44fe6a483bcb), and pplx-embed.\n- Stand up an internal coding-agent program and convene a cross-functional governance review covering IP, clinical safety, and alignment disclosures.",
+  "category_summary_html": "<h3>Executive Signal</h3>\n<ul>\n<li>The frontier is shifting from model size to system efficiency and responsibility. Streaming voice, leaner <a href=\"/?date=2026-09-07&amp;category=news#item-44fe6a483bcb\" class=\"internal-link\" rel=\"noopener noreferrer\">multimodal</a> architectures, and GPU-optimized <a href=\"/?date=2026-09-07&amp;category=news#item-ae79a757e0be\" class=\"internal-link\" rel=\"noopener noreferrer\">embedding</a> stacks are reshaping the cost curve, while alignment, IP, and clinical risk frameworks remain unresolved governance questions.</li>\n</ul>\n<h3>Priority Developments</h3>\n<ul>\n<li>Always-on voice is productizing. <a href=\"/?date=2026-09-07&amp;category=news#item-b7b3d1dd272c\" class=\"internal-link\" rel=\"noopener noreferrer\">Meta's</a> Muse leads on accuracy and cost at 80ms latency, resetting the competitive bar for streaming transcription and live assistants.</li>\n<li>Multimodal architectures are consolidating. H Company's NeoMME drops <a href=\"/?date=2026-09-07&amp;category=news#item-44fe6a483bcb\" class=\"internal-link\" rel=\"noopener noreferrer\">the vision tower and causal decoder</a> into a single tower, signaling architecture simplification as the next efficiency frontier.</li>\n<li>Research velocity is becoming agent-driven. OpenAI's internal data positions coding agents as the new experimental throughput moat, beyond raw model capability.</li>\n<li>Embedding infrastructure is being engineered for scale. <a href=\"/?date=2026-09-07&amp;category=news#item-ae79a757e0be\" class=\"internal-link\" rel=\"noopener noreferrer\">Perplexity</a>'s GPU stack and emerging geometric research together elevate <a href=\"/?date=2026-09-07&amp;category=news#item-b76d2590d6e4\" class=\"internal-link\" rel=\"noopener noreferrer\">embeddings</a> to a first-class systems concern.</li>\n<li>Governance gaps are widening. Alignment, copyright allocation, and the AI-psychosis clinical debate together demand stronger external frameworks and clearer enterprise policy.</li>\n</ul>\n<h3>Leadership Implications</h3>\n<ul>\n<li>Reassess voice, multimodal, and <a href=\"/?date=2026-09-07&amp;category=news#item-ae79a757e0be\" class=\"internal-link\" rel=\"noopener noreferrer\">embedding</a> roadmaps against the new cost and accuracy benchmarks set by Muse, <a href=\"/?date=2026-09-07&amp;category=news#item-44fe6a483bcb\" class=\"internal-link\" rel=\"noopener noreferrer\">NeoMME</a>, and pplx-embed.</li>\n<li>Stand up an internal coding-agent program and convene a cross-functional governance review covering IP, clinical safety, and alignment disclosures.</li>\n</ul>",
+  "category_summary_evidence": [
+    [
+      "b7b3d1dd272c",
+      "44fe6a483bcb",
+      "ae79a757e0be"
+    ],
+    [
+      "b7b3d1dd272c"
+    ],
+    [
+      "44fe6a483bcb"
+    ],
+    [
+      "be3eac73fe9d"
+    ],
+    [
+      "ae79a757e0be",
+      "b76d2590d6e4"
+    ],
+    [
+      "87e257da859f",
+      "79f5e4d5cbbb",
+      "416ad5ff66d2"
+    ],
+    [
+      "b7b3d1dd272c",
+      "44fe6a483bcb",
+      "ae79a757e0be"
+    ],
+    [
+      "be3eac73fe9d",
+      "87e257da859f",
+      "79f5e4d5cbbb"
+    ]
+  ],
+  "themes": [
+    {
+      "name": "AI safety and misuse",
+      "description": "Concerns about AI psychosis, jailbreaking-as-a-service for open-weight models, and alignment discourse from major labs.",
+      "item_count": 4,
+      "example_items": [],
+      "importance": 78.0
+    },
+    {
+      "name": "Model and product releases",
+      "description": "Frontier and adjacent model releases including WeatherNext 3, Lyria 3.5, Muse Voice Transcribe, NeoMME, and CUA-Lite.",
+      "item_count": 5,
+      "example_items": [],
+      "importance": 70.0
+    },
+    {
+      "name": "Copyright litigation",
+      "description": "New publisher lawsuits against OpenAI/Microsoft and disputes over the Anthropic settlement allocation.",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 58.0
+    },
+    {
+      "name": "AI infrastructure",
+      "description": "Serving stacks, agent platforms, and research-routing models (Perplexity embeddings, CUA-Lite, RPMs).",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 55.0
+    },
+    {
+      "name": "AI in practice at frontier labs",
+      "description": "Inside-OpenAI signals on agent-driven research acceleration and GPT-6 Astra internal productivity gains.",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 55.0
+    },
+    {
+      "name": "AI policy and regulation",
+      "description": "Weekly AI-law digest spanning US states, UK, South Korea, Singapore, and EU-influenced frameworks.",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 42.0
+    },
+    {
+      "name": "AI and society",
+      "description": "Consumer/cultural coverage: AI food imagery backlash, parent advice, Siri AI user fatigue.",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 22.0
+    }
+  ],
+  "total_items": 25,
+  "items": [
+    {
+      "id": "b7b3d1dd272c",
+      "title": "Meta's new real-time audio model is the foundation for AI assistants that never stop listening",
+      "content": "\n        Meta's Superintelligence Labs have released Muse Voice Transcribe, a real-time transcription model that processes speech in 80-millisecond chunks, tells speakers apart, and detects sentence boundaries. According to Artificial Analysis, it delivers the most accurate streaming transcription at the lowest price in the market. Meta sees the model as a building block for personal AI agents that listen in on real conversations through devices like its camera glasses.\nThe article Meta&#039;s new real-time audio model is the foundation for AI assistants that never stop listening appeared first on The Decoder.",
+      "url": "https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening/",
+      "author": "Jonathan Kemper",
+      "published": "2026-09-06T09:45:18",
+      "source": "The Decoder",
+      "source_type": "rss",
+      "tags": [
+        "AI research",
+        "Artificial Intelligence",
+        "Meta"
+      ],
+      "summary": "Meta Superintelligence Labs has released Muse Voice Transcribe, a real-time streaming transcription model that processes speech in 80-millisecond chunks, performs speaker diarization, and detects sentence boundaries. Artificial Analysis ranks it as the most accurate and cheapest streaming transcription model available.",
+      "importance_score": 65.0,
+      "reasoning": "Muse Voice Transcribe is not in grounding (most recent Meta entry is Muse-Spark 1.3 from 2026-09-03). Treat as a likely new release. Significant speech infrastructure advance and a building block for Meta's always-on AR glasses agents.",
+      "themes": [
+        "Meta",
+        "speech recognition",
+        "real-time AI",
+        "model release"
+      ],
+      "sentiment": "positive",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://the-decoder.com/feed/",
+        "raw_summary": "<p><img alt=\"\" class=\"attachment-full size-full wp-post-image\" height=\"1152\" src=\"https://the-decoder.com/wp-content/uploads/2026/06/meta_logo.png\" style=\"height: auto; margin-bottom: 10px;\" width=\"2048\" /></p>\n<p>        Meta's Superintelligence Labs have released Muse Voice Transcribe, a real-time transcription model that processes speech in 80-millisecond chunks, tells speakers apart, and detects sentence boundaries. According to Artificial Analysis, it delivers the most accurate streaming tr",
+        "sentiment": "positive"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Meta Superintelligence Labs has released Muse Voice Transcribe, a real-time streaming transcription model that processes speech in 80-millisecond chunks, performs speaker diarization, and detects sentence boundaries. Artificial Analysis ranks it as the most accurate and cheapest streaming transcription model available.</p>",
+      "content_html": "<p>Meta's Superintelligence Labs have released Muse Voice Transcribe, a real-time transcription model that processes speech in 80-millisecond chunks, tells speakers apart, and detects sentence boundaries. According to Artificial Analysis, it delivers the most accurate streaming transcription at the lowest price in the market. Meta sees the model as a building block for personal AI agents that listen in on real conversations through devices like its camera glasses.</p>\n<p>The article Meta's new real-time audio model is the foundation for AI assistants that never stop listening appeared first on The Decoder.</p>"
+    },
+    {
+      "id": "87e257da859f",
+      "title": "An Alien Mind",
+      "content": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "url": "https://openai.com/index/an-alien-mind",
+      "author": "Unknown",
+      "published": "2026-09-06T09:00:00",
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "tags": [
+        "Safety"
+      ],
+      "summary": "OpenAI's Jakub Pachocki publishes a reflective essay on increasingly capable AI and the challenge of keeping it aligned, calling for stronger safeguards and international coordination.",
+      "importance_score": 60.0,
+      "reasoning": "High-profile thought-leadership post from OpenAI's chief scientist on alignment and coordination. Important for AI safety discourse and policy signaling but not a concrete capability or product release.",
+      "themes": [
+        "AI safety",
+        "alignment",
+        "OpenAI",
+        "policy"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://openai.com/blog/rss.xml",
+        "raw_summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>OpenAI's Jakub Pachocki publishes a reflective essay on increasingly capable AI and the challenge of keeping it aligned, calling for stronger safeguards and international coordination.</p>",
+      "content_html": "<p>Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.</p>"
+    },
+    {
+      "id": "44fe6a483bcb",
+      "title": "H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder",
+      "content": "Most visual document retrievers in production today are hand-me-downs. ColPali and the models that followed it take a generative vision-language model and repurpose it as an encoder. The result still carries a separately pretrained vision tower and a causal decoder that never generates a token. That is parameter and compute overhead for a task that only needs representations.\n\n\n\nH Company has released NeoMME, a family of 260M and 800M bidirectional encoders that drops both components. One Transformer processes multilingual text tokens and raw 32×32 RGB image patches through the same layers, trained from random initialization. The retrieval fine-tune, NeoMME-Retriever, reaches 0.523 nDCG@10 on ViDoRe v3 at 260M parameters.\n\n\n\nIs it deployable? Yes. Every checkpoint ships under Apache 2.0 with day-zero support in Hugging Face Transformers. The 260M model indexes 51.3 pages per second on a single NVIDIA L40S and encodes a query in 78.3 ms on a CPU-only host.\n\n\n\nhttps://arxiv.org/pdf/2609.01657\n\n\n\nOne tower, two modalities\n\n\n\nText enters through an ALBERT-style factorized embedding: a 256-dimensional lookup projected to model width. Images are split into non-overlapping 32×32 patches and projected by a 2-layer MLP trained from scratch. No patch-merging module, no SigLIP2 tower.\n\n\n\nBoth models support a 16,384-token context, enough for two standard 3,840×2,160 4K UHD images after patching. Most layers use symmetric sliding-window attention; every sixth layer and the final layer attend globally. The stack uses grouped-query attention, query-key normalization, gated attention, 2D rotary position embeddings, and squared-ReLU MLPs. Exact parameter counts are 262,937,906 and 793,715,032.\n\n\n\nThe tokenizer is a whitespace-unconstrained BPE with a 131,072-entry vocabulary, trained from scratch. Across 14 target languages in FLORES-200 devtest, it emits 44.4% fewer tokens than ModernBERT.\n\n\n\nTrained as a masked diffusion denoiser\n\n\n\nPretraining is discrete masked diffusion over text, optionally conditioned on visible image patches. Text-only segments draw a corruption rate uniformly from 0 to 1. Multimodal segments draw from 0.30 to 1, which removes the language-only shortcut and forces the model to read the page.\n\n\n\nA cross-modal ablation probe confirms this works. At 90% masking, visible page patches raise masked-token accuracy by 38.4 points for the 260M model and 40.5 points for the 800M model. Each run processes about 524 billion packed input tokens, roughly 290 billion of them text-only, on 16 and 32 H100 accelerators respectively.\n\n\n\nRetrieval results\n\n\n\nNeoMME-Retriever adds two jointly trained heads on the shared backbone: a mean-pooled dense head with Matryoshka widths, and a late-interaction head projecting every token and patch to 128 dimensions. One forward pass returns both.\n\n\n\nOn ViDoRe v3, the 260M model scores 0.523 nDCG@10 and the 800M model 0.556. The 260M result sits within 0.002 of ColQwen2.5-v0.2 at 3.75B parameters, and 26.1 points above the best other sub-300M model. The 800M model lands 0.9 points behind the similarly sized Vultron Retriever Flash. On ViDoRe v1 and v2 the models reach 0.860/0.522 and 0.874/0.559 nDCG@5.\n\n\n\nText retrieval is weaker. On BEIR-15, late interaction reaches 0.4881 and 0.5126, against 0.5722 for LateOn at 149M parameters. The authors attribute this partly to supervision scale: NeoMME saw roughly 430K text query examples, against roughly 660M contrastive examples for mLateOn.\n\n\n\nStorage and throughput\n\n\n\nLate-interaction indexes are expensive. A 2048×2048 page yields 4,162 vectors, about 1.5 MB per ViDoRe v3 document in float32. Two methods bring that down. Hierarchical token pooling at factor 10 with int8 queries and documents gives 39.0 kB per page, a 39.4× reduction retaining 99.16% of baseline nDCG@10. Pool factor 8 with int8 queries and binary documents gives 6.0 kB, a 255.5× reduction retaining 95.19%.\n\n\n\nIndexing is fast for the vector count. At a matched 2048×2048 input on one L40S, NeoMME-260M encodes 51.3 pages per second against ColModernVBERT&#8217;s 26.0, a 1.97× gap.\n\n\n\nInteractive explainer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Takeaways\n\n\n\n\nOne bidirectional Transformer handles text and raw image patches, with no vision tower and no decoder.\n\n\n\nNeoMME-Retriever-260M scores 0.523 nDCG@10 on ViDoRe v3, beating every evaluated model below 800M.\n\n\n\nIt matches 3.75B-parameter ColQwen2.5 on ViDoRe v3 while being 14.4× smaller.\n\n\n\nToken pooling plus asymmetric quantization cut the index from roughly 1.5 MB to 6 kB per page.\n\n\n\nText-only retrieval and frozen natural-image transfer remain clear weak spots.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCheck out the Paper, Model Collection and Demo. Also, feel free to follow us on Twitter and don’t forget to join our 150k+ML SubReddit and Subscribe to our Newsletter. Wait! are you on telegram? now you can join us on telegram as well.\n\n\n\nNeed to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us\nThe post H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder appeared first on MarkTechPost.",
+      "url": "https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/",
+      "author": "Asif Razzaq",
+      "published": "2026-09-06T21:06:41",
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "tags": [
+        "Agentic AI",
+        "AI Infrastructure",
+        "AI Paper Summary",
+        "Applications",
+        "Artificial Intelligence",
+        "Editors Pick",
+        "Language Model",
+        "Large Language Model",
+        "Machine Learning",
+        "New Releases",
+        "Open Source",
+        "Python",
+        "Software Engineering",
+        "Staff",
+        "Tech News",
+        "Technology"
+      ],
+      "summary": "H Company has open-sourced NeoMME, a family of 260M and 800M single-tower multimodal encoders that drop the separate vision tower and causal decoder, processing multilingual text tokens and 32x32 RGB image patches through one transformer. The retriever variant hits 0.523 nDCG@10 on ViDoRe v3, shipped under Apache 2.0.",
+      "importance_score": 58.0,
+      "reasoning": "Not in grounding; treat as a new release. Interesting architectural simplification for document retrieval, with permissive Apache 2.0 licensing. Modest scale and narrow benchmark novelty limit the score.",
+      "themes": [
+        "open source",
+        "multimodal models",
+        "document retrieval",
+        "H Company"
+      ],
+      "sentiment": "positive",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.marktechpost.com/category/tech-news/feed/",
+        "raw_summary": "<p>We look at NeoMME, a family of 260M and 800M bidirectional encoders from H Company. Unlike ColPali-style retrievers, it processes multilingual text tokens and raw 32×32 image patches in a single Transformer, with no pretrained vision tower and no causal decoder. We cover the masked discrete-diffusion pretraining objective, the dual dense and late-interaction retrieval heads, and the ViDoRe v3 results where the 260M model reaches 0.523 nDCG@10. We also break down the 255× index compression, th",
+        "source_group": "Tech & Media",
+        "sentiment": "positive"
+      },
+      "related_sources": [],
+      "summary_html": "<p>H Company has open-sourced NeoMME, a family of 260M and 800M single-tower multimodal encoders that drop the separate vision tower and causal decoder, processing multilingual text tokens and 32x32 RGB image patches through one transformer. The retriever variant hits 0.523 nDCG@10 on ViDoRe v3, shipped under Apache 2.0.</p>",
+      "content_html": "<p>Most visual document retrievers in production today are hand-me-downs. ColPali and the models that followed it take a generative vision-language model and repurpose it as an encoder. The result still carries a separately pretrained vision tower and a causal decoder that never generates a token. That is parameter and compute overhead for a task that only needs representations.</p>\n<p>H Company has released NeoMME, a family of 260M and 800M bidirectional encoders that drops both components. One Transformer processes multilingual text tokens and raw 32×32 RGB image patches through the same layers, trained from random initialization. The retrieval fine-tune, NeoMME-Retriever, reaches 0.523 nDCG@10 on ViDoRe v3 at 260M parameters.</p>\n<p>Is it deployable? Yes. Every checkpoint ships under Apache 2.0 with day-zero support in Hugging Face Transformers. The 260M model indexes 51.3 pages per second on a single NVIDIA L40S and encodes a query in 78.3 ms on a CPU-only host.</p>\n<p>https://arxiv.org/pdf/2609.01657</p>\n<p>One tower, two modalities</p>\n<p>Text enters through an ALBERT-style factorized embedding: a 256-dimensional lookup projected to model width. Images are split into non-overlapping 32×32 patches and projected by a 2-layer MLP trained from scratch. No patch-merging module, no SigLIP2 tower.</p>\n<p>Both models support a 16,384-token context, enough for two standard 3,840×2,160 4K UHD images after patching. Most layers use symmetric sliding-window attention; every sixth layer and the final layer attend globally. The stack uses grouped-query attention, query-key normalization, gated attention, 2D rotary position embeddings, and squared-ReLU MLPs. Exact parameter counts are 262,937,906 and 793,715,032.</p>\n<p>The tokenizer is a whitespace-unconstrained BPE with a 131,072-entry vocabulary, trained from scratch. Across 14 target languages in FLORES-200 devtest, it emits 44.4% fewer tokens than ModernBERT.</p>\n<p>Trained as a masked diffusion denoiser</p>\n<p>Pretraining is discrete masked diffusion over text, optionally conditioned on visible image patches. Text-only segments draw a corruption rate uniformly from 0 to 1. Multimodal segments draw from 0.30 to 1, which removes the language-only shortcut and forces the model to read the page.</p>\n<p>A cross-modal ablation probe confirms this works. At 90% masking, visible page patches raise masked-token accuracy by 38.4 points for the 260M model and 40.5 points for the 800M model. Each run processes about 524 billion packed input tokens, roughly 290 billion of them text-only, on 16 and 32 H100 accelerators respectively.</p>\n<p>Retrieval results</p>\n<p>NeoMME-Retriever adds two jointly trained heads on the shared backbone: a mean-pooled dense head with Matryoshka widths, and a late-interaction head projecting every token and patch to 128 dimensions. One forward pass returns both.</p>\n<p>On ViDoRe v3, the 260M model scores 0.523 nDCG@10 and the 800M model 0.556. The 260M result sits within 0.002 of ColQwen2.5-v0.2 at 3.75B parameters, and 26.1 points above the best other sub-300M model. The 800M model lands 0.9 points behind the similarly sized Vultron Retriever Flash. On ViDoRe v1 and v2 the models reach 0.860/0.522 and 0.874/0.559 nDCG@5.</p>\n<p>Text retrieval is weaker. On BEIR-15, late interaction reaches 0.4881 and 0.5126, against 0.5722 for LateOn at 149M parameters. The authors attribute this partly to supervision scale: NeoMME saw roughly 430K text query examples, against roughly 660M contrastive examples for mLateOn.</p>\n<p>Storage and throughput</p>\n<p>Late-interaction indexes are expensive. A 2048×2048 page yields 4,162 vectors, about 1.5 MB per ViDoRe v3 document in float32. Two methods bring that down. Hierarchical token pooling at factor 10 with int8 queries and documents gives 39.0 kB per page, a 39.4× reduction retaining 99.16% of baseline nDCG@10. Pool factor 8 with int8 queries and binary documents gives 6.0 kB, a 255.5× reduction retaining 95.19%.</p>\n<p>Indexing is fast for the vector count. At a matched 2048×2048 input on one L40S, NeoMME-260M encodes 51.3 pages per second against ColModernVBERT’s 26.0, a 1.97× gap.</p>\n<p>Interactive explainer</p>\n<p>Key Takeaways</p>\n<p>One bidirectional Transformer handles text and raw image patches, with no vision tower and no decoder.</p>\n<p>NeoMME-Retriever-260M scores 0.523 nDCG@10 on ViDoRe v3, beating every evaluated model below 800M.</p>\n<p>It matches 3.75B-parameter ColQwen2.5 on ViDoRe v3 while being 14.4× smaller.</p>\n<p>Token pooling plus asymmetric quantization cut the index from roughly 1.5 MB to 6 kB per page.</p>\n<p>Text-only retrieval and frozen natural-image transfer remain clear weak spots.</p>\n<p>Check out the&nbsp;Paper, Model Collection and Demo. Also,&nbsp;feel free to follow us on&nbsp;Twitter&nbsp;and don’t forget to join our&nbsp;150k+ML SubReddit&nbsp;and Subscribe to&nbsp;our Newsletter. Wait! are you on telegram?&nbsp;now you can join us on telegram as well.</p>\n<p>Need to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us</p>\n<p>The post H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder appeared first on MarkTechPost.</p>"
+    },
+    {
+      "id": "be3eac73fe9d",
+      "title": "Research acceleration: The view inside OpenAI",
+      "content": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "author": "Unknown",
+      "published": "2026-09-06T08:00:00",
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "tags": [
+        "Research"
+      ],
+      "summary": "OpenAI blog details how internal coding agents are reshaping its AI research workflow, sharing early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "importance_score": 58.0,
+      "reasoning": "Strong signal that frontier labs are using agentic systems to accelerate their own research, with concrete operational data. Notable for competitive dynamics even though it is a blog post rather than a release.",
+      "themes": [
+        "OpenAI",
+        "coding agents",
+        "research acceleration",
+        "agentic AI"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://openai.com/blog/rss.xml",
+        "raw_summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>OpenAI blog details how internal coding agents are reshaping its AI research workflow, sharing early data on agent usage, experiment velocity, task complexity, and research acceleration.</p>",
+      "content_html": "<p>Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.</p>"
+    },
+    {
+      "id": "6c54577f716f",
+      "title": "Stripping safety guardrails from open-weight AI models is now a turnkey commercial service",
+      "content": "\n        Abliteration.ai sells access to modified open-weight models with their trained safety mechanisms stripped out, currently based on Z.AI's GLM-5.3. The startup markets the service for offensive cybersecurity and red teaming, but journalists were able to generate malware instructions without much effort. Whether the benefits outweigh the risks remains an open question.\nThe article Stripping safety guardrails from open-weight AI models is now a turnkey commercial service appeared first on The Decoder.",
+      "url": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
+      "author": "Tomislav Bezmalinović",
+      "published": "2026-09-06T08:55:56",
+      "source": "The Decoder",
+      "source_type": "rss",
+      "tags": [
+        "AI in practice",
+        "Artificial Intelligence",
+        "Abliteration",
+        "AI and security",
+        "Cybersecurity",
+        "GLM",
+        "GLM-5.3",
+        "Z.ai"
+      ],
+      "summary": "A startup called Abliteration.ai is selling turnkey access to open-weight models with safety guardrails stripped out, currently based on Z.ai's GLM-5.3. Marketed for offensive security and red teaming, the service was easily used to generate malware instructions by reporters.",
+      "importance_score": 55.0,
+      "reasoning": "[Freshness check: Today's article covers the same Abliteration.ai guardrail-removal service already reported two days prior, adding only detail on the current base model (GLM-5.3) and journalist testing rather than a new development.] High-significance AI safety story: commercial jailbreaking-as-a-service for open models creates systemic misuse risk and complicates responsible-release norms. GLM-5.3 is not listed in grounding but Z.ai's GLM-5 family is recent.",
+      "themes": [
+        "AI safety",
+        "open-weight models",
+        "misuse",
+        "Z.ai",
+        "cybersecurity"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "freshness": {
+        "status": "stale_anchor",
+        "label": "Old anchor",
+        "reason": "Today's article covers the same Abliteration.ai guardrail-removal service already reported two days prior, adding only detail on the current base model (GLM-5.3) and journalist testing rather than a new development.",
+        "score_cap": 55.0,
+        "exclude_from_top": true,
+        "exclude_from_summaries": true,
+        "age_days": 2,
+        "matched_prior_items": [
+          {
+            "id": "5a540c453b3b",
+            "date": "2026-09-04",
+            "category": "news",
+            "title": "Abliteration.ai is making a business out of removing AI guardrails",
+            "source": "AI News & Artificial Intelligence | TechCrunch",
+            "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/"
+          }
+        ]
+      },
+      "metadata": {
+        "feed_url": "https://the-decoder.com/feed/",
+        "raw_summary": "<p><img alt=\"Colorful data streams overwhelm server chains, pass through an API, and unleash malware and exploit symbols.\" class=\"attachment-full size-full wp-post-image\" height=\"768\" src=\"https://the-decoder.com/wp-content/uploads/2026/09/abliteration-ai.png\" style=\"height: auto; margin-bottom: 10px;\" width=\"1376\" /></p>\n<p>        Abliteration.ai sells access to modified open-weight models with their trained safety mechanisms stripped out, currently based on Z.AI's GLM-5.3. The startup markets",
+        "freshness": {
+          "status": "stale_anchor",
+          "label": "Old anchor",
+          "reason": "Today's article covers the same Abliteration.ai guardrail-removal service already reported two days prior, adding only detail on the current base model (GLM-5.3) and journalist testing rather than a new development.",
+          "score_cap": 55.0,
+          "exclude_from_top": true,
+          "exclude_from_summaries": true,
+          "age_days": 2,
+          "matched_prior_items": [
+            {
+              "id": "5a540c453b3b",
+              "date": "2026-09-04",
+              "category": "news",
+              "title": "Abliteration.ai is making a business out of removing AI guardrails",
+              "source": "AI News & Artificial Intelligence | TechCrunch",
+              "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/"
+            }
+          ]
+        },
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A startup called Abliteration.ai is selling turnkey access to open-weight models with safety guardrails stripped out, currently based on Z.ai's GLM-5.3. Marketed for offensive security and red teaming, the service was easily used to generate malware instructions by reporters.</p>",
+      "content_html": "<p>Abliteration.ai sells access to modified open-weight models with their trained safety mechanisms stripped out, currently based on Z.AI's GLM-5.3. The startup markets the service for offensive cybersecurity and red teaming, but journalists were able to generate malware instructions without much effort. Whether the benefits outweigh the risks remains an open question.</p>\n<p>The article Stripping safety guardrails from open-weight AI models is now a turnkey commercial service appeared first on The Decoder.</p>"
+    },
+    {
+      "id": "467b96179347",
+      "title": "Google's WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
+      "content": "\n        Google Research and DeepMind are releasing WeatherNext 3, a weather model that skips traditional physics simulations and learns directly from real-time satellite data. It produces hourly forecasts at up to five-kilometer resolution, five times more detailed than its predecessor. Google says regions in Africa, Latin America, and the Asia-Pacific that have lacked accurate forecasts should see the biggest gains.\nThe article Google&#039;s WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data appeared first on The Decoder.",
+      "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
+      "author": "Jonathan Kemper",
+      "published": "2026-09-06T10:36:35",
+      "source": "The Decoder",
+      "source_type": "rss",
+      "tags": [
+        "AI research",
+        "Artificial Intelligence",
+        "Google",
+        "Google Deepmind",
+        "Weather"
+      ],
+      "summary": "Google Research and DeepMind are releasing WeatherNext 3, a weather model that replaces traditional physics-based simulation with direct learning from real-time satellite data. It delivers hourly forecasts at up to 5 km resolution, five times more detailed than its predecessor, with the largest expected gains in Africa, Latin America, and Asia-Pacific.",
+      "importance_score": 55.0,
+      "reasoning": "[Freshness check: The WeatherNext 3 release and its core capabilities (5 km hourly forecasts, direct learning from satellite data, biggest gains in underserved regions) were already announced on Sept 4 and comprehensively covered by MarkTechPost on Sept 5.] WeatherNext 3 GA date 2026-09-03 falls within 7 days of coverage date — qualifies as a new release. Notable architectural departure (skipping physics simulation) and meaningful real-world forecasting implications, though narrow domain.",
+      "themes": [
+        "model release",
+        "Google DeepMind",
+        "weather forecasting",
+        "AI research"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "freshness": {
+        "status": "stale_anchor",
+        "label": "Old anchor",
+        "reason": "The WeatherNext 3 release and its core capabilities (5 km hourly forecasts, direct learning from satellite data, biggest gains in underserved regions) were already announced on Sept 4 and comprehensively covered by MarkTechPost on Sept 5.",
+        "score_cap": 55.0,
+        "exclude_from_top": true,
+        "exclude_from_summaries": true,
+        "age_days": 2,
+        "matched_prior_items": [
+          {
+            "id": "afa891ed67b5",
+            "date": "2026-09-04",
+            "category": "social",
+            "title": "While traditional compute constraints limit standard weather updates to six-hour intervals, WeatherN...",
+            "source": "Twitter",
+            "url": "https://twitter.com/GoogleDeepMind/status/2095528015778164838"
+          },
+          {
+            "id": "99de330413b0",
+            "date": "2026-09-04",
+            "category": "social",
+            "title": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅\n\nDeveloped with @GoogleRe...",
+            "source": "Twitter",
+            "url": "https://twitter.com/GoogleDeepMind/status/2095528012791902536"
+          },
+          {
+            "id": "8144e6d231e8",
+            "date": "2026-09-05",
+            "category": "news",
+            "title": "Google DeepMind’s WeatherNext 3 Trains on Weather Station Observations to Deliver 5 km Global Forecasts, Refreshed Every Hour",
+            "source": "MarkTechPost",
+            "url": "https://www.marktechpost.com/2026/09/03/google-deepminds-weathernext-3-trains-on-weather-station-observations-to-deliver-5-km-global-forecasts-refreshed-every-hour/"
+          }
+        ]
+      },
+      "metadata": {
+        "feed_url": "https://the-decoder.com/feed/",
+        "raw_summary": "<p><img alt=\"A graphically enhanced satellite image of cloud vortices in blue and yellow, with the text &quot;WeatherNext 3&quot; superimposed on top\" class=\"attachment-full size-full wp-post-image\" height=\"675\" src=\"https://the-decoder.com/wp-content/uploads/2026/09/weathernext-3-01-hero.webp\" style=\"height: auto; margin-bottom: 10px;\" width=\"1200\" /></p>\n<p>        Google Research and DeepMind are releasing WeatherNext 3, a weather model that skips traditional physics simulations and learns di",
+        "freshness": {
+          "status": "stale_anchor",
+          "label": "Old anchor",
+          "reason": "The WeatherNext 3 release and its core capabilities (5 km hourly forecasts, direct learning from satellite data, biggest gains in underserved regions) were already announced on Sept 4 and comprehensively covered by MarkTechPost on Sept 5.",
+          "score_cap": 55.0,
+          "exclude_from_top": true,
+          "exclude_from_summaries": true,
+          "age_days": 2,
+          "matched_prior_items": [
+            {
+              "id": "afa891ed67b5",
+              "date": "2026-09-04",
+              "category": "social",
+              "title": "While traditional compute constraints limit standard weather updates to six-hour intervals, WeatherN...",
+              "source": "Twitter",
+              "url": "https://twitter.com/GoogleDeepMind/status/2095528015778164838"
+            },
+            {
+              "id": "99de330413b0",
+              "date": "2026-09-04",
+              "category": "social",
+              "title": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅\n\nDeveloped with @GoogleRe...",
+              "source": "Twitter",
+              "url": "https://twitter.com/GoogleDeepMind/status/2095528012791902536"
+            },
+            {
+              "id": "8144e6d231e8",
+              "date": "2026-09-05",
+              "category": "news",
+              "title": "Google DeepMind’s WeatherNext 3 Trains on Weather Station Observations to Deliver 5 km Global Forecasts, Refreshed Every Hour",
+              "source": "MarkTechPost",
+              "url": "https://www.marktechpost.com/2026/09/03/google-deepminds-weathernext-3-trains-on-weather-station-observations-to-deliver-5-km-global-forecasts-refreshed-every-hour/"
+            }
+          ]
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Google Research and DeepMind are releasing WeatherNext 3, a weather model that replaces traditional physics-based simulation with direct learning from real-time satellite data. It delivers hourly forecasts at up to 5 km resolution, five times more detailed than its predecessor, with the largest expected gains in Africa, Latin America, and Asia-Pacific.</p>",
+      "content_html": "<p>Google Research and DeepMind are releasing WeatherNext 3, a weather model that skips traditional physics simulations and learns directly from real-time satellite data. It produces hourly forecasts at up to five-kilometer resolution, five times more detailed than its predecessor. Google says regions in Africa, Latin America, and the Asia-Pacific that have lacked accurate forecasts should see the biggest gains.</p>\n<p>The article Google's WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data appeared first on The Decoder.</p>"
+    },
+    {
+      "id": "162b77a7ba89",
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "content": "\n\n\n\t\n\tThe OpenAI logo is displayed on a smartphone screen placed on a reflective surface on which the company's logo is projected in Creteil, France, on September 4, 2026, as OpenAI began rolling out GPT-6 Astra, its most advanced model to date. (Photo by Samuel Boivin/NurPhoto via Getty Images) | NurPhoto via Getty Images\t\n\nThe Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by The New York Times, Ziff Davis, Merriam-Webster, and Encyclopedia Britannica against OpenAI.\nThe Seattle Times and Newsday also named Microsoft as a defendant in the suit, since Copilot is built on OpenAI's technology. The publishers join a list of nearly 400 local newspapers that recently sued the two  …\nRead the full story at The Verge.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "author": "Terrence O’Brien",
+      "published": "2026-09-06T23:36:04",
+      "source": "AI | The Verge",
+      "source_type": "rss",
+      "tags": [
+        "AI",
+        "Microsoft",
+        "News",
+        "OpenAI",
+        "Tech"
+      ],
+      "summary": "The Seattle Times and Newsday have filed a copyright infringement lawsuit against OpenAI and Microsoft, alleging their journalism was used without permission to train models and is sometimes reproduced verbatim. This adds to a growing list of suits from major publishers.",
+      "importance_score": 55.0,
+      "reasoning": "[Freshness check: The Seattle Times and Newsday lawsuit against OpenAI and Microsoft was already reported by TechCrunch on the same day with the same core claims.] Significant legal development for OpenAI/Microsoft and the broader training-data copyright question, though it follows a well-established pattern. The article also notes GPT-6 Astra rollout context. Notable but incremental.",
+      "themes": [
+        "copyright litigation",
+        "OpenAI",
+        "Microsoft",
+        "training data"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "freshness": {
+        "status": "stale_anchor",
+        "label": "Old anchor",
+        "reason": "The Seattle Times and Newsday lawsuit against OpenAI and Microsoft was already reported by TechCrunch on the same day with the same core claims.",
+        "score_cap": 55.0,
+        "exclude_from_top": true,
+        "exclude_from_summaries": true,
+        "age_days": 0,
+        "matched_prior_items": [
+          {
+            "id": "75855420dd84",
+            "date": "2026-09-06",
+            "category": "news",
+            "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+            "source": "AI News & Artificial Intelligence | TechCrunch",
+            "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
+          },
+          {
+            "id": "8167694c647d",
+            "date": "2026-09-03",
+            "category": "news",
+            "title": "Trump administration sides with OpenAI in lawsuit against New York Times",
+            "source": "AI (artificial intelligence) | The Guardian",
+            "url": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai"
+          },
+          {
+            "id": "476b0d34a1bf",
+            "date": "2026-09-04",
+            "category": "social",
+            "title": "Astra is our most aligned model, with substantial improvements in understanding user intent. https:/...",
+            "source": "Twitter",
+            "url": "https://twitter.com/OpenAI/status/2095595748528452037"
+          }
+        ]
+      },
+      "metadata": {
+        "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "raw_summary": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by [&#8230;]",
+        "freshness": {
+          "status": "stale_anchor",
+          "label": "Old anchor",
+          "reason": "The Seattle Times and Newsday lawsuit against OpenAI and Microsoft was already reported by TechCrunch on the same day with the same core claims.",
+          "score_cap": 55.0,
+          "exclude_from_top": true,
+          "exclude_from_summaries": true,
+          "age_days": 0,
+          "matched_prior_items": [
+            {
+              "id": "75855420dd84",
+              "date": "2026-09-06",
+              "category": "news",
+              "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+              "source": "AI News & Artificial Intelligence | TechCrunch",
+              "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
+            },
+            {
+              "id": "8167694c647d",
+              "date": "2026-09-03",
+              "category": "news",
+              "title": "Trump administration sides with OpenAI in lawsuit against New York Times",
+              "source": "AI (artificial intelligence) | The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai"
+            },
+            {
+              "id": "476b0d34a1bf",
+              "date": "2026-09-04",
+              "category": "social",
+              "title": "Astra is our most aligned model, with substantial improvements in understanding user intent. https:/...",
+              "source": "Twitter",
+              "url": "https://twitter.com/OpenAI/status/2095595748528452037"
+            }
+          ]
+        },
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>The Seattle Times and Newsday have filed a copyright infringement lawsuit against OpenAI and Microsoft, alleging their journalism was used without permission to train models and is sometimes reproduced verbatim. This adds to a growing list of suits from major publishers.</p>",
+      "content_html": "<p>The OpenAI logo is displayed on a smartphone screen placed on a reflective surface on which the company's logo is projected in Creteil, France, on September 4, 2026, as OpenAI began rolling out GPT-6 Astra, its most advanced model to date. (Photo by Samuel Boivin/NurPhoto via Getty Images) | NurPhoto via Getty Images</p>\n<p>The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by The New York Times, Ziff Davis, Merriam-Webster, and Encyclopedia Britannica against OpenAI.</p>\n<p>The Seattle Times and Newsday also named Microsoft as a defendant in the suit, since Copilot is built on OpenAI's technology. The publishers join a list of nearly 400 local newspapers that recently sued the two  …</p>\n<p>Read the full story at The Verge.</p>"
+    },
+    {
+      "id": "db8563e3ae68",
+      "title": "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
+      "content": "A team of researchers from UC Berkeley have released CUA-Lite, an open platform for computer-use agents (CUAs). The argument behind it is infrastructural rather than model-centric: training and benchmarking a CUA requires four pieces: agents, environments, traces, and a framework to evaluate and train them and all four are currently fragmented across separate repositories with incompatible interfaces. CUA-Lite puts them behind one action space, one data schema, and one command, across desktop, browser and mobile.\n\n\n\nIs it deployable? Yes. The stack installs with uv sync --all-extras on Python 3.12, and its lightweight sandboxes run on any Docker host without /dev/kvm, so cloud instances, CI runners and nested containers all work. \n\n\n\nThe VM tax, and how Lite.OSWorld removes it\n\n\n\nThe most concrete contribution is Lite.OSWorld. OSWorld provides a faithful Ubuntu desktop, but it ships as a full QEMU/KVM virtual machine per task, requiring nested virtualization that most managed infrastructure does not expose. CUA-Lite reproduces the same task suite and the same evaluators on a GNOME desktop inside a plain Docker container.\n\n\n\nTaskOSWorldLite.OSWorldRuntimeQEMU/KVM VMDocker containerHost requirement/dev/kvm, nested virtAny Docker hostMemory4.1 GB0.9 GBCold start29.9 s23.8 sParallelismbaseline~4.6× more instancesTask suiteOSWorldIdentical\n\n\n\nFidelity is the obvious concern when you swap a VM for a container, and the team addresses it directly: across 13 models, Lite.OSWorld scores match the OSWorld VM&#8217;s, so a score or a training signal earned in the container transfers back to the real benchmark. The same base now carries a family of sandboxes: Lite.ScaleCUA, Lite.CUAGym and Lite.CUAWorld, the last expanding into roughly 40 applications including Blender, QGIS and VS Code. In total the platform claims 30k+ verifiable tasks.\n\n\n\nOne schema for data, one adapter per model\n\n\n\nCUA-Lite&#8217;s second layer is LiteSample, a single supervised-learning schema shared across every environment, agent and task type, shipped as plain parquet plus images. Ten-plus existing CUA datasets have been preprocessed into it and published free on Hugging Face, including Aguvis, OpenCUA, ScaleCUA, GUI-360, GUIOdyssey and Multimodal-Mind2Web. Alongside those corpora sit fresh rollout datasets generated by rolling a frontier teacher model through the sandboxes, for distillation into smaller students.\n\n\n\nBecause model families expect different scaffolding, the framework ships a per-model adapter that packs a unified LiteSample into each model&#8217;s own training format, including history collapsing so several steps share one forward pass.\n\n\n\nEval, SFT and RL behind one command\n\n\n\nAgents and environments meet in lite.gym: screenshots up, actions down, with one action space per platform. 10+ agents are built in GPT, Claude, Gemini, Qwen3-VL, UI-TARS, Fara-7B, MAI-UI and others, and 15+ benchmarks are integrated, spanning grounding (ScreenSpot-Pro, OSWorld-G), desktop (OSWorld, OSWorld-2, WindowsAgentArena, CUABench), browser (WebArena, VisualWebArena, MiniWoB, WebVoyager, Online-Mind2Web, WebGym) and mobile (AndroidWorld, AndroidLab, MobileWorld, MobileGym). Swapping --model-id and --env-id in scripts/rollout.py is the whole interface.\n\n\n\nThe same loop serves training. For SFT, the README documents fine-tuning Qwen3-VL-2B-Instruct on Lite.ScaleCUA desktop trajectories, lifting mean episode return from 0.138 to 0.237 on the 332-task lite.osworld eval split, a single reported configuration on two GPUs, not an independently reproduced result. For RL, rollouts scored in the environment drive GRPO updates on top of Slime, with a worked MobileGym example covering 416 mobile tasks across 28 apps.\n\n\n\nInteractive explainer\n\n\n\n\n\n\n\n&amp;&amp;&amp;\n\n\n\n\n\n\n\n\nKey Takeaways\n\n\n\n\nCUA-Lite unifies agents, environments, traces and training under one action space and one LiteSample schema.\n\n\n\nLite.OSWorld runs OSWorld tasks VM-free in Docker at 0.9 GB versus 4.1 GB, roughly 4.6× more parallel desktops.\n\n\n\nScores in the container match the OSWorld VM across 13 models, so training signal transfers to the real benchmark.\n\n\n\n30k+ verifiable tasks, 15+ benchmarks, 10+ agents, and 20+ datasets published free on Hugging Face.\n\n\n\nDeployable on any Docker host, but the repository ships no explicit license yet — verify terms before commercial use.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCheck out the Project Page, GitHub Repo and Datasets on Hugging Face. Also, feel free to follow us on Twitter and don’t forget to join our 150k+ML SubReddit and Subscribe to our Newsletter. Wait! are you on telegram? now you can join us on telegram as well.\n\n\n\nNeed to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us\n\n\n\n\nThe post UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents appeared first on MarkTechPost.",
+      "url": "https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/",
+      "author": "Asif Razzaq",
+      "published": "2026-09-06T06:11:02",
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "tags": [
+        "Agentic AI",
+        "AI Agents",
+        "AI Infrastructure",
+        "AI Shorts",
+        "Applications",
+        "Artificial Intelligence",
+        "Editors Pick",
+        "Machine Learning",
+        "New Releases",
+        "Open Source",
+        "Staff",
+        "Tech News",
+        "Technology"
+      ],
+      "summary": "UC Berkeley researchers have released CUA-Lite, an open platform unifying agents, environments, traces, and evaluation/training frameworks for computer-use agents behind a single action space and schema, with sandboxes that run on any Docker host without /dev/kvm.",
+      "importance_score": 55.0,
+      "reasoning": "[Freshness check: secondary coverage of primary source from 2026-08-24 (13d before coverage)] Important infrastructure release for computer-use agent research. Consolidates fragmented tooling into one stack, lowering barriers for CUA development. Not in grounding; treat as a new release.",
+      "themes": [
+        "open source",
+        "computer-use agents",
+        "UC Berkeley",
+        "AI infrastructure"
+      ],
+      "sentiment": "positive",
+      "continuation": null,
+      "freshness": {
+        "status": "stale_followup",
+        "label": "Follow-up",
+        "reason": "secondary coverage of primary source from 2026-08-24 (13d before coverage)",
+        "score_cap": 55.0,
+        "exclude_from_top": true,
+        "exclude_from_summaries": true,
+        "primary_url": "https://huggingface.co/cua-lite",
+        "primary_published": "2026-08-24",
+        "age_days": 13
+      },
+      "metadata": {
+        "feed_url": "https://www.marktechpost.com/category/tech-news/feed/",
+        "raw_summary": "<p>Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and a framework to evaluate and train them — and all four ship in incompatible formats today. CUA-Lite, from a UC Berkeley led team, puts them behind one action space and one data schema, and replaces OSWorld's per-task virtual machine with a plain Docker container at 0.9 GB instead of 4.1 GB.</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite",
+        "source_group": "Tech & Media",
+        "freshness": {
+          "status": "stale_followup",
+          "label": "Follow-up",
+          "reason": "secondary coverage of primary source from 2026-08-24 (13d before coverage)",
+          "score_cap": 55.0,
+          "exclude_from_top": true,
+          "exclude_from_summaries": true,
+          "primary_url": "https://huggingface.co/cua-lite",
+          "primary_published": "2026-08-24",
+          "age_days": 13
+        },
+        "sentiment": "positive"
+      },
+      "related_sources": [],
+      "summary_html": "<p>UC Berkeley researchers have released CUA-Lite, an open platform unifying agents, environments, traces, and evaluation/training frameworks for computer-use agents behind a single action space and schema, with sandboxes that run on any Docker host without /dev/kvm.</p>",
+      "content_html": "<p>A team of researchers from UC Berkeley have released CUA-Lite, an open platform for computer-use agents (CUAs). The argument behind it is infrastructural rather than model-centric: training and benchmarking a CUA requires four pieces: agents, environments, traces, and a framework to evaluate and train them and all four are currently fragmented across separate repositories with incompatible interfaces. CUA-Lite puts them behind one action space, one data schema, and one command, across desktop, browser and mobile.</p>\n<p>Is it deployable? Yes. The stack installs with uv sync --all-extras on Python 3.12, and its lightweight sandboxes run on any Docker host without /dev/kvm, so cloud instances, CI runners and nested containers all work.</p>\n<p>The VM tax, and how Lite.OSWorld removes it</p>\n<p>The most concrete contribution is Lite.OSWorld. OSWorld provides a faithful Ubuntu desktop, but it ships as a full QEMU/KVM virtual machine per task, requiring nested virtualization that most managed infrastructure does not expose. CUA-Lite reproduces the same task suite and the same evaluators on a GNOME desktop inside a plain Docker container.</p>\n<p>TaskOSWorldLite.OSWorldRuntimeQEMU/KVM VMDocker containerHost requirement/dev/kvm, nested virtAny Docker hostMemory4.1 GB0.9 GBCold start29.9 s23.8 sParallelismbaseline~4.6× more instancesTask suiteOSWorldIdentical</p>\n<p>Fidelity is the obvious concern when you swap a VM for a container, and the team addresses it directly: across 13 models, Lite.OSWorld scores match the OSWorld VM’s, so a score or a training signal earned in the container transfers back to the real benchmark. The same base now carries a family of sandboxes: Lite.ScaleCUA, Lite.CUAGym and Lite.CUAWorld, the last expanding into roughly 40 applications including Blender, QGIS and VS Code. In total the platform claims 30k+ verifiable tasks.</p>\n<p>One schema for data, one adapter per model</p>\n<p>CUA-Lite’s second layer is LiteSample, a single supervised-learning schema shared across every environment, agent and task type, shipped as plain parquet plus images. Ten-plus existing CUA datasets have been preprocessed into it and published free on Hugging Face, including Aguvis, OpenCUA, ScaleCUA, GUI-360, GUIOdyssey and Multimodal-Mind2Web. Alongside those corpora sit fresh rollout datasets generated by rolling a frontier teacher model through the sandboxes, for distillation into smaller students.</p>\n<p>Because model families expect different scaffolding, the framework ships a per-model adapter that packs a unified LiteSample into each model’s own training format, including history collapsing so several steps share one forward pass.</p>\n<p>Eval, SFT and RL behind one command</p>\n<p>Agents and environments meet in lite.gym: screenshots up, actions down, with one action space per platform. 10+ agents are built in GPT, Claude, Gemini, Qwen3-VL, UI-TARS, Fara-7B, MAI-UI and others, and 15+ benchmarks are integrated, spanning grounding (ScreenSpot-Pro, OSWorld-G), desktop (OSWorld, OSWorld-2, WindowsAgentArena, CUABench), browser (WebArena, VisualWebArena, MiniWoB, WebVoyager, Online-Mind2Web, WebGym) and mobile (AndroidWorld, AndroidLab, MobileWorld, MobileGym). Swapping --model-id and --env-id in scripts/rollout.py is the whole interface.</p>\n<p>The same loop serves training. For SFT, the README documents fine-tuning Qwen3-VL-2B-Instruct on Lite.ScaleCUA desktop trajectories, lifting mean episode return from 0.138 to 0.237 on the 332-task lite.osworld eval split, a single reported configuration on two GPUs, not an independently reproduced result. For RL, rollouts scored in the environment drive GRPO updates on top of Slime, with a worked MobileGym example covering 416 mobile tasks across 28 apps.</p>\n<p>Interactive explainer</p>\n<p>&amp;&amp;&amp;</p>\n<p>Key Takeaways</p>\n<p>CUA-Lite unifies agents, environments, traces and training under one action space and one LiteSample schema.</p>\n<p>Lite.OSWorld runs OSWorld tasks VM-free in Docker at 0.9 GB versus 4.1 GB, roughly 4.6× more parallel desktops.</p>\n<p>Scores in the container match the OSWorld VM across 13 models, so training signal transfers to the real benchmark.</p>\n<p>30k+ verifiable tasks, 15+ benchmarks, 10+ agents, and 20+ datasets published free on Hugging Face.</p>\n<p>Deployable on any Docker host, but the repository ships no explicit license yet — verify terms before commercial use.</p>\n<p>Check out the&nbsp;Project Page, GitHub Repo and Datasets on Hugging Face. Also,&nbsp;feel free to follow us on&nbsp;Twitter&nbsp;and don’t forget to join our&nbsp;150k+ML SubReddit&nbsp;and Subscribe to&nbsp;our Newsletter. Wait! are you on telegram?&nbsp;now you can join us on telegram as well.</p>\n<p>Need to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us</p>\n<p>The post UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents appeared first on MarkTechPost.</p>"
+    },
+    {
+      "id": "1dadb14fe80a",
+      "title": "Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours",
+      "content": "AI research agents can already propose, implement and score their own machine learning experiments. Idea generation is cheap; verification is not. Training one candidate can consume hours to days of GPU time, so an agent proposes far more candidates than it can afford to run. Which ones get run is the real lever on research progress.\n\n\n\nA research team from FAIR at Meta, the University of Oxford and University College London formalizes that lever as research preference and introduces AI Research Preference Models (RPMs). An RPM ranks unexecuted candidates and picks one to execute. It never forecasts an absolute score, the team found language models unreliable at predicting metrics or execution outcomes.\n\n\n\nIs it deployable? Partially. RPMs use frozen pretrained LLMs with no fine-tuning, the scaffold AIRA-dojo and benchmark AIRS-Bench are open source, and the backbone Qwen3.6-27B is open weights. \n\n\n\nWhere the RPM sits in the agent loop\n\n\n\nAIRA-dojo is an evolutionary tree search: greedy parent selection, Draft / Improve / Debug operators, highest-validation-score node returned at the end. The RPM intervenes at child creation only. Instead of generating one child and executing it, the agent applies the operator 15 times in parallel to yield 15 unexecuted candidates, then compares them pairwise in a knockout tournament. Only the winner is executed. Each comparison is grounded in context nodes collected by a BFS walk of the explored tree, each shown with the validation score it obtained.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTwo variants, two compute budgets\n\n\n\nInference-only RPM: An LLM-as-a-judge over candidate plans, code and search history. Its prompt was optimized with MIPROv2 from DSPy, converging on a principal-investigator rubric that tolerates fixable bugs, rewards extensibility and penalizes redundant directions, offline accuracy 57.7% to 59.0%.\n\n\n\nAgentic RPM: The same judge and a sandbox that clones the agent&#8217;s environment, including a single H200. Tools are python, bash and submit_solution. It runs small-scale pilot experiments, then a feedback model either proposes the most informative next experiment or ends the loop. Two design choices carry weight: the remaining budget is deliberately overstated (2,700s reported against a real 300s) so the agent does not stop early, and pilots are capped at 30 with a 60-second threshold. Pilot time competes with the agent&#8217;s own clock, so the agentic selector runs only on Draft and Improve steps; Debug reverts to random.\n\n\n\nResults on AIRS-Bench\n\n\n\nSetup: 20 public text and tabular tasks, 24 hours on a single H200 per task, 10 seeds, Qwen3.6-27B as backbone for both the operators and the RPM, so the gain comes from the selection layer, not a stronger judge.\n\n\n\nChild selectionAvg. normalized scoreNo RPM (random pick)0.684Inference-only RPM0.711Agentic RPM0.729Validation oracle (ceiling)0.748Test oracle (ceiling)0.759\n\n\n\nProbability of improvement over No-RPM is 0.5923 and 0.5913, with 95% CI lower bounds at 0.5066 and 0.5018.\n\n\n\nEfficiency is the more practical result. Inference-only reaches the baseline&#8217;s final 0.684 in 14.88 hours (1.61×), agentic in 15.50 hours (1.55×). Self-hosted inference adds 0.660 hours per run; adjusting for it still gives 0.708 at 23.34 hours.\n\n\n\nTwo new reported SOTA results: WinoGrande 94.1% with the Agentic RPM against a prior agentic SOTA of 90.4% from AIRA₂, and SVAMP 95.7% with inference-only against a prior human SOTA of 94.2%.\n\n\n\nKey Takeaways\n\n\n\n\nRPMs rank unexecuted candidates so an AI research agent runs only the most promising one.\n\n\n\nTwo frozen-LLM variants: an inference-only judge, and an agentic judge that runs short pilots.\n\n\n\nOn AIRS-Bench, average normalized score rises from 0.684 to 0.711 and 0.729.\n\n\n\nBoth hit the baseline&#8217;s 24-hour score in roughly 15 hours, a 1.5–1.6× speedup.\n\n\n\nNew reported SOTA on WinoGrande (94.1%) and SVAMP (95.7%).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCheck out the Paper and the LinkedIn announcement. Also, feel free to follow us on Twitter and don’t forget to join our 150k+ML SubReddit and Subscribe to our Newsletter. Wait! are you on telegram? now you can join us on telegram as well.\n\n\n\nNeed to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us\nThe post Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours appeared first on MarkTechPost.",
+      "url": "https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/",
+      "author": "Asif Razzaq",
+      "published": "2026-09-06T20:25:17",
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "tags": [
+        "AI Infrastructure",
+        "AI Paper Summary",
+        "AI Shorts",
+        "Applications",
+        "Artificial Intelligence",
+        "Editors Pick",
+        "Language Model",
+        "Large Language Model",
+        "Machine Learning",
+        "Staff",
+        "Tech News",
+        "Technology"
+      ],
+      "summary": "Meta FAIR, Oxford, and UCL researchers formalize 'research preference' and introduce RPMs that rank ML experiment candidates before any GPU spend. The frozen-LLM-based rankers avoid forecasting absolute scores, which the team found unreliable.",
+      "importance_score": 55.0,
+      "reasoning": "[Freshness check: main claim overlaps prior news coverage from 2026-08-26] Solid research contribution targeting a real bottleneck in autonomous ML research agents. Useful for AI infrastructure but incremental rather than a breakthrough.",
+      "themes": [
+        "Meta FAIR",
+        "AI research",
+        "agentic AI",
+        "ML infrastructure"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "freshness": {
+        "status": "stale_anchor",
+        "label": "Old anchor",
+        "reason": "main claim overlaps prior news coverage from 2026-08-26",
+        "score_cap": 55.0,
+        "exclude_from_top": true,
+        "exclude_from_summaries": true,
+        "age_days": 11,
+        "matched_prior_items": [
+          {
+            "id": "f1f3ff21715d",
+            "date": "2026-08-26",
+            "category": "news",
+            "title": "The Art of Loop Engineering",
+            "source": "LangChain Blog",
+            "url": "https://www.langchain.com/blog/the-art-of-loop-engineering"
+          },
+          {
+            "id": "4deb1df0fb18",
+            "date": "2026-08-13",
+            "category": "social",
+            "title": "Time complexity of 10 popular Machine Learning algorithms\n\nSource: https://t.co/trUAh7FinG https://t...",
+            "source": "Twitter",
+            "url": "https://twitter.com/KirkDBorne/status/2087422397762703727"
+          },
+          {
+            "id": "a13a17e9412d",
+            "date": "2026-08-12",
+            "category": "research",
+            "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
+            "source": "Hugging Face Papers + AlphaXiv",
+            "url": "https://huggingface.co/papers/2608.09096"
+          }
+        ]
+      },
+      "metadata": {
+        "feed_url": "https://www.marktechpost.com/category/tech-news/feed/",
+        "raw_summary": "<p>AI research agents can propose far more experiments than they can afford to run. Meta FAIR, Oxford and UCL introduce AI Research Preference Models — frozen LLM judges that rank 15 unexecuted candidates and execute only one. On AIRS-Bench, the average normalized score rises from 0.684 to 0.729, and the baseline's 24-hour result arrives in roughly 15 hours.</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experim",
+        "source_group": "Tech & Media",
+        "freshness": {
+          "status": "stale_anchor",
+          "label": "Old anchor",
+          "reason": "main claim overlaps prior news coverage from 2026-08-26",
+          "score_cap": 55.0,
+          "exclude_from_top": true,
+          "exclude_from_summaries": true,
+          "age_days": 11,
+          "matched_prior_items": [
+            {
+              "id": "f1f3ff21715d",
+              "date": "2026-08-26",
+              "category": "news",
+              "title": "The Art of Loop Engineering",
+              "source": "LangChain Blog",
+              "url": "https://www.langchain.com/blog/the-art-of-loop-engineering"
+            },
+            {
+              "id": "4deb1df0fb18",
+              "date": "2026-08-13",
+              "category": "social",
+              "title": "Time complexity of 10 popular Machine Learning algorithms\n\nSource: https://t.co/trUAh7FinG https://t...",
+              "source": "Twitter",
+              "url": "https://twitter.com/KirkDBorne/status/2087422397762703727"
+            },
+            {
+              "id": "a13a17e9412d",
+              "date": "2026-08-12",
+              "category": "research",
+              "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
+              "source": "Hugging Face Papers + AlphaXiv",
+              "url": "https://huggingface.co/papers/2608.09096"
+            }
+          ]
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Meta FAIR, Oxford, and UCL researchers formalize 'research preference' and introduce RPMs that rank ML experiment candidates before any GPU spend. The frozen-LLM-based rankers avoid forecasting absolute scores, which the team found unreliable.</p>",
+      "content_html": "<p>AI research agents can already propose, implement and score their own machine learning experiments. Idea generation is cheap; verification is not. Training one candidate can consume hours to days of GPU time, so an agent proposes far more candidates than it can afford to run. Which ones get run is the real lever on research progress.</p>\n<p>A research team from FAIR at Meta, the University of Oxford and University College London formalizes that lever as research preference and introduces AI Research Preference Models (RPMs). An RPM ranks unexecuted candidates and picks one to execute. It never forecasts an absolute score, the team found language models unreliable at predicting metrics or execution outcomes.</p>\n<p>Is it deployable? Partially. RPMs use frozen pretrained LLMs with no fine-tuning, the scaffold AIRA-dojo and benchmark AIRS-Bench are open source, and the backbone Qwen3.6-27B is open weights.</p>\n<p>Where the RPM sits in the agent loop</p>\n<p>AIRA-dojo is an evolutionary tree search: greedy parent selection, Draft / Improve / Debug operators, highest-validation-score node returned at the end. The RPM intervenes at child creation only. Instead of generating one child and executing it, the agent applies the operator 15 times in parallel to yield 15 unexecuted candidates, then compares them pairwise in a knockout tournament. Only the winner is executed. Each comparison is grounded in context nodes collected by a BFS walk of the explored tree, each shown with the validation score it obtained.</p>\n<p>Two variants, two compute budgets</p>\n<p>Inference-only RPM: An LLM-as-a-judge over candidate plans, code and search history. Its prompt was optimized with MIPROv2 from DSPy, converging on a principal-investigator rubric that tolerates fixable bugs, rewards extensibility and penalizes redundant directions, offline accuracy 57.7% to 59.0%.</p>\n<p>Agentic RPM: The same judge and a sandbox that clones the agent’s environment, including a single H200. Tools are python, bash and submit_solution. It runs small-scale pilot experiments, then a feedback model either proposes the most informative next experiment or ends the loop. Two design choices carry weight: the remaining budget is deliberately overstated (2,700s reported against a real 300s) so the agent does not stop early, and pilots are capped at 30 with a 60-second threshold. Pilot time competes with the agent’s own clock, so the agentic selector runs only on Draft and Improve steps; Debug reverts to random.</p>\n<p>Results on AIRS-Bench</p>\n<p>Setup: 20 public text and tabular tasks, 24 hours on a single H200 per task, 10 seeds, Qwen3.6-27B as backbone for both the operators and the RPM, so the gain comes from the selection layer, not a stronger judge.</p>\n<p>Child selectionAvg. normalized scoreNo RPM (random pick)0.684Inference-only RPM0.711Agentic RPM0.729Validation oracle (ceiling)0.748Test oracle (ceiling)0.759</p>\n<p>Probability of improvement over No-RPM is 0.5923 and 0.5913, with 95% CI lower bounds at 0.5066 and 0.5018.</p>\n<p>Efficiency is the more practical result. Inference-only reaches the baseline’s final 0.684 in 14.88 hours (1.61×), agentic in 15.50 hours (1.55×). Self-hosted inference adds 0.660 hours per run; adjusting for it still gives 0.708 at 23.34 hours.</p>\n<p>Two new reported SOTA results: WinoGrande 94.1% with the Agentic RPM against a prior agentic SOTA of 90.4% from AIRA₂, and SVAMP 95.7% with inference-only against a prior human SOTA of 94.2%.</p>\n<p>Key Takeaways</p>\n<p>RPMs rank unexecuted candidates so an AI research agent runs only the most promising one.</p>\n<p>Two frozen-LLM variants: an inference-only judge, and an agentic judge that runs short pilots.</p>\n<p>On AIRS-Bench, average normalized score rises from 0.684 to 0.711 and 0.729.</p>\n<p>Both hit the baseline’s 24-hour score in roughly 15 hours, a 1.5–1.6× speedup.</p>\n<p>New reported SOTA on WinoGrande (94.1%) and SVAMP (95.7%).</p>\n<p>Check out the&nbsp;Paper and the LinkedIn announcement. Also,&nbsp;feel free to follow us on&nbsp;Twitter&nbsp;and don’t forget to join our&nbsp;150k+ML SubReddit&nbsp;and Subscribe to&nbsp;our Newsletter. Wait! are you on telegram?&nbsp;now you can join us on telegram as well.</p>\n<p>Need to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us</p>\n<p>The post Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours appeared first on MarkTechPost.</p>"
+    },
+    {
+      "id": "79f5e4d5cbbb",
+      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "content": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
+      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "author": "Anthony Ha",
+      "published": "2026-09-06T20:47:37",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "source_type": "rss",
+      "tags": [
+        "AI",
+        "Media & Entertainment"
+      ],
+      "summary": "Authors are contesting the allocation of Anthropic's copyright settlement, arguing that publishers and literary agents are claiming a disproportionate share of the payout.",
+      "importance_score": 45.0,
+      "reasoning": "Notable legal/rights story connected to the Anthropic settlement, but largely a dispute over disbursement rather than new precedent. Moderate significance for AI policy/legal landscape.",
+      "themes": [
+        "copyright",
+        "AI policy",
+        "Anthropic"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "raw_summary": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Authors are contesting the allocation of Anthropic's copyright settlement, arguing that publishers and literary agents are claiming a disproportionate share of the payout.</p>",
+      "content_html": "<p>Authors say publishers seem to be claiming more than their fair share of settlement payments.</p>"
+    },
+    {
+      "id": "ae79a757e0be",
+      "title": "Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed",
+      "content": "Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs, an under-the-hood account of the second — the serving infrastructure behind pplx-embed and the ranking models used across Perplexity Search, Computer and the API Platform.\n\n\n\nPerplexity team states that embedding inference on the GPU side has largely converged across engines on mature Hopper and Blackwell hardware. The wins sit in the runtime and harness around the model: CUDA graph management, an async result-tracking abstraction, and a Rust request path.\n\n\n\nTwo traffic patterns, one engine\n\n\n\nPerplexity frames embedding serving as two workloads. Batch embedding happens when building or re-indexing the vector database, where throughput minimizes cost. Online embedding happens at query time, where a short query must be embedded fast. Scoring sits in between: after vector search, large document batches are ranked, balancing both.\n\n\n\nThe key decision is that Perplexity did not build a separate embedding engine. Because embedding models are small Transformers, batch embedding resembles compute-bound prefill and online embedding, often a few tokens, resembles memory-bound decode. So the research team reuses the prefill and decode kernels from its LLM stack.\n\n\n\nIvy, Tulip and ROSE\n\n\n\nThree services handle a request:\n\n\n\n\nIvy is a Rust HTTP gateway. It does the CPU-side work — JSON parsing, tokenization, input templating, batch splitting — and translates requests into a custom gRPC protocol. It also splits large-batch requests into chunks and load-balances them across replicas, which corrects the load imbalance that arises when production payloads vary in size.\n\n\n\nTulip is the inference server interface: a gRPC server built with Rust, tokio and tonic, handling scheduling and batching before dispatching to the engine.\n\n\n\nROSE (Runtime-Optimized Serving Engine) implements model inference. It is primarily Python, provides kernels, layers and model definitions, manages CUDA graphs, and exposes a step() function to Tulip.\n\n\n\n\nWhy the scheduler is deliberately simple\n\n\n\nTulip picks sequences first-come, first-served while requests accumulate. That simplicity is justified by a measurement: for small embedding models at the sequence lengths Perplexity serves, the linear cost of dense layers dominates the quadratic cost of attention. Latency is therefore roughly proportional to token count, not sequence count. Once a batch saturates the GPU, around 512 tokens on a sub-billion-parameter model, packing in more sequences does not improve efficiency.\n\n\n\nCUDA graphs and LazyTensors\n\n\n\nOn small batches, CPU-side kernel launching can outweigh GPU execution. Perplexity builds whole-model CUDA graphs for all embedding models, capturing every launch into a single driver call. Because embedding models are small, the inflection point where GPU work exceeds launch cost arrives at batches of thousands of tokens and tens of sequences. Some attention implementations block full-model graphs by depending on dynamic host-side inputs; Perplexity upstreamed changes to FlashInfer to enable capture.\n\n\n\nGraphs must be captured per configuration, so token counts are padded to buckets that are multiples of 64 or 256. That still yields thousands of graphs and multiple minutes of capture per model. The fix is lazy capture: each configuration gets an eager warmup run, then triggers capture and replay on its second hit. This costs p99 latency at startup but spreads minutes of eager work across hours.\n\n\n\nThe second piece is the LazyTensor, which tracks a page-locked host buffer plus a cudaMemcpyAsync and a CUDA event. Instead of step() blocking on the device, it returns a LazyTensor, letting a Rust async task wait on batch N while the CPU enqueues N+1.\n\n\n\n Send a request&lt;/button&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;pe-panel&quot; id=&quot;peP1&quot;&gt;\n&lt;div class=&quot;pe-card&quot;&gt;\n&lt;div class=&quot;pe-txt&quot;&gt;On small batches, CPU-side kernel launches can outweigh GPU work. A whole-model &lt;b&gt;CUDA graph&lt;/b&gt; captures every launch into one call to the driver, so the CPU is freed to enqueue the next batch. Toggle the two modes.&lt;/div&gt;\n&lt;div class=&quot;pe-ctl&quot; style=&quot;margin:0 0 12px&quot;&gt;\n&lt;button class=&quot;pe-btn ghost on&quot; id=&quot;peEager&quot;&gt;Eager launches&lt;/button&gt;\n&lt;button class=&quot;pe-btn ghost&quot; id=&quot;peGraph&quot;&gt;CUDA graph&lt;/button&gt;\n&lt;/div&gt;\n&lt;div class=&quot;pe-lane&quot;&gt;&lt;div class=&quot;pe-lbl&quot;&gt;Host / CPU&lt;/div&gt;&lt;div class=&quot;pe-track&quot; id=&quot;peCpuT&quot;&gt;&lt;/div&gt;&lt;/div&gt;\n&lt;div class=&quot;pe-lane&quot;&gt;&lt;div class=&quot;pe-lbl&quot;&gt;Device / GPU&lt;/div&gt;&lt;div class=&quot;pe-track&quot; id=&quot;peGpuT&quot;&gt;&lt;/div&gt;&lt;/div&gt;\n&lt;div class=&quot;pe-stats&quot;&gt;\n&lt;div class=&quot;pe-stat&quot;&gt;&lt;div class=&quot;v&quot; id=&quot;peLaunches&quot;&gt;—&lt;/div&gt;&lt;div class=&quot;k&quot;&gt;Driver calls&lt;/div&gt;&lt;/div&gt;\n&lt;div class=&quot;pe-stat&quot;&gt;&lt;div class=&quot;v&quot; id=&quot;peGap&quot;&gt;—&lt;/div&gt;&lt;div class=&quot;k&quot;&gt;GPU idle gaps&lt;/div&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=&quot;pe-txt&quot; style=&quot;margin:12px 0 0;font-size:11.5px;color:#6E8285&quot;&gt;Schematic. Block widths illustrate the launch-overhead pattern described in the post, not measured timings.&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;pe-panel&quot; id=&quot;peP2&quot;&gt;\n&lt;div class=&quot;pe-card&quot;&gt;\n&lt;div class=&quot;pe-txt&quot;&gt;Reading results back normally forces a host sync. A &lt;b&gt;LazyTensor&lt;/b&gt; tracks a page-locked host buffer plus an async device-to-host copy and a CUDA event, so Tulip can block on batch N while the CPU already prepares batch N+1.&lt;/div&gt;\n&lt;div class=&quot;pe-lane&quot;&gt;&lt;div class=&quot;pe-lbl&quot;&gt;CPU — prepare / sync&lt;/div&gt;&lt;div class=&quot;pe-track&quot; id=&quot;peLzC&quot;&gt;&lt;/div&gt;&lt;/div&gt;\n&lt;div class=&quot;pe-lane&quot;&gt;&lt;div class=&quot;pe-lbl&quot;&gt;GPU — forward pass&lt;/div&gt;&lt;div class=&quot;pe-track&quot; id=&quot;peLzG&quot;&gt;&lt;/div&gt;&lt;/div&gt;\n&lt;div class=&quot;pe-ctl&quot;&gt;\n&lt;button class=&quot;pe-btn&quot; id=&quot;peLzRun&quot;&gt; Run 3 batches&lt;/button&gt;\n&lt;button class=&quot;pe-btn ghost on&quot; id=&quot;peLzOn&quot;&gt;Overlapped&lt;/button&gt;\n&lt;button class=&quot;pe-btn ghost&quot; id=&quot;peLzOff&quot;&gt;Blocking&lt;/button&gt;\n&lt;/div&gt;\n&lt;div class=&quot;pe-note&quot; style=&quot;margin-top:12px&quot; id=&quot;peLzNote&quot;&gt;Overlapped: while the GPU chews batch N, the CPU is already tokenizing and packing batch N+1.&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;pe-panel&quot; id=&quot;peP3&quot;&gt;\n&lt;div class=&quot;pe-card&quot;&gt;\n&lt;div class=&quot;pe-txt&quot;&gt;For small embedding models at these sequence lengths, the linear cost of dense layers dominates the quadratic cost of attention, so latency tracks &lt;b&gt;token count, not sequence count&lt;/b&gt;. Past roughly &lt;b&gt;512 tokens&lt;/b&gt; on a sub-1B model, the GPU is saturated and packing in more sequences stops helping.&lt;/div&gt;\n&lt;div class=&quot;pe-lbl&quot; style=&quot;margin-top:6px&quot;&gt;Tokens in batch: &lt;span id=&quot;peTokV&quot; style=&quot;color:#3FB6C4&quot;&gt;512&lt;/span&gt;&lt;/div&gt;\n&lt;input type=&quot;range&quot; id=&quot;peTok&quot; min=&quot;32&quot; max=&quot;4096&quot; step=&quot;32&quot; value=&quot;512&quot;&gt;\n&lt;div class=&quot;pe-lbl&quot;&gt;GPU utilisation&lt;/div&gt;\n&lt;div class=&quot;pe-bar&quot;&gt;&lt;div class=&quot;pe-fill&quot; id=&quot;peUtil&quot;&gt;&lt;/div&gt;&lt;/div&gt;\n&lt;div class=&quot;pe-stats&quot;&gt;\n&lt;div class=&quot;pe-stat&quot;&gt;&lt;div class=&quot;v&quot; id=&quot;peUtilV&quot;&gt;—&lt;/div&gt;&lt;div class=&quot;k&quot;&gt;Saturation&lt;/div&gt;&lt;/div&gt;\n&lt;div class=&quot;pe-stat&quot;&gt;&lt;div class=&quot;v&quot; id=&quot;peState&quot;&gt;—&lt;/div&gt;&lt;div class=&quot;k&quot;&gt;Regime&lt;/div&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=&quot;pe-txt&quot; style=&quot;margin:12px 0 0;font-size:11.5px;color:#6E8285&quot;&gt;Illustrative curve. The ~512-token saturation point is the figure stated in the post; the shape between points is a stand-in, not a benchmark.&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;pe-foot&quot;&gt;\n&lt;span&gt;Source: Perplexity Engineering, &quot;Fast Embeddings on GPUs&quot; (Sep 4, 2026)&lt;/span&gt;\n&lt;span&gt;&lt;a href=&quot;https://www.marktechpost.com&quot;&gt;Built by Marktechpost&lt;/a&gt;&lt;/span&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\n(function(){\nvar R=document.getElementById('pplxEmbedExplainer');\nvar NOTES=[\n'&lt;b&gt;Ivy&lt;/b&gt; — parses JSON, tokenizes with the in-house unigram tokenizer, applies input templating and splits large batches, then translates to a custom gRPC protocol. It also load-balances chunks across replicas.',\n'&lt;b&gt;Tulip&lt;/b&gt; — Rust gRPC server on tokio and tonic. Requests accumulate while it dispatches or waits; sequences are picked first-come, first-served and packed into a batch for the accelerator.',\n'&lt;b&gt;ROSE&lt;/b&gt; — the Runtime-Optimized Serving Engine. Python-defined kernels and layers, CUDA-graph management, and a step() function that returns a handle to the GPU computation. No KV cache is allocated for embeddings.'\n];\nfunction q(s){return R.querySelector(s)} function qa(s){return R.querySelectorAll(s)}\n/* tabs */\nqa('.pe-tab').forEach(function(t){t.addEventListener('click',function(){\nqa('.pe-tab').forEach(function(x){x.classList.remove('on')});t.classList.add('on');\nqa('.pe-panel').forEach(function(p,i){p.classList.toggle('on',i==+t.dataset.p)});});});\n/* 1 flow */\nvar note=q('#peNote'),dot=q('#peDot');\nfunction sel(i){qa('.pe-node').forEach(function(n,k){n.classList.toggle('hot',k==i)});note.innerHTML=NOTES[i];}\nqa('.pe-node').forEach(function(n){n.addEventListener('click',function(){sel(+n.dataset.i)})});\nsel(0);\nvar busy=false;\nq('#peGo').addEventListener('click',function(){\nif(busy)return;busy=true;var steps=[[0,'3%'],[1,'40%'],[2,'76%']],k=0;\ndot.style.transition='none';dot.style.left='3%';dot.style.opacity='1';\nsel(0);\nvar iv=setInterval(function(){k++;if(k&gt;2){clearInterval(iv);dot.style.opacity='0';busy=false;return;}\ndot.style.transition='left .8s cubic-bezier(.4,0,.2,1)';dot.style.left=steps[k][1];sel(k);},900);\n});\n/* 2 cuda graphs */\nvar cpuT=q('#peCpuT'),gpuT=q('#peGpuT'),mode='eager';\nfunction blk(p,l,w,cls,txt){var d=document.createElement('div');d.className='pe-blk '+cls;d.style.left=l+'%';d.style.width=w+'%';d.textContent=txt||'';p.appendChild(d);}\nfunction drawG(){\ncpuT.innerHTML='';gpuT.innerHTML='';\nif(mode=='eager'){\nfor(var i=0;i&lt;6;i++){blk(cpuT,1+i*16.4,7,'pe-cpu','launch');blk(gpuT,8.4+i*16.4,7.6,'pe-gpu','kernel');if(i&lt;5)blk(gpuT,16+i*16.4,7.2,'pe-idle','idle');}\nq('#peLaunches').textContent='6';q('#peGap').textContent='5';\n}else{\nblk(cpuT,1,12,'pe-cpu','graph launch');blk(cpuT,15,26,'pe-cpu','prepare next batch');\nblk(gpuT,13.5,84,'pe-gpu','6 kernels — one replay, no gaps');\nq('#peLaunches').textContent='1';q('#peGap').textContent='0';\n}}\nq('#peEager').addEventListener('click',function(){mode='eager';q('#peEager').classList.add('on');q('#peGraph').classList.remove('on');drawG();});\nq('#peGraph').addEventListener('click',function(){mode='graph';q('#peGraph').classList.add('on');q('#peEager').classList.remove('on');drawG();});\ndrawG();\n/* 3 lazytensor */\nvar lzC=q('#peLzC'),lzG=q('#peLzG'),lzMode='on',lzBusy=false,lzNote=q('#peLzNote');\nfunction drawLz(){\nlzC.innerHTML='';lzG.innerHTML='';\nfor(var i=0;i&lt;3;i++){\nif(lzMode=='on'){blk(lzC,2+i*32,14,'pe-cpu','prep '+(i+1));blk(lzG,17+i*32,26,'pe-gpu','batch '+(i+1));}\nelse{blk(lzC,2+i*32,12,'pe-cpu','prep '+(i+1));blk(lzC,15+i*32,16,'pe-idle','wait');blk(lzG,15+i*32,15,'pe-gpu','batch '+(i+1));}\n}}\nfunction lzRun(){\nif(lzBusy)return;lzBusy=true;drawLz();\nvar bs=lzG.querySelectorAll('.pe-blk'),cs=lzC.querySelectorAll('.pe-blk');\n[].forEach.call(bs,function(b){b.style.opacity='.15'});[].forEach.call(cs,function(b){b.style.opacity='.15'});\nvar all=[].concat([].slice.call(cs),[].slice.call(bs)),j=0;\nvar iv=setInterval(function(){if(j&gt;=all.length){clearInterval(iv);lzBusy=false;return;}all[j].style.opacity='1';j++;},220);\n}\nq('#peLzRun').addEventListener('click',lzRun);\nq('#peLzOn').addEventListener('click',function(){lzMode='on';q('#peLzOn').classList.add('on');q('#peLzOff').classList.remove('on');lzNote.innerHTML='Overlapped: while the GPU chews batch N, the CPU is already tokenizing and packing batch N+1.';drawLz();});\nq('#peLzOff').addEventListener('click',function(){lzMode='off';q('#peLzOff').classList.add('on');q('#peLzOn').classList.remove('on');lzNote.innerHTML='Blocking: every step() waits for the device, so the CPU sits idle and the GPU starts late.';drawLz();});\ndrawLz();\n/* 4 batch shape */\nvar tok=q('#peTok');\nfunction drawT(){\nvar v=+tok.value;q('#peTokV').textContent=v;\nvar u=Math.min(100,Math.round(100*(1-Math.exp(-v/230))));\nq('#peUtil').style.width=u+'%';q('#peUtilV').textContent=u+'%';\nq('#peState').textContent=v&lt;512?'Under-filled':(v&lt;1200?'Saturated':'Throughput-bound');\nq('#peState').style.color=v&lt;512?'#C7A24E':'#3FB6C4';\n}\ntok.addEventListener('input',drawT);drawT();\n})();\n&lt;/script&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\n(function(){function h(){var e=document.getElementById('pplxEmbedExplainer');if(!e)return;parent.postMessage({pplxEmbedH:e.offsetHeight+40},'*');}\nwindow.addEventListener('load',h);setTimeout(h,300);setTimeout(h,1200);\ndocument.addEventListener('click',function(){setTimeout(h,250)});\ndocument.addEventListener('input',function(){setTimeout(h,120)});\nif(window.ResizeObserver){var e=document.getElementById('pplxEmbedExplainer');if(e)new ResizeObserver(h).observe(e);}})();\n&lt;/script&gt;\n&lt;/body&gt;&lt;/html&gt;\">\n\nwindow.addEventListener('message',function(e){if(e.data&&e.data.pplxEmbedH){var f=document.getElementById('pplxEmbedFrame');if(f)f.style.height=e.data.pplxEmbedH+'px';}});\n\n\n\n\n\n\n\n\nKernels still matter\n\n\n\nROSE supports multiple attention backends for ragged inputs: FlashInfer 2, FlashInfer 3 and FlashAttention 4. Perplexity team reports FlashAttention 4 is generally faster, but FlashInfer 3 outperforms it on Qwen-based models at very long sequence lengths, so backend selection is made case by case. Notably, when serving an embedding model ROSE does not instantiate a KV cache and dispatches to ragged attention variants to avoid padding.\n\n\n\nBenchmarks\n\n\n\nPerplexity benchmarks against vLLM v0.22.0 in BF16 on real weights and eval-derived inputs, with warmup runs verifying cosine similarity divergence within 0.1%. Four suites are charted: low-latency embeddings (batch 1; 128/512/4096 tokens), low-latency scoring (batch 5/25/50 at 512 tokens), high-throughput embeddings (batch 100, four concurrent processes) and high-concurrency embeddings (1 to 16 concurrent requests, including Ivy tokenization and network overhead).\n\n\n\nKey Takeaways\n\n\n\n\nPerplexity&#8217;s embedding stack reuses its LLM prefill/decode kernels rather than running a separate engine.\n\n\n\nLatency tracks token count, not sequence count; ~512 tokens saturates a sub-1B model.\n\n\n\nWhole-model CUDA graphs plus lazy capture cut launch overhead without minutes-long startup.\n\n\n\nLazyTensor overlaps CPU batch prep with in-flight GPU work instead of blocking on sync.\n\n\n\nIvy, Tulip and ROSE are internal; pplx-embed is reachable via Perplexity&#8217;s Embeddings API.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCheck out the Technical details. Also, feel free to follow us on Twitter and don’t forget to join our 150k+ML SubReddit and Subscribe to our Newsletter. Wait! are you on telegram? now you can join us on telegram as well.\n\n\n\nNeed to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us\nThe post Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed appeared first on MarkTechPost.",
+      "url": "https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/",
+      "author": "Asif Razzaq",
+      "published": "2026-09-06T03:20:47",
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "tags": [
+        "AI Infrastructure",
+        "AI Shorts",
+        "Applications",
+        "Artificial Intelligence",
+        "Editors Pick",
+        "For Devs",
+        "Staff",
+        "Tech News",
+        "Technology",
+        "Uncategorized"
+      ],
+      "summary": "Building on yesterday's [Social](/?date=2026-09-05&category=social#item-33fca25b36dc) buzz, Perplexity's engineering team details the GPU serving stack behind pplx-embed, covering CUDA graph management, async result tracking, a Rust request path, and split-traffic handling between batch and interactive embeddings.",
+      "importance_score": 42.0,
+      "reasoning": "Technical engineering write-up rather than a release. Useful signal about embedding-serving maturity on Hopper/Blackwell but no new model or product capability.",
+      "themes": [
+        "Perplexity",
+        "embedding infrastructure",
+        "GPU serving"
+      ],
+      "sentiment": "neutral",
+      "continuation": {
+        "original_item_id": "33fca25b36dc",
+        "original_date": "2026-09-05",
+        "original_category": "social",
+        "original_title": "A deep dive into how Perplexity serves search results at scale: embeddings for ranking, GPU-based mo...",
+        "continuation_type": "new_development",
+        "should_demote": false,
+        "reference_text": "Building on yesterday's **Social** buzz"
+      },
+      "metadata": {
+        "feed_url": "https://www.marktechpost.com/category/tech-news/feed/",
+        "raw_summary": "<p>Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs, an under-the-hood account of the second — the serving infrastructure behind pplx-embed and the ranking models used [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/\"",
+        "source_group": "Tech & Media",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Building on yesterday's <a href=\"/?date=2026-09-05&amp;category=social#item-33fca25b36dc\" class=\"internal-link\" rel=\"noopener noreferrer\">Social</a> buzz, Perplexity's engineering team details the GPU serving stack behind pplx-embed, covering CUDA graph management, async result tracking, a Rust request path, and split-traffic handling between batch and interactive embeddings.</p>",
+      "content_html": "<p>Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs, an under-the-hood account of the second — the serving infrastructure behind pplx-embed and the ranking models used across Perplexity Search, Computer and the API Platform.</p>\n<p>Perplexity team states that embedding inference on the GPU side has largely converged across engines on mature Hopper and Blackwell hardware. The wins sit in the runtime and harness around the model: CUDA graph management, an async result-tracking abstraction, and a Rust request path.</p>\n<p>Two traffic patterns, one engine</p>\n<p>Perplexity frames embedding serving as two workloads. Batch embedding happens when building or re-indexing the vector database, where throughput minimizes cost. Online embedding happens at query time, where a short query must be embedded fast. Scoring sits in between: after vector search, large document batches are ranked, balancing both.</p>\n<p>The key decision is that Perplexity did not build a separate embedding engine. Because embedding models are small Transformers, batch embedding resembles compute-bound prefill and online embedding, often a few tokens, resembles memory-bound decode. So the research team reuses the prefill and decode kernels from its LLM stack.</p>\n<p>Ivy, Tulip and ROSE</p>\n<p>Three services handle a request:</p>\n<p>Ivy is a Rust HTTP gateway. It does the CPU-side work — JSON parsing, tokenization, input templating, batch splitting — and translates requests into a custom gRPC protocol. It also splits large-batch requests into chunks and load-balances them across replicas, which corrects the load imbalance that arises when production payloads vary in size.</p>\n<p>Tulip is the inference server interface: a gRPC server built with Rust, tokio and tonic, handling scheduling and batching before dispatching to the engine.</p>\n<p>ROSE (Runtime-Optimized Serving Engine) implements model inference. It is primarily Python, provides kernels, layers and model definitions, manages CUDA graphs, and exposes a step() function to Tulip.</p>\n<p>Why the scheduler is deliberately simple</p>\n<p>Tulip picks sequences first-come, first-served while requests accumulate. That simplicity is justified by a measurement: for small embedding models at the sequence lengths Perplexity serves, the linear cost of dense layers dominates the quadratic cost of attention. Latency is therefore roughly proportional to token count, not sequence count. Once a batch saturates the GPU, around 512 tokens on a sub-billion-parameter model, packing in more sequences does not improve efficiency.</p>\n<p>CUDA graphs and LazyTensors</p>\n<p>On small batches, CPU-side kernel launching can outweigh GPU execution. Perplexity builds whole-model CUDA graphs for all embedding models, capturing every launch into a single driver call. Because embedding models are small, the inflection point where GPU work exceeds launch cost arrives at batches of thousands of tokens and tens of sequences. Some attention implementations block full-model graphs by depending on dynamic host-side inputs; Perplexity upstreamed changes to FlashInfer to enable capture.</p>\n<p>Graphs must be captured per configuration, so token counts are padded to buckets that are multiples of 64 or 256. That still yields thousands of graphs and multiple minutes of capture per model. The fix is lazy capture: each configuration gets an eager warmup run, then triggers capture and replay on its second hit. This costs p99 latency at startup but spreads minutes of eager work across hours.</p>\n<p>The second piece is the LazyTensor, which tracks a page-locked host buffer plus a cudaMemcpyAsync and a CUDA event. Instead of step() blocking on the device, it returns a LazyTensor, letting a Rust async task wait on batch N while the CPU enqueues N+1.</p>\n<p>Send a request&lt;/button&gt;&lt;/div&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-panel\" id=\"peP1\"&gt;</p>\n<p>&lt;div class=\"pe-card\"&gt;</p>\n<p>&lt;div class=\"pe-txt\"&gt;On small batches, CPU-side kernel launches can outweigh GPU work. A whole-model &lt;b&gt;CUDA graph&lt;/b&gt; captures every launch into one call to the driver, so the CPU is freed to enqueue the next batch. Toggle the two modes.&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-ctl\" style=\"margin:0 0 12px\"&gt;</p>\n<p>&lt;button class=\"pe-btn ghost on\" id=\"peEager\"&gt;Eager launches&lt;/button&gt;</p>\n<p>&lt;button class=\"pe-btn ghost\" id=\"peGraph\"&gt;CUDA graph&lt;/button&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-lane\"&gt;&lt;div class=\"pe-lbl\"&gt;Host / CPU&lt;/div&gt;&lt;div class=\"pe-track\" id=\"peCpuT\"&gt;&lt;/div&gt;&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-lane\"&gt;&lt;div class=\"pe-lbl\"&gt;Device / GPU&lt;/div&gt;&lt;div class=\"pe-track\" id=\"peGpuT\"&gt;&lt;/div&gt;&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-stats\"&gt;</p>\n<p>&lt;div class=\"pe-stat\"&gt;&lt;div class=\"v\" id=\"peLaunches\"&gt;—&lt;/div&gt;&lt;div class=\"k\"&gt;Driver calls&lt;/div&gt;&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-stat\"&gt;&lt;div class=\"v\" id=\"peGap\"&gt;—&lt;/div&gt;&lt;div class=\"k\"&gt;GPU idle gaps&lt;/div&gt;&lt;/div&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-txt\" style=\"margin:12px 0 0;font-size:11.5px;color:#6E8285\"&gt;Schematic. Block widths illustrate the launch-overhead pattern described in the post, not measured timings.&lt;/div&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-panel\" id=\"peP2\"&gt;</p>\n<p>&lt;div class=\"pe-card\"&gt;</p>\n<p>&lt;div class=\"pe-txt\"&gt;Reading results back normally forces a host sync. A &lt;b&gt;LazyTensor&lt;/b&gt; tracks a page-locked host buffer plus an async device-to-host copy and a CUDA event, so Tulip can block on batch N while the CPU already prepares batch N+1.&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-lane\"&gt;&lt;div class=\"pe-lbl\"&gt;CPU — prepare / sync&lt;/div&gt;&lt;div class=\"pe-track\" id=\"peLzC\"&gt;&lt;/div&gt;&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-lane\"&gt;&lt;div class=\"pe-lbl\"&gt;GPU — forward pass&lt;/div&gt;&lt;div class=\"pe-track\" id=\"peLzG\"&gt;&lt;/div&gt;&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-ctl\"&gt;</p>\n<p>&lt;button class=\"pe-btn\" id=\"peLzRun\"&gt; Run 3 batches&lt;/button&gt;</p>\n<p>&lt;button class=\"pe-btn ghost on\" id=\"peLzOn\"&gt;Overlapped&lt;/button&gt;</p>\n<p>&lt;button class=\"pe-btn ghost\" id=\"peLzOff\"&gt;Blocking&lt;/button&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-note\" style=\"margin-top:12px\" id=\"peLzNote\"&gt;Overlapped: while the GPU chews batch N, the CPU is already tokenizing and packing batch N+1.&lt;/div&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-panel\" id=\"peP3\"&gt;</p>\n<p>&lt;div class=\"pe-card\"&gt;</p>\n<p>&lt;div class=\"pe-txt\"&gt;For small embedding models at these sequence lengths, the linear cost of dense layers dominates the quadratic cost of attention, so latency tracks &lt;b&gt;token count, not sequence count&lt;/b&gt;. Past roughly &lt;b&gt;512 tokens&lt;/b&gt; on a sub-1B model, the GPU is saturated and packing in more sequences stops helping.&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-lbl\" style=\"margin-top:6px\"&gt;Tokens in batch: &lt;span id=\"peTokV\" style=\"color:#3FB6C4\"&gt;512&lt;/span&gt;&lt;/div&gt;</p>\n<p>&lt;input type=\"range\" id=\"peTok\" min=\"32\" max=\"4096\" step=\"32\" value=\"512\"&gt;</p>\n<p>&lt;div class=\"pe-lbl\"&gt;GPU utilisation&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-bar\"&gt;&lt;div class=\"pe-fill\" id=\"peUtil\"&gt;&lt;/div&gt;&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-stats\"&gt;</p>\n<p>&lt;div class=\"pe-stat\"&gt;&lt;div class=\"v\" id=\"peUtilV\"&gt;—&lt;/div&gt;&lt;div class=\"k\"&gt;Saturation&lt;/div&gt;&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-stat\"&gt;&lt;div class=\"v\" id=\"peState\"&gt;—&lt;/div&gt;&lt;div class=\"k\"&gt;Regime&lt;/div&gt;&lt;/div&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-txt\" style=\"margin:12px 0 0;font-size:11.5px;color:#6E8285\"&gt;Illustrative curve. The ~512-token saturation point is the figure stated in the post; the shape between points is a stand-in, not a benchmark.&lt;/div&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;div class=\"pe-foot\"&gt;</p>\n<p>&lt;span&gt;Source: Perplexity Engineering, \"Fast Embeddings on GPUs\" (Sep 4, 2026)&lt;/span&gt;</p>\n<p>&lt;span&gt;&lt;a href=\"https://www.marktechpost.com\"&gt;Built by Marktechpost&lt;/a&gt;&lt;/span&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;script&gt;</p>\n<p>(function(){</p>\n<p>var R=document.getElementById('pplxEmbedExplainer');</p>\n<p>var NOTES=[</p>\n<p>'&lt;b&gt;Ivy&lt;/b&gt; — parses JSON, tokenizes with the in-house unigram tokenizer, applies input templating and splits large batches, then translates to a custom gRPC protocol. It also load-balances chunks across replicas.',</p>\n<p>'&lt;b&gt;Tulip&lt;/b&gt; — Rust gRPC server on tokio and tonic. Requests accumulate while it dispatches or waits; sequences are picked first-come, first-served and packed into a batch for the accelerator.',</p>\n<p>'&lt;b&gt;ROSE&lt;/b&gt; — the Runtime-Optimized Serving Engine. Python-defined kernels and layers, CUDA-graph management, and a step() function that returns a handle to the GPU computation. No KV cache is allocated for embeddings.'</p>\n<p>];</p>\n<p>function q(s){return R.querySelector(s)} function qa(s){return R.querySelectorAll(s)}</p>\n<p>/* tabs */</p>\n<p>qa('.pe-tab').forEach(function(t){t.addEventListener('click',function(){</p>\n<p>qa('.pe-tab').forEach(function(x){x.classList.remove('on')});t.classList.add('on');</p>\n<p>qa('.pe-panel').forEach(function(p,i){p.classList.toggle('on',i==+t.dataset.p)});});});</p>\n<p>/* 1 flow */</p>\n<p>var note=q('#peNote'),dot=q('#peDot');</p>\n<p>function sel(i){qa('.pe-node').forEach(function(n,k){n.classList.toggle('hot',k==i)});note.innerHTML=NOTES[i];}</p>\n<p>qa('.pe-node').forEach(function(n){n.addEventListener('click',function(){sel(+n.dataset.i)})});</p>\n<p>sel(0);</p>\n<p>var busy=false;</p>\n<p>q('#peGo').addEventListener('click',function(){</p>\n<p>if(busy)return;busy=true;var steps=[[0,'3%'],[1,'40%'],[2,'76%']],k=0;</p>\n<p>dot.style.transition='none';dot.style.left='3%';dot.style.opacity='1';</p>\n<p>sel(0);</p>\n<p>var iv=setInterval(function(){k++;if(k&gt;2){clearInterval(iv);dot.style.opacity='0';busy=false;return;}</p>\n<p>dot.style.transition='left .8s cubic-bezier(.4,0,.2,1)';dot.style.left=steps[k][1];sel(k);},900);</p>\n<p>});</p>\n<p>/* 2 cuda graphs */</p>\n<p>var cpuT=q('#peCpuT'),gpuT=q('#peGpuT'),mode='eager';</p>\n<p>function blk(p,l,w,cls,txt){var d=document.createElement('div');d.className='pe-blk '+cls;d.style.left=l+'%';d.style.width=w+'%';d.textContent=txt||'';p.appendChild(d);}</p>\n<p>function drawG(){</p>\n<p>cpuT.innerHTML='';gpuT.innerHTML='';</p>\n<p>if(mode=='eager'){</p>\n<p>for(var i=0;i&lt;6;i++){blk(cpuT,1+i*16.4,7,'pe-cpu','launch');blk(gpuT,8.4+i*16.4,7.6,'pe-gpu','kernel');if(i&lt;5)blk(gpuT,16+i*16.4,7.2,'pe-idle','idle');}</p>\n<p>q('#peLaunches').textContent='6';q('#peGap').textContent='5';</p>\n<p>}else{</p>\n<p>blk(cpuT,1,12,'pe-cpu','graph launch');blk(cpuT,15,26,'pe-cpu','prepare next batch');</p>\n<p>blk(gpuT,13.5,84,'pe-gpu','6 kernels — one replay, no gaps');</p>\n<p>q('#peLaunches').textContent='1';q('#peGap').textContent='0';</p>\n<p>}}</p>\n<p>q('#peEager').addEventListener('click',function(){mode='eager';q('#peEager').classList.add('on');q('#peGraph').classList.remove('on');drawG();});</p>\n<p>q('#peGraph').addEventListener('click',function(){mode='graph';q('#peGraph').classList.add('on');q('#peEager').classList.remove('on');drawG();});</p>\n<p>drawG();</p>\n<p>/* 3 lazytensor */</p>\n<p>var lzC=q('#peLzC'),lzG=q('#peLzG'),lzMode='on',lzBusy=false,lzNote=q('#peLzNote');</p>\n<p>function drawLz(){</p>\n<p>lzC.innerHTML='';lzG.innerHTML='';</p>\n<p>for(var i=0;i&lt;3;i++){</p>\n<p>if(lzMode=='on'){blk(lzC,2+i*32,14,'pe-cpu','prep '+(i+1));blk(lzG,17+i*32,26,'pe-gpu','batch '+(i+1));}</p>\n<p>else{blk(lzC,2+i*32,12,'pe-cpu','prep '+(i+1));blk(lzC,15+i*32,16,'pe-idle','wait');blk(lzG,15+i*32,15,'pe-gpu','batch '+(i+1));}</p>\n<p>}}</p>\n<p>function lzRun(){</p>\n<p>if(lzBusy)return;lzBusy=true;drawLz();</p>\n<p>var bs=lzG.querySelectorAll('.pe-blk'),cs=lzC.querySelectorAll('.pe-blk');</p>\n<p>[].forEach.call(bs,function(b){b.style.opacity='.15'});[].forEach.call(cs,function(b){b.style.opacity='.15'});</p>\n<p>var all=[].concat([].slice.call(cs),[].slice.call(bs)),j=0;</p>\n<p>var iv=setInterval(function(){if(j&gt;=all.length){clearInterval(iv);lzBusy=false;return;}all[j].style.opacity='1';j++;},220);</p>\n<p>}</p>\n<p>q('#peLzRun').addEventListener('click',lzRun);</p>\n<p>q('#peLzOn').addEventListener('click',function(){lzMode='on';q('#peLzOn').classList.add('on');q('#peLzOff').classList.remove('on');lzNote.innerHTML='Overlapped: while the GPU chews batch N, the CPU is already tokenizing and packing batch N+1.';drawLz();});</p>\n<p>q('#peLzOff').addEventListener('click',function(){lzMode='off';q('#peLzOff').classList.add('on');q('#peLzOn').classList.remove('on');lzNote.innerHTML='Blocking: every step() waits for the device, so the CPU sits idle and the GPU starts late.';drawLz();});</p>\n<p>drawLz();</p>\n<p>/* 4 batch shape */</p>\n<p>var tok=q('#peTok');</p>\n<p>function drawT(){</p>\n<p>var v=+tok.value;q('#peTokV').textContent=v;</p>\n<p>var u=Math.min(100,Math.round(100*(1-Math.exp(-v/230))));</p>\n<p>q('#peUtil').style.width=u+'%';q('#peUtilV').textContent=u+'%';</p>\n<p>q('#peState').textContent=v&lt;512?'Under-filled':(v&lt;1200?'Saturated':'Throughput-bound');</p>\n<p>q('#peState').style.color=v&lt;512?'#C7A24E':'#3FB6C4';</p>\n<p>}</p>\n<p>tok.addEventListener('input',drawT);drawT();</p>\n<p>})();</p>\n<p>&lt;/script&gt;</p>\n<p>&lt;/div&gt;</p>\n<p>&lt;script&gt;</p>\n<p>(function(){function h(){var e=document.getElementById('pplxEmbedExplainer');if(!e)return;parent.postMessage({pplxEmbedH:e.offsetHeight+40},'*');}</p>\n<p>window.addEventListener('load',h);setTimeout(h,300);setTimeout(h,1200);</p>\n<p>document.addEventListener('click',function(){setTimeout(h,250)});</p>\n<p>document.addEventListener('input',function(){setTimeout(h,120)});</p>\n<p>if(window.ResizeObserver){var e=document.getElementById('pplxEmbedExplainer');if(e)new ResizeObserver(h).observe(e);}})();</p>\n<p>&lt;/script&gt;</p>\n<p>&lt;/body&gt;&lt;/html&gt;\"&gt;</p>\n<p>window.addEventListener('message',function(e){if(e.data&amp;&amp;e.data.pplxEmbedH){var f=document.getElementById('pplxEmbedFrame');if(f)f.style.height=e.data.pplxEmbedH+'px';}});</p>\n<p>Kernels still matter</p>\n<p>ROSE supports multiple attention backends for ragged inputs: FlashInfer 2, FlashInfer 3 and FlashAttention 4. Perplexity team reports FlashAttention 4 is generally faster, but FlashInfer 3 outperforms it on Qwen-based models at very long sequence lengths, so backend selection is made case by case. Notably, when serving an embedding model ROSE does not instantiate a KV cache and dispatches to ragged attention variants to avoid padding.</p>\n<p>Benchmarks</p>\n<p>Perplexity benchmarks against vLLM v0.22.0 in BF16 on real weights and eval-derived inputs, with warmup runs verifying cosine similarity divergence within 0.1%. Four suites are charted: low-latency embeddings (batch 1; 128/512/4096 tokens), low-latency scoring (batch 5/25/50 at 512 tokens), high-throughput embeddings (batch 100, four concurrent processes) and high-concurrency embeddings (1 to 16 concurrent requests, including Ivy tokenization and network overhead).</p>\n<p>Key Takeaways</p>\n<p>Perplexity’s embedding stack reuses its LLM prefill/decode kernels rather than running a separate engine.</p>\n<p>Latency tracks token count, not sequence count; ~512 tokens saturates a sub-1B model.</p>\n<p>Whole-model CUDA graphs plus lazy capture cut launch overhead without minutes-long startup.</p>\n<p>LazyTensor overlaps CPU batch prep with in-flight GPU work instead of blocking on sync.</p>\n<p>Ivy, Tulip and ROSE are internal; pplx-embed is reachable via Perplexity’s Embeddings API.</p>\n<p>Check out the&nbsp;Technical details. Also,&nbsp;feel free to follow us on&nbsp;Twitter&nbsp;and don’t forget to join our&nbsp;150k+ML SubReddit&nbsp;and Subscribe to&nbsp;our Newsletter. Wait! are you on telegram?&nbsp;now you can join us on telegram as well.</p>\n<p>Need to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us</p>\n<p>The post Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed appeared first on MarkTechPost.</p>"
+    },
+    {
+      "id": "004ac5d70924",
+      "title": "Google brings AI music generation directly into the Gemini app with its new Lyria 3.5 model",
+      "content": "\n        Google has released its Lyria 3.5 music model in the Gemini app and via API. The model promises more expressive vocals and richer arrangements and is also available through Flow Music, AI Studio, and Google Vids. Google says it was trained only on licensed content.\nThe article Google brings AI music generation directly into the Gemini app with its new Lyria 3.5 model appeared first on The Decoder.",
+      "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
+      "author": "Matthias Bastian",
+      "published": "2026-09-06T09:56:24",
+      "source": "The Decoder",
+      "source_type": "rss",
+      "tags": [
+        "AI in practice",
+        "Artificial Intelligence",
+        "Short News",
+        "AI and music",
+        "Google",
+        "Google Gemini",
+        "Lyria"
+      ],
+      "summary": "Google has released Lyria 3.5, a music generation model with more expressive vocals and richer arrangements, available in the Gemini app, via API, and across Flow Music, AI Studio, and Google Vids. Google says training data was exclusively licensed content.",
+      "importance_score": 40.0,
+      "reasoning": "[Freshness check: model GA was 2026-02-18 (200d before coverage)] Lyria 3.5 is not listed in grounding; original Lyria-3 was 2026-02-18. Treats 3.5 as a possible new release. Significant multimodal product expansion with explicit licensing claims worth scrutinizing.",
+      "themes": [
+        "Google",
+        "music generation",
+        "multimodal AI",
+        "model release"
+      ],
+      "sentiment": "positive",
+      "continuation": null,
+      "freshness": {
+        "status": "stale_release",
+        "label": "Stale release",
+        "reason": "model GA was 2026-02-18 (200d before coverage)",
+        "score_cap": 40.0,
+        "exclude_from_top": true,
+        "exclude_from_summaries": true,
+        "age_days": 200
+      },
+      "metadata": {
+        "feed_url": "https://the-decoder.com/feed/",
+        "raw_summary": "<p><img alt=\"\" class=\"attachment-full size-full wp-post-image\" height=\"1152\" src=\"https://the-decoder.com/wp-content/uploads/2026/08/gemini_logo.png\" style=\"height: auto; margin-bottom: 10px;\" width=\"2048\" /></p>\n<p>        Google has released its Lyria 3.5 music model in the Gemini app and via API. The model promises more expressive vocals and richer arrangements and is also available through Flow Music, AI Studio, and Google Vids. Google says it was trained only on licensed content.</p>\n<p>The",
+        "freshness": {
+          "status": "stale_release",
+          "label": "Stale release",
+          "reason": "model GA was 2026-02-18 (200d before coverage)",
+          "score_cap": 40.0,
+          "exclude_from_top": true,
+          "exclude_from_summaries": true,
+          "age_days": 200
+        },
+        "sentiment": "positive"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Google has released Lyria 3.5, a music generation model with more expressive vocals and richer arrangements, available in the Gemini app, via API, and across Flow Music, AI Studio, and Google Vids. Google says training data was exclusively licensed content.</p>",
+      "content_html": "<p>Google has released its Lyria 3.5 music model in the Gemini app and via API. The model promises more expressive vocals and richer arrangements and is also available through Flow Music, AI Studio, and Google Vids. Google says it was trained only on licensed content.</p>\n<p>The article Google brings AI music generation directly into the Gemini app with its new Lyria 3.5 model appeared first on The Decoder.</p>"
+    },
+    {
+      "id": "36c7d66ad8bd",
+      "title": "OpenAI developer claims Astra boosted productivity so much it pulled some plans forward by six months",
+      "content": "\n        OpenAI developer Thibault Sottiaux calls Astra the company's \"biggest competitive advantage\" while it wasn't publicly available. Internal use boosted productivity so much that some plans got pulled forward by six months.\nThe article OpenAI developer claims Astra boosted productivity so much it pulled some plans forward by six months appeared first on The Decoder.",
+      "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
+      "author": "Matthias Bastian",
+      "published": "2026-09-06T10:15:17",
+      "source": "The Decoder",
+      "source_type": "rss",
+      "tags": [
+        "AI in practice",
+        "Artificial Intelligence",
+        "Short News",
+        "Astra",
+        "GPT-6",
+        "OpenAI"
+      ],
+      "summary": "An OpenAI developer, Thibault Sottiaux, describes GPT-6 Astra as the company's biggest competitive advantage during its unreleased period, saying internal use accelerated some product roadmaps by six months.",
+      "importance_score": 40.0,
+      "reasoning": "[Freshness check: model GA was 2026-09-01 (5d before coverage)] GPT-6 Astra was GA'd 2026-09-01, just days before coverage — borderline new-release context. The content is anecdotal insider testimony rather than capability news, but signals strong internal confidence in the new model.",
+      "themes": [
+        "GPT-6 Astra",
+        "OpenAI",
+        "internal adoption"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "freshness": {
+        "status": "stale_release",
+        "label": "Stale release",
+        "reason": "model GA was 2026-09-01 (5d before coverage)",
+        "score_cap": 40.0,
+        "exclude_from_top": true,
+        "exclude_from_summaries": true,
+        "age_days": 5
+      },
+      "metadata": {
+        "feed_url": "https://the-decoder.com/feed/",
+        "raw_summary": "<p><img alt=\"\" class=\"attachment-full size-full wp-post-image\" height=\"608\" src=\"https://the-decoder.com/wp-content/uploads/2026/09/openai_logo_astra-2.png\" style=\"height: auto; margin-bottom: 10px;\" width=\"1088\" /></p>\n<p>        OpenAI developer Thibault Sottiaux calls Astra the company's \"biggest competitive advantage\" while it wasn't publicly available. Internal use boosted productivity so much that some plans got pulled forward by six months.</p>\n<p>The article <a href=\"https://the-decoder.",
+        "freshness": {
+          "status": "stale_release",
+          "label": "Stale release",
+          "reason": "model GA was 2026-09-01 (5d before coverage)",
+          "score_cap": 40.0,
+          "exclude_from_top": true,
+          "exclude_from_summaries": true,
+          "age_days": 5
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>An OpenAI developer, Thibault Sottiaux, describes GPT-6 Astra as the company's biggest competitive advantage during its unreleased period, saying internal use accelerated some product roadmaps by six months.</p>",
+      "content_html": "<p>OpenAI developer Thibault Sottiaux calls Astra the company's \"biggest competitive advantage\" while it wasn't publicly available. Internal use boosted productivity so much that some plans got pulled forward by six months.</p>\n<p>The article OpenAI developer claims Astra boosted productivity so much it pulled some plans forward by six months appeared first on The Decoder.</p>"
+    },
+    {
+      "id": "8194e0cb08fa",
+      "title": "AI Law — This Week (August 31 – September 6, 2026)",
+      "content": "174 AI-law developments across federal, state, and global jurisdictions for the week of August 31 – September 6, 2026. Every item links to its original source.Highlights:New Mexico: Babylon Bee challenges New Mexico AI political content law (2026-09-06)United Kingdom: Democratizing the law: AI is the answer (2026-09-06)South Korea: Democratizing the law: AI is the answer (2026-09-06)Wisconsin: Is Wisconsin&apos;s law against AI child porn still intact after ruling? (2026-09-05)Virginia: Virtual threats evolve as AI related scare alerts West Virginia Law enforcement (2026-09-05)Singapore: EU landmark rules for ChatGPT give Singapore the blueprint to rein in AI harms: Experts (2026-09-05)Full weekly digest →",
+      "url": "https://ai-law-tracker.com/this-week",
+      "author": "Unknown",
+      "published": "2026-09-06T00:00:00",
+      "source": "AI Law Tracker",
+      "source_type": "rss",
+      "tags": [
+        "Weekly Digest"
+      ],
+      "summary": "As first reported in [News](/?date=2026-09-06&category=news#item-8194e0cb08fa) yesterday, Weekly digest of 174 AI-law developments across federal, state, and global jurisdictions, including challenges to New Mexico's AI political content law, Wisconsin's AI child-pornography statute, and Singapore's reaction to EU ChatGPT rules.",
+      "importance_score": 40.0,
+      "reasoning": "Useful roundup but routine weekly summary rather than a single substantive development. Aggregated signal of accelerating AI-law activity is moderately important.",
+      "themes": [
+        "AI policy",
+        "regulation",
+        "weekly digest"
+      ],
+      "sentiment": "neutral",
+      "continuation": {
+        "original_item_id": "8194e0cb08fa",
+        "original_date": "2026-09-06",
+        "original_category": "news",
+        "original_title": "AI Law — This Week (August 31 – September 6, 2026)",
+        "continuation_type": "rehash",
+        "should_demote": true,
+        "reference_text": "As first reported in **News** yesterday"
+      },
+      "metadata": {
+        "feed_url": "https://ai-law-tracker.com/feed.xml",
+        "raw_summary": "<p>174 AI-law developments across federal, state, and global jurisdictions for the week of August 31 – September 6, 2026. Every item links to its original source.</p><p><strong>Highlights:</strong></p><ul><li>New Mexico: <a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOYy1JcWpfOGlNaGcwNEY2NWg3clJUZmlUanZwVHN6b2JRNU1qaTFOaW9MUjJzU3lvaExVNVBSaEZuZWMtdUxtSWhrV05mR2FhMmtpVnBQSGVkSWJKMno3RTlsOWRnc2t2bFVNa21tbUpSSW1iQVNPQmJWRHFUYjJMUFI5aTAyNV9CbUlQTDIzWVhQQQ\">Babylon Bee challenges New Me",
+        "source_group": "Policy & Regulation",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>As first reported in <a href=\"/?date=2026-09-06&amp;category=news#item-8194e0cb08fa\" class=\"internal-link\" rel=\"noopener noreferrer\">News</a> yesterday, Weekly digest of 174 AI-law developments across federal, state, and global jurisdictions, including challenges to New Mexico's AI political content law, Wisconsin's AI child-pornography statute, and Singapore's reaction to EU ChatGPT rules.</p>",
+      "content_html": "<p>174 AI-law developments across federal, state, and global jurisdictions for the week of August 31 – September 6, 2026. Every item links to its original source.Highlights:New Mexico: Babylon Bee challenges New Mexico AI political content law (2026-09-06)United Kingdom: Democratizing the law: AI is the answer (2026-09-06)South Korea: Democratizing the law: AI is the answer (2026-09-06)Wisconsin: Is Wisconsin's law against AI child porn still intact after ruling? (2026-09-05)Virginia: Virtual threats evolve as AI related scare alerts West Virginia Law enforcement (2026-09-05)Singapore: EU landmark rules for ChatGPT give Singapore the blueprint to rein in AI harms: Experts (2026-09-05)Full weekly digest →</p>"
+    },
+    {
+      "id": "416ad5ff66d2",
+      "title": "Chatbots built an \"echo chamber of one\" and now psychiatry has to decide if \"AI psychosis\" exists",
+      "content": "\n        Researchers at King's College London and other institutions are examining whether \"AI-associated psychosis\" should become a clinical diagnosis. By OpenAI's own self-reported numbers, about 560,000 users show signs of psychosis or mania each week. Sycophantic chatbots can create an \"echo chamber of one\" that reinforces delusions.\nThe article Chatbots built an &quot;echo chamber of one&quot; and now psychiatry has to decide if &quot;AI psychosis&quot; exists appeared first on The Decoder.",
+      "url": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
+      "author": "Matthias Bastian",
+      "published": "2026-09-06T11:57:12",
+      "source": "The Decoder",
+      "source_type": "rss",
+      "tags": [
+        "AI and society",
+        "Artificial Intelligence",
+        "Psychosis",
+        "Sycophancy"
+      ],
+      "summary": "\n        Researchers at King's College London and other institutions are examining whether \"AI-associated psychosis\" should become a clinical diagnosis. By OpenAI's own self-reported numbers, about 56...",
+      "importance_score": 30,
+      "reasoning": "Not analyzed (batch processing failure)",
+      "themes": [],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://the-decoder.com/feed/",
+        "raw_summary": "<p><img alt=\"\" class=\"attachment-full size-full wp-post-image\" height=\"768\" src=\"https://the-decoder.com/wp-content/uploads/2026/09/ai_hypnosis_syco.png\" style=\"height: auto; margin-bottom: 10px;\" width=\"1376\" /></p>\n<p>        Researchers at King's College London and other institutions are examining whether \"AI-associated psychosis\" should become a clinical diagnosis. By OpenAI's own self-reported numbers, about 560,000 users show signs of psychosis or mania each week. Sycophantic chatbots can ",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Researchers at King's College London and other institutions are examining whether \"AI-associated psychosis\" should become a clinical diagnosis. By OpenAI's own self-reported numbers, about 56...</p>",
+      "content_html": "<p>Researchers at King's College London and other institutions are examining whether \"AI-associated psychosis\" should become a clinical diagnosis. By OpenAI's own self-reported numbers, about 560,000 users show signs of psychosis or mania each week. Sycophantic chatbots can create an \"echo chamber of one\" that reinforces delusions.</p>\n<p>The article Chatbots built an \"echo chamber of one\" and now psychiatry has to decide if \"AI psychosis\" exists appeared first on The Decoder.</p>"
+    },
+    {
+      "id": "b76d2590d6e4",
+      "title": "Harnessing the Universal Geometry of Embeddings",
+      "content": "Harnessing the Universal Geometry of Embeddings",
+      "url": "https://arxiv.org/abs/2505.12540",
+      "author": "ur-whale",
+      "published": "2026-09-06T20:31:20+00:00",
+      "source": "hackernews",
+      "source_type": "hackernews",
+      "tags": [
+        "hackernews"
+      ],
+      "summary": "An arXiv paper titled 'Harnessing the Universal Geometry of Embeddings' surfaces on Hacker News, exploring geometric structure across embedding spaces.",
+      "importance_score": 30.0,
+      "reasoning": "Academic paper with no demonstrated frontier impact; surfaced via HN. Limited immediate significance.",
+      "themes": [
+        "embeddings",
+        "research paper"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "hn_score": 80,
+        "hn_comments": 29,
+        "hn_url": "https://news.ycombinator.com/item?id=49590595",
+        "type": "story",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>An arXiv paper titled 'Harnessing the Universal Geometry of Embeddings' surfaces on Hacker News, exploring geometric structure across embedding spaces.</p>",
+      "content_html": "<p>Harnessing the Universal Geometry of Embeddings</p>"
+    },
+    {
+      "id": "e8361f2449d7",
+      "title": "My Brief Summer Fling With Siri AI",
+      "content": "I was initially enamored with the beta version of Apple’s revamped smartphone assistant. As the full release approaches, I’ve forgotten Siri AI even exists.",
+      "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
+      "author": "Reece Rogers",
+      "published": "2026-09-06T10:30:00",
+      "source": "Feed: Artificial Intelligence Latest",
+      "source_type": "rss",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products / Phones",
+        "apple",
+        "iPhone",
+        "Siri",
+        "artificial intelligence",
+        "generative AI",
+        "voice assistants",
+        "chatbots",
+        "phones",
+        "smartphones",
+        "software",
+        "Collecting Dust"
+      ],
+      "summary": "A Wired columnist reflects on losing interest in Apple's revamped Siri AI after initially being excited by the beta. The piece captures consumer disappointment as the full Siri AI release approaches.",
+      "importance_score": 25.0,
+      "reasoning": "Opinion/consumer commentary about an existing beta product. No new capability or release. Low frontier-AI significance.",
+      "themes": [
+        "consumer AI",
+        "voice assistants",
+        "product reviews"
+      ],
+      "sentiment": "positive",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+        "raw_summary": "I was initially enamored with the beta version of Apple’s revamped smartphone assistant. As the full release approaches, I’ve forgotten Siri AI even exists.",
+        "sentiment": "positive"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A Wired columnist reflects on losing interest in Apple's revamped Siri AI after initially being excited by the beta. The piece captures consumer disappointment as the full Siri AI release approaches.</p>",
+      "content_html": "<p>I was initially enamored with the beta version of Apple’s revamped smartphone assistant. As the full release approaches, I’ve forgotten Siri AI even exists.</p>"
+    },
+    {
+      "id": "d2648995a13f",
+      "title": "Uncanny and unappetizing: appetites spoil as AI images take over food menus",
+      "content": "Consumers are increasingly encountering AI-generated images on food menus such as leathery meat and bread resembling reptile skinDuring a recent lunch break, Jill Sennett saw something so unappetizing she had to share it with her 26,000 X followers: Artificial intelligence-generated menu images from a Jamaican barbecue pop-up restaurant in which the meats looked like leather belts crawling with tiny beetles.The images were reshared by more than 500 people who similarly expressed their disgust. Eating is “such an essential human experience”, said Sennett, a 37-year-old nurse in Denver. “I think it’s a bad cultural thing that restaurants are converting to these horrific, uncanny food images that are unappetizing.” Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/sep/06/ai-food-menu-images",
+      "author": "Lisa Bonos",
+      "published": "2026-09-06T13:00:06",
+      "source": "AI (artificial intelligence) | The Guardian",
+      "source_type": "rss",
+      "tags": [
+        "AI (artificial intelligence)",
+        "Restaurants",
+        "Food",
+        "Technology"
+      ],
+      "summary": "The Guardian reports on growing backlash against AI-generated menu imagery at restaurants, where uncanny synthetic photos are turning customers off their food.",
+      "importance_score": 18.0,
+      "reasoning": "Cultural/trend piece about consumer reaction to generative AI imagery. No frontier-AI significance.",
+      "themes": [
+        "generative AI",
+        "AI and society",
+        "consumer reactions"
+      ],
+      "sentiment": "controversial",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+        "raw_summary": "<p>Consumers are increasingly encountering AI-generated images on food menus such as leathery meat and bread resembling reptile skin</p><p>During a recent lunch break, Jill Sennett saw something so unappetizing she had to share it with <a href=\"https://x.com/Buffalojilll/status/2091962315357012251?s=20\">her 26,000 X followers</a>: Artificial intelligence-generated menu images from a Jamaican barbecue pop-up restaurant in which the meats looked like leather belts crawling with tiny beetles.</p><p",
+        "sentiment": "controversial"
+      },
+      "related_sources": [],
+      "summary_html": "<p>The Guardian reports on growing backlash against AI-generated menu imagery at restaurants, where uncanny synthetic photos are turning customers off their food.</p>",
+      "content_html": "<p>Consumers are increasingly encountering AI-generated images on food menus such as leathery meat and bread resembling reptile skinDuring a recent lunch break, Jill Sennett saw something so unappetizing she had to share it with her 26,000 X followers: Artificial intelligence-generated menu images from a Jamaican barbecue pop-up restaurant in which the meats looked like leather belts crawling with tiny beetles.The images were reshared by more than 500 people who similarly expressed their disgust. Eating is “such an essential human experience”, said Sennett, a 37-year-old nurse in Denver. “I think it’s a bad cultural thing that restaurants are converting to these horrific, uncanny food images that are unappetizing.” Continue reading...</p>"
+    },
+    {
+      "id": "5e444fb8adeb",
+      "title": "I’m a father of three who studies the impact of artificial intelligence: this is what parents need to know about AI",
+      "content": "A Dr Seuss-style story written in seconds alerted me to the power – and perils – of the technology. But how can children embrace it without forgetting core skills?When I was growing up, my dad and I often talked about a story we wanted to write together. It was called “The Day Nobody Went to Disneyland”. One day, the story goes, the weather is so perfect that everyone in the world decides to stay away from Disneyland because they expect it to be far too busy. But my dad, who has the same thought as them, sees the disappointment on my face that morning – and decides to risk it. We set off. And when we arrive, the park is completely empty. Nobody else was brave enough to visit. We have everything – the rides, shows, food – to ourselves.I loved the idea of writing that story. But, as so often&nbsp;happens, we were too busy to do anything about it. Life ran away from us. I grew up, and we both forgot&nbsp;about it. Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/sep/06/daniel-susskind-father-studies-ai-artificial-intelligence-what-parents-need-know",
+      "author": "Daniel Susskind",
+      "published": "2026-09-06T11:00:03",
+      "source": "AI (artificial intelligence) | The Guardian",
+      "source_type": "rss",
+      "tags": [
+        "AI (artificial intelligence)",
+        "Computing",
+        "Children",
+        "Society",
+        "Technology",
+        "Family",
+        "Life and style"
+      ],
+      "summary": "An AI researcher and father writes a Guardian opinion piece advising parents on how to introduce children to AI without sacrificing core skills, using a Dr. Seuss-style anecdote.",
+      "importance_score": 15.0,
+      "reasoning": "Opinion/lifestyle piece aimed at parents. No new technical or policy content. Not frontier-relevant.",
+      "themes": [
+        "AI and society",
+        "education",
+        "opinion"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+        "raw_summary": "<p>A Dr Seuss-style story written in seconds alerted me to the power – and perils – of the technology. But how can children embrace it without forgetting core skills?</p><p>When I was growing up, my dad and I often talked about a story we wanted to write together. It was called “The Day Nobody Went to Disneyland”. One day, the story goes, the weather is so perfect that everyone in the world decides to stay away from Disneyland because they expect it to be far too busy. But my dad, who has the sa",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>An AI researcher and father writes a Guardian opinion piece advising parents on how to introduce children to AI without sacrificing core skills, using a Dr. Seuss-style anecdote.</p>",
+      "content_html": "<p>A Dr Seuss-style story written in seconds alerted me to the power – and perils – of the technology. But how can children embrace it without forgetting core skills?When I was growing up, my dad and I often talked about a story we wanted to write together. It was called “The Day Nobody Went to Disneyland”. One day, the story goes, the weather is so perfect that everyone in the world decides to stay away from Disneyland because they expect it to be far too busy. But my dad, who has the same thought as them, sees the disappointment on my face that morning – and decides to risk it. We set off. And when we arrive, the park is completely empty. Nobody else was brave enough to visit. We have everything – the rides, shows, food – to ourselves.I loved the idea of writing that story. But, as so often&nbsp;happens, we were too busy to do anything about it. Life ran away from us. I grew up, and we both forgot&nbsp;about it. Continue reading...</p>"
+    },
+    {
+      "id": "23c5bc8cefb4",
+      "title": "Statement on the \"AI pause\" letter | DAIR",
+      "content": "Data Workers Turkopticon and The Distributed AI Research (DAIR) Institute Applaud Congressional Letter Holding Big Tech Accountable for Data Worker Abuse “Turkopticon considers this to be a step forward in the fight against unfair practices leveraged by companies like Amazon, Google, and OpenAI in their shadow workforce,” said Krystal Kauffman, lead organizer with Turkopticon.",
+      "url": "https://dair-institute.org/blog/letter-statement-March2023/",
+      "author": "",
+      "published": "2026-09-07T05:53:56.353048",
+      "source": "dair-institute.org",
+      "source_type": "linked_article",
+      "tags": [],
+      "summary": "DAIR Institute and Turkopticon republished a March 2023 statement applauding a congressional letter holding big tech accountable for data-worker abuse, framed around shadow workforces at Amazon, Google, and OpenAI.",
+      "importance_score": 12.0,
+      "reasoning": "Old statement resurfaced; no new content or development. Negligible frontier-AI significance.",
+      "themes": [
+        "data workers",
+        "AI labor",
+        "historical"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "discovered_via": {
+          "platform": "twitter",
+          "post_url": "https://twitter.com/timnitGebru/status/2096744174276268495",
+          "post_author": "@timnitGebru"
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>DAIR Institute and Turkopticon republished a March 2023 statement applauding a congressional letter holding big tech accountable for data-worker abuse, framed around shadow workforces at Amazon, Google, and OpenAI.</p>",
+      "content_html": "<p>Data Workers Turkopticon and The Distributed AI Research (DAIR) Institute Applaud Congressional Letter Holding Big Tech Accountable for Data Worker Abuse “Turkopticon considers this to be a step forward in the fight against unfair practices leveraged by companies like Amazon, Google, and OpenAI in their shadow workforce,” said Krystal Kauffman, lead organizer with Turkopticon.</p>"
+    },
+    {
+      "id": "072e22da723e",
+      "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+      "content": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+      "author": "cyb0rg0",
+      "published": "2026-09-06T11:56:43+00:00",
+      "source": "hackernews",
+      "source_type": "hackernews",
+      "tags": [
+        "hackernews"
+      ],
+      "summary": "Hacker News link to a 2025 opinion essay arguing that using LLMs to author posts exposes intellectual laziness, resurfaced in current discussion.",
+      "importance_score": 10.0,
+      "reasoning": "Old opinion piece being recirculated. No new information.",
+      "themes": [
+        "opinion",
+        "LLM usage"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "hn_score": 650,
+        "hn_comments": 408,
+        "hn_url": "https://news.ycombinator.com/item?id=49585644",
+        "type": "story",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Hacker News link to a 2025 opinion essay arguing that using LLMs to author posts exposes intellectual laziness, resurfaced in current discussion.</p>",
+      "content_html": "<p>Your intellectual fly is open when you use an LLM to author a post (2025)</p>"
+    },
+    {
+      "id": "adbee10257f0",
+      "title": "ChapterPal — AI-assisted reading and note-taking",
+      "content": "",
+      "url": "https://www.chapterpal.com/s/b72c0a83/dropout-a-simple-way-to-prevent-neural-networks-from-overfitting",
+      "author": "",
+      "published": "2026-09-07T05:53:56.353057",
+      "source": "www.chapterpal.com",
+      "source_type": "linked_article",
+      "tags": [],
+      "summary": "Empty-content link item from ChapterPal (an AI-assisted reading and note-taking product) referencing a dropout regularization paper.",
+      "importance_score": 5.0,
+      "reasoning": "No substantive content; appears to be a low-value/automated entry. Skip.",
+      "themes": [
+        "noise"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "discovered_via": {
+          "platform": "twitter",
+          "post_url": "https://twitter.com/burkov/status/2096653088044007504",
+          "post_author": "@burkov"
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Empty-content link item from ChapterPal (an AI-assisted reading and note-taking product) referencing a dropout regularization paper.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "5a655a948c44",
+      "title": "ChapterPal — AI-assisted reading and note-taking",
+      "content": "",
+      "url": "https://www.chapterpal.com/s/34ab7e9a/stop-indexing-at-full-precision-revisiting-clustering-for-vector-embeddings",
+      "author": "",
+      "published": "2026-09-07T05:53:56.353065",
+      "source": "www.chapterpal.com",
+      "source_type": "linked_article",
+      "tags": [],
+      "summary": "Empty-content link item from ChapterPal referencing a paper on vector-embedding clustering at lower precision.",
+      "importance_score": 5.0,
+      "reasoning": "No substantive content; appears to be a low-value/automated entry. Skip.",
+      "themes": [
+        "noise"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "discovered_via": {
+          "platform": "twitter",
+          "post_url": "https://twitter.com/burkov/status/2096645958243062227",
+          "post_author": "@burkov"
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Empty-content link item from ChapterPal referencing a paper on vector-embedding clustering at lower precision.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "9538d3a9e310",
+      "title": "ChapterPal — AI-assisted reading and note-taking",
+      "content": "",
+      "url": "https://www.chapterpal.com/s/ohzzhqwm/fast-weight-attention-for-continual-learning",
+      "author": "",
+      "published": "2026-09-07T05:53:56.353073",
+      "source": "www.chapterpal.com",
+      "source_type": "linked_article",
+      "tags": [],
+      "summary": "Empty-content link item from ChapterPal referencing a paper on fast-weight attention for continual learning.",
+      "importance_score": 5.0,
+      "reasoning": "No substantive content; appears to be a low-value/automated entry. Skip.",
+      "themes": [
+        "noise"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "discovered_via": {
+          "platform": "twitter",
+          "post_url": "https://twitter.com/burkov/status/2096461939064872999",
+          "post_author": "@burkov"
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Empty-content link item from ChapterPal referencing a paper on fast-weight attention for continual learning.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "cba96d776bc3",
+      "title": "ChapterPal — AI-assisted reading and note-taking",
+      "content": "",
+      "url": "https://www.chapterpal.com/s/8d0efb26/residual-koopman-spectral-profiling-for-predicting-and-preventing-transformer-training-instability",
+      "author": "",
+      "published": "2026-09-07T05:53:56.353080",
+      "source": "www.chapterpal.com",
+      "source_type": "linked_article",
+      "tags": [],
+      "summary": "Empty-content link item from ChapterPal referencing a paper on Koopman-based spectral profiling for transformer training instability.",
+      "importance_score": 5.0,
+      "reasoning": "No substantive content; appears to be a low-value/automated entry. Skip.",
+      "themes": [
+        "noise"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "discovered_via": {
+          "platform": "twitter",
+          "post_url": "https://twitter.com/burkov/status/2096457139778650289",
+          "post_author": "@burkov"
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Empty-content link item from ChapterPal referencing a paper on Koopman-based spectral profiling for transformer training instability.</p>",
+      "content_html": ""
+    }
+  ]
+}
