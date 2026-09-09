@@ -9,8 +9,9 @@
     "social": "social.json",
     "github_trending": "github_trending.json"
   },
-  "total_dates": 254,
+  "total_dates": 255,
   "dates": [
+    "2026-09-09",
     "2026-09-08",
     "2026-09-07",
     "2026-09-06",
@@ -266,7 +267,7 @@
     "2025-12-27",
     "2025-12-26"
   ],
-  "latest": "2026-09-08",
+  "latest": "2026-09-09",
   "url_pattern": "{base_url}/{date}/{category}.json",
   "query_examples": [
     "What happened today?",
