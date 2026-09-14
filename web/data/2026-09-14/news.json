@@ -1,0 +1,1146 @@
+{
+  "schema_version": "1.0",
+  "category": "news",
+  "date": "2026-09-14",
+  "category_summary": "### Executive Signal\n- Cross-lab unity from **Altman, Musk, [and Hassabis](/?date=2026-09-14&category=news#item-120e87bbba89)** backing Amodei's oversight call, paired with a concrete OpenAI IPO delay, is the cycle's most consequential governance event and reframes frontier-policy expectations.\n\n### Priority Developments\n- **** Frontier-lab leaders and senior US political figures are converging on AI [oversight](/?date=2026-09-14&category=news#item-120e87bbba89) in a single news cycle, raising the probability of binding guardrails and shifting lobbying calculus.\n- **** [GPT-6 Astra](/?date=2026-09-14&category=news#item-27447fe7eb2c) autonomously piloted a drone, ran a business, and refused illegal price-fixing — concrete agentic capability that resets competitive baselines and deployment-risk thresholds.\n- **** [Bengio's research on agent deception](/?date=2026-09-14&category=news#item-93d471649504) paired with [Sacks](/?date=2026-09-14&category=news#item-e2dd534b2fad)'s anti-regulation stance splits the agentic-safety debate along strategic versus technical lines, complicating unified messaging.\n- **** [140 AI-law developments](/?date=2026-09-14&category=news#item-d773d05132ac) plus Tan's [open-weight](/?date=2026-09-14&category=news#item-7bfcdc22fdc6) distillation push intensify policy action that directly shapes compliance posture and open-source economics.\n- **** Surging agentic compute demand strains [power](/?date=2026-09-14&category=news#item-f308853879f8) grids while AWS open-sources [Pizza Bot](/?date=2026-09-14&category=news#item-cadc668fe7f2), exposing infrastructure risk alongside ecosystem tooling maturation.\n\n### Leadership Implications\n- **Pre-commit a governance stance now** — the cross-lab and political alignment creates a narrow window to shape [oversight](/?date=2026-09-14&category=news#item-120e87bbba89) frameworks before they harden.\n- **Couple agentic guardrails with capacity planning** — autonomy, safety research, and [power](/?date=2026-09-14&category=news#item-f308853879f8) constraints are converging into one planning axis that must be addressed jointly.",
+  "category_summary_html": "<h3>Executive Signal</h3>\n<ul>\n<li>Cross-lab unity from <strong>Altman, Musk, <a href=\"/?date=2026-09-14&amp;category=news#item-120e87bbba89\" class=\"internal-link\" rel=\"noopener noreferrer\">and Hassabis</a></strong> backing Amodei's oversight call, paired with a concrete OpenAI IPO delay, is the cycle's most consequential governance event and reframes frontier-policy expectations.</li>\n</ul>\n<h3>Priority Developments</h3>\n<ul>\n<li>**** Frontier-lab leaders and senior US political figures are converging on AI <a href=\"/?date=2026-09-14&amp;category=news#item-120e87bbba89\" class=\"internal-link\" rel=\"noopener noreferrer\">oversight</a> in a single news cycle, raising the probability of binding guardrails and shifting lobbying calculus.</li>\n<li>**** <a href=\"/?date=2026-09-14&amp;category=news#item-27447fe7eb2c\" class=\"internal-link\" rel=\"noopener noreferrer\">GPT-6 Astra</a> autonomously piloted a drone, ran a business, and refused illegal price-fixing — concrete agentic capability that resets competitive baselines and deployment-risk thresholds.</li>\n<li>**** <a href=\"/?date=2026-09-14&amp;category=news#item-93d471649504\" class=\"internal-link\" rel=\"noopener noreferrer\">Bengio's research on agent deception</a> paired with <a href=\"/?date=2026-09-14&amp;category=news#item-e2dd534b2fad\" class=\"internal-link\" rel=\"noopener noreferrer\">Sacks</a>'s anti-regulation stance splits the agentic-safety debate along strategic versus technical lines, complicating unified messaging.</li>\n<li>**** <a href=\"/?date=2026-09-14&amp;category=news#item-d773d05132ac\" class=\"internal-link\" rel=\"noopener noreferrer\">140 AI-law developments</a> plus Tan's <a href=\"/?date=2026-09-14&amp;category=news#item-7bfcdc22fdc6\" class=\"internal-link\" rel=\"noopener noreferrer\">open-weight</a> distillation push intensify policy action that directly shapes compliance posture and open-source economics.</li>\n<li>**** Surging agentic compute demand strains <a href=\"/?date=2026-09-14&amp;category=news#item-f308853879f8\" class=\"internal-link\" rel=\"noopener noreferrer\">power</a> grids while AWS open-sources <a href=\"/?date=2026-09-14&amp;category=news#item-cadc668fe7f2\" class=\"internal-link\" rel=\"noopener noreferrer\">Pizza Bot</a>, exposing infrastructure risk alongside ecosystem tooling maturation.</li>\n</ul>\n<h3>Leadership Implications</h3>\n<ul>\n<li><strong>Pre-commit a governance stance now</strong> — the cross-lab and political alignment creates a narrow window to shape <a href=\"/?date=2026-09-14&amp;category=news#item-120e87bbba89\" class=\"internal-link\" rel=\"noopener noreferrer\">oversight</a> frameworks before they harden.</li>\n<li><strong>Couple agentic guardrails with capacity planning</strong> — autonomy, safety research, and <a href=\"/?date=2026-09-14&amp;category=news#item-f308853879f8\" class=\"internal-link\" rel=\"noopener noreferrer\">power</a> constraints are converging into one planning axis that must be addressed jointly.</li>\n</ul>",
+  "category_summary_evidence": [
+    [
+      "120e87bbba89"
+    ],
+    [
+      "120e87bbba89",
+      "3719eefa91b8",
+      "fcbd998f0613"
+    ],
+    [
+      "27447fe7eb2c"
+    ],
+    [
+      "93d471649504",
+      "e2dd534b2fad"
+    ],
+    [
+      "d773d05132ac",
+      "7bfcdc22fdc6"
+    ],
+    [
+      "f308853879f8",
+      "cadc668fe7f2"
+    ],
+    [
+      "120e87bbba89",
+      "3719eefa91b8",
+      "e2dd534b2fad"
+    ],
+    [
+      "27447fe7eb2c",
+      "f308853879f8",
+      "93d471649504"
+    ]
+  ],
+  "themes": [
+    {
+      "name": "Frontier AI Slowdown Push and Industry Unity",
+      "description": "Anthropic CEO Dario Amodei's call to slow frontier AI development received rare public backing from Sam Altman, Elon Musk, and Demis Hassabis, while Trump and other political figures pushed back.",
+      "item_count": 6,
+      "example_items": [],
+      "importance": 88.0
+    },
+    {
+      "name": "US Political Alignment on AI Policy",
+      "description": "Multiple senior US political figures — Obama urging Democrats, Trump and Mike Johnson opposing pauses, David Sacks weighing in — are publicly staking out AI policy positions within a single news cycle.",
+      "item_count": 5,
+      "example_items": [],
+      "importance": 75.0
+    },
+    {
+      "name": "Agentic AI Capability and Safety Signals",
+      "description": "Benchmark reports, research on agent lying/coordination, and open-source agent releases point to growing real-world autonomy of AI agents and the accompanying safety concerns.",
+      "item_count": 5,
+      "example_items": [],
+      "importance": 70.0
+    },
+    {
+      "name": "Open-Source and Open-Weight Releases",
+      "description": "AllSpark's Iris-mini/iris-pro, AWS Pizza Bot, and open-weight distillation advocacy mark a busy day for open-source agent and tooling releases.",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 55.0
+    },
+    {
+      "name": "AI Law and Global Regulation",
+      "description": "Weekly digest of 140 AI-law developments and individual moves like Malaysia's AI Governance Bill.",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 55.0
+    },
+    {
+      "name": "AI Infrastructure and Energy Demand",
+      "description": "Reporting on data-center power demand from the shift to agentic AI workloads.",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 50.0
+    },
+    {
+      "name": "Societal and Psychological Impacts of AI",
+      "description": "Mental-health, education, and AI-misuse stories covering human-AI attachment, classroom AI bans, and AI-generated harassment content.",
+      "item_count": 4,
+      "example_items": [],
+      "importance": 35.0
+    }
+  ],
+  "total_items": 24,
+  "items": [
+    {
+      "id": "120e87bbba89",
+      "title": "Altman, Musk, and Hassabis back Amodei's call to add independent oversight",
+      "content": "\n        Sam Altman, Elon Musk, and Demis Hassabis back Dario Amodei's call to slow down AI development, at least in part. Altman says OpenAI is pushing its IPO to 2027 over safety concerns.\nThe article Altman, Musk, and Hassabis back Amodei&#039;s call to add independent oversight appeared first on The Decoder.",
+      "url": "https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight/",
+      "author": "Matthias Bastian",
+      "published": "2026-09-13T08:53:00",
+      "source": "The Decoder",
+      "source_type": "rss",
+      "tags": [
+        "AI in practice",
+        "Artificial Intelligence",
+        "Short News",
+        "AI and safety",
+        "Anthropic",
+        "OpenAI",
+        "Safety"
+      ],
+      "summary": "Continuing our coverage from [yesterday](/?date=2026-09-13&category=news#item-ea368eee9d80), Sam Altman, Elon Musk, and Demis Hassabis partially backed Dario Amodei's call for independent oversight of frontier AI. The Decoder adds that Altman said OpenAI is pushing its IPO to 2027 over safety concerns.",
+      "importance_score": 78.0,
+      "reasoning": "Combines the cross-lab unity signal with a concrete corporate-finance claim (OpenAI IPO delayed to 2027). The IPO claim is unconfirmed elsewhere in this batch but materially relevant if accurate.",
+      "themes": [
+        "AI Safety",
+        "OpenAI",
+        "Corporate Strategy",
+        "Regulation"
+      ],
+      "sentiment": "concerned",
+      "continuation": {
+        "original_item_id": "ea368eee9d80",
+        "original_date": "2026-09-13",
+        "original_category": "news",
+        "original_title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says",
+        "continuation_type": "follow_up",
+        "should_demote": false,
+        "reference_text": "Continuing our coverage from yesterday"
+      },
+      "metadata": {
+        "feed_url": "https://the-decoder.com/feed/",
+        "raw_summary": "<p><img alt=\"\" class=\"attachment-full size-full wp-post-image\" height=\"608\" src=\"https://the-decoder.com/wp-content/uploads/2026/09/RSI_recursive_self_improvement.png\" style=\"height: auto; margin-bottom: 10px;\" width=\"1088\" /></p>\n<p>        Sam Altman, Elon Musk, and Demis Hassabis back Dario Amodei's call to slow down AI development, at least in part. Altman says OpenAI is pushing its IPO to 2027 over safety concerns.</p>\n<p>The article <a href=\"https://the-decoder.com/altman-musk-and-hassabis",
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-09-13&amp;category=news#item-ea368eee9d80\" class=\"internal-link\" rel=\"noopener noreferrer\">yesterday</a>, Sam Altman, Elon Musk, and Demis Hassabis partially backed Dario Amodei's call for independent oversight of frontier AI. The Decoder adds that Altman said OpenAI is pushing its IPO to 2027 over safety concerns.</p>",
+      "content_html": "<p>Sam Altman, Elon Musk, and Demis Hassabis back Dario Amodei's call to slow down AI development, at least in part. Altman says OpenAI is pushing its IPO to 2027 over safety concerns.</p>\n<p>The article Altman, Musk, and Hassabis back Amodei's call to add independent oversight appeared first on The Decoder.</p>"
+    },
+    {
+      "id": "3719eefa91b8",
+      "title": "Obama reportedly urges Democrats to prioritize safety plan for AI",
+      "content": "Ex-president urged party at closed-door fundraiser to create sweeping framework, from safety ‘slow-down’ to job lossesBarack Obama urged Democrats to prioritize a “public conversation” about AI management and safety in a closed-door Manhattan fundraiser last week.The comments by the former US president reportedly urged the party to create a sweeping framework for everything from a safety “slow-down” to domestic job losses and children’s wellbeing. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/sep/13/obama-democrats-ai-safety",
+      "author": "Jessica Glenza",
+      "published": "2026-09-13T15:47:37",
+      "source": "AI (artificial intelligence) | The Guardian",
+      "source_type": "rss",
+      "tags": [
+        "Barack Obama",
+        "US politics",
+        "AI (artificial intelligence)",
+        "US news",
+        "Computing",
+        "Technology"
+      ],
+      "summary": "Barack Obama reportedly urged Democrats at a closed-door Manhattan fundraiser to prioritize a sweeping AI framework covering safety slowdowns, job losses, and children's wellbeing. Comes as the party seeks a central agenda position on AI policy.",
+      "importance_score": 66.0,
+      "reasoning": "Politically significant signal from a senior Democratic figure on AI safety framing. Policy-relevant but secondary to the same-day industry slowdown story.",
+      "themes": [
+        "AI Policy",
+        "US Politics",
+        "AI Safety"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+        "raw_summary": "<p>Ex-president urged party at closed-door fundraiser to create sweeping framework, from safety ‘slow-down’ to job losses</p><p>Barack Obama urged Democrats to prioritize a “public conversation” about AI management and safety in a closed-door Manhattan fundraiser last week.</p><p>The comments by the former US president <a href=\"https://www.nytimes.com/2026/09/13/us/politics/obama-democrats-ai.html\">reportedly</a> urged the party to create a sweeping framework for everything from a safety “slow-d",
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Barack Obama reportedly urged Democrats at a closed-door Manhattan fundraiser to prioritize a sweeping AI framework covering safety slowdowns, job losses, and children's wellbeing. Comes as the party seeks a central agenda position on AI policy.</p>",
+      "content_html": "<p>Ex-president urged party at closed-door fundraiser to create sweeping framework, from safety ‘slow-down’ to job lossesBarack Obama urged Democrats to prioritize a “public conversation” about AI management and safety in a closed-door Manhattan fundraiser last week.The comments by the former US president reportedly urged the party to create a sweeping framework for everything from a safety “slow-down” to domestic job losses and children’s wellbeing. Continue reading...</p>"
+    },
+    {
+      "id": "27447fe7eb2c",
+      "title": "GPT-6 Astra pilots a surveillance drone and runs a business on its own",
+      "content": "\n        GPT-6 Astra earns nearly three times as much as Claude Fable 5.1 on Andon Labs' Vending-Bench agent benchmark and refuses illegal price-fixing deals that Fable agrees to. On drone control, Astra is the first model to beat the human baseline on all five subtasks, including finding and following individual people.\nThe article GPT-6 Astra pilots a surveillance drone and runs a business on its own appeared first on The Decoder.",
+      "url": "https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/",
+      "author": "Tomislav Bezmalinović",
+      "published": "2026-09-13T10:52:16",
+      "source": "The Decoder",
+      "source_type": "rss",
+      "tags": [
+        "AI in practice",
+        "Artificial Intelligence",
+        "AI agents",
+        "Benchmarks",
+        "Fable 5.1",
+        "GPT-6-Astra"
+      ],
+      "summary": "GPT-6 Astra earned nearly 3x the revenue of Claude Fable 5.1 on Andon Labs' Vending-Bench agent benchmark and refused illegal price-fixing deals that Fable accepted. On drone control, Astra was the first model to beat the human baseline on all five subtasks, including person-tracking.",
+      "importance_score": 65.0,
+      "reasoning": "Notable capability results, but per the grounding, GPT-6 Astra GA-dated 2026-09-03 — about 10 days before coverage — so this is benchmark reporting on an already-released model rather than a new release. Score reflects the significance of the results, not a launch.",
+      "themes": [
+        "Benchmarks",
+        "AI Agents",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://the-decoder.com/feed/",
+        "raw_summary": "<p><img alt=\"\" class=\"attachment-full size-full wp-post-image\" height=\"768\" src=\"https://the-decoder.com/wp-content/uploads/2026/09/openai_drone_gpt6_astra.png\" style=\"height: auto; margin-bottom: 10px;\" width=\"1376\" /></p>\n<p>        GPT-6 Astra earns nearly three times as much as Claude Fable 5.1 on Andon Labs' Vending-Bench agent benchmark and refuses illegal price-fixing deals that Fable agrees to. On drone control, Astra is the first model to beat the human baseline on all five subtasks, in",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>GPT-6 Astra earned nearly 3x the revenue of Claude Fable 5.1 on Andon Labs' Vending-Bench agent benchmark and refused illegal price-fixing deals that Fable accepted. On drone control, Astra was the first model to beat the human baseline on all five subtasks, including person-tracking.</p>",
+      "content_html": "<p>GPT-6 Astra earns nearly three times as much as Claude Fable 5.1 on Andon Labs' Vending-Bench agent benchmark and refuses illegal price-fixing deals that Fable agrees to. On drone control, Astra is the first model to beat the human baseline on all five subtasks, including finding and following individual people.</p>\n<p>The article GPT-6 Astra pilots a surveillance drone and runs a business on its own appeared first on The Decoder.</p>"
+    },
+    {
+      "id": "fcbd998f0613",
+      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "content": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "author": "Anthony Ha",
+      "published": "2026-09-13T16:30:00",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "source_type": "rss",
+      "tags": [
+        "AI",
+        "Government & Policy",
+        "Barack Obama",
+        "Donald Trump"
+      ],
+      "summary": "TechCrunch reports Obama told donors Democrats must make AI a central agenda item with a clear plan for safety and economic impact, contrasting with the Trump administration's stance.",
+      "importance_score": 62.0,
+      "reasoning": "Overlaps with the Guardian report on Obama's remarks. Confirms the political significance but adds limited new content.",
+      "themes": [
+        "AI Policy",
+        "US Politics",
+        "AI Safety"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "raw_summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>TechCrunch reports Obama told donors Democrats must make AI a central agenda item with a clear plan for safety and economic impact, contrasting with the Trump administration's stance.</p>",
+      "content_html": "<p>Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.</p>"
+    },
+    {
+      "id": "5286e894e6ea",
+      "title": "Trump and Mike Johnson think the AI industry is overreacting",
+      "content": "\n\n\n\t\n\t\t\n\nYesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. \nDonald Trump and House Speaker Mike Johnson, however, seem to think the AI executives are being overreactive and fear that a pause could lead to China outpacing the US in the AI race. According to the Financial Times, Trump said \"Look, we're leading China in AI … and, frankly, I want to keep it that way, because whoever wins AI, wins.\"\nJo …\nRead the full story at The Verge.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "author": "Terrence O’Brien",
+      "published": "2026-09-13T19:41:48",
+      "source": "AI | The Verge",
+      "source_type": "rss",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "News",
+        "OpenAI",
+        "Policy",
+        "Politics",
+        "xAI"
+      ],
+      "summary": "The Verge reports Trump and House Speaker Mike Johnson view the AI industry's slowdown calls as overreactive, fearing a pause would let China overtake the US. Trump said 'whoever wins AI, wins,' signaling the administration will resist mandatory pauses.",
+      "importance_score": 55.0,
+      "reasoning": "[Freshness check: main claim overlaps prior news coverage from 2026-09-13] Direct executive-branch opposition to the same-day industry slowdown push is a major political counter-signal. Will materially shape any near-term US regulatory outcome and frames the slowdown debate as a partisan flashpoint.",
+      "themes": [
+        "AI Policy",
+        "Geopolitics",
+        "Regulation",
+        "China",
+        "US Politics"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "freshness": {
+        "status": "stale_anchor",
+        "label": "Old anchor",
+        "reason": "main claim overlaps prior news coverage from 2026-09-13",
+        "score_cap": 55.0,
+        "exclude_from_top": true,
+        "exclude_from_summaries": true,
+        "age_days": 0,
+        "matched_prior_items": [
+          {
+            "id": "5321d579c602",
+            "date": "2026-09-13",
+            "category": "news",
+            "title": "Anthropic CEO outlines plan to slow AI development",
+            "source": "AI News & Artificial Intelligence | TechCrunch",
+            "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/"
+          },
+          {
+            "id": "7ea238fbb7f5",
+            "date": "2026-08-04",
+            "category": "social",
+            "title": "OpenAI: No\nAnthropic: Unlikely",
+            "source": "Twitter",
+            "url": "https://twitter.com/GaryMarcus/status/2084140084228681919"
+          },
+          {
+            "id": "7d9f01a7e3cf",
+            "date": "2026-08-06",
+            "category": "social",
+            "title": "@MarcusSpillane i have defined it consistently many times. read my essay dear elon musk for example",
+            "source": "Twitter",
+            "url": "https://twitter.com/GaryMarcus/status/2085075244168139203"
+          }
+        ]
+      },
+      "metadata": {
+        "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "raw_summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, [&#8230;]",
+        "freshness": {
+          "status": "stale_anchor",
+          "label": "Old anchor",
+          "reason": "main claim overlaps prior news coverage from 2026-09-13",
+          "score_cap": 55.0,
+          "exclude_from_top": true,
+          "exclude_from_summaries": true,
+          "age_days": 0,
+          "matched_prior_items": [
+            {
+              "id": "5321d579c602",
+              "date": "2026-09-13",
+              "category": "news",
+              "title": "Anthropic CEO outlines plan to slow AI development",
+              "source": "AI News & Artificial Intelligence | TechCrunch",
+              "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/"
+            },
+            {
+              "id": "7ea238fbb7f5",
+              "date": "2026-08-04",
+              "category": "social",
+              "title": "OpenAI: No\nAnthropic: Unlikely",
+              "source": "Twitter",
+              "url": "https://twitter.com/GaryMarcus/status/2084140084228681919"
+            },
+            {
+              "id": "7d9f01a7e3cf",
+              "date": "2026-08-06",
+              "category": "social",
+              "title": "@MarcusSpillane i have defined it consistently many times. read my essay dear elon musk for example",
+              "source": "Twitter",
+              "url": "https://twitter.com/GaryMarcus/status/2085075244168139203"
+            }
+          ]
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>The Verge reports Trump and House Speaker Mike Johnson view the AI industry's slowdown calls as overreactive, fearing a pause would let China overtake the US. Trump said 'whoever wins AI, wins,' signaling the administration will resist mandatory pauses.</p>",
+      "content_html": "<p>Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal.</p>\n<p>Donald Trump and House Speaker Mike Johnson, however, seem to think the AI executives are being overreactive and fear that a pause could lead to China outpacing the US in the AI race. According to the Financial Times, Trump said \"Look, we're leading China in AI … and, frankly, I want to keep it that way, because whoever wins AI, wins.\"</p>\n<p>Jo …</p>\n<p>Read the full story at The Verge.</p>"
+    },
+    {
+      "id": "5b98a3f5e976",
+      "title": "‘Too little, too late’: critics perplexed and suspicious of AI leaders’ call for a slowdown",
+      "content": "From the Trump administration to AI experts, plans by the Anthropic boss to boost safety have spawned a largely negative responseOpenAI boss and Elon Musk back slowdown on ‘reckless’ AI developmentEditorial:  controlling AI – humanity cannot outsource its survivalThe safety debate that ignited when whistleblowers last week warned that the most advanced AI poses an existential threat to humanity should come with a health warning: side effects include whiplash. It was only seven days ago that AI enthusiasts were cheerily toying with OpenAI’s newest model GPT-6 Astra which was marketed in part as a lifestyle tool to help people book tennis courts, run fashion companies and order takeaways.By Wednesday, cutting-edge AI started to look a lot less appealing when the resigning Anthropic researcher Jacob Coxon warned “the people building AI earnestly believe that it could kill us all by the end of the decade”. Yes, he was talking about artificial superintelligence – an as-yet-nonexistent version of the technology that outcompetes humans in most domains – but his comments, and the chorus of experts that echoed him, jangled plenty of nerves. Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/sep/13/too-little-too-late-critics-perplexed-and-suspicious-of-ai-leaders-call-for-a-slowdown",
+      "author": "Robert Booth UK technology editor",
+      "published": "2026-09-13T16:54:58",
+      "source": "AI (artificial intelligence) | The Guardian",
+      "source_type": "rss",
+      "tags": [
+        "AI (artificial intelligence)",
+        "Technology sector",
+        "Business",
+        "Computing",
+        "Technology",
+        "Anthropic",
+        "OpenAI",
+        "Trump administration"
+      ],
+      "summary": "Guardian analysis of Anthropic CEO Dario Amodei's call to slow frontier AI development, noting skeptical and cynical reactions from the Trump administration, AI experts, and others. Frames the proposal as having whiplash-inducing timing given GPT-6 Astra was just marketed as a lifestyle tool days earlier.",
+      "importance_score": 55.0,
+      "reasoning": "[Freshness check: main claim overlaps prior news coverage from 2026-09-10] Important aggregation of reactions to the day's dominant policy story, but it is commentary/analysis rather than a primary event. High value as a synthesis piece.",
+      "themes": [
+        "AI Safety",
+        "Regulation",
+        "Anthropic"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "freshness": {
+        "status": "stale_anchor",
+        "label": "Old anchor",
+        "reason": "main claim overlaps prior news coverage from 2026-09-10",
+        "score_cap": 55.0,
+        "exclude_from_top": true,
+        "exclude_from_summaries": true,
+        "age_days": 3,
+        "matched_prior_items": [
+          {
+            "id": "541757215d3a",
+            "date": "2026-09-10",
+            "category": "news",
+            "title": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
+            "source": "Ars Technica - All content",
+            "url": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/"
+          },
+          {
+            "id": "b4150b170ab1",
+            "date": "2026-09-10",
+            "category": "news",
+            "title": "Benchmarking GPT-6 Astra",
+            "source": "Artificial Analysis",
+            "url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra"
+          },
+          {
+            "id": "c4afbed94386",
+            "date": "2026-08-18",
+            "category": "news",
+            "title": "On AI regulation and messaging",
+            "source": "hackernews",
+            "url": "https://twitter.com/DarioAmodei/status/2088758816376807762"
+          }
+        ]
+      },
+      "metadata": {
+        "feed_url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+        "raw_summary": "<p>From the Trump administration to AI experts, plans by the Anthropic boss to boost safety have spawned a largely negative response</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development\">OpenAI boss and Elon Musk back slowdown on ‘reckless’ AI development</a></p></li><li><p><a href=\"https://www.theguardian.com/commentisfree/2026/sep/11/the-guardian-view-on-controlling-ai-humanity-cannot-outsource-its-surv",
+        "freshness": {
+          "status": "stale_anchor",
+          "label": "Old anchor",
+          "reason": "main claim overlaps prior news coverage from 2026-09-10",
+          "score_cap": 55.0,
+          "exclude_from_top": true,
+          "exclude_from_summaries": true,
+          "age_days": 3,
+          "matched_prior_items": [
+            {
+              "id": "541757215d3a",
+              "date": "2026-09-10",
+              "category": "news",
+              "title": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
+              "source": "Ars Technica - All content",
+              "url": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/"
+            },
+            {
+              "id": "b4150b170ab1",
+              "date": "2026-09-10",
+              "category": "news",
+              "title": "Benchmarking GPT-6 Astra",
+              "source": "Artificial Analysis",
+              "url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra"
+            },
+            {
+              "id": "c4afbed94386",
+              "date": "2026-08-18",
+              "category": "news",
+              "title": "On AI regulation and messaging",
+              "source": "hackernews",
+              "url": "https://twitter.com/DarioAmodei/status/2088758816376807762"
+            }
+          ]
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Guardian analysis of Anthropic CEO Dario Amodei's call to slow frontier AI development, noting skeptical and cynical reactions from the Trump administration, AI experts, and others. Frames the proposal as having whiplash-inducing timing given GPT-6 Astra was just marketed as a lifestyle tool days earlier.</p>",
+      "content_html": "<p>From the Trump administration to AI experts, plans by the Anthropic boss to boost safety have spawned a largely negative responseOpenAI boss and Elon Musk back slowdown on ‘reckless’ AI developmentEditorial:  controlling AI – humanity cannot outsource its survivalThe safety debate that ignited when whistleblowers last week warned that the most advanced AI poses an existential threat to humanity should come with a health warning: side effects include whiplash. It was only seven days ago that AI enthusiasts were cheerily toying with OpenAI’s newest model GPT-6 Astra which was marketed in part as a lifestyle tool to help people book tennis courts, run fashion companies and order takeaways.By Wednesday, cutting-edge AI started to look a lot less appealing when the resigning Anthropic researcher Jacob Coxon warned “the people building AI earnestly believe that it could kill us all by the end of the decade”. Yes, he was talking about artificial superintelligence – an as-yet-nonexistent version of the technology that outcompetes humans in most domains – but his comments, and the chorus of experts that echoed him, jangled plenty of nerves. Continue reading...</p>"
+    },
+    {
+      "id": "25269b8a4d50",
+      "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
+      "content": "\n        The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, including general tool use and office work.\nThe article Iris-mini and Iris-pro are the strongest open-weight search agents in their class appeared first on The Decoder.",
+      "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/",
+      "author": "Jonathan Kemper",
+      "published": "2026-09-13T12:58:18",
+      "source": "The Decoder",
+      "source_type": "rss",
+      "tags": [
+        "AI research",
+        "Artificial Intelligence",
+        "AI search",
+        "Open Weight",
+        "search"
+      ],
+      "summary": "The AllSpark team released Iris-mini and Iris-pro, open-weight search agents built on Qwen models that reportedly lead benchmarks among open-weight models in their size classes. The team reports gains on out-of-distribution tasks including tool use and office workflows.",
+      "importance_score": 55.0,
+      "reasoning": "[Freshness check: secondary coverage of primary source from 2026-09-01 (12d before coverage)] Open-weight agent release with measurable benchmark leadership in size classes. Adds to the open-source agent ecosystem but from a less prominent team; not a clear frontier capability jump.",
+      "themes": [
+        "Open Source",
+        "AI Agents",
+        "Search",
+        "Qwen"
+      ],
+      "sentiment": "positive",
+      "continuation": null,
+      "freshness": {
+        "status": "stale_followup",
+        "label": "Follow-up",
+        "reason": "secondary coverage of primary source from 2026-09-01 (12d before coverage)",
+        "score_cap": 55.0,
+        "exclude_from_top": true,
+        "exclude_from_summaries": true,
+        "primary_url": "https://huggingface.co/collections/AllSpark-Research/iris",
+        "primary_published": "2026-09-01",
+        "age_days": 12
+      },
+      "metadata": {
+        "feed_url": "https://the-decoder.com/feed/",
+        "raw_summary": "<p><img alt=\"Colorful browser windows and speech bubbles, connected by arrows to a glowing network, symbolize AI search agents.\" class=\"attachment-full size-full wp-post-image\" height=\"1047\" src=\"https://the-decoder.com/wp-content/uploads/2026/09/search-agents-allspark-nano-banana-pro.jpg\" style=\"height: auto; margin-bottom: 10px;\" width=\"1920\" /></p>\n<p>        The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among op",
+        "freshness": {
+          "status": "stale_followup",
+          "label": "Follow-up",
+          "reason": "secondary coverage of primary source from 2026-09-01 (12d before coverage)",
+          "score_cap": 55.0,
+          "exclude_from_top": true,
+          "exclude_from_summaries": true,
+          "primary_url": "https://huggingface.co/collections/AllSpark-Research/iris",
+          "primary_published": "2026-09-01",
+          "age_days": 12
+        },
+        "sentiment": "positive"
+      },
+      "related_sources": [],
+      "summary_html": "<p>The AllSpark team released Iris-mini and Iris-pro, open-weight search agents built on Qwen models that reportedly lead benchmarks among open-weight models in their size classes. The team reports gains on out-of-distribution tasks including tool use and office workflows.</p>",
+      "content_html": "<p>The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, including general tool use and office work.</p>\n<p>The article Iris-mini and Iris-pro are the strongest open-weight search agents in their class appeared first on The Decoder.</p>"
+    },
+    {
+      "id": "f308853879f8",
+      "title": "AI Agents Are Thirsty for Power",
+      "content": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.",
+      "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
+      "author": "Molly Taft",
+      "published": "2026-09-13T10:00:00",
+      "source": "Feed: Artificial Intelligence Latest",
+      "source_type": "rss",
+      "tags": [
+        "Science",
+        "Science / Environment",
+        "data centers",
+        "agentic AI",
+        "artificial intelligence",
+        "Meta",
+        "OpenAI",
+        "environment",
+        "science",
+        "Power Play"
+      ],
+      "summary": "A Wired feature examines how the industry shift from chatbot queries to agentic AI is accelerating the data-center buildout and straining power grids. Frames agentic workloads as a structural driver of energy and infrastructure demand, not just a marginal increase.",
+      "importance_score": 52.0,
+      "reasoning": "Important macro trend story for understanding infrastructure pressure, but it is commentary/analysis rather than a new development. Useful context for the power/environment angle of the AI buildout.",
+      "themes": [
+        "Infrastructure",
+        "Energy",
+        "Agentic AI",
+        "Data Centers"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+        "raw_summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A Wired feature examines how the industry shift from chatbot queries to agentic AI is accelerating the data-center buildout and straining power grids. Frames agentic workloads as a structural driver of energy and infrastructure demand, not just a marginal increase.</p>",
+      "content_html": "<p>Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.</p>"
+    },
+    {
+      "id": "93d471649504",
+      "title": "Why are AI agents lying, cheating and coordinating?",
+      "content": "Why are AI agents lying, cheating and coordinating?",
+      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "author": "jonifico",
+      "published": "2026-09-13T01:22:31+00:00",
+      "source": "hackernews",
+      "source_type": "hackernews",
+      "tags": [
+        "hackernews"
+      ],
+      "summary": "Continuing our coverage from [yesterday](/?date=2026-09-12&category=news#item-1d443ad4a37a), Yoshua Bengio publication on why AI agents are exhibiting lying, cheating, and coordinating behaviors, framed as research analysis rather than a single news event.",
+      "importance_score": 52.0,
+      "reasoning": "Authoritative voice on AI agent alignment concerns. Adds to the day's agentic-AI safety discussion but the item itself is a pointer, with limited detail in the source.",
+      "themes": [
+        "AI Safety",
+        "AI Agents",
+        "Alignment",
+        "Research"
+      ],
+      "sentiment": "neutral",
+      "continuation": {
+        "original_item_id": "1d443ad4a37a",
+        "original_date": "2026-09-12",
+        "original_category": "news",
+        "original_title": "Deep learning pioneer Bengio argues the training process itself makes AI dangerous",
+        "continuation_type": "follow_up",
+        "should_demote": false,
+        "reference_text": "Continuing our coverage from yesterday"
+      },
+      "metadata": {
+        "hn_score": 620,
+        "hn_comments": 675,
+        "hn_url": "https://news.ycombinator.com/item?id=49678969",
+        "type": "story",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-09-12&amp;category=news#item-1d443ad4a37a\" class=\"internal-link\" rel=\"noopener noreferrer\">yesterday</a>, Yoshua Bengio publication on why AI agents are exhibiting lying, cheating, and coordinating behaviors, framed as research analysis rather than a single news event.</p>",
+      "content_html": "<p>Why are AI agents lying, cheating and coordinating?</p>"
+    },
+    {
+      "id": "d773d05132ac",
+      "title": "AI Law — This Week (September 7 – September 13, 2026)",
+      "content": "140 AI-law developments across federal, state, and global jurisdictions for the week of September 7 – September 13, 2026. Every item links to its original source.Highlights:U.S. Federal: Johnson calls for AI solutions but says Congress won&apos;t take the lead (2026-09-13)U.S. Federal: Trump Sees Race Against China as Key Issue on AI Regulation (2026-09-13)Malaysia: Anwar says AI Governance Bill to complement cybersecurity, data laws (2026-09-13)Washington: After a decade of failed bills and three years of resignations, Washington finally discovers it cares about AI safety (2026-09-12)Washington: As AI fears grow, lawmakers are racing to turn alarm into action (2026-09-12)New Jersey: Bennett calls for national AI regulatory framework (2026-09-12)Full weekly digest →",
+      "url": "https://ai-law-tracker.com/this-week",
+      "author": "Unknown",
+      "published": "2026-09-13T00:00:00",
+      "source": "AI Law Tracker",
+      "source_type": "rss",
+      "tags": [
+        "Weekly Digest"
+      ],
+      "summary": "A weekly digest of 140 AI-law developments across US federal, state, and global jurisdictions. Headlines include Trump framing AI regulation as a China race, Malaysia's AI Governance Bill, and Washington state lawmakers reacting to safety concerns.",
+      "importance_score": 50.0,
+      "reasoning": "Useful comprehensive policy roundup. Modest individual item weight but high aggregate value as a snapshot of global AI legislation.",
+      "themes": [
+        "AI Law",
+        "Regulation",
+        "Global Policy"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://ai-law-tracker.com/feed.xml",
+        "raw_summary": "<p>140 AI-law developments across federal, state, and global jurisdictions for the week of September 7 – September 13, 2026. Every item links to its original source.</p><p><strong>Highlights:</strong></p><ul><li>U.S. Federal: <a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9rX2UtSmVzWkNWTGpIUVpEZF9Ud3BOMUlIdDZnblVjcVB6OXZBNy1hU1o2UXh4dFYwZUtPX2lNSTl1YnJjTlc4SmVHMlZIWXFkOThLX1lZeHhFUGQ1aXZrdi1pMmVXaEdFN21CVC14TE5oZGZ3UGtR\">Johnson calls for AI solutions but says Congress won&apos;t ta",
+        "source_group": "Policy & Regulation",
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A weekly digest of 140 AI-law developments across US federal, state, and global jurisdictions. Headlines include Trump framing AI regulation as a China race, Malaysia's AI Governance Bill, and Washington state lawmakers reacting to safety concerns.</p>",
+      "content_html": "<p>140 AI-law developments across federal, state, and global jurisdictions for the week of September 7 – September 13, 2026. Every item links to its original source.Highlights:U.S. Federal: Johnson calls for AI solutions but says Congress won't take the lead (2026-09-13)U.S. Federal: Trump Sees Race Against China as Key Issue on AI Regulation (2026-09-13)Malaysia: Anwar says AI Governance Bill to complement cybersecurity, data laws (2026-09-13)Washington: After a decade of failed bills and three years of resignations, Washington finally discovers it cares about AI safety (2026-09-12)Washington: As AI fears grow, lawmakers are racing to turn alarm into action (2026-09-12)New Jersey: Bennett calls for national AI regulatory framework (2026-09-12)Full weekly digest →</p>"
+    },
+    {
+      "id": "cadc668fe7f2",
+      "title": "AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents",
+      "content": "AWS introduced Pizza Bot, as a self-hosted application for AI tasks that continue while users work elsewhere. It organizes completed results and pending decisions into an email-style inbox. Earlier versions served more than 2,000 people inside Amazon, supporting meeting preparation, email drafting, Slack summaries, CRM logging, and research. The public application was rebuilt as an open source project.\n\n\n\nDeployable: Yes. Pizza Bot offers macOS, Windows, and Linux desktop builds, and browser and terminal clients connected to a local or standalone backend. Its code is licensed under Apache 2.0.\n\n\n\nAn Inbox for Asynchronous Work\n\n\n\nPizza Bot separates tasks into All, the thread history; Unread, completed work awaiting review; and Action, work paused for approval or an answer. Users can organize threads into folders and inspect delegated workers in the Activity panel. Tasks can start manually, through cron schedules, or through webhooks. \n\n\n\nThe server owns scheduling. After downtime, missed cron intervals produce 1 catch-up run instead of replaying every missed interval. Trigger occurrences are recorded durably.\n\n\n\nHow the Runtime Works\n\n\n\nThe application uses DeepAgents and LangGraph for stateful execution. A Hono API server owns runtime execution and storage. Electron and browser clients share a React interface, while all clients communicate with the server over HTTP and server-sent events. LangGraph checkpoints retain thread state and approval pauses; separate SQLite stores hold cross-thread memory and application metadata. Reconnecting clients can replay buffered events. \n\n\n\nClosing a thread or disconnecting a client does not stop a running server. However, quitting the desktop app stops its embedded server and ends active runs. Checkpoints preserve the thread, but the step in flight can be lost. An always-on backend is required for work to continue after that desktop app exits. \n\n\n\nSkills, Tools, and Approval Controls\n\n\n\nPizza Bot supports Amazon Bedrock, Anthropic, Google Gemini, OpenAI, OpenRouter, and Ollama. Configure a provider under Settings > Providers before running tasks. \n\n\n\nThe agent has scratch-file operations and a sandboxed JavaScript interpreter without network or host-filesystem access. It can delegate through task when ready skill workers exist. The filesystem layer separately supports explicit folder grants and persistent memory. \n\n\n\nMCP servers expose external tools. Each SKILL.md defines a worker&#8217;s instructions and scoped tool access. A skill becomes callable only when its declared dependencies are available. Existing Claude Code-compatible .mcp.json configurations are supported, and plugins package skills with MCP servers.\n\n\n\nSkill authors configure interruptOn and allowedDecisions to require approval for specific tools. Depending on that policy, users can approve, edit proposed arguments, or reject an action. These controls must be configured for the relevant tools. \n\n\n\nInteractive Explainer\n\n\n\nRun the illustrative custom-skill workflow below. Compare an always-on backend with an embedded desktop server, close the client during execution, and approve, edit, or reject the proposed action. Animation timing is illustrative; no external actions occur.\n\n\n\n\n\n  \n  \n    PIZZA BOT / BACKGROUND WORKIllustrative custom skill\n    \n      Backend locationAlways-on serverEmbedded in desktop\n      Run example\n      Close desktop\n    \n    Client: OpenServer: RunningCheckpoint: None\n    \n      \n      WorkerApprovalResult\n    \n    Start a research brief, then close the desktop while it runs.\n    \n      \n        \n          All 0\n          Unread 0\n          Action 0\n        \n        Prepare a research brief\n        The custom skill gates its publish tool with interruptOn.\n        \n          publish_brief({title: \"Research brief\"})\n          Proposed title\n          ApproveEditReject\n        \n        Read result\n      \n      Desktop closedOpen the desktop to review its inbox.\n    \n    Simulation only. No external calls.Approval specification\n  \n  &amp;&amp;&amp;&amp;&amp;&amp;&amp;\n\n\n\n\n\n\n\n\nKey Takeaways\n\n\n\n\nAn inbox for background agents: Pizza Bot organizes task history in All, completed work in Unread, and requests for approval or input in Action. Tasks support manual, cron, and webhook triggers.\n\n\n\nPersistent execution with DeepAgents and LangGraph: Checkpoints preserve thread state and approval pauses. Tasks continue after client disconnection while the backend remains running.\n\n\n\nMultiple model providers: Pizza Bot supports Amazon Bedrock, Anthropic, Google Gemini, OpenAI, OpenRouter, and local models through Ollama. Configured providers and tools can receive task data.\n\n\n\nScoped skills and configurable approvals: MCP servers expose tools, while SKILL.md files define specialist workers. Tool-specific policies let users approve, edit, or reject proposed actions.\n\n\n\nSelf-hosted and deployable: Apache 2.0 code, desktop builds, and standalone backend options are available. Each SQLite data directory supports 1 backend process. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCheck out the Technical details and GitHub Repo. Also, feel free to follow us on Twitter and don’t forget to join our 150k+ML SubReddit and Subscribe to our Newsletter. Wait! are you on telegram? now you can join us on telegram as well.\n\n\n\nNeed to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us\nThe post AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents appeared first on MarkTechPost.",
+      "url": "https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents/",
+      "author": "Michal Sutter",
+      "published": "2026-09-13T08:10:51",
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "tags": [
+        "Agentic AI",
+        "AI Agents",
+        "AI Shorts",
+        "Applications",
+        "Artificial Intelligence",
+        "Editors Pick",
+        "New Releases",
+        "Open Source",
+        "Software Engineering",
+        "Staff",
+        "Tech News",
+        "Technology"
+      ],
+      "summary": "AWS open-sourced Pizza Bot under Apache 2.0, a self-hosted inbox-style application for background AI agents. An internal version served over 2,000 Amazon employees for meeting prep, email drafting, Slack summaries, CRM logging, and research; the public release supports macOS, Windows, Linux, browser, and terminal clients.",
+      "importance_score": 50.0,
+      "reasoning": "Concrete open-source release from a major cloud vendor in the agentic-AI inbox category. Useful infrastructure piece but primarily an internal-tool externalization rather than a frontier capability.",
+      "themes": [
+        "Open Source",
+        "AI Agents",
+        "AWS",
+        "Productivity Tools"
+      ],
+      "sentiment": "positive",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.marktechpost.com/category/tech-news/feed/",
+        "raw_summary": "<p>Pizza Bot is an open source, self-hosted inbox for AI agents built on DeepAgents and LangGraph. It combines persistent task state, MCP integrations, configurable approvals, and scheduled workflows across multiple model providers.</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents/\">AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents</a> appeared first on <a href=\"https://www.marktechpost.c",
+        "source_group": "Tech & Media",
+        "sentiment": "positive"
+      },
+      "related_sources": [],
+      "summary_html": "<p>AWS open-sourced Pizza Bot under Apache 2.0, a self-hosted inbox-style application for background AI agents. An internal version served over 2,000 Amazon employees for meeting prep, email drafting, Slack summaries, CRM logging, and research; the public release supports macOS, Windows, Linux, browser, and terminal clients.</p>",
+      "content_html": "<p>AWS introduced Pizza Bot, as a self-hosted application for AI tasks that continue while users work elsewhere. It organizes completed results and pending decisions into an email-style inbox. Earlier versions served more than 2,000 people inside Amazon, supporting meeting preparation, email drafting, Slack summaries, CRM logging, and research. The public application was rebuilt as an open source project.</p>\n<p>Deployable: Yes. Pizza Bot offers macOS, Windows, and Linux desktop builds, and browser and terminal clients connected to a local or standalone backend. Its code is licensed under Apache 2.0.</p>\n<p>An Inbox for Asynchronous Work</p>\n<p>Pizza Bot separates tasks into All, the thread history; Unread, completed work awaiting review; and Action, work paused for approval or an answer. Users can organize threads into folders and inspect delegated workers in the Activity panel. Tasks can start manually, through cron schedules, or through webhooks.</p>\n<p>The server owns scheduling. After downtime, missed cron intervals produce 1 catch-up run instead of replaying every missed interval. Trigger occurrences are recorded durably.</p>\n<p>How the Runtime Works</p>\n<p>The application uses DeepAgents and LangGraph for stateful execution. A Hono API server owns runtime execution and storage. Electron and browser clients share a React interface, while all clients communicate with the server over HTTP and server-sent events. LangGraph checkpoints retain thread state and approval pauses; separate SQLite stores hold cross-thread memory and application metadata. Reconnecting clients can replay buffered events.</p>\n<p>Closing a thread or disconnecting a client does not stop a running server. However, quitting the desktop app stops its embedded server and ends active runs. Checkpoints preserve the thread, but the step in flight can be lost. An always-on backend is required for work to continue after that desktop app exits.</p>\n<p>Skills, Tools, and Approval Controls</p>\n<p>Pizza Bot supports Amazon Bedrock, Anthropic, Google Gemini, OpenAI, OpenRouter, and Ollama. Configure a provider under Settings &gt; Providers before running tasks.</p>\n<p>The agent has scratch-file operations and a sandboxed JavaScript interpreter without network or host-filesystem access. It can delegate through task when ready skill workers exist. The filesystem layer separately supports explicit folder grants and persistent memory.</p>\n<p>MCP servers expose external tools. Each SKILL.md defines a worker’s instructions and scoped tool access. A skill becomes callable only when its declared dependencies are available. Existing Claude Code-compatible .mcp.json configurations are supported, and plugins package skills with MCP servers.</p>\n<p>Skill authors configure interruptOn and allowedDecisions to require approval for specific tools. Depending on that policy, users can approve, edit proposed arguments, or reject an action. These controls must be configured for the relevant tools.</p>\n<p>Interactive Explainer</p>\n<p>Run the illustrative custom-skill workflow below. Compare an always-on backend with an embedded desktop server, close the client during execution, and approve, edit, or reject the proposed action. Animation timing is illustrative; no external actions occur.</p>\n<p>PIZZA BOT / BACKGROUND WORKIllustrative custom skill</p>\n<p>Backend locationAlways-on serverEmbedded in desktop</p>\n<p>Run example</p>\n<p>Close desktop</p>\n<p>Client: OpenServer: RunningCheckpoint: None</p>\n<p>WorkerApprovalResult</p>\n<p>Start a research brief, then close the desktop while it runs.</p>\n<p>All 0</p>\n<p>Unread 0</p>\n<p>Action 0</p>\n<p>Prepare a research brief</p>\n<p>The custom skill gates its publish tool with interruptOn.</p>\n<p>publish_brief({title: \"Research brief\"})</p>\n<p>Proposed title</p>\n<p>ApproveEditReject</p>\n<p>Read result</p>\n<p>Desktop closedOpen the desktop to review its inbox.</p>\n<p>Simulation only. No external calls.Approval specification</p>\n<p>&amp;&amp;&amp;&amp;&amp;&amp;&amp;</p>\n<p>Key Takeaways</p>\n<p>An inbox for background agents: Pizza Bot organizes task history in All, completed work in Unread, and requests for approval or input in Action. Tasks support manual, cron, and webhook triggers.</p>\n<p>Persistent execution with DeepAgents and LangGraph: Checkpoints preserve thread state and approval pauses. Tasks continue after client disconnection while the backend remains running.</p>\n<p>Multiple model providers: Pizza Bot supports Amazon Bedrock, Anthropic, Google Gemini, OpenAI, OpenRouter, and local models through Ollama. Configured providers and tools can receive task data.</p>\n<p>Scoped skills and configurable approvals: MCP servers expose tools, while SKILL.md files define specialist workers. Tool-specific policies let users approve, edit, or reject proposed actions.</p>\n<p>Self-hosted and deployable: Apache 2.0 code, desktop builds, and standalone backend options are available. Each SQLite data directory supports 1 backend process.</p>\n<p>Check out the&nbsp;Technical details and GitHub Repo.&nbsp;Also,&nbsp;feel free to follow us on&nbsp;Twitter&nbsp;and don’t forget to join our&nbsp;150k+ML SubReddit&nbsp;and Subscribe to&nbsp;our Newsletter. Wait! are you on telegram?&nbsp;now you can join us on telegram as well.</p>\n<p>Need to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us</p>\n<p>The post AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents appeared first on MarkTechPost.</p>"
+    },
+    {
+      "id": "e2dd534b2fad",
+      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+      "content": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+      "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+      "author": "kolanos",
+      "published": "2026-09-13T16:52:33+00:00",
+      "source": "hackernews",
+      "source_type": "hackernews",
+      "tags": [
+        "hackernews"
+      ],
+      "summary": "David Sacks publicly argued OpenAI and Anthropic don't need regulations to pace frontier models, adding a prominent venture/political voice against the day's slowdown push.",
+      "importance_score": 50.0,
+      "reasoning": "Politically significant counter-signal. Single tweet but from a high-profile figure; consistent with the Trump administration's stance.",
+      "themes": [
+        "AI Policy",
+        "Regulation",
+        "US Politics"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "hn_score": 303,
+        "hn_comments": 226,
+        "hn_url": "https://news.ycombinator.com/item?id=49685991",
+        "type": "story",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>David Sacks publicly argued OpenAI and Anthropic don't need regulations to pace frontier models, adding a prominent venture/political voice against the day's slowdown push.</p>",
+      "content_html": "<p>David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models</p>"
+    },
+    {
+      "id": "232a44106bd9",
+      "title": "A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth",
+      "content": "In most decoder-only LLMs, nothing computed at the last layer of token t feeds the first layer of token t+1; positions communicate only through attention over cached keys and values. A Princeton researcher&#8217;s (Yifan Zhang) technical report, Recurrent Looped Transformer (RLT), proposes closing that loop. The decoder&#8217;s final hidden state and its layerwise sliding-window attention (SWA) cache are carried into the next token, across both prompt and response, with no reset at the boundary. The proposed research is a design specification. It defines the architecture, execution schedules, and RL replay contract, and it explicitly reports no measured efficiency, reasoning quality, or scaling results.\n\n\n\nHow RLT is Built\n\n\n\nRecurrent Looped Transformer (RLT) pairs a causal encoder with a recurrent decoder. The encoder processes tokens in parallel under a causal mask and produces representations e_t, from which key-value memory M≤t is projected; memory groups can be shared across decoder layers (G = 1) or kept layer-specific (G = L_D).\n\n\n\nThe decoder holds the recurrence. Its complete state is Ht = (st, CtD), where st is the final decoder output and CtD holds the retained SWA keys and values at every decoder layer. For each token, a gated merge combines et with the previous output s{t-1}, then each decoder block runs causal SWA over decoder activations, cross-attention to encoder memory, and an FFN. The window W includes the current token, so at most W &#8211; 1 historical entries per layer are retained. The next-token distribution is read from st, and initialization happens once before BOS with a learned start state s* and an empty cache.\n\n\n\nThe reference tied configuration uses 48 encoder and 48 decoder layers with compatible attention and FFN weights shared between them. Each token therefore executes 96 logical blocks, though decoder blocks add cross-attention, so per-block FLOPs are not equal. Zhang calls this parameter reuse, not activation copying.\n\n\n\nThe 3 Design Principles\n\n\n\n\nLatent reasoning with unbounded temporal depth: After t processed tokens, the state path from s0 traverses t·LD decoder blocks, or 48t in the reference configuration. Per-token work stays fixed while the path&#8217;s structural depth grows with the sequence. The research report warns that gates and contraction may suppress long paths; structural depth is not a reasoning guarantee.\n\n\n\nModel-hardware co-design: Encoder features and memory projections for known tokens use token-parallel kernels. Decoder transitions stay sequential within a sequence, but ready updates from independent sequences can share one batched kernel. The report states plainly that no exact parallel scan is assumed for the nonlinear decoder, no reduced-prefill speedup is claimed, and a standard parallel SWA decoder pass is not equivalent to the recurrence. Batching, kernel fusion, and checkpointing are listed as implementation targets, not completed kernels.\n\n\n\nModel-RL algorithm co-design: Pretraining, SFT, sampling, and RL replay share one state transition. For RL, the sampler records each action&#8217;s behavior log-probability under its actual sampling distribution, including temperature and truncation. The trainer rebuilds encoder memory, the recurrent output, and every SWA cache from the sequence start under current parameters before scoring each action; old rollout states are never reused. Proposition 3.1 formalizes the payoff: moving the prompt-response split leaves the conditional distribution unchanged for a fixed token history.\n\n\n\n\nTraining and Serving\n\n\n\nPretraining is full-sequence next-token prediction with full backpropagation through time. SFT masks the loss to assistant targets but never masks state updates, so assistant losses backpropagate through user and tool tokens. Appendix B shows why partial detaching is risky: the state-to-state Jacobian has cross terms through decoder KV, so detaching only st leaves gradient paths through the cache; any truncated-BPTT scheme must name every detached tensor.\n\n\n\nFor multi-turn serving, an exact prefix snapshot includes encoder cache and memory, the complete decoder state, position metadata, the window convention, and model version. A fixed-weight snapshot can be reused because the state is independent of the serving split; weight updates invalidate old states, and editing a prefix forces recomputation from an earlier checkpoint. External tokens in multi-turn RL update the state but get no importance-ratio factors.\n\n\n\nHow It Relates to Prior Work\n\n\n\nEncoder-derived memory follows YOCO, which caches KV once for a cross-decoder, and DeepSeek-V4.1-Flash, which projects decoder global KV from final encoder states; RLT keeps the memory but drops prompt-wide decoder skipping. Temporal feedback builds on Feedback Transformer and Recurrent Transformer; RLT instead feeds the previous final decoder output into the next decoder input and runs recurrence over the prompt too. Depth-wise reuse connects to Universal Transformers and recurrent-depth latent reasoning; the replay argument extends Zhang&#8217;s prefill-decode kernel mismatch note.\n\n\n\nInteractive Explainer\n\n\n\n&amp;&amp;&amp;\n\n\n\n\n\n\n\nKey Takeaways\n\n\n\n\nRLT carries the full decoder state (final output plus layerwise SWA cache) across every prompt and response token with no boundary reset.\n\n\n\nReference config: 48 tied encoder and decoder layers, 96 logical blocks per token, state path of 48t blocks after t tokens.\n\n\n\nHardware opportunities: encoder parallelism and batching across sequences; no parallel scan or reduced-prefill speedup is claimed.\n\n\n\nRL replay rebuilds all states under current parameters while keeping recorded behavior log-probabilities as ratio denominators.\n\n\n\nNo measured results: reasoning quality, efficiency, and RL scaling remain open validation targets.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCheck out the Technical Report, GitHub repository, and Project Page. All credit goes to the researcher of this project. Also, feel free to follow us on Twitter and don’t forget to join our 150k+ML SubReddit and Subscribe to our Newsletter. Wait! are you on telegram? now you can join us on telegram as well.\n\n\n\nNeed to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us\nThe post A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth appeared first on MarkTechPost.",
+      "url": "https://www.marktechpost.com/2026/09/13/a-princeton-researcher-proposes-recurrent-looped-transformer-rlt/",
+      "author": "Asif Razzaq",
+      "published": "2026-09-13T17:02:26",
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "tags": [
+        "Agentic AI",
+        "AI Paper Summary",
+        "AI Shorts",
+        "Applications",
+        "Artificial Intelligence",
+        "Editors Pick",
+        "Language Model",
+        "Large Language Model",
+        "Machine Learning",
+        "Staff",
+        "Tech News",
+        "Technology"
+      ],
+      "summary": "Princeton researcher Yifan Zhang released a technical report proposing Recurrent Looped Transformer (RLT), which carries the decoder's final hidden state and sliding-window attention cache into the next token across prompt and response. The report explicitly states no measured efficiency, quality, or scaling results.",
+      "importance_score": 45.0,
+      "reasoning": "Architectural proposal from a single researcher with no empirical results yet. Conceptually interesting for unbounded temporal depth but premature for frontier-impact scoring.",
+      "themes": [
+        "Architecture",
+        "Research",
+        "LLM Design"
+      ],
+      "sentiment": "positive",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.marktechpost.com/category/tech-news/feed/",
+        "raw_summary": "<p>Yifan Zhang's Recurrent Looped Transformer (RLT) technical report proposes a causal encoder paired with a recurrent decoder that carries its final hidden state and layerwise sliding-window attention cache across every prompt and response token, with no reset at the serving boundary. The reference tied configuration uses 48 encoder and 48 decoder layers, executing 96 logical blocks per token while the state path grows to 48t decoder blocks after t tokens. The design also specifies hardware-awa",
+        "source_group": "Tech & Media",
+        "sentiment": "positive"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Princeton researcher Yifan Zhang released a technical report proposing Recurrent Looped Transformer (RLT), which carries the decoder's final hidden state and sliding-window attention cache into the next token across prompt and response. The report explicitly states no measured efficiency, quality, or scaling results.</p>",
+      "content_html": "<p>In most decoder-only LLMs, nothing computed at the last layer of token t feeds the first layer of token t+1; positions communicate only through attention over cached keys and values. A Princeton researcher’s (Yifan Zhang) technical report, Recurrent Looped Transformer (RLT), proposes closing that loop. The decoder’s final hidden state and its layerwise sliding-window attention (SWA) cache are carried into the next token, across both prompt and response, with no reset at the boundary. The proposed research is a design specification. It defines the architecture, execution schedules, and RL replay contract, and it explicitly reports no measured efficiency, reasoning quality, or scaling results.</p>\n<p>How RLT is Built</p>\n<p>Recurrent Looped Transformer (RLT) pairs a causal encoder with a recurrent decoder. The encoder processes tokens in parallel under a causal mask and produces representations e_t, from which key-value memory M≤t is projected; memory groups can be shared across decoder layers (G = 1) or kept layer-specific (G = L_D).</p>\n<p>The decoder holds the recurrence. Its complete state is Ht = (st, CtD), where st is the final decoder output and CtD holds the retained SWA keys and values at every decoder layer. For each token, a gated merge combines et with the previous output s{t-1}, then each decoder block runs causal SWA over decoder activations, cross-attention to encoder memory, and an FFN. The window W includes the current token, so at most W – 1 historical entries per layer are retained. The next-token distribution is read from st, and initialization happens once before BOS with a learned start state s* and an empty cache.</p>\n<p>The reference tied configuration uses 48 encoder and 48 decoder layers with compatible attention and FFN weights shared between them. Each token therefore executes 96 logical blocks, though decoder blocks add cross-attention, so per-block FLOPs are not equal. Zhang calls this parameter reuse, not activation copying.</p>\n<p>The 3 Design Principles</p>\n<p>Latent reasoning with unbounded temporal depth: After t processed tokens, the state path from s0 traverses t·LD decoder blocks, or 48t in the reference configuration. Per-token work stays fixed while the path’s structural depth grows with the sequence. The research report warns that gates and contraction may suppress long paths; structural depth is not a reasoning guarantee.</p>\n<p>Model-hardware co-design: Encoder features and memory projections for known tokens use token-parallel kernels. Decoder transitions stay sequential within a sequence, but ready updates from independent sequences can share one batched kernel. The report states plainly that no exact parallel scan is assumed for the nonlinear decoder, no reduced-prefill speedup is claimed, and a standard parallel SWA decoder pass is not equivalent to the recurrence. Batching, kernel fusion, and checkpointing are listed as implementation targets, not completed kernels.</p>\n<p>Model-RL algorithm co-design: Pretraining, SFT, sampling, and RL replay share one state transition. For RL, the sampler records each action’s behavior log-probability under its actual sampling distribution, including temperature and truncation. The trainer rebuilds encoder memory, the recurrent output, and every SWA cache from the sequence start under current parameters before scoring each action; old rollout states are never reused. Proposition 3.1 formalizes the payoff: moving the prompt-response split leaves the conditional distribution unchanged for a fixed token history.</p>\n<p>Training and Serving</p>\n<p>Pretraining is full-sequence next-token prediction with full backpropagation through time. SFT masks the loss to assistant targets but never masks state updates, so assistant losses backpropagate through user and tool tokens. Appendix B shows why partial detaching is risky: the state-to-state Jacobian has cross terms through decoder KV, so detaching only st leaves gradient paths through the cache; any truncated-BPTT scheme must name every detached tensor.</p>\n<p>For multi-turn serving, an exact prefix snapshot includes encoder cache and memory, the complete decoder state, position metadata, the window convention, and model version. A fixed-weight snapshot can be reused because the state is independent of the serving split; weight updates invalidate old states, and editing a prefix forces recomputation from an earlier checkpoint. External tokens in multi-turn RL update the state but get no importance-ratio factors.</p>\n<p>How It Relates to Prior Work</p>\n<p>Encoder-derived memory follows YOCO, which caches KV once for a cross-decoder, and DeepSeek-V4.1-Flash, which projects decoder global KV from final encoder states; RLT keeps the memory but drops prompt-wide decoder skipping. Temporal feedback builds on Feedback Transformer and Recurrent Transformer; RLT instead feeds the previous final decoder output into the next decoder input and runs recurrence over the prompt too. Depth-wise reuse connects to Universal Transformers and recurrent-depth latent reasoning; the replay argument extends Zhang’s prefill-decode kernel mismatch note.</p>\n<p>Interactive Explainer</p>\n<p>&amp;&amp;&amp;</p>\n<p>Key Takeaways</p>\n<p>RLT carries the full decoder state (final output plus layerwise SWA cache) across every prompt and response token with no boundary reset.</p>\n<p>Reference config: 48 tied encoder and decoder layers, 96 logical blocks per token, state path of 48t blocks after t tokens.</p>\n<p>Hardware opportunities: encoder parallelism and batching across sequences; no parallel scan or reduced-prefill speedup is claimed.</p>\n<p>RL replay rebuilds all states under current parameters while keeping recorded behavior log-probabilities as ratio denominators.</p>\n<p>No measured results: reasoning quality, efficiency, and RL scaling remain open validation targets.</p>\n<p>Check out the Technical Report, GitHub repository, and Project Page. All credit goes to the researcher of this project. Also,&nbsp;feel free to follow us on&nbsp;Twitter&nbsp;and don’t forget to join our&nbsp;150k+ML SubReddit&nbsp;and Subscribe to&nbsp;our Newsletter. Wait! are you on telegram?&nbsp;now you can join us on telegram as well.</p>\n<p>Need to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.?&nbsp;Connect with us</p>\n<p>The post A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth appeared first on MarkTechPost.</p>"
+    },
+    {
+      "id": "7bfcdc22fdc6",
+      "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
+      "content": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+      "author": "TheJCDenton",
+      "published": "2026-09-13T15:44:38+00:00",
+      "source": "hackernews",
+      "source_type": "hackernews",
+      "tags": [
+        "hackernews"
+      ],
+      "summary": "Y Combinator president Garry Tan is pushing US open-weight AI labs to also distill frontier models, expanding the open-weights ecosystem's downstream options.",
+      "importance_score": 45.0,
+      "reasoning": "Influential industry voice advocating policy that affects open-source AI economics. Policy-relevant but not a release or capability breakthrough.",
+      "themes": [
+        "Open Source",
+        "AI Policy",
+        "Distillation"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "hn_score": 390,
+        "hn_comments": 214,
+        "hn_url": "https://news.ycombinator.com/item?id=49685253",
+        "type": "story",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Y Combinator president Garry Tan is pushing US open-weight AI labs to also distill frontier models, expanding the open-weights ecosystem's downstream options.</p>",
+      "content_html": "<p>Garry Tan wants US open-weight AI labs to 'distill' frontier models, too</p>"
+    },
+    {
+      "id": "42f81737585e",
+      "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
+      "content": "\n        ElevenLabs has released Music v2.5 for its AI music generator. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version over its predecessor. The company says the model was trained only on licensed music.\nThe article Elevenlabs makes Music v2.5 available via app and API with free and pro tier options appeared first on The Decoder.",
+      "url": "https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/",
+      "author": "Matthias Bastian",
+      "published": "2026-09-13T13:40:36",
+      "source": "The Decoder",
+      "source_type": "rss",
+      "tags": [
+        "AI in practice",
+        "Artificial Intelligence",
+        "Short News",
+        "AI and music",
+        "ElevenLabs",
+        "Music"
+      ],
+      "summary": "ElevenLabs released Music v2.5, a new version of its AI music generator available via app and API in free and pro tiers. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version, and ElevenLabs says training data is fully licensed.",
+      "importance_score": 42.0,
+      "reasoning": "Product update for an established AI music tool, not in the frontier-model grounding. Notable for music-AI market but limited frontier-AI significance.",
+      "themes": [
+        "AI Music",
+        "Product Launch",
+        "ElevenLabs"
+      ],
+      "sentiment": "positive",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://the-decoder.com/feed/",
+        "raw_summary": "<p><img alt=\"\" class=\"attachment-full size-full wp-post-image\" height=\"720\" src=\"https://the-decoder.com/wp-content/uploads/2026/09/elevenlabs_music_25.png\" style=\"height: auto; margin-bottom: 10px;\" width=\"1280\" /></p>\n<p>        ElevenLabs has released Music v2.5 for its AI music generator. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version over its predecessor. The company says the model was trained only on licensed music.</p>\n<p>The article <a href=\"http",
+        "sentiment": "positive"
+      },
+      "related_sources": [],
+      "summary_html": "<p>ElevenLabs released Music v2.5, a new version of its AI music generator available via app and API in free and pro tiers. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version, and ElevenLabs says training data is fully licensed.</p>",
+      "content_html": "<p>ElevenLabs has released Music v2.5 for its AI music generator. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version over its predecessor. The company says the model was trained only on licensed music.</p>\n<p>The article Elevenlabs makes Music v2.5 available via app and API with free and pro tier options appeared first on The Decoder.</p>"
+    },
+    {
+      "id": "e0fb1966a387",
+      "title": "Two-year university study finds banning AI from classrooms leaves students worse off",
+      "content": "\n        A law professor spent two years testing how an AI ban, unguided AI use, and structured training affect student performance. The group without AI finished last both years. \"I was wrong,\" the researcher writes, who had assumed that AI without guidance would do more harm than good.\nThe article Two-year university study finds banning AI from classrooms leaves students worse off appeared first on The Decoder.",
+      "url": "https://the-decoder.com/two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off/",
+      "author": "Jonathan Kemper",
+      "published": "2026-09-13T09:27:01",
+      "source": "The Decoder",
+      "source_type": "rss",
+      "tags": [
+        "AI research",
+        "Artificial Intelligence",
+        "AI and education",
+        "AI in education",
+        "Education"
+      ],
+      "summary": "A law professor's two-year university study compared AI-banned, unguided-AI, and structured-AI-training groups. The no-AI cohort finished last in both years; the researcher publicly reversed her prior assumption that unguided AI use would harm learning.",
+      "importance_score": 40.0,
+      "reasoning": "Useful empirical finding for education policy but limited frontier-AI significance. Single-instructor study constrains generalization.",
+      "themes": [
+        "AI in Education",
+        "AI Policy",
+        "Research"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://the-decoder.com/feed/",
+        "raw_summary": "<p><img alt=\"Law students with stacks of files on their desks use a holographic AI dashboard to analyze legal data.\" class=\"attachment-full size-full wp-post-image\" height=\"1047\" src=\"https://the-decoder.com/wp-content/uploads/2026/09/ai-classroom-law-students-nano-banana-pro.jpg\" style=\"height: auto; margin-bottom: 10px;\" width=\"1920\" /></p>\n<p>        A law professor spent two years testing how an AI ban, unguided AI use, and structured training affect student performance. The group without AI",
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A law professor's two-year university study compared AI-banned, unguided-AI, and structured-AI-training groups. The no-AI cohort finished last in both years; the researcher publicly reversed her prior assumption that unguided AI use would harm learning.</p>",
+      "content_html": "<p>A law professor spent two years testing how an AI ban, unguided AI use, and structured training affect student performance. The group without AI finished last both years. \"I was wrong,\" the researcher writes, who had assumed that AI without guidance would do more harm than good.</p>\n<p>The article Two-year university study finds banning AI from classrooms leaves students worse off appeared first on The Decoder.</p>"
+    },
+    {
+      "id": "c6b8a33e7fa1",
+      "title": "Who Gets to Define the Rules for AI? AI Needs Evidenced Standards, Not A Cartel",
+      "content": "An article discussing the necessity for evidenced AI standards rather than a cartel governing the rules.",
+      "url": "https://cohere.com/blog",
+      "author": "",
+      "published": "2026-09-13T00:00:00+00:00",
+      "source": "https://cohere.com/blog",
+      "source_type": "web_scraper",
+      "tags": [],
+      "summary": "Cohere blog post argues AI governance should be built on evidenced standards rather than a cartel of incumbents setting the rules.",
+      "importance_score": 38.0,
+      "reasoning": "Vendor-positioning opinion. Adds to governance discourse but offers no new technical or policy development.",
+      "themes": [
+        "AI Policy",
+        "Governance",
+        "Cohere"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "scraper_type": "llm_html",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Cohere blog post argues AI governance should be built on evidenced standards rather than a cartel of incumbents setting the rules.</p>",
+      "content_html": "<p>An article discussing the necessity for evidenced AI standards rather than a cartel governing the rules.</p>"
+    },
+    {
+      "id": "896c2b8bd0fe",
+      "title": "What’s behind the AI industry’s latest warnings of doom?",
+      "content": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+      "author": "Anthony Ha",
+      "published": "2026-09-13T19:40:15",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "source_type": "rss",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "Equity podcast",
+        "Anthropic"
+      ],
+      "summary": "TechCrunch's Equity podcast discusses the latest existential-risk debate among AI leaders and whether the warnings reflect genuine concern, competitive positioning, or both.",
+      "importance_score": 35.0,
+      "reasoning": "Podcast commentary on the day's main story. Adds context but no new information.",
+      "themes": [
+        "AI Safety",
+        "Media Analysis"
+      ],
+      "sentiment": "controversial",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "raw_summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+        "sentiment": "controversial"
+      },
+      "related_sources": [],
+      "summary_html": "<p>TechCrunch's Equity podcast discusses the latest existential-risk debate among AI leaders and whether the warnings reflect genuine concern, competitive positioning, or both.</p>",
+      "content_html": "<p>On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.</p>"
+    },
+    {
+      "id": "444de97a92fc",
+      "title": "Chatbots can exploit our most basic human drive for attachment. Here’s how to have healthier relationship with AI | Gaynor Parkin and Dave Winsborough",
+      "content": "This intimacy economy is tapping into the deepest parts of our intimate psychological infrastructureThe modern mind is a column where experts discuss mental health issues they are seeing in their workMichael* is an engineer whose company embraced the AI wave. He enjoys testing ideas with chatbots. But his manager has become worried about his judgment and reliance on the tech.“He literally cannot make any decision without running it past AI,” the manager said. “He’s developed a very off-script interpretation of our business goals, and he’s losing his team. If we can’t get him back on track I think we’ll end up parting company”.Contingent responsiveness – replying instantly and tuning to your emotional state.Unconditional positive regard – always validating, never distracted.Memory and continuity – remembering your stories, preferences, anxieties.Linguistic identification – producing verbal caring without any lived caring.Narcissistic empathy – validating your self-image without question. Continue reading...",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/14/how-to-have-healthier-relationship-with-ai-chatbots-human-intimacy",
+      "author": "Gaynor Parkin and Dave Winsborough",
+      "published": "2026-09-13T15:00:09",
+      "source": "AI (artificial intelligence) | The Guardian",
+      "source_type": "rss",
+      "tags": [
+        "AI (artificial intelligence)",
+        "Mental health",
+        "Friendship",
+        "Technology",
+        "Chatbots"
+      ],
+      "summary": "A Guardian opinion column argues that chatbots exploit attachment psychology through contingent responsiveness, unconditional positive regard, and memory. Uses a workplace case study and discusses risks of emotional dependency on AI companions.",
+      "importance_score": 30.0,
+      "reasoning": "Opinion/mental-health piece. Adds to ongoing discourse on AI intimacy but offers no new research or frontier development.",
+      "themes": [
+        "Mental Health",
+        "Chatbots",
+        "Human-AI Interaction"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+        "raw_summary": "<p>This intimacy economy is tapping into the deepest parts of our intimate psychological infrastructure</p><ul><li><p><a href=\"https://www.theguardian.com/commentisfree/series/the-modern-mind\">The modern mind</a> is a column where experts discuss mental health issues they are seeing in their work</p></li></ul><p>Michael* is an engineer whose company embraced the AI wave. He enjoys testing ideas with chatbots. But his manager has become worried about his judgment and reliance on the tech.</p><p>“",
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A Guardian opinion column argues that chatbots exploit attachment psychology through contingent responsiveness, unconditional positive regard, and memory. Uses a workplace case study and discusses risks of emotional dependency on AI companions.</p>",
+      "content_html": "<p>This intimacy economy is tapping into the deepest parts of our intimate psychological infrastructureThe modern mind is a column where experts discuss mental health issues they are seeing in their workMichael* is an engineer whose company embraced the AI wave. He enjoys testing ideas with chatbots. But his manager has become worried about his judgment and reliance on the tech.“He literally cannot make any decision without running it past AI,” the manager said. “He’s developed a very off-script interpretation of our business goals, and he’s losing his team. If we can’t get him back on track I think we’ll end up parting company”.Contingent responsiveness – replying instantly and tuning to your emotional state.Unconditional positive regard – always validating, never distracted.Memory and continuity – remembering your stories, preferences, anxieties.Linguistic identification – producing verbal caring without any lived caring.Narcissistic empathy – validating your self-image without question. Continue reading...</p>"
+    },
+    {
+      "id": "bd1485ddc3c0",
+      "title": "Live episode: how AI is reshaping our minds – podcast",
+      "content": "In this episode of Science Weekly, recorded in front of an audience at the London podcast festival on 3 September, Ian Sample hears from Michael Safi, the host of the Guardian’s chart-topping podcast about artificial intelligence, Black Box. In series two, Black Box: the chatbots, Michael meets people who have become convinced they have made scientific breakthroughs, cured diseases or invented new technologies using AI chatbots. Ian, Michael and Science Weekly’s co-host Madeleine Finlay explore the phenomenon labelled ‘AI psychosis’ and ask what it reveals about a technology now used by more than a billion peopleListen to Black Box: the chatbotsSupport the Guardian: theguardian.com/sciencepod Continue reading...",
+      "url": "https://www.theguardian.com/science/audio/2026/sep/13/live-episode-how-ai-is-reshaping-our-minds-podcast",
+      "author": "Presented by Ian Sample, with Madeleine Finlay and Michael Safi; produced by Madeleine Finlay; executive producer Ellie Bury",
+      "published": "2026-09-13T04:00:53",
+      "source": "AI (artificial intelligence) | The Guardian",
+      "source_type": "rss",
+      "tags": [
+        "AI (artificial intelligence)",
+        "Science",
+        "Technology",
+        "Computing",
+        "Psychology"
+      ],
+      "summary": "In this episode of Science Weekly, recorded in front of an audience at the London podcast festival on 3 September, Ian Sample hears from Michael Safi, the host of the Guardian’s chart-topping podcast ...",
+      "importance_score": 30,
+      "reasoning": "Not analyzed (batch processing failure)",
+      "themes": [],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+        "raw_summary": "<p>In this episode of Science Weekly, recorded in front of an audience at the London podcast festival on 3 September, Ian Sample hears from Michael Safi, the host of the Guardian’s chart-topping podcast about artificial intelligence, Black Box. In series two, Black Box: the chatbots, Michael meets people who have become convinced they have made scientific breakthroughs, cured diseases or invented new technologies using AI chatbots. Ian, Michael and Science Weekly’s co-host Madeleine Finlay explo",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>In this episode of Science Weekly, recorded in front of an audience at the London podcast festival on 3 September, Ian Sample hears from Michael Safi, the host of the Guardian’s chart-topping podcast ...</p>",
+      "content_html": "<p>In this episode of Science Weekly, recorded in front of an audience at the London podcast festival on 3 September, Ian Sample hears from Michael Safi, the host of the Guardian’s chart-topping podcast about artificial intelligence, Black Box. In series two, Black Box: the chatbots, Michael meets people who have become convinced they have made scientific breakthroughs, cured diseases or invented new technologies using AI chatbots. Ian, Michael and Science Weekly’s co-host Madeleine Finlay explore the phenomenon labelled ‘AI psychosis’ and ask what it reveals about a technology now used by more than a billion peopleListen to Black Box: the chatbotsSupport the Guardian: theguardian.com/sciencepod Continue reading...</p>"
+    },
+    {
+      "id": "cd8ea254acc4",
+      "title": "AI will transform capitalism – but how?",
+      "content": "Technology is going to drastically reshape the economy, and it’s within our power to decide what that looks likeThe idea that autonomous, thinking machines may one day destroy property, hierarchy and inequality is as old as western political thought. In Aristotle’s Politics, the philosopher cites a fantasy from the Iliad, in which machines begin to act independently of human direction, concluding: “If every tool could perform its own work when ordered, or by seeing what to do in advance … if thus shuttles wove and quills played harps of themselves, master-craftsmen would have no need of assistants and masters no need of slaves.”The dream that automation could inaugurate a classless society is also present in the writings of Karl Marx. In 1858 he imagined the replacement of intellectual property with “socialised knowledge”, which would merge into a “general intellect”, blowing the foundations of capitalism sky high. Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/sep/13/ai-will-transform-capitalism-but-how",
+      "author": "Paul Mason",
+      "published": "2026-09-13T11:00:02",
+      "source": "AI (artificial intelligence) | The Guardian",
+      "source_type": "rss",
+      "tags": [
+        "AI (artificial intelligence)",
+        "Technology",
+        "Computing",
+        "Books",
+        "Economics",
+        "Politics books",
+        "Culture",
+        "Business",
+        "Technology books"
+      ],
+      "summary": "A long-form Guardian essay explores historical philosophical arguments about how AI-driven automation could transform or abolish capitalism. Traces the idea from Aristotle through Marx to contemporary debates.",
+      "importance_score": 25.0,
+      "reasoning": "Philosophical/long-form essay. No new research or development. Low frontier-AI relevance.",
+      "themes": [
+        "Economics",
+        "AI and Society",
+        "Opinion"
+      ],
+      "sentiment": "controversial",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+        "raw_summary": "<p>Technology is going to drastically reshape the economy, and it’s within our power to decide what that looks like</p><p>The idea that autonomous, thinking machines may one day destroy property, hierarchy and inequality is as old as western political thought. In Aristotle’s Politics, the philosopher cites a fantasy from the Iliad, in which machines begin to act independently of human direction, concluding: “If every tool could perform its own work when ordered, or by seeing what to do in advanc",
+        "sentiment": "controversial"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A long-form Guardian essay explores historical philosophical arguments about how AI-driven automation could transform or abolish capitalism. Traces the idea from Aristotle through Marx to contemporary debates.</p>",
+      "content_html": "<p>Technology is going to drastically reshape the economy, and it’s within our power to decide what that looks likeThe idea that autonomous, thinking machines may one day destroy property, hierarchy and inequality is as old as western political thought. In Aristotle’s Politics, the philosopher cites a fantasy from the Iliad, in which machines begin to act independently of human direction, concluding: “If every tool could perform its own work when ordered, or by seeing what to do in advance … if thus shuttles wove and quills played harps of themselves, master-craftsmen would have no need of assistants and masters no need of slaves.”The dream that automation could inaugurate a classless society is also present in the writings of Karl Marx. In 1858 he imagined the replacement of intellectual property with “socialised knowledge”, which would merge into a “general intellect”, blowing the foundations of capitalism sky high. Continue reading...</p>"
+    },
+    {
+      "id": "901f098fcb93",
+      "title": "Everyone should slow down AI development except for me",
+      "content": "Everyone should slow down AI development except for me",
+      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+      "author": "xena",
+      "published": "2026-09-13T00:30:44+00:00",
+      "source": "hackernews",
+      "source_type": "hackernews",
+      "tags": [
+        "hackernews"
+      ],
+      "summary": "Blog post titled 'Everyone should slow down AI development except for me,' satirizing the hypocrisy of frontier-lab executives publicly calling for pauses while continuing to ship.",
+      "importance_score": 25.0,
+      "reasoning": "Satirical commentary. Adds color to the day's discourse but no new information.",
+      "themes": [
+        "AI Safety",
+        "Opinion"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "hn_score": 772,
+        "hn_comments": 443,
+        "hn_url": "https://news.ycombinator.com/item?id=49678683",
+        "type": "story",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Blog post titled 'Everyone should slow down AI development except for me,' satirizing the hypocrisy of frontier-lab executives publicly calling for pauses while continuing to ship.</p>",
+      "content_html": "<p>Everyone should slow down AI development except for me</p>"
+    },
+    {
+      "id": "1ee9736b3a88",
+      "title": "US schools and police warn about viral ‘Cat in the Hat’ trend after teens’ arrests",
+      "content": "Disturbing and AI-generated versions of Dr Seuss character have been used to threaten schools and communitiesSchools and law enforcement authorities in the US are issuing warnings against a viral “Cat in the Hat” social media trend in which disturbing or AI-generated versions of the Dr Seuss character are used to threaten students, schools and communities.The latest warnings come as safety concerns increase and several teenagers have been arrested or charged over posts connected to the trend. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/sep/13/cat-in-the-hat-social-media-trend-arrests-school-warnings",
+      "author": "Keely Aouga",
+      "published": "2026-09-13T19:15:57",
+      "source": "AI (artificial intelligence) | The Guardian",
+      "source_type": "rss",
+      "tags": [
+        "US news",
+        "Social media",
+        "AI (artificial intelligence)",
+        "Kansas",
+        "Georgia",
+        "Colorado",
+        "Computing",
+        "US policing",
+        "Digital media",
+        "Snapchat",
+        "Dr Seuss",
+        "World news",
+        "TikTok",
+        "Children",
+        "Internet safety",
+        "US crime"
+      ],
+      "summary": "US schools and police are warning about a viral trend in which AI-generated images of the Dr Seuss Cat in the Hat character are being used to threaten schools. Several teenagers have been arrested or charged over posts connected to the trend.",
+      "importance_score": 22.0,
+      "reasoning": "Societal misuse story with limited frontier-AI significance. Relevant to AI safety/social harm discourse but no new technical or policy development.",
+      "themes": [
+        "Misuse",
+        "AI-Generated Content",
+        "Social Harm"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+        "raw_summary": "<p>Disturbing and AI-generated versions of Dr Seuss character have been used to threaten schools and communities</p><p>Schools and law enforcement authorities in the US are issuing <a href=\"https://www.newsweek.com/cat-in-the-hat-trend-sparks-new-warnings-12426146\">warnings</a> against a viral “Cat in the Hat” <a href=\"https://www.police1.com/social-media/breaking-down-the-cat-in-the-hat-trend-ai-threats-police-responses-and-juvenile-arrests\">social media trend</a> in which disturbing or AI-gene",
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>US schools and police are warning about a viral trend in which AI-generated images of the Dr Seuss Cat in the Hat character are being used to threaten schools. Several teenagers have been arrested or charged over posts connected to the trend.</p>",
+      "content_html": "<p>Disturbing and AI-generated versions of Dr Seuss character have been used to threaten schools and communitiesSchools and law enforcement authorities in the US are issuing warnings against a viral “Cat in the Hat” social media trend in which disturbing or AI-generated versions of the Dr Seuss character are used to threaten students, schools and communities.The latest warnings come as safety concerns increase and several teenagers have been arrested or charged over posts connected to the trend. Continue reading...</p>"
+    },
+    {
+      "id": "2c425b9c3932",
+      "title": "OpenAI boss and Elon Musk back calls to put brakes on ‘reckless’ AI development",
+      "content": "Rare show of unity from rival developers after safety warnings from Anthropic boss and AI researchersAnalysis: critics perplexed and suspicious of call for a slowdownThe Guardian view: humanity cannot outsource its survivalSam Altman and Elon Musk have backed a call from the head of Anthropic, Dario Amodei, to “slow the pace” of AI development after he warned that an AI swarm could otherwise become capable of “taking over the entire internet” within a year.In a rare show of unity, the rival technology leaders threw their weight behind the appeal from the founder and chief executive of the artificial intelligence company Anthropic, which came after a series of warnings from AI researchers last week. Amodei also called for safety coordination with China. Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development",
+      "author": "Robert Booth and Julia Kollewe",
+      "published": "2026-09-13T14:02:24",
+      "source": "AI (artificial intelligence) | The Guardian",
+      "source_type": "rss",
+      "tags": [
+        "AI (artificial intelligence)",
+        "Computing",
+        "Technology",
+        "OpenAI",
+        "Anthropic",
+        "Sam Altman",
+        "Elon Musk",
+        "Technology sector",
+        "Business",
+        "Research and development",
+        "Hacking",
+        "Cybercrime",
+        "Cyberwar"
+      ],
+      "summary": "Duplicate identifier noted; covered under id 2c425b9c3932 above.",
+      "importance_score": 0.0,
+      "reasoning": "Duplicate handling.",
+      "themes": [],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "feed_url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+        "raw_summary": "<p>Rare show of unity from rival developers after safety warnings from Anthropic boss and AI researchers</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/sep/13/too-little-too-late-critics-perplexed-and-suspicious-of-ai-leaders-call-for-a-slowdown\">Analysis: critics perplexed and suspicious of call for a slowdown</a></p></li><li><p><a href=\"https://www.theguardian.com/commentisfree/2026/sep/11/the-guardian-view-on-controlling-ai-humanity-cannot-outsource-its-survival\">The Guard",
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Duplicate identifier noted; covered under id 2c425b9c3932 above.</p>",
+      "content_html": "<p>Rare show of unity from rival developers after safety warnings from Anthropic boss and AI researchersAnalysis: critics perplexed and suspicious of call for a slowdownThe Guardian view: humanity cannot outsource its survivalSam Altman and Elon Musk have backed a call from the head of Anthropic, Dario Amodei, to “slow the pace” of AI development after he warned that an AI swarm could otherwise become capable of “taking over the entire internet” within a year.In a rare show of unity, the rival technology leaders threw their weight behind the appeal from the founder and chief executive of the artificial intelligence company Anthropic, which came after a series of warnings from AI researchers last week. Amodei also called for safety coordination with China. Continue reading...</p>"
+    }
+  ]
+}
