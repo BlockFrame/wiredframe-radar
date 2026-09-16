@@ -10,7 +10,7 @@
 #   - Web search verification for specific releases (Codex, etc.)
 #
 # Coverage: November 2025 onwards (post Claude Opus 4.8 knowledge cutoff)
-# Last verified: 2026-09-11
+# Last verified: 2026-09-16
 
 openai:
   # GPT-6 Astra (auto-detected 2026-09-04)
@@ -275,6 +275,15 @@ anthropic:
     api_date: "2025-02-24"  # OpenRouter
 
 google:
+  # Gemini-3.8-Live (auto-detected 2026-09-16)
+  Gemini-3.8-Live:
+    ga_date: "2026-09-15"
+    api_date: "unknown"
+  # Gemini-3.8-Live-Extended-Thinking (auto-detected 2026-09-16)
+  Gemini-3.8-Live-Extended-Thinking:
+    ga_date: "2026-09-15"
+    api_date: "unknown"
+
   # AlphaGenome-Atlas (auto-detected 2026-09-10)
   AlphaGenome-Atlas:
     ga_date: "2026-09-09"
