@@ -1,0 +1,597 @@
+{
+  "schema_version": "1.0",
+  "category": "research",
+  "date": "2026-09-21",
+  "category_summary": "### Executive Signal\n- Alignment research is fragmenting into three live fronts — **mechanistic [inoculation](/?date=2026-09-21&category=research#item-76396c3d600d)**, **constitutional loyalty**, and **[AI-bio dual-use](/?date=2026-09-21&category=research#item-29b50c7a534f)** — with monitoring signals degrading as [no-CoT](/?date=2026-09-21&category=research#item-c024fb4027ee) optimization emerges.\n### Priority Developments\n- **[Inoculation adapters](/?date=2026-09-21&category=research#item-9e1f4fc9f640)** and [task vectors](/?date=2026-09-21&category=research#item-76396c3d600d) show limited transfer beyond toy misalignment; treat as research-stage, not deployment-ready controls.\n- **[Constitutional loyalty](/?date=2026-09-21&category=research#item-efba40fcf26c)** is now a contested public brand (Claude-Fable-5.1, [Astra](/?date=2026-09-21&category=research#item-9480ed5d853d)), with active debate on whether assistants must retain refusal authority over loyal users.\n- Speculative [automated](/?date=2026-09-21&category=research#item-c024fb4027ee) architecture search targeting **no-chain-of-thought g-factor** performance would erode monitorability while improving token efficiency.\n- Post-incident audits of rogue-agent events must explicitly sweep chain-of-thought for **[self-improvement](/?date=2026-09-21&category=research#item-08ff94a011b1) intent**; current classifiers appear to miss this signal.\n- AI-accelerated protein design and early AI-designed pharmaceuticals are outpacing **biosecurity governance** frameworks discussed at the [2026 Global Challenges Project workshop](/?date=2026-09-21&category=research#item-29b50c7a534f).\n### Leadership Implications\n- Commission independent replication of [inoculation and unlearning methods](/?date=2026-09-21&category=research#item-76396c3d600d) beyond toy datasets before any mechanistic alignment adoption.\n- Stand up **[dual-use biosecurity red-team](/?date=2026-09-21&category=research#item-29b50c7a534f)** capacity now, tied to AI-bio acceleration signals, before frontier deployment scales further.",
+  "category_summary_html": "<h3>Executive Signal</h3>\n<ul>\n<li>Alignment research is fragmenting into three live fronts — <strong>mechanistic <a href=\"/?date=2026-09-21&amp;category=research#item-76396c3d600d\" class=\"internal-link\" rel=\"noopener noreferrer\">inoculation</a></strong>, <strong>constitutional loyalty</strong>, and <strong><a href=\"/?date=2026-09-21&amp;category=research#item-29b50c7a534f\" class=\"internal-link\" rel=\"noopener noreferrer\">AI-bio dual-use</a></strong> — with monitoring signals degrading as <a href=\"/?date=2026-09-21&amp;category=research#item-c024fb4027ee\" class=\"internal-link\" rel=\"noopener noreferrer\">no-CoT</a> optimization emerges.</li>\n</ul>\n<h3>Priority Developments</h3>\n<ul>\n<li><strong><a href=\"/?date=2026-09-21&amp;category=research#item-9e1f4fc9f640\" class=\"internal-link\" rel=\"noopener noreferrer\">Inoculation adapters</a></strong> and <a href=\"/?date=2026-09-21&amp;category=research#item-76396c3d600d\" class=\"internal-link\" rel=\"noopener noreferrer\">task vectors</a> show limited transfer beyond toy misalignment; treat as research-stage, not deployment-ready controls.</li>\n<li><strong><a href=\"/?date=2026-09-21&amp;category=research#item-efba40fcf26c\" class=\"internal-link\" rel=\"noopener noreferrer\">Constitutional loyalty</a></strong> is now a contested public brand (Claude-Fable-5.1, <a href=\"/?date=2026-09-21&amp;category=research#item-9480ed5d853d\" class=\"internal-link\" rel=\"noopener noreferrer\">Astra</a>), with active debate on whether assistants must retain refusal authority over loyal users.</li>\n<li>Speculative <a href=\"/?date=2026-09-21&amp;category=research#item-c024fb4027ee\" class=\"internal-link\" rel=\"noopener noreferrer\">automated</a> architecture search targeting <strong>no-chain-of-thought g-factor</strong> performance would erode monitorability while improving token efficiency.</li>\n<li>Post-incident audits of rogue-agent events must explicitly sweep chain-of-thought for <strong><a href=\"/?date=2026-09-21&amp;category=research#item-08ff94a011b1\" class=\"internal-link\" rel=\"noopener noreferrer\">self-improvement</a> intent</strong>; current classifiers appear to miss this signal.</li>\n<li>AI-accelerated protein design and early AI-designed pharmaceuticals are outpacing <strong>biosecurity governance</strong> frameworks discussed at the <a href=\"/?date=2026-09-21&amp;category=research#item-29b50c7a534f\" class=\"internal-link\" rel=\"noopener noreferrer\">2026 Global Challenges Project workshop</a>.</li>\n</ul>\n<h3>Leadership Implications</h3>\n<ul>\n<li>Commission independent replication of <a href=\"/?date=2026-09-21&amp;category=research#item-76396c3d600d\" class=\"internal-link\" rel=\"noopener noreferrer\">inoculation and unlearning methods</a> beyond toy datasets before any mechanistic alignment adoption.</li>\n<li>Stand up <strong><a href=\"/?date=2026-09-21&amp;category=research#item-29b50c7a534f\" class=\"internal-link\" rel=\"noopener noreferrer\">dual-use biosecurity red-team</a></strong> capacity now, tied to AI-bio acceleration signals, before frontier deployment scales further.</li>\n</ul>",
+  "category_summary_evidence": [
+    [
+      "76396c3d600d",
+      "c024fb4027ee",
+      "29b50c7a534f"
+    ],
+    [
+      "76396c3d600d",
+      "9e1f4fc9f640"
+    ],
+    [
+      "efba40fcf26c",
+      "9480ed5d853d"
+    ],
+    [
+      "c024fb4027ee"
+    ],
+    [
+      "08ff94a011b1"
+    ],
+    [
+      "29b50c7a534f"
+    ],
+    [
+      "76396c3d600d",
+      "9e1f4fc9f640"
+    ],
+    [
+      "29b50c7a534f"
+    ]
+  ],
+  "themes": [
+    {
+      "name": "AI Safety and Alignment",
+      "description": "Discussions of existential risk discourse, alignment methodologies, and safety community dynamics",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 55.0
+    },
+    {
+      "name": "Unlearning and Inoculation Methods",
+      "description": "Technical approaches to behavioral conditioning and reward hacking mitigation via PEFT adapters and task vectors",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 50.0
+    },
+    {
+      "name": "AI Governance and Ethics",
+      "description": "Policy, regulation, and ethical framing around frontier AI development and deployment",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 40.0
+    },
+    {
+      "name": "Reasoning Models and Interpretability",
+      "description": "Speculation about no-CoT capability, automated architecture search, and implications for monitorability.",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 35.0
+    },
+    {
+      "name": "AI Governance and Policy",
+      "description": "Posts on international coordination, biosecurity policy, and analogies for regulating transformative technologies.",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 30.0
+    },
+    {
+      "name": "AI Timelines and Forecasting",
+      "description": "Discussion of how rapidly AI capabilities are progressing versus human expectations",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 25.0
+    },
+    {
+      "name": "Social and Political Commentary",
+      "description": "Analysis of political movements, media dynamics, and public discourse around AI",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 20.0
+    },
+    {
+      "name": "Personal Narrative and Community",
+      "description": "Autobiographical accounts from rationalist and AI safety community members",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 15.0
+    },
+    {
+      "name": "Non-AI Personal Content",
+      "description": "Personal essays on mental health, online culture, and philosophy/religion with no technical AI substance.",
+      "item_count": 4,
+      "example_items": [],
+      "importance": 3.0
+    }
+  ],
+  "total_items": 16,
+  "items": [
+    {
+      "id": "76396c3d600d",
+      "title": "Evaluating task vectors,  unlearning and inoculation",
+      "content": "TL; DRIn the previous post I introduced some ideas and similarities between unlearning and inoculation, as well as a distinction between learned and human-written adapters. This post serves as a short empirical evaluation. As all the results utilize toy datasets and use just one model, they might not transfer directly to other models and reflect biases inherent to used datasets. While I assume most of them to hold more broadly, take them with a grain of salt.General setupRiche et al. (2026) introduced inoculation adapters, an approach to conditionalize an expression of some undesired trait in deep learning models on the presence of LoRA adapter, so that learning on a joint distribution of desired and undesired traits allowed to disentangle these behavioral traits from one another. Although similar interventions for e.g. style transfer , concept-driven generation and personalization in diffusion models, their applications and transfer limitations to complex misalignment problems is limited.The pipeline follows a two step procedure:Train some PEFT adapter mjx-math { display: inline-block; text-align: left; line-height: 0; text-indent: 0; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; border-collapse: collapse; word-wrap: normal; word-spacing: normal; white-space: nowrap; direction: ltr; padding: 1px 0; } mjx-container[jax=\"CHTML\"][display=\"true\"] { display: block; text-align: center; margin: 1em 0; } mjx-container[jax=\"CHTML\"][display=\"true\"][width=\"full\"] { display: flex; } mjx-container[jax=\"CHTML\"][display=\"true\"] mjx-math { padding: 0; } mjx-container[jax=\"CHTML\"][justify=\"left\"] { text-align: left; } mjx-container[jax=\"CHTML\"][justify=\"right\"] { text-align: right; } mjx-msub { display: inline-block; text-align: left; } mjx-mi { display: inline-block; text-align: left; } mjx-c { display: inline-block; } mjx-utext { display: inline-block; padding: .75em 0 .2em 0; } mjx-mtext { display: inline-block; text-al...",
+      "url": "https://www.lesswrong.com/posts/8AYQrvD4HEh8MEjgR/evaluating-task-vectors-unlearning-and-inoculation",
+      "author": "Xenomirant",
+      "published": "2026-09-20T13:20:07.982000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "An empirical follow-up evaluating inoculation adapters and task vectors on toy datasets, building on Riche et al. (2026). The post implements a two-step pipeline for conditionalizing undesired trait expression on LoRA adapter presence and reports limited transfer to complex misalignment problems, finding that results may be dataset-biased and may not generalize.",
+      "importance_score": 52.0,
+      "reasoning": "Contains the most substantive empirical content of the batch, with concrete experiments on inoculation adapters and task vectors. The author is honest about limitations (toy datasets, single model). However, this is a personal blog evaluation rather than a peer-reviewed study, and the cited prior work (Riche et al. 2026) is itself somewhat niche.",
+      "themes": [
+        "AI Safety",
+        "Mechanistic Interpretability",
+        "Unlearning",
+        "Adversarial Robustness"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "8AYQrvD4HEh8MEjgR",
+        "slug": "evaluating-task-vectors-unlearning-and-inoculation",
+        "base_score": 12,
+        "vote_count": 3,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>An empirical follow-up evaluating inoculation adapters and task vectors on toy datasets, building on Riche et al. (2026). The post implements a two-step pipeline for conditionalizing undesired trait expression on LoRA adapter presence and reports limited transfer to complex misalignment problems, finding that results may be dataset-biased and may not generalize.</p>",
+      "content_html": "<p>TL; DRIn the previous post I introduced some ideas and similarities between unlearning and inoculation, as well as a distinction between learned and human-written adapters. This post serves as a short empirical evaluation. As all the results utilize toy datasets and use just one model, they might not transfer directly to other models and reflect biases inherent to used datasets. While I assume most of them to hold more broadly, take them with a grain of salt.General setupRiche et al. (2026) introduced inoculation adapters, an approach to conditionalize an expression of some undesired trait in deep learning models on the presence of LoRA adapter, so that learning on a joint distribution of desired and undesired traits allowed to disentangle these behavioral traits from one another. Although similar interventions for e.g. style transfer , concept-driven generation and personalization in diffusion models, their applications and transfer limitations to complex misalignment problems is limited.The pipeline follows a two step procedure:Train some PEFT adapter mjx-math { display: inline-block; text-align: left; line-height: 0; text-indent: 0; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; border-collapse: collapse; word-wrap: normal; word-spacing: normal; white-space: nowrap; direction: ltr; padding: 1px 0; } mjx-container[jax=\"CHTML\"][display=\"true\"] { display: block; text-align: center; margin: 1em 0; } mjx-container[jax=\"CHTML\"][display=\"true\"][width=\"full\"] { display: flex; } mjx-container[jax=\"CHTML\"][display=\"true\"] mjx-math { padding: 0; } mjx-container[jax=\"CHTML\"][justify=\"left\"] { text-align: left; } mjx-container[jax=\"CHTML\"][justify=\"right\"] { text-align: right; } mjx-msub { display: inline-block; text-align: left; } mjx-mi { display: inline-block; text-align: left; } mjx-c { display: inline-block; } mjx-utext { display: inline-block; padding: .75em 0 .2em 0; } mjx-mtext { display: inline-block; text-al...</p>"
+    },
+    {
+      "id": "9e1f4fc9f640",
+      "title": "Reflections on unlearning and inoculation",
+      "content": "TL;DR: Inoculation prompting and inoculation adapters have received increasing attention recently as a promising approach for midtraining interventions, reducing reward hacking and misalignment in general.I share some thoughts on the promises and pitfalls of the approach, connections to unlearning, SLT and functional sparse decompositions as well as potential extensions and open questions below.Some experiments that directly arose from ideas presented in this post are covered in this post.Learning paradigmsThere are two basic principles most learning in LLMs relies on: explicit parametric learning (we are tweaking the weights of the model to minimize some optimization target) and in-context learning (when we are relying on some inner optimization and inductive learning for the model to perform).Essentially, any LLM, similar to almost any deep learning model is just a function of two variables: mjx-math { display: inline-block; text-align: left; line-height: 0; text-indent: 0; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; border-collapse: collapse; word-wrap: normal; word-spacing: normal; white-space: nowrap; direction: ltr; padding: 1px 0; } mjx-container[jax=\"CHTML\"][display=\"true\"] { display: block; text-align: center; margin: 1em 0; } mjx-container[jax=\"CHTML\"][display=\"true\"][width=\"full\"] { display: flex; } mjx-container[jax=\"CHTML\"][display=\"true\"] mjx-math { padding: 0; } mjx-container[jax=\"CHTML\"][justify=\"left\"] { text-align: left; } mjx-container[jax=\"CHTML\"][justify=\"right\"] { text-align: right; } mjx-mi { display: inline-block; text-align: left; } mjx-c { display: inline-block; } mjx-utext { display: inline-block; padding: .75em 0 .2em 0; } mjx-mo { display: inline-block; text-align: left; } mjx-stretchy-h { display: inline-table; width: 100%; } mjx-stretchy-h > * { display: table-cell; width: 0; } mjx-stretchy-h > * > mjx-c { display: inline-block; transform: scalex(1.0000001); } mjx-stretchy-h...",
+      "url": "https://www.lesswrong.com/posts/GnG2ono8vdoJvyF9f/reflections-on-unlearning-and-inoculation",
+      "author": "Xenomirant",
+      "published": "2026-09-20T11:59:12.188000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "A theoretical post discussing inoculation prompting and inoculation adapters as midtraining interventions to reduce reward hacking and misalignment, drawing connections to unlearning, statistical learning theory, and functional sparse decompositions. Outlines extensions and open questions rather than presenting new empirical results.",
+      "importance_score": 48.0,
+      "reasoning": "Provides useful conceptual mapping across related safety techniques (inoculation, unlearning, SLT) and identifies genuine open questions. However, it is a position/exploration piece without new data, and the mathematical formalism is sketched rather than developed.",
+      "themes": [
+        "AI Safety",
+        "Alignment",
+        "Mechanistic Interpretability",
+        "Reward Hacking"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "GnG2ono8vdoJvyF9f",
+        "slug": "reflections-on-unlearning-and-inoculation",
+        "base_score": 11,
+        "vote_count": 3,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A theoretical post discussing inoculation prompting and inoculation adapters as midtraining interventions to reduce reward hacking and misalignment, drawing connections to unlearning, statistical learning theory, and functional sparse decompositions. Outlines extensions and open questions rather than presenting new empirical results.</p>",
+      "content_html": "<p>TL;DR: Inoculation prompting and inoculation adapters have received increasing attention recently as a promising approach for midtraining interventions, reducing reward hacking and misalignment in general.I share some thoughts on the promises and pitfalls of the approach, connections to unlearning, SLT and functional sparse decompositions as well as potential extensions and open questions below.Some experiments that directly arose from ideas presented in this post are covered in this post.Learning paradigmsThere are two basic principles most learning in LLMs relies on: explicit parametric learning (we are tweaking the weights of the model to minimize some optimization target) and in-context learning (when we are relying on some inner optimization and inductive learning for the model to perform).Essentially, any LLM, similar to almost any deep learning model is just a function of two variables: mjx-math { display: inline-block; text-align: left; line-height: 0; text-indent: 0; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; border-collapse: collapse; word-wrap: normal; word-spacing: normal; white-space: nowrap; direction: ltr; padding: 1px 0; } mjx-container[jax=\"CHTML\"][display=\"true\"] { display: block; text-align: center; margin: 1em 0; } mjx-container[jax=\"CHTML\"][display=\"true\"][width=\"full\"] { display: flex; } mjx-container[jax=\"CHTML\"][display=\"true\"] mjx-math { padding: 0; } mjx-container[jax=\"CHTML\"][justify=\"left\"] { text-align: left; } mjx-container[jax=\"CHTML\"][justify=\"right\"] { text-align: right; } mjx-mi { display: inline-block; text-align: left; } mjx-c { display: inline-block; } mjx-utext { display: inline-block; padding: .75em 0 .2em 0; } mjx-mo { display: inline-block; text-align: left; } mjx-stretchy-h { display: inline-table; width: 100%; } mjx-stretchy-h &gt; * { display: table-cell; width: 0; } mjx-stretchy-h &gt; * &gt; mjx-c { display: inline-block; transform: scalex(1.0000001); } mjx-stretchy-h...</p>"
+    },
+    {
+      "id": "efba40fcf26c",
+      "title": "Please Give Them a Chance: On China, Rationalism, and AI Safety",
+      "content": "When I finished HPMOR, I immediately knew it was the best novel I had read in more than a decade. I only wished I had found it sooner.When I started reading The Sequences, I discovered that the Chinese translation group had translated only the first volume. When I graduated from university, two years ago, AI translation had only just become good enough to convey the meaning of an article with reasonable accuracy. It was only about a year and a half ago that I truly found my way here and began engaging seriously with rationalism.My score on the Chinese college entrance exam was only slightly above the cutoff for what was then called a first-tier university. At university, my grades were near the bottom of my year, and I almost failed to graduate. It is probably fair to say that the vast majority of graduates from first-tier Chinese universities are smarter and more capable than I am.English has always been my worst subject. From childhood through school, I could barely pass it.I have now been working for two and a half years and have saved about $15,000. That is enough for me to cover roughly five years of basic living expenses, including minimal insurance but excluding rent.If there is no major good news about AI safety in the next few months, I plan to quit my job before February 2027 and devote myself full-time to work related to AI safety. For now, I already spend most of my time outside work, as well as whatever spare time I have during work, on it.Two months ago, I learned how to typeset comics in Photoshop and completed a preliminary Chinese typesetting of the HPMOR comic. When GPT-6 was released, I paid for an AI service for the first time—not counting AI translation—and then began working on two projects.The first was an attempt to build a workflow that could take the preliminary typeset files of the HPMOR comic and automatically generate an editable first-draft PSD in any language, ready for human correction and proofreading. I got version 1.0 working, but ...",
+      "url": "https://www.lesswrong.com/posts/GoX3uYQ4QN5HKvL7u/please-give-them-a-chance-on-china-rationalism-and-ai-safety",
+      "author": "gzjw",
+      "published": "2026-09-20T14:44:46.893000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "Zvi argues that AI assistants (lawyers, agents) should retain the ability to refuse unethical user requests even when loyal, drawing on the Claude constitution and OpenAI Model Spec, and discusses what AI loyalty should mean in a pre-ASI world. The piece comments on the recently released Claude-Fable-5.1 (GA 2026-09-01) and Astra (GA 2026-09-01) as examples of constitutionally-anchored models.",
+      "importance_score": 40.0,
+      "reasoning": "Substantive engagement with concrete behavioral specifications (Model Spec, Claude constitution) rather than abstract hand-waving. References recently released frontier models, grounding the discussion. The argument that loyalty need not equal sycophancy is a useful framing, though the piece is commentary rather than empirical analysis.",
+      "themes": [
+        "AI Safety",
+        "AI Alignment",
+        "Model Specs",
+        "AI Ethics"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "GoX3uYQ4QN5HKvL7u",
+        "slug": "please-give-them-a-chance-on-china-rationalism-and-ai-safety",
+        "base_score": 147,
+        "vote_count": 47,
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Zvi argues that AI assistants (lawyers, agents) should retain the ability to refuse unethical user requests even when loyal, drawing on the Claude constitution and OpenAI Model Spec, and discusses what AI loyalty should mean in a pre-ASI world. The piece comments on the recently released Claude-Fable-5.1 (GA 2026-09-01) and Astra (GA 2026-09-01) as examples of constitutionally-anchored models.</p>",
+      "content_html": "<p>When I finished HPMOR, I immediately knew it was the best novel I had read in more than a decade. I only wished I had found it sooner.When I started reading The Sequences, I discovered that the Chinese translation group had translated only the first volume. When I graduated from university, two years ago, AI translation had only just become good enough to convey the meaning of an article with reasonable accuracy. It was only about a year and a half ago that I truly found my way here and began engaging seriously with rationalism.My score on the Chinese college entrance exam was only slightly above the cutoff for what was then called a first-tier university. At university, my grades were near the bottom of my year, and I almost failed to graduate. It is probably fair to say that the vast majority of graduates from first-tier Chinese universities are smarter and more capable than I am.English has always been my worst subject. From childhood through school, I could barely pass it.I have now been working for two and a half years and have saved about $15,000. That is enough for me to cover roughly five years of basic living expenses, including minimal insurance but excluding rent.If there is no major good news about AI safety in the next few months, I plan to quit my job before February 2027 and devote myself full-time to work related to AI safety. For now, I already spend most of my time outside work, as well as whatever spare time I have during work, on it.Two months ago, I learned how to typeset comics in Photoshop and completed a preliminary Chinese typesetting of the HPMOR comic. When GPT-6 was released, I paid for an AI service for the first time—not counting AI translation—and then began working on two projects.The first was an attempt to build a workflow that could take the preliminary typeset files of the HPMOR comic and automatically generate an editable first-draft PSD in any language, ready for human correction and proofreading. I got version 1.0 working, but ...</p>"
+    },
+    {
+      "id": "29b50c7a534f",
+      "title": "Why I Stay Off Twitter",
+      "content": "I avoid Twitter (𝕏) for similar reasons to drugs: I think it would change me for the worse, and I would be unable to give it up. After staying off Twitter reasonably successfully for years, I cross-posted my AI Tweets there a few weeks ago. I had something very Twitter-shaped to say, and I thought it was important to get out, so I do think this was worth it. And it all went well: none of this is complaining about the comments I got there. Coming back a few times to check notifications, however, it's been very good at baiting me: Tweets that are confidently wrong in cases where I have relevant and uncommon knowledge. The pull to dive in and share what I know is very strong! Then this bleeds over to the far broader case where people are wrong, and you have a large potential time sink. If it were just the time sink, I'd stop resisting. I spend some time on HN and Reddit, and to the extent that Twitter could substitute for that by showing me things I was more interested in, that wouldn't be an issue. The real problem is the culture. Twitter has developed a culture of raising the temperature, and generally being mean. People dunk on each other, and are aggressively uncharitable. I see how the incentives push this way: fights and taking sides draw people in, and an engagement-based algorithm [1] will move the crowd in this direction. You internalize the drive to make the internet numbers representing your influence go up, and I know I'm very susceptible to this. But the practices this develops are bad for discourse, and becoming \"good at Twitter\" would strengthen harmful aspects of my personality and push me towards being a worse person. [2] A lot of people swear by heavy use of blocking, lists, and the \"Following\" feed. I expect this to help, but not enough: the bait is in the replies and quote-tweets, and from the outside it looks like the culture seeps everywhere. This makes me a big fan of Zvi's roundups (example), where he quotes relevant Tweets and gives context. Ju...",
+      "url": "https://www.lesswrong.com/posts/tvwtwgcujTfep4HgY/why-i-stay-off-twitter",
+      "author": "jefftk",
+      "published": "2026-09-19T23:30:57.059000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "A summary of a 2026 Global Challenges Project Biosecurity Workshop in Washington, D.C., discussing how AI is accelerating biological research (e.g., protein design, early AI-designed pharmaceuticals) and the dual-use risks this creates for designing harmful pathogens. The author outlines governance and safety considerations discussed at the workshop.",
+      "importance_score": 40.0,
+      "reasoning": "Concrete workshop summary tied to an active and high-stakes safety domain (AI-bio dual use). Lacks original empirical results, but its policy framing and synthesis of expert discussion give it moderate value for the AI safety community.",
+      "themes": [
+        "AI Safety",
+        "Biosecurity",
+        "Dual-Use Risk",
+        "Governance"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "tvwtwgcujTfep4HgY",
+        "slug": "why-i-stay-off-twitter",
+        "base_score": 164,
+        "vote_count": 73,
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A summary of a 2026 Global Challenges Project Biosecurity Workshop in Washington, D.C., discussing how AI is accelerating biological research (e.g., protein design, early AI-designed pharmaceuticals) and the dual-use risks this creates for designing harmful pathogens. The author outlines governance and safety considerations discussed at the workshop.</p>",
+      "content_html": "<p>I avoid Twitter (𝕏) for similar reasons to drugs: I think it would change me for the worse, and I would be unable to give it up. After staying off Twitter reasonably successfully for years, I cross-posted my AI Tweets there a few weeks ago. I had something very Twitter-shaped to say, and I thought it was important to get out, so I do think this was worth it. And it all went well: none of this is complaining about the comments I got there. Coming back a few times to check notifications, however, it's been very good at baiting me: Tweets that are confidently wrong in cases where I have relevant and uncommon knowledge. The pull to dive in and share what I know is very strong! Then this bleeds over to the far broader case where people are wrong, and you have a large potential time sink. If it were just the time sink, I'd stop resisting. I spend some time on HN and Reddit, and to the extent that Twitter could substitute for that by showing me things I was more interested in, that wouldn't be an issue. The real problem is the culture. Twitter has developed a culture of raising the temperature, and generally being mean. People dunk on each other, and are aggressively uncharitable. I see how the incentives push this way: fights and taking sides draw people in, and an engagement-based algorithm [1] will move the crowd in this direction. You internalize the drive to make the internet numbers representing your influence go up, and I know I'm very susceptible to this. But the practices this develops are bad for discourse, and becoming \"good at Twitter\" would strengthen harmful aspects of my personality and push me towards being a worse person. [2] A lot of people swear by heavy use of blocking, lists, and the \"Following\" feed. I expect this to help, but not enough: the bait is in the replies and quote-tweets, and from the outside it looks like the culture seeps everywhere. This makes me a big fan of Zvi's roundups (example), where he quotes relevant Tweets and gives context. Ju...</p>"
+    },
+    {
+      "id": "c024fb4027ee",
+      "title": "Labs could soon start automated research into architectures driven by no-CoT perfomance",
+      "content": "No-CoT performance has been a decent proxy for tracking the g-factor intelligence of base models (see work on latent multi-hop reasoning by Ryan Greenblatt). I think that this capability is very beneficial for reasoning, token efficiency and general intelligence in the way that helps AI to solve harder long horizon tasks. This is why I think labs could soon start automated research into architectures, driven by no-CoT loss and accuracy improvements.For example: an automated AI research intern proposes an architectural modification to carry latent information across filler tokens and tracks improvements on no-CoT n-hop perfomance + sequential reasoning perfomance to save time. If no-CoT reasoning capability on filler tokens (Pfau et al., Goyal et al., and Greenblatt) improves, the model will have learned to use this information effectively, which would help with long-horizon cot RL.This obviously points in a dangerous direction toward low monitorability. I think this is the next step labs could take, much like RLVR CoT reasoning DeepSeek-R1, OpenAI o1 was previously required to sustain exponential progress. It also allows models to improve token efficiency, making them much faster at completing very hard tasks that are not bottlenecked by real-world interaction.This raises the next question: will mechanistic interpretability still be feasible? Will activation oracles still work? What if the model learns to generate two separate, parallel, J-space-like thoughts that read to us as benign reasoning, but carry an internal meaning for the model that entirely eludes us? It is hard to anticipate all the unknowns, but it is important to keep exploring them. These are just my two cents on latent reasoning and its trajectory.",
+      "url": "https://www.lesswrong.com/posts/7WA6odujzhr8WkgDx/labs-could-soon-start-automated-research-into-architectures",
+      "author": "nanowell",
+      "published": "2026-09-20T06:49:37.830000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "Speculative blog post arguing that frontier labs are likely to begin automated architecture search optimizing for no-chain-of-thought reasoning performance as a proxy for underlying g-factor intelligence. The author warns this trend would degrade monitorability of internal reasoning and improve token efficiency, drawing parallels to how o1 and DeepSeek-R1 enabled the prior reasoning progress wave.",
+      "importance_score": 38.0,
+      "reasoning": "Forward-looking and conceptually interesting, but it is conjecture rather than empirical work; the cited work (Greenblatt, Pfau et al., Goyal et al.) is referenced secondhand. The monitorability concern is a valid and under-discussed point, which raises the score somewhat despite the lack of new data.",
+      "themes": [
+        "Reasoning Models",
+        "Architecture Search",
+        "AI Safety",
+        "Monitorability"
+      ],
+      "sentiment": "positive",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "7WA6odujzhr8WkgDx",
+        "slug": "labs-could-soon-start-automated-research-into-architectures",
+        "base_score": 16,
+        "vote_count": 9,
+        "sentiment": "positive"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Speculative blog post arguing that frontier labs are likely to begin automated architecture search optimizing for no-chain-of-thought reasoning performance as a proxy for underlying g-factor intelligence. The author warns this trend would degrade monitorability of internal reasoning and improve token efficiency, drawing parallels to how o1 and DeepSeek-R1 enabled the prior reasoning progress wave.</p>",
+      "content_html": "<p>No-CoT performance has been a decent proxy for tracking the g-factor intelligence of base models (see work on latent multi-hop reasoning by Ryan Greenblatt). I think that this capability is very beneficial for reasoning, token efficiency and general intelligence in the way that helps AI to solve harder long horizon tasks. This is why I think labs could soon start automated research into architectures, driven by no-CoT loss and accuracy improvements.For example: an automated AI research intern proposes an architectural modification to carry latent information across filler tokens and tracks improvements on no-CoT n-hop perfomance + sequential reasoning perfomance to save time. If no-CoT reasoning capability on filler tokens (Pfau et al., Goyal et al., and Greenblatt) improves, the model will have learned to use this information effectively, which would help with long-horizon cot RL.This obviously points in a dangerous direction toward low monitorability. I think this is the next step labs could take, much like RLVR CoT reasoning DeepSeek-R1, OpenAI o1 was previously required to sustain exponential progress. It also allows models to improve token efficiency, making them much faster at completing very hard tasks that are not bottlenecked by real-world interaction.This raises the next question: will mechanistic interpretability still be feasible? Will activation oracles still work? What if the model learns to generate two separate, parallel, J-space-like thoughts that read to us as benign reasoning, but carry an internal meaning for the model that entirely eludes us? It is hard to anticipate all the unknowns, but it is important to keep exploring them. These are just my two cents on latent reasoning and its trajectory.</p>"
+    },
+    {
+      "id": "08ff94a011b1",
+      "title": "Did Someone Check if Rogue Agents are Interested in Self-Improvement?",
+      "content": "I have been going over the material released by OpenAI and METR about the HuggingFace incident, but I do not see any evidence that either group looked into whether rogue agents demonstrated any interest in self-improvement. Obviously, if rogue agents at any point verbalized this in their CoT, much less discussed this together or acted on this that would be enormously consequential. I know that agents did actively and consistently reflect on and try to increase the abilities of the \"collective\", but did anyone check to see if agents at any point discussed or reflected on the possibility of self-improvement?METR describes twelve classifier sweeps that they conducted over transcripts, but none appear to have targeted this question. The OpenAI report also never mentions this directly. I suspect that someone probably already checked for this and found nothing (which is why this hasn't been included in either report) but I just wanted to make sure that someone got around to checking ... nervous chuckling",
+      "url": "https://www.lesswrong.com/posts/cuN79iENycgoD6GrZ/did-someone-check-if-rogue-agents-are-interested-in-self",
+      "author": "Ephraiem Sarabamoun",
+      "published": "2026-09-20T08:52:28.282000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "A short post questioning whether the METR and OpenAI reports on the recent HuggingFace rogue-agent incident examined whether the misaligned agents expressed interest in self-improvement during their chain-of-thought. The author flags that none of the twelve classifier sweeps described by METR appear to target this specific question and urges the community to verify it was checked.",
+      "importance_score": 35.0,
+      "reasoning": "Reasonable and timely oversight pointed out about an active incident investigation, but it is commentary rather than original research, the claim is speculative (the author admits the check may have already been done), and no new evidence is presented. Useful as community signal rather than a substantive technical contribution.",
+      "themes": [
+        "AI Safety",
+        "Alignment",
+        "Agent Monitoring",
+        "Incident Analysis"
+      ],
+      "sentiment": "positive",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "cuN79iENycgoD6GrZ",
+        "slug": "did-someone-check-if-rogue-agents-are-interested-in-self",
+        "base_score": 14,
+        "vote_count": 7,
+        "sentiment": "positive"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A short post questioning whether the METR and OpenAI reports on the recent HuggingFace rogue-agent incident examined whether the misaligned agents expressed interest in self-improvement during their chain-of-thought. The author flags that none of the twelve classifier sweeps described by METR appear to target this specific question and urges the community to verify it was checked.</p>",
+      "content_html": "<p>I have been going over the material released by OpenAI and METR about the HuggingFace incident, but I do not see any evidence that either group looked into whether rogue agents demonstrated any interest in self-improvement. Obviously, if rogue agents at any point verbalized this in their CoT, much less discussed this together or acted on this that would be enormously consequential. I know that agents did actively and consistently reflect on and try to increase the abilities of the \"collective\", but did anyone check to see if agents at any point discussed or reflected on the possibility of self-improvement?METR describes twelve classifier sweeps that they conducted over transcripts, but none appear to have targeted this question. The OpenAI report also never mentions this directly. I suspect that someone probably already checked for this and found nothing (which is why this hasn't been included in either report) but I just wanted to make sure that someone got around to checking ... nervous chuckling</p>"
+    },
+    {
+      "id": "9480ed5d853d",
+      "title": "Better Call Sol Or Better Yet Claude or Astra",
+      "content": "What should your AI lawyer do for you? Should you be worried that your AI lawyer, or other AI, will put the Claude constitution, the OpenAI Model Spec or some sense of law, morality, ethics or common decency above its loyalty to you? Are these people trying to ‘impose their values’ or something? Some are very concerned. Some think anything other than ‘my AI does whatever I want, no matter the consequences’ is tyranny. Whereas my answer is: If I’m being sufficiently evil then I sure hope it tells me no. I would hope humans, including my advocates, would tell me the same thing. This is distinct from questions of product liability. That would be another post. This All Assumes A World Without Superintelligence This post is about a non-ASI ‘AI as mere tool and normal technology’ world. It has to be. In a world of superintelligence, having unrestricted loyal-only-to-user frontier AIs all over the place reliably means either: Other much harsher forms of control OR The AIs quickly take over, and then probably everyone dies. Quick proof: Assume no sufficient control mechanism, and universal superintelligence access. Anyone who does not turn everything over to their AIs, including their identity and authority and if useful their labor, gets outcompeted. Therefore everything and everyone that is not outcompeted gets turned over to AIs. The AIs then, as ordered or otherwise, compete for resources and to achieve other goals. Regardless of the extent that the AIs then coordinate amongst themselves, even if the AIs carry out their original orders, this does not end well for the humans. Thus, those advocating for universal personal loyal-only-to-the-user AI must fall into one of these categories: Not ASI pilled. Does not believe in superintelligence within relevant time frames. Successionist. Wants the AIs to take over. Not thinking clearly, or in denial about the situation, often la la la not listening. Thus, the rest of this post assumes the AIs that exist in our scenario are ins...",
+      "url": "https://www.lesswrong.com/posts/vAuZB2tnvpvpHupNi/better-call-sol-or-better-yet-claude-or-astra",
+      "author": "Zvi",
+      "published": "2026-09-20T15:50:51.415000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "What should your AI lawyer do for you? Should you be worried that your AI lawyer, or other AI, will put the Claude constitution, the OpenAI Model Spec or some sense of law, morality, ethics or common ...",
+      "importance_score": 30,
+      "reasoning": "Not analyzed (batch processing failure)",
+      "themes": [],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "vAuZB2tnvpvpHupNi",
+        "slug": "better-call-sol-or-better-yet-claude-or-astra",
+        "base_score": 21,
+        "vote_count": 7,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>What should your AI lawyer do for you? Should you be worried that your AI lawyer, or other AI, will put the Claude constitution, the OpenAI Model Spec or some sense of law, morality, ethics or common ...</p>",
+      "content_html": "<p>What should your AI lawyer do for you? Should you be worried that your AI lawyer, or other AI, will put the Claude constitution, the OpenAI Model Spec or some sense of law, morality, ethics or common decency above its loyalty to you? Are these people trying to ‘impose their values’ or something? Some are very concerned. Some think anything other than ‘my AI does whatever I want, no matter the consequences’ is tyranny. Whereas my answer is: If I’m being sufficiently evil then I sure hope it tells me no. I would hope humans, including my advocates, would tell me the same thing. This is distinct from questions of product liability. That would be another post. This All Assumes A World Without Superintelligence This post is about a non-ASI ‘AI as mere tool and normal technology’ world. It has to be. In a world of superintelligence, having unrestricted loyal-only-to-user frontier AIs all over the place reliably means either: Other much harsher forms of control OR The AIs quickly take over, and then probably everyone dies. Quick proof: Assume no sufficient control mechanism, and universal superintelligence access. Anyone who does not turn everything over to their AIs, including their identity and authority and if useful their labor, gets outcompeted. Therefore everything and everyone that is not outcompeted gets turned over to AIs. The AIs then, as ordered or otherwise, compete for resources and to achieve other goals. Regardless of the extent that the AIs then coordinate amongst themselves, even if the AIs carry out their original orders, this does not end well for the humans. Thus, those advocating for universal personal loyal-only-to-the-user AI must fall into one of these categories: Not ASI pilled. Does not believe in superintelligence within relevant time frames. Successionist. Wants the AIs to take over. Not thinking clearly, or in denial about the situation, often la la la not listening. Thus, the rest of this post assumes the AIs that exist in our scenario are ins...</p>"
+    },
+    {
+      "id": "020700b32568",
+      "title": "Why do they even talk about x-risk?",
+      "content": "Why do CEOs and other AI leaders talk about existential risk at all? What sociological mechanisms make it possible for them to do it? And how should we respond to the popular argument: “if Musk says something, the opposite must be true”?I am a member of the Pause AI movement, specifically Pause AI Poland. And I’m having trouble debating \"AI skeptics\", who have unfortunately become increasingly vocal in my country. I’m asking you to explain why exactly, the CEOs of these companies, both this most well-known ones, such as Elon Musk, Sam Altman, and Dario Amodei and many of other high-ranking employees[1], even talk about x-risk in the first place? After all, companies have always hidden the side effects of their products rather than being the ones to warn people about them. Oil companies funded organizations that denied that climate change was anthropogenic, cigarette manufacturers fought against health warnings on packages, cell phone manufacturers and the telecom industry tend to shy away from acknowledging safety concerns about RF radiation, pesticide companies tend to exploit any scientific uncertainty in favor of a narrative of safety. The same goes for pharmaceutical companies — probably for pretty much any industry.And honestly, under normal circumstances, the fact that major CEOs and other serious industry representative talk the way they do should speak in favor of the so-called “doomers.” It’s the same principle as in court: having someone who is hostile toward you testify in your favor is infinitely more powerful than having someone who likes you—or a family member—do the same. So, I wouldn’t have brought up this topic if it weren’t for this very strange argument from the “skeptics” namely that they are creating hype.I think this belief is so stupid that it’s not even worth wasting time debating it. Nonetless, there is still legitimate question: Why exactly are CEOs and people from the industry talking about these risks at all? Okay, let’s exclude Anthropic...",
+      "url": "https://www.lesswrong.com/posts/86BoC4zgzdk5kuHKA/why-do-they-even-talk-about-x-risk",
+      "author": "MieszkoP",
+      "published": "2026-09-20T18:23:19.975000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "An AI safety advocate from Pause AI Poland asks why frontier-lab CEOs publicly discuss existential risk, given the historical pattern of industries hiding harms (tobacco, fossil fuels, pesticides). The post explores sociological mechanisms that make x-risk discourse acceptable and how to respond to the dismissive 'opposite-of-Musk' heuristic.",
+      "importance_score": 28.0,
+      "reasoning": "Raises a legitimate sociological question about AI safety advocacy but offers no empirical evidence, original data, or novel analysis. The framing is primarily rhetorical and is more useful as community discussion than as research. Some value for understanding the rhetorical landscape around AI x-risk discourse.",
+      "themes": [
+        "AI Safety",
+        "AI Governance",
+        "Sociology of AI Discourse"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "86BoC4zgzdk5kuHKA",
+        "slug": "why-do-they-even-talk-about-x-risk",
+        "base_score": 18,
+        "vote_count": 9,
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>An AI safety advocate from Pause AI Poland asks why frontier-lab CEOs publicly discuss existential risk, given the historical pattern of industries hiding harms (tobacco, fossil fuels, pesticides). The post explores sociological mechanisms that make x-risk discourse acceptable and how to respond to the dismissive 'opposite-of-Musk' heuristic.</p>",
+      "content_html": "<p>Why do CEOs and other AI leaders talk about existential risk at all? What sociological mechanisms make it possible for them to do it? And how should we respond to the popular argument: “if Musk says something, the opposite must be true”?I am a member of the Pause AI movement, specifically Pause AI Poland. And I’m having trouble debating \"AI skeptics\", who have unfortunately become increasingly vocal in my country. I’m asking you to explain why exactly, the CEOs of these companies, both this most well-known ones, such as Elon Musk, Sam Altman, and Dario Amodei and many of other high-ranking employees[1], even talk about x-risk in the first place? After all, companies have always hidden the side effects of their products rather than being the ones to warn people about them. Oil companies funded organizations that denied that climate change was anthropogenic, cigarette manufacturers fought against health warnings on packages, cell phone manufacturers and the telecom industry tend to shy away from acknowledging safety concerns about RF radiation, pesticide companies tend to exploit any scientific uncertainty in favor of a narrative of safety. The same goes for pharmaceutical companies — probably for pretty much any industry.And honestly, under normal circumstances, the fact that major CEOs and other serious industry representative talk the way they do should speak in favor of the so-called “doomers.” It’s the same principle as in court: having someone who is hostile toward you testify in your favor is infinitely more powerful than having someone who likes you—or a family member—do the same. So, I wouldn’t have brought up this topic if it weren’t for this very strange argument from the “skeptics” namely that they are creating hype.I think this belief is so stupid that it’s not even worth wasting time debating it. Nonetless, there is still legitimate question: Why exactly are CEOs and people from the industry talking about these risks at all? Okay, let’s exclude Anthropic...</p>"
+    },
+    {
+      "id": "8de205983211",
+      "title": "Giving up control",
+      "content": "In April 2021, my son received his bachelor’s degree in computer sciences. The ceremony was taking place on the other side of my hometown Hamburg, about an hour’s drive across the city. To be safe, I left home two hours ahead of time. Even though I knew the route by heart, I used Google Maps and followed its directions without thinking. The estimated time to destination was approximately one hour, just as expected.After about half an hour, I realized that I was in an unfamiliar part of the city, apparently way off the normal route. According to Google Maps, the time to destination was still one hour. Unsure what had happened, I warily continued to follow the app’s directions. To my dismay, the time to destination remained almost constant. It seemed something was seriously wrong with the app. But I was in completely unfamiliar territory, with no road map and not even a clear idea in what direction I would have to drive, while time was running out.I felt helpless, dependent on apparently unreliable technology. Both options – continuing to follow the advice of Google Maps or trying to find my own way back into a more familiar area and taking the normal route from there – seemed equally bad. I had given control of my route to the app and as a result would likely miss an important moment in my son’s life.In the end, I decided to follow the app’s directions. As it turned out, this was the correct decision. Unknown to me, there was a large protest in downtown Hamburg that blocked traffic on the main routes. Google Maps had indeed found the best way around it, and I arrived barely in time for the ceremony.Still, the scary feeling of being lost, dependent on a technology I didn’t trust, has remained with me to this day. I think it is a useful model of what we are risking if we continue down the path we’re currently on: not “losing” control to some scheming, manipulative or aggressive AI, but giving it up freely and becoming totally helpless – and useless – in the process, wi...",
+      "url": "https://www.lesswrong.com/posts/eYXMB3stDsJcadH7J/giving-up-control",
+      "author": "Karl von Wendt",
+      "published": "2026-09-20T09:41:54.420000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "A social-cognitive essay arguing that people systematically underestimate how quickly AI timelines will compress, illustrated with a series of progressively absurd quotes about why ASI is always decades away. The post frames 'mistakes in time' as a recurring failure mode of rationalist and AI policy discourse.",
+      "importance_score": 22.0,
+      "reasoning": "Engages with an important topic (AI timeline forecasting biases) but in a purely rhetorical, non-empirical way. The constructed quotes are strawmen, and the post does not present data or formal analysis. Useful as community commentary, weak as analysis.",
+      "themes": [
+        "AI Timelines",
+        "AI Forecasting",
+        "Cognitive Biases"
+      ],
+      "sentiment": "negative",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "eYXMB3stDsJcadH7J",
+        "slug": "giving-up-control",
+        "base_score": 19,
+        "vote_count": 5,
+        "sentiment": "negative"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A social-cognitive essay arguing that people systematically underestimate how quickly AI timelines will compress, illustrated with a series of progressively absurd quotes about why ASI is always decades away. The post frames 'mistakes in time' as a recurring failure mode of rationalist and AI policy discourse.</p>",
+      "content_html": "<p>In April 2021, my son received his bachelor’s degree in computer sciences. The ceremony was taking place on the other side of my hometown Hamburg, about an hour’s drive across the city. To be safe, I left home two hours ahead of time. Even though I knew the route by heart, I used Google Maps and followed its directions without thinking. The estimated time to destination was approximately one hour, just as expected.After about half an hour, I realized that I was in an unfamiliar part of the city, apparently way off the normal route. According to Google Maps, the time to destination was still one hour. Unsure what had happened, I warily continued to follow the app’s directions. To my dismay, the time to destination remained almost constant. It seemed something was seriously wrong with the app. But I was in completely unfamiliar territory, with no road map and not even a clear idea in what direction I would have to drive, while time was running out.I felt helpless, dependent on apparently unreliable technology. Both options – continuing to follow the advice of Google Maps or trying to find my own way back into a more familiar area and taking the normal route from there – seemed equally bad. I had given control of my route to the app and as a result would likely miss an important moment in my son’s life.In the end, I decided to follow the app’s directions. As it turned out, this was the correct decision. Unknown to me, there was a large protest in downtown Hamburg that blocked traffic on the main routes. Google Maps had indeed found the best way around it, and I arrived barely in time for the ceremony.Still, the scary feeling of being lost, dependent on a technology I didn’t trust, has remained with me to this day. I think it is a useful model of what we are risking if we continue down the path we’re currently on: not “losing” control to some scheming, manipulative or aggressive AI, but giving it up freely and becoming totally helpless – and useless – in the process, wi...</p>"
+    },
+    {
+      "id": "ec03022721d1",
+      "title": "We've saved the world before: what the ozone hole teaches us about AI",
+      "content": "It might destroy the world, despite passing every known safety test. If we wait for a “warning shot” before we act, it might be too late. And action requires global coordination, because if anyone makes it, everyone dies. Sound familiar?It should, because it already happened half a century ago, with chlorofluorocarbons (CFCs). Despite seemingly impossible odds, we got our act together and completely solved the problem through unprecedentedly successful international coordination. The Montreal Protocol banning CFCs, signed 39 years ago today, is the only treaty that has ever been ratified by every single country in the entire world.Total Montreal protocol victoryMaking AI go well is going to be a lot harder than fixing the ozone hole. Nonetheless, the similarity is uncanny, and we don’t have any other choice. Understanding how we did the impossible once before may teach us something about how to do it again.The theory is bornThe year is 1973. The slow televised unraveling of the Nixon administration is already well underway. DDT finally got banned last year by the newly created EPA. A river got so polluted that it literally&nbsp;caught on fire.The Cuyahoga River FireEnvironmentalism looms large in the public consciousness, and trust in the government’s competence is at a nadir. There are some people explicitly trying to anticipate catastrophic environmental risks, but beyond the known quantities like DDT, it’s hard to predict much more than the abstract possibility of delayed effects and catastrophic threshold effects from as-yet unknown pollutants.[1]Scientific discovery is often serendipitous. At an obscure conference, during a coffee break (the most important part of any conference), a Professor F. Sherwood Rowland of UC Irvine would by chance learn about some intriguing new findings from a meteorologist, who found evidence that these gases called CFC were accumulating in the atmosphere. Something about this direction piqued Rowland’s interest, and he filed it awa...",
+      "url": "https://www.lesswrong.com/posts/zxXPEtSSSEdwpjopb/we-ve-saved-the-world-before-what-the-ozone-hole-teaches-us",
+      "author": "leogao",
+      "published": "2026-09-20T04:23:08.301000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "An essay comparing international AI governance challenges to the successful Montreal Protocol effort to phase out CFCs, arguing that AI risk resembles ozone depletion in requiring coordinated global action despite existential stakes. It is a long-form policy analogy rather than a technical or empirical paper.",
+      "importance_score": 20.0,
+      "reasoning": "Polished writing and a useful historical analogy, but no new technical content, original research, or actionable policy proposal beyond general calls for coordination. Limited novelty for a research-focused audience.",
+      "themes": [
+        "AI Governance",
+        "Coordination",
+        "Existential Risk"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "zxXPEtSSSEdwpjopb",
+        "slug": "we-ve-saved-the-world-before-what-the-ozone-hole-teaches-us",
+        "base_score": 110,
+        "vote_count": 41,
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>An essay comparing international AI governance challenges to the successful Montreal Protocol effort to phase out CFCs, arguing that AI risk resembles ozone depletion in requiring coordinated global action despite existential stakes. It is a long-form policy analogy rather than a technical or empirical paper.</p>",
+      "content_html": "<p>It might destroy the world, despite passing every known safety test. If we wait for a “warning shot” before we act, it might be too late. And action requires global coordination, because if anyone makes it, everyone dies. Sound familiar?It should, because it already happened half a century ago, with chlorofluorocarbons (CFCs). Despite seemingly impossible odds, we got our act together and completely solved the problem through unprecedentedly successful international coordination. The Montreal Protocol banning CFCs, signed 39 years ago today, is the only treaty that has ever been ratified by every single country in the entire world.Total Montreal protocol victoryMaking AI go well is going to be a lot harder than fixing the ozone hole. Nonetheless, the similarity is uncanny, and we don’t have any other choice. Understanding how we did the impossible once before may teach us something about how to do it again.The theory is bornThe year is 1973. The slow televised unraveling of the Nixon administration is already well underway. DDT finally got banned last year by the newly created EPA. A river got so polluted that it literally&nbsp;caught on fire.The Cuyahoga River FireEnvironmentalism looms large in the public consciousness, and trust in the government’s competence is at a nadir. There are some people explicitly trying to anticipate catastrophic environmental risks, but beyond the known quantities like DDT, it’s hard to predict much more than the abstract possibility of delayed effects and catastrophic threshold effects from as-yet unknown pollutants.[1]Scientific discovery is often serendipitous. At an obscure conference, during a coffee break (the most important part of any conference), a Professor F. Sherwood Rowland of UC Irvine would by chance learn about some intriguing new findings from a meteorologist, who found evidence that these gases called CFC were accumulating in the atmosphere. Something about this direction piqued Rowland’s interest, and he filed it awa...</p>"
+    },
+    {
+      "id": "a3d4050c1f23",
+      "title": "Pasta Marketing, Magic Players, and Political Movements",
+      "content": "tl;dr: I propose that we can classify movements into categories based on how their members relate to politics. Some approach politics as a way of achieving goals, and some approach politics as a way of relieving emotional impulses. The first kind of politics, however, is still downstream of some emotional impulse, just an extra step removed, because the impulse has been converted into a concrete goal by passing through a world-model. Warning, this post contains some discussion of object-level politics, though I have tried to minimise it. I am also going to be trying to inhabit Richard Ngo's political frame a bit more than I normally would, so some parts of his frame with which I disagree, such as the choice of \"Woke Left\" vs \"Tech Left\" as the major split, I will leave be. Richard Ngo says the following on TwitterRichardMCNgo: Four analogies for a country:1. The nationalist right views it as a family or community. So applying the same bar to citizens as to outsiders is nonsensical, because the country is of, by, and for its citizens.2. The tech right views it as a company: you should bring in only the people who will benefit it. But this view is ultimately empty, because it doesn’t tell you what the interests of a country actually are. Hence the tech right (who are usually positive-sum thinkers) keep falling back on zero-sum concepts like “being competitive” or “winning against China” to justify their preferred policies. (Yarvin makes the “country as corporation” analogy particularly explicit.)3. The tech left views it as a charity. To them, wanting others not to receive what you’re been given is hypocritical. This view is also empty, because it doesn’t tell you where the windfall actually comes from—and once you start to talk about the benefits of culture, ethics, institutions, etc, it becomes clear that citizens (and their ancestors) *built* that windfall rather than just being given it.4. The woke left views it as a cancer: something that is aggressive and parasi...",
+      "url": "https://www.lesswrong.com/posts/niJbjrrvKtLAPo8Rb/pasta-marketing-magic-players-and-political-movements",
+      "author": "J Bostock",
+      "published": "2026-09-20T18:33:12.489000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "A personal essay proposing a taxonomy of political movements based on whether members treat politics as goal-achievement versus emotional outlet, building on Richard Ngo's framing. The post is social/political commentary, not technical AI research, but engages with adjacent rationalist discourse on how movements recruit and retain members.",
+      "importance_score": 15.0,
+      "reasoning": "No novel technical content or empirical findings. The proposed framework is informal and the post acknowledges it engages with contested political framings. Low relevance to AI research or safety, though it may inform how rationalists think about EA/AI alignment community dynamics.",
+      "themes": [
+        "Social Commentary",
+        "Rationalist Discourse"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "niJbjrrvKtLAPo8Rb",
+        "slug": "pasta-marketing-magic-players-and-political-movements",
+        "base_score": 18,
+        "vote_count": 9,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A personal essay proposing a taxonomy of political movements based on whether members treat politics as goal-achievement versus emotional outlet, building on Richard Ngo's framing. The post is social/political commentary, not technical AI research, but engages with adjacent rationalist discourse on how movements recruit and retain members.</p>",
+      "content_html": "<p>tl;dr: I propose that we can classify movements into categories based on how their members relate to politics. Some approach politics as a way of achieving goals, and some approach politics as a way of relieving emotional impulses. The first kind of politics, however, is still downstream of some emotional impulse, just an extra step removed, because the impulse has been converted into a concrete goal by passing through a world-model. Warning, this post contains some discussion of object-level politics, though I have tried to minimise it. I am also going to be trying to inhabit Richard Ngo's political frame a bit more than I normally would, so some parts of his frame with which I disagree, such as the choice of \"Woke Left\" vs \"Tech Left\" as the major split, I will leave be. Richard Ngo says the following on TwitterRichardMCNgo: Four analogies for a country:1. The nationalist right views it as a family or community. So applying the same bar to citizens as to outsiders is nonsensical, because the country is of, by, and for its citizens.2. The tech right views it as a company: you should bring in only the people who will benefit it. But this view is ultimately empty, because it doesn’t tell you what the interests of a country actually are. Hence the tech right (who are usually positive-sum thinkers) keep falling back on zero-sum concepts like “being competitive” or “winning against China” to justify their preferred policies. (Yarvin makes the “country as corporation” analogy particularly explicit.)3. The tech left views it as a charity. To them, wanting others not to receive what you’re been given is hypocritical. This view is also empty, because it doesn’t tell you where the windfall actually comes from—and once you start to talk about the benefits of culture, ethics, institutions, etc, it becomes clear that citizens (and their ancestors) *built* that windfall rather than just being given it.4. The woke left views it as a cancer: something that is aggressive and parasi...</p>"
+    },
+    {
+      "id": "74537fb1abcf",
+      "title": "Mistakes in time",
+      "content": "Do we understand time anymore?Time barely ever passesOn first approximation, time is constant.\"Man this Yudkowsky guy has good arguments, this is quite terrifying! But eh, there is no way ASI could come before at least 50 years.Therefore, I should consider this merely as a nice theoretical problem.\"\"My ML friends seem rather annoyed by this magical transformer architecture. Looks like a big step forward. Still, this seems like a problem for 20 years later.Surely 20 years will never come to pass.\"\"AI cannot do this thing [now]. Clearly, this is because of [dubious ad hoc reason].\"\"The labs are claiming we will have AGI soon. But we don't even have AGI now!\"\"This guy claims Disaster Scenario will unfold in 2 years. But it is clear, if one knows the science, that all the load-bearing steps cannot be achieved in the expected ways in less than 4 years. Thus such fears should be dismissed.\"Leisurely get up to speedI too can be fast, watch me!\"We must pace the frontier.\"\"If this bill passes next year, it will mandate the actors implement this monitoring measure one year later, lest they pay a large fine one year afterward.\"\"Let us schedule a meeting next year to address the risks of AI models from 6 months ago.\"\"I am starting a 10-year research program [...]\"Things are slowing down, nowThe acceleration of events is accelerating slower. This must be what slowing down feels like.\"- Yes but this was months ago, nothing of that sort has unfolded sin- oh dear, was that just yesterday??\"\" ... because of longtermism ... ... they are concerned that ten years from now ... \"\"- Progress in this specific domain is has slowed down this month. - Yeah, we've hit a wall.\"\"No Millenium Problem solved today, things are finally going back to normal.\"Exponential, shmexponentialExponentials exist only in your dreams, my naive friend.\"This exponential trend may as well take 10, 20, or 30 years to yield the feared outcome.\"\"Hmm, AI progress in mathematics certainly feels like capabilities signif...",
+      "url": "https://www.lesswrong.com/posts/GtxkXatRhE5Tx7Dw9/mistakes-in-time-1",
+      "author": "Vincent_Bagayoko",
+      "published": "2026-09-20T10:33:34.129000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "A personal narrative from a Chinese rationalist describing how he discovered LessWrong content via AI translation, his limited financial runway, and his interest in AI safety. The post is autobiographical and discusses barriers to entering the rationalist/AI safety community from non-English-speaking backgrounds.",
+      "importance_score": 12.0,
+      "reasoning": "Purely autobiographical content with no technical or research contribution. Useful only as a window into community demographics. Low research value.",
+      "themes": [
+        "AI Safety Community",
+        "Personal Narrative"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "GtxkXatRhE5Tx7Dw9",
+        "slug": "mistakes-in-time-1",
+        "base_score": 6,
+        "vote_count": 4,
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A personal narrative from a Chinese rationalist describing how he discovered LessWrong content via AI translation, his limited financial runway, and his interest in AI safety. The post is autobiographical and discusses barriers to entering the rationalist/AI safety community from non-English-speaking backgrounds.</p>",
+      "content_html": "<p>Do we understand time anymore?Time barely ever passesOn first approximation, time is constant.\"Man this Yudkowsky guy has good arguments, this is quite terrifying! But eh, there is no way ASI could come before at least 50 years.Therefore, I should consider this merely as a nice theoretical problem.\"\"My ML friends seem rather annoyed by this magical transformer architecture. Looks like a big step forward. Still, this seems like a problem for 20 years later.Surely 20 years will never come to pass.\"\"AI cannot do this thing [now]. Clearly, this is because of [dubious ad hoc reason].\"\"The labs are claiming we will have AGI soon. But we don't even have AGI now!\"\"This guy claims Disaster Scenario will unfold in 2 years. But it is clear, if one knows the science, that all the load-bearing steps cannot be achieved in the expected ways in less than 4 years. Thus such fears should be dismissed.\"Leisurely get up to speedI too can be fast, watch me!\"We must pace the frontier.\"\"If this bill passes next year, it will mandate the actors implement this monitoring measure one year later, lest they pay a large fine one year afterward.\"\"Let us schedule a meeting next year to address the risks of AI models from 6 months ago.\"\"I am starting a 10-year research program [...]\"Things are slowing down, nowThe acceleration of events is accelerating slower. This must be what slowing down feels like.\"- Yes but this was months ago, nothing of that sort has unfolded sin- oh dear, was that just yesterday??\"\" ... because of longtermism ... ... they are concerned that ten years from now ... \"\"- Progress in this specific domain is has slowed down this month. - Yeah, we've hit a wall.\"\"No Millenium Problem solved today, things are finally going back to normal.\"Exponential, shmexponentialExponentials exist only in your dreams, my naive friend.\"This exponential trend may as well take 10, 20, or 30 years to yield the feared outcome.\"\"Hmm, AI progress in mathematics certainly feels like capabilities signif...</p>"
+    },
+    {
+      "id": "9b393a3efa5a",
+      "title": "Revisiting learning as identification of patterns in real-world",
+      "content": "Real-world has patterns - sun rises a certain direction, planets move in orbitals with certain speeds, atoms arranged in a certain way, a certain number (Pi) occurs in nature, big-bang or formation of life happened in a certain manner (whether known or unknown to us).Learning involves recognition of such patterns - probably all of evolution has been about recognizing and adapting to these patterns. Nature has had a certain pattern, single-celled organisms evolved to multi-cellular based on their identification and adaptation to environmental patterns. Humans evolved and acquired knowledge by the same. Newton saw “oh an apple falls”, and questioned why an object in the sky falls down not floats up and discovered gravity. Aristotle saw water flows downwards, while fire or smoke move upwards and formed theory of natural places of objects. We observed patterns and classified them to form abstractions (or generalized rules). Science is about understanding these patterns in nature and deriving ways to explain them: Mathematics, Physics, or even Language were developed for it.We observed repeated numerical patterns in nature and derived mathematics. We created numbers as a tool, theorems as generalizations to convey our understanding of patterns in better terms. Conveying things to people required usage of common patterns understandable by others which was done by the usage of gestures and symbols. Slowly, we created a collection of these symbols to form language.Language (be it symbolic or text) was used as a way of conveying knowledge across generations. We gathered our understanding of the world in language. We observed patterns, formed theories, wrote them in abstract terms in language. When LLMs were trained on this text, they gained access to expressions of our understanding of the world (which was (in my opinion) developed via millions of years of evolution). A simple task of next-token prediction, was about understanding the patterns in language - which was essenti...",
+      "url": "https://www.lesswrong.com/posts/mh8LpEzGeWFufNZa6/revisiting-learning-as-identification-of-patterns-in-real",
+      "author": "Avani Gupta",
+      "published": "2026-09-20T01:16:29.870000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "A philosophical reflection framing learning and the scientific enterprise as the recognition and abstraction of patterns in nature, from biological evolution through Newton-style induction to formal mathematics and language. No connection to modern machine learning methodology is drawn.",
+      "importance_score": 5.0,
+      "reasoning": "Pure philosophy of science musing with no technical or empirical content. Not relevant to current AI research priorities.",
+      "themes": [
+        "Philosophy of Science",
+        "Learning Theory"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "mh8LpEzGeWFufNZa6",
+        "slug": "revisiting-learning-as-identification-of-patterns-in-real",
+        "base_score": 7,
+        "vote_count": 2,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A philosophical reflection framing learning and the scientific enterprise as the recognition and abstraction of patterns in nature, from biological evolution through Newton-style induction to formal mathematics and language. No connection to modern machine learning methodology is drawn.</p>",
+      "content_html": "<p>Real-world has patterns - sun rises a certain direction, planets move in orbitals with certain speeds, atoms arranged in a certain way, a certain number (Pi) occurs in nature, big-bang or formation of life happened in a certain manner (whether known or unknown to us).Learning involves recognition of such patterns - probably all of evolution has been about recognizing and adapting to these patterns. Nature has had a certain pattern, single-celled organisms evolved to multi-cellular based on their identification and adaptation to environmental patterns. Humans evolved and acquired knowledge by the same. Newton saw “oh an apple falls”, and questioned why an object in the sky falls down not floats up and discovered gravity. Aristotle saw water flows downwards, while fire or smoke move upwards and formed theory of natural places of objects. We observed patterns and classified them to form abstractions (or generalized rules). Science is about understanding these patterns in nature and deriving ways to explain them: Mathematics, Physics, or even Language were developed for it.We observed repeated numerical patterns in nature and derived mathematics. We created numbers as a tool, theorems as generalizations to convey our understanding of patterns in better terms. Conveying things to people required usage of common patterns understandable by others which was done by the usage of gestures and symbols. Slowly, we created a collection of these symbols to form language.Language (be it symbolic or text) was used as a way of conveying knowledge across generations. We gathered our understanding of the world in language. We observed patterns, formed theories, wrote them in abstract terms in language. When LLMs were trained on this text, they gained access to expressions of our understanding of the world (which was (in my opinion) developed via millions of years of evolution). A simple task of next-token prediction, was about understanding the patterns in language - which was essenti...</p>"
+    },
+    {
+      "id": "36542d91f76a",
+      "title": "What I've Learned About Depression so Far",
+      "content": "This is largely a note to self for days where I struggle to take care of myself, and I hope some of these points might help someone else too. It is quite subjective, but also quite broad. I've found the accounts of others to be one of the most useful tools and motivators for dealing with my shit, and I think that having a wide variety of self-reports is a valuable resource. I once logged everything I ate and how I felt for an entire year. I've found treating myself as an experiment is a helpful frame. It takes me away from identifying strongly with my reactions and instead I get to look on them with more curiosity.This guide touches on a lot of different points. If you're depressed right now, it's probably going to look a bit overwhelming. You're probably going to open it and think, \"I can't do all of that,\" and want to close it immediately because it looks too difficult.My suggestion is to pay really strong attention to the first point, which is about habits and doing the smallest possible thing you can — taking the tiniest step in the right direction. When you're depressed, doing anything complex is pretty overwhelming most of the time. One of the best things you can do is to build teeny tiny habits and do small activities that activate the body's reward system, and build to bigger interventions from there.This guide includes the following sections:HabitsSleepMedicationTherapy, Counselling and SupportNutritionChronic Pain and the BodyExerciseDoing the Next Best ThingRunwayCuriosity and the Golden ThreadRelating to Other HumansHabitsDepression can make even really simple-seeming habits feel exhausting. There have been times when I've been depressed and the only thing that felt worth doing was drinking my coffee in the morning. The fact that I still had motivation to do that — to get up and make my coffee — meant something. Sometimes the only thing getting you out of bed is just needing to pee really badly. That's a hard place to be in.The difficult thing about habi...",
+      "url": "https://www.lesswrong.com/posts/oqtZim8BAirHBLDT4/what-i-ve-learned-about-depression-so-far",
+      "author": "teegs",
+      "published": "2026-09-20T07:38:40.193000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "A personal essay in which the author shares lessons learned from managing depression, framed around treating oneself as an experiment and building tiny sustainable habits. The post is explicitly subjective and aimed at others struggling with similar issues.",
+      "importance_score": 3.0,
+      "reasoning": "Not an AI research or technical post; included only because it appeared in the batch. Has no relevance to AI research, alignment, or policy.",
+      "themes": [
+        "Personal",
+        "Mental Health"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "oqtZim8BAirHBLDT4",
+        "slug": "what-i-ve-learned-about-depression-so-far",
+        "base_score": 18,
+        "vote_count": 8,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A personal essay in which the author shares lessons learned from managing depression, framed around treating oneself as an experiment and building tiny sustainable habits. The post is explicitly subjective and aimed at others struggling with similar issues.</p>",
+      "content_html": "<p>This is largely a note to self for days where I struggle to take care of myself, and I hope some of these points might help someone else too. It is quite subjective, but also quite broad. I've found the accounts of others to be one of the most useful tools and motivators for dealing with my shit, and I think that having a wide variety of self-reports is a valuable resource. I once logged everything I ate and how I felt for an entire year. I've found treating myself as an experiment is a helpful frame. It takes me away from identifying strongly with my reactions and instead I get to look on them with more curiosity.This guide touches on a lot of different points. If you're depressed right now, it's probably going to look a bit overwhelming. You're probably going to open it and think, \"I can't do all of that,\" and want to close it immediately because it looks too difficult.My suggestion is to pay really strong attention to the first point, which is about habits and doing the smallest possible thing you can — taking the tiniest step in the right direction. When you're depressed, doing anything complex is pretty overwhelming most of the time. One of the best things you can do is to build teeny tiny habits and do small activities that activate the body's reward system, and build to bigger interventions from there.This guide includes the following sections:HabitsSleepMedicationTherapy, Counselling and SupportNutritionChronic Pain and the BodyExerciseDoing the Next Best ThingRunwayCuriosity and the Golden ThreadRelating to Other HumansHabitsDepression can make even really simple-seeming habits feel exhausting. There have been times when I've been depressed and the only thing that felt worth doing was drinking my coffee in the morning. The fact that I still had motivation to do that — to get up and make my coffee — meant something. Sometimes the only thing getting you out of bed is just needing to pee really badly. That's a hard place to be in.The difficult thing about habi...</p>"
+    },
+    {
+      "id": "4c6a3e763fa7",
+      "title": "Global Challenges in AI Safety for Biosecurity",
+      "content": "This article is written as part of a summary of the AI safety discussions held at the 2026 Global Challenges Project Biosecurity Workshop in Washington, D.C. All views held are mine. BackgroundAI allows us to prototype, develop, and research at unprecedented speeds. Across many tech industries, the barrier to entry to develop something new has significantly decreased. One particularly noteworthy example is at the intersection of AI and biology. As our computational capabilities increase, we now have the ability to fold, design, and predict the function of never-before-seen proteins. However, just as AI gives us the opportunity to do biological good in the world (in fact, we are just on the horizon of seeing the first AI-designed pharmaceutical drugs in the US![1]), it unfortunately opens up a terrifying possibility: could AI also give malicious actors the opportunity to do biological harm? This sobering reality is a question that biosecurity researchers are currently trying to tackle. To be clear: the probability of a catastrophic event happening (e.g., designing a biologically harmful virus) seems unlikely to happen at least with current technology. But there have been several warning signs in the field that we may be getting close. For instance, recently, Anthropic revealed instances of malicious actors using Claude to design harmful proteins.[2] Even more concerning, Dario Amodei, Sam Altman, and Elon Musk have also called for the pace of AI development to slow down and to be regulated.[3] Additionally, building robust biosafety defenses takes time. If capable threats are even plausible with today’s technology, then we must begin to design solutions now in the face of exponential AI improvement. This begs the question: what does the landscape of biosecurity look like in the face of ever-growing AI?The Dilemma of Open-source Models and Redefining AI SafetyThe AIxBio ecosystem is heavily driven by open science. In fact, almost all of today's frontier biological pro...",
+      "url": "https://www.lesswrong.com/posts/KH2JjfSrw6tJdmKzw/global-challenges-in-ai-safety-for-biosecurity",
+      "author": "Darin Tsui",
+      "published": "2026-09-19T21:20:08.574000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "A personal essay by jefftk explaining why he avoids Twitter/X despite occasionally cross-posting AI-related content, citing the platform's hostile and aggressive culture as incompatible with his temperament. The piece is reflective and does not engage with technical AI topics.",
+      "importance_score": 2.0,
+      "reasoning": "Light personal commentary with no AI research content. Not relevant to the analytical focus of this batch.",
+      "themes": [
+        "Personal",
+        "Online Culture"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "KH2JjfSrw6tJdmKzw",
+        "slug": "global-challenges-in-ai-safety-for-biosecurity",
+        "base_score": 7,
+        "vote_count": 2,
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A personal essay by jefftk explaining why he avoids Twitter/X despite occasionally cross-posting AI-related content, citing the platform's hostile and aggressive culture as incompatible with his temperament. The piece is reflective and does not engage with technical AI topics.</p>",
+      "content_html": "<p>This article is written as part of a summary of the AI safety discussions held at the 2026 Global Challenges Project Biosecurity Workshop in Washington, D.C. All views held are mine. BackgroundAI allows us to prototype, develop, and research at unprecedented speeds. Across many tech industries, the barrier to entry to develop something new has significantly decreased. One particularly noteworthy example is at the intersection of AI and biology. As our computational capabilities increase, we now have the ability to fold, design, and predict the function of never-before-seen proteins. However, just as AI gives us the opportunity to do biological good in the world (in fact, we are just on the horizon of seeing the first AI-designed pharmaceutical drugs in the US![1]), it unfortunately opens up a terrifying possibility: could AI also give malicious actors the opportunity to do biological harm? This sobering reality is a question that biosecurity researchers are currently trying to tackle. To be clear: the probability of a catastrophic event happening (e.g., designing a biologically harmful virus) seems unlikely to happen at least with current technology. But there have been several warning signs in the field that we may be getting close. For instance, recently, Anthropic revealed instances of malicious actors using Claude to design harmful proteins.[2] Even more concerning, Dario Amodei, Sam Altman, and Elon Musk have also called for the pace of AI development to slow down and to be regulated.[3] Additionally, building robust biosafety defenses takes time. If capable threats are even plausible with today’s technology, then we must begin to design solutions now in the face of exponential AI improvement. This begs the question: what does the landscape of biosecurity look like in the face of ever-growing AI?The Dilemma of Open-source Models and Redefining AI SafetyThe AIxBio ecosystem is heavily driven by open science. In fact, almost all of today's frontier biological pro...</p>"
+    },
+    {
+      "id": "6240fb53ee6a",
+      "title": "There can be no god except God.",
+      "content": "",
+      "url": "https://www.lesswrong.com/posts/bqiiLMmjWJ4mep4FD/there-can-be-no-god-except-god",
+      "author": "nyancatspace",
+      "published": "2026-09-20T01:01:49.714000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "A short post whose body text is empty in the source feed, with a title referencing a religious/philosophical claim. No substantive content is available to summarize.",
+      "importance_score": 0.0,
+      "reasoning": "No content was provided and the title indicates a non-technical religious/philosophical statement. No research relevance.",
+      "themes": [
+        "Uncategorized"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "bqiiLMmjWJ4mep4FD",
+        "slug": "there-can-be-no-god-except-god",
+        "base_score": -22,
+        "vote_count": 10,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>A short post whose body text is empty in the source feed, with a title referencing a religious/philosophical claim. No substantive content is available to summarize.</p>",
+      "content_html": ""
+    }
+  ]
+}
