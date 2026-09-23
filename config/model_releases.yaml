@@ -10,9 +10,18 @@
 #   - Web search verification for specific releases (Codex, etc.)
 #
 # Coverage: November 2025 onwards (post Claude Opus 4.8 knowledge cutoff)
-# Last verified: 2026-09-22
+# Last verified: 2026-09-23
 
 openai:
+  # GPT-6-Sol (auto-detected 2026-09-23)
+  GPT-6-Sol:
+    ga_date: "2026-06-26"
+    api_date: "unknown"
+  # GPT-6-Luna (auto-detected 2026-09-23)
+  GPT-6-Luna:
+    ga_date: "2026-06-26"
+    api_date: "unknown"
+
   # GPT-6 Astra (auto-detected 2026-09-04)
   GPT-6 Astra:
     ga_date: "2026-09-03"
@@ -206,6 +215,11 @@ openai:
     api_date: "2025-10-29"  # OpenRouter (later)
 
 anthropic:
+  # Claude-Opus-5.5 (auto-detected 2026-09-23)
+  Claude-Opus-5.5:
+    ga_date: "2026-09-22"
+    api_date: "unknown"
+
   # Claude-Fable-5.1 (auto-detected 2026-09-02)
   Claude-Fable-5.1:
     ga_date: "2026-09-01"
