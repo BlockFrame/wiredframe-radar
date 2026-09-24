@@ -1,133 +1,186 @@
 metadata:
-  last_updated: '2026-09-23'
+  last_updated: '2026-09-24'
   schema_version: '3.0'
   source: curated+openrouter
 models:
-  anthropic:
-  - name: Claude-Fable-5.1
+  minimax:
+  - name: 'MiniMax: MiniMax M3'
+    ga_date: unknown
+    api_date: '2026-05-31'
+  - name: 'MiniMax: MiniMax M2.7'
+    ga_date: unknown
+    api_date: '2026-03-18'
+  - name: 'MiniMax: MiniMax M2.5'
+    ga_date: unknown
+    api_date: '2026-02-12'
+  - name: 'MiniMax: MiniMax M2-her'
+    ga_date: unknown
+    api_date: '2026-01-23'
+  - name: 'MiniMax: MiniMax M2.1'
+    ga_date: unknown
+    api_date: '2025-12-22'
+  - name: 'MiniMax: MiniMax M2'
+    ga_date: unknown
+    api_date: '2025-10-23'
+  - name: 'MiniMax: MiniMax M1'
+    ga_date: unknown
+    api_date: '2025-06-17'
+  - name: 'MiniMax: MiniMax-01'
+    ga_date: unknown
+    api_date: '2025-01-14'
+  nousresearch:
+  - name: 'Nous: Hermes 4 405B'
+    ga_date: unknown
+    api_date: '2025-08-26'
+  - name: 'Nous: Hermes 3 70B Instruct'
+    ga_date: unknown
+    api_date: '2024-08-17'
+  - name: 'Nous: Hermes 3 405B Instruct'
+    ga_date: unknown
+    api_date: '2024-08-15'
+  inception:
+  - name: 'Inception: Mercury 2.5'
+    ga_date: unknown
+    api_date: '2026-09-08'
+  - name: 'Inception: Mercury 2'
+    ga_date: unknown
+    api_date: '2026-03-04'
+  openai:
+  - name: GPT-6 Astra
+    ga_date: '2026-09-03'
+    api_date: unknown
+  - name: Astra
     ga_date: '2026-09-01'
     api_date: unknown
-  - name: Claude-Opus-5
-    ga_date: '2026-07-24'
+  - name: Daybreak-Blue
+    ga_date: '2026-08-10'
     api_date: unknown
-  - name: Claude-Sonnet-5
-    ga_date: '2026-06-30'
+  - name: Daybreak-Red
+    ga_date: '2026-08-10'
     api_date: unknown
-  - name: Claude-Fable-5
-    ga_date: '2026-06-09'
+  - name: GPT Transcribe
+    ga_date: '2026-07-29'
     api_date: unknown
-  - name: Claude-Mythos-5
-    ga_date: '2026-06-09'
+  - name: GPT Live Transcribe
+    ga_date: '2026-07-29'
     api_date: unknown
-  - name: Claude-Opus-4.8
-    ga_date: '2026-05-28'
-    api_date: unknown
-  - name: Claude-Opus-4.7
-    ga_date: '2026-04-16'
-    api_date: unknown
-  - name: Claude-Mythos-Preview
-    ga_date: '2026-04-07'
-    api_date: unknown
-  - name: Claude-Sonnet-4.6
-    ga_date: '2026-02-17'
-    api_date: unknown
-  - name: Claude-Opus-4.6
-    ga_date: '2026-02-05'
-    api_date: unknown
-  - name: Claude-Opus-4.5
-    ga_date: '2025-11-24'
-    api_date: '2025-11-24'
-  - name: Claude-Haiku-4.5
-    ga_date: '2025-10-15'
-    api_date: '2025-10-15'
-  - name: Claude-Sonnet-4.5
-    ga_date: '2025-09-29'
-    api_date: '2025-09-29'
-  - name: Claude-4.1
-    ga_date: '2025-08-05'
-    api_date: '2025-08-05'
-  - name: Claude-4
-    ga_date: '2025-05-22'
-    api_date: '2025-05-22'
-  - name: Claude-3.7
-    ga_date: '2025-02-24'
-    api_date: '2025-02-24'
-  perplexity:
-  - name: 'Perplexity: Sonar Pro Search'
-    ga_date: unknown
-    api_date: '2025-10-30'
-  - name: 'Perplexity: Sonar Reasoning Pro'
-    ga_date: unknown
-    api_date: '2025-03-06'
-  - name: 'Perplexity: Sonar Pro'
-    ga_date: unknown
-    api_date: '2025-03-06'
-  - name: 'Perplexity: Sonar Deep Research'
-    ga_date: unknown
-    api_date: '2025-03-06'
-  - name: 'Perplexity: Sonar'
-    ga_date: unknown
-    api_date: '2025-01-27'
-  nvidia:
-  - name: 'NVIDIA: Nemotron 3.5 Lightning'
-    ga_date: unknown
-    api_date: '2026-08-11'
-  - name: 'NVIDIA: Nemotron 3.5 Content Safety'
-    ga_date: unknown
-    api_date: '2026-06-04'
-  - name: 'NVIDIA: Nemotron 3 Ultra'
-    ga_date: unknown
-    api_date: '2026-06-04'
-  - name: 'NVIDIA: Nemotron 3 Nano Omni (free)'
-    ga_date: unknown
-    api_date: '2026-04-28'
-  - name: 'NVIDIA: Nemotron 3 Super'
-    ga_date: unknown
-    api_date: '2026-03-11'
-  - name: 'NVIDIA: Nemotron 3 Nano 30B A3B'
-    ga_date: unknown
-    api_date: '2025-12-14'
-  x-ai:
-  - name: Grok-4.7
-    ga_date: '2026-09-21'
-    api_date: unknown
-  - name: Grok-4.6
-    ga_date: '2026-08-12'
-    api_date: unknown
-  - name: Grok-4.5
+  - name: GPT-Live-1
     ga_date: '2026-07-08'
     api_date: unknown
-  - name: Grok-Imagine-Video-1.5
-    ga_date: '2026-06-04'
+  - name: GPT-6-Sol
+    ga_date: '2026-06-26'
     api_date: unknown
-  - name: Grok-Build
-    ga_date: '2026-05-26'
+  - name: GPT-6-Luna
+    ga_date: '2026-06-26'
     api_date: unknown
-  - name: Grok-Voice-Think-Fast-1.0
-    ga_date: '2026-04-24'
+  - name: GPT-5.6-Sol
+    ga_date: '2026-06-26'
     api_date: unknown
-  - name: Grok-STT
-    ga_date: '2026-04-19'
+  - name: GPT-5.6-Terra
+    ga_date: '2026-06-26'
     api_date: unknown
-  - name: Grok-TTS
-    ga_date: '2026-04-19'
+  - name: GPT-5.6-Luna
+    ga_date: '2026-06-26'
     api_date: unknown
-  - name: Grok-4.2
+  - name: GPT-5.6
+    ga_date: '2026-06-25'
+    api_date: unknown
+  - name: GPT-5.5-Cyber
+    ga_date: '2026-06-22'
+    api_date: unknown
+  - name: GPT-5.5-Instant
+    ga_date: '2026-06-18'
+    api_date: unknown
+  - name: GPT-next
+    ga_date: '2026-05-21'
+    api_date: unknown
+  - name: GPT-Realtime-2
+    ga_date: '2026-05-08'
+    api_date: unknown
+  - name: GPT-Realtime-Translate
+    ga_date: '2026-05-08'
+    api_date: unknown
+  - name: GPT-Realtime-Whisper
+    ga_date: '2026-05-08'
+    api_date: unknown
+  - name: Privacy-Filter
+    ga_date: '2026-04-28'
+    api_date: unknown
+  - name: GPT-5.5
+    ga_date: '2026-04-23'
+    api_date: unknown
+  - name: GPT-Image-2
+    ga_date: '2026-04-22'
+    api_date: unknown
+  - name: GPT-5.4-Cyber
+    ga_date: '2026-04-17'
+    api_date: unknown
+  - name: GPT-Rosalind
+    ga_date: '2026-04-16'
+    api_date: unknown
+  - name: GPT-5.4-Mini
+    ga_date: '2026-04-01'
+    api_date: unknown
+  - name: GPT-5.4-Nano
+    ga_date: '2026-04-01'
+    api_date: unknown
+  - name: GPT-5.4
     ga_date: '2026-03-05'
     api_date: unknown
-  - name: Grok-4.1
-    ga_date: '2025-11-17'
-    api_date: '2025-11-19'
-  - name: Grok-4
-    ga_date: '2025-07-09'
-    api_date: '2025-07-09'
-  - name: Grok-3
-    ga_date: '2025-02-01'
-    api_date: '2025-06-10'
-  baidu:
-  - name: 'Baidu: ERNIE 4.5 VL 424B A47B '
-    ga_date: unknown
-    api_date: '2025-06-30'
+  - name: GPT-5.4-Thinking
+    ga_date: '2026-03-05'
+    api_date: unknown
+  - name: GPT-5.4-Pro
+    ga_date: '2026-03-05'
+    api_date: unknown
+  - name: GPT-5.3-Instant
+    ga_date: '2026-03-04'
+    api_date: unknown
+  - name: GPT-5.3-Codex-Spark
+    ga_date: '2026-02-12'
+    api_date: unknown
+  - name: GPT-5.3-Codex
+    ga_date: '2026-02-05'
+    api_date: unknown
+  - name: GPT-5.2-Codex
+    ga_date: '2025-12-18'
+    api_date: '2026-01-14'
+  - name: GPT-5.2
+    ga_date: '2025-12-11'
+    api_date: '2025-12-10'
+  - name: GPT-5.2-Chat
+    ga_date: '2025-12-11'
+    api_date: '2025-12-10'
+  - name: GPT-5.2-Pro
+    ga_date: '2025-12-11'
+    api_date: '2025-12-10'
+  - name: GPT-5.1-Codex-Max
+    ga_date: '2025-11-19'
+    api_date: '2025-12-04'
+  - name: GPT-5.1
+    ga_date: '2025-11-12'
+    api_date: '2025-11-13'
+  - name: GPT-5.1-Codex
+    ga_date: '2025-11-12'
+    api_date: '2025-11-13'
+  - name: GPT-5.1-Codex-Mini
+    ga_date: '2025-11-12'
+    api_date: '2025-11-13'
+  - name: GPT-5
+    ga_date: '2025-08-07'
+    api_date: '2025-08-07'
+  - name: GPT-OSS
+    ga_date: '2025-08-05'
+    api_date: '2025-10-29'
+  - name: o3
+    ga_date: '2025-04-16'
+    api_date: '2025-04-16'
+  - name: GPT-4.5
+    ga_date: '2025-02-27'
+    api_date: '2025-02-27'
+  - name: o1
+    ga_date: '2024-09-12'
+    api_date: '2024-09-12'
   google:
   - name: Gemini-3.8-Live
     ga_date: '2026-09-15'
@@ -252,202 +305,10 @@ models:
   - name: Gemini-2.0
     ga_date: '2025-02-01'
     api_date: '2025-02-01'
-  amazon:
-  - name: 'Amazon: Nova 2 Lite'
+  liquid:
+  - name: 'LiquidAI: LFM2.5-2.6B (free)'
     ga_date: unknown
-    api_date: '2025-12-02'
-  - name: 'Amazon: Nova Premier 1.0'
-    ga_date: unknown
-    api_date: '2025-10-31'
-  - name: 'Amazon: Nova Lite 1.0'
-    ga_date: unknown
-    api_date: '2024-12-05'
-  - name: 'Amazon: Nova Micro 1.0'
-    ga_date: unknown
-    api_date: '2024-12-05'
-  - name: 'Amazon: Nova Pro 1.0'
-    ga_date: unknown
-    api_date: '2024-12-05'
-  mistralai:
-  - name: Shieldstral
-    ga_date: '2026-08-05'
-    api_date: unknown
-  - name: Robostral-Navigate
-    ga_date: '2026-07-08'
-    api_date: unknown
-  - name: Leanstral-1.5
-    ga_date: '2026-07-03'
-    api_date: unknown
-  - name: Mistral-OCR-4
-    ga_date: '2026-06-23'
-    api_date: unknown
-  - name: Mistral-Medium-3.5
-    ga_date: '2026-05-03'
-    api_date: unknown
-  - name: Mistral-TTS
-    ga_date: '2026-03-27'
-    api_date: unknown
-  - name: Mistral-Small-4
-    ga_date: '2026-03-16'
-    api_date: unknown
-  - name: Voxtral-Transcribe-2
-    ga_date: '2026-02-05'
-    api_date: unknown
-  - name: Ministral-3
-    ga_date: '2025-12-02'
-    api_date: '2025-12-02'
-  - name: Mistral-Large-3
-    ga_date: '2025-12-01'
-    api_date: '2025-12-01'
-  - name: 'Mistral: Devstral 2 2512'
-    ga_date: unknown
-    api_date: '2025-12-09'
-  - name: 'Mistral: Voxtral Small 24B 2507'
-    ga_date: unknown
-    api_date: '2025-10-30'
-  - name: 'Mistral: Mistral Medium 3.1'
-    ga_date: unknown
-    api_date: '2025-08-13'
-  - name: 'Mistral: Codestral 2508'
-    ga_date: unknown
-    api_date: '2025-08-01'
-  - name: 'Mistral: Mistral Small 3.2 24B'
-    ga_date: unknown
-    api_date: '2025-06-20'
-  bytedance:
-  - name: 'ByteDance: UI-TARS 7B '
-    ga_date: unknown
-    api_date: '2025-07-22'
-  openai:
-  - name: GPT-6 Astra
-    ga_date: '2026-09-03'
-    api_date: unknown
-  - name: Astra
-    ga_date: '2026-09-01'
-    api_date: unknown
-  - name: Daybreak-Blue
-    ga_date: '2026-08-10'
-    api_date: unknown
-  - name: Daybreak-Red
-    ga_date: '2026-08-10'
-    api_date: unknown
-  - name: GPT Transcribe
-    ga_date: '2026-07-29'
-    api_date: unknown
-  - name: GPT Live Transcribe
-    ga_date: '2026-07-29'
-    api_date: unknown
-  - name: GPT-Live-1
-    ga_date: '2026-07-08'
-    api_date: unknown
-  - name: GPT-5.6-Sol
-    ga_date: '2026-06-26'
-    api_date: unknown
-  - name: GPT-5.6-Terra
-    ga_date: '2026-06-26'
-    api_date: unknown
-  - name: GPT-5.6-Luna
-    ga_date: '2026-06-26'
-    api_date: unknown
-  - name: GPT-5.6
-    ga_date: '2026-06-25'
-    api_date: unknown
-  - name: GPT-5.5-Cyber
-    ga_date: '2026-06-22'
-    api_date: unknown
-  - name: GPT-5.5-Instant
-    ga_date: '2026-06-18'
-    api_date: unknown
-  - name: GPT-next
-    ga_date: '2026-05-21'
-    api_date: unknown
-  - name: GPT-Realtime-2
-    ga_date: '2026-05-08'
-    api_date: unknown
-  - name: GPT-Realtime-Translate
-    ga_date: '2026-05-08'
-    api_date: unknown
-  - name: GPT-Realtime-Whisper
-    ga_date: '2026-05-08'
-    api_date: unknown
-  - name: Privacy-Filter
-    ga_date: '2026-04-28'
-    api_date: unknown
-  - name: GPT-5.5
-    ga_date: '2026-04-23'
-    api_date: unknown
-  - name: GPT-Image-2
-    ga_date: '2026-04-22'
-    api_date: unknown
-  - name: GPT-5.4-Cyber
-    ga_date: '2026-04-17'
-    api_date: unknown
-  - name: GPT-Rosalind
-    ga_date: '2026-04-16'
-    api_date: unknown
-  - name: GPT-5.4-Mini
-    ga_date: '2026-04-01'
-    api_date: unknown
-  - name: GPT-5.4-Nano
-    ga_date: '2026-04-01'
-    api_date: unknown
-  - name: GPT-5.4
-    ga_date: '2026-03-05'
-    api_date: unknown
-  - name: GPT-5.4-Thinking
-    ga_date: '2026-03-05'
-    api_date: unknown
-  - name: GPT-5.4-Pro
-    ga_date: '2026-03-05'
-    api_date: unknown
-  - name: GPT-5.3-Instant
-    ga_date: '2026-03-04'
-    api_date: unknown
-  - name: GPT-5.3-Codex-Spark
-    ga_date: '2026-02-12'
-    api_date: unknown
-  - name: GPT-5.3-Codex
-    ga_date: '2026-02-05'
-    api_date: unknown
-  - name: GPT-5.2-Codex
-    ga_date: '2025-12-18'
-    api_date: '2026-01-14'
-  - name: GPT-5.2
-    ga_date: '2025-12-11'
-    api_date: '2025-12-10'
-  - name: GPT-5.2-Chat
-    ga_date: '2025-12-11'
-    api_date: '2025-12-10'
-  - name: GPT-5.2-Pro
-    ga_date: '2025-12-11'
-    api_date: '2025-12-10'
-  - name: GPT-5.1-Codex-Max
-    ga_date: '2025-11-19'
-    api_date: '2025-12-04'
-  - name: GPT-5.1
-    ga_date: '2025-11-12'
-    api_date: '2025-11-13'
-  - name: GPT-5.1-Codex
-    ga_date: '2025-11-12'
-    api_date: '2025-11-13'
-  - name: GPT-5.1-Codex-Mini
-    ga_date: '2025-11-12'
-    api_date: '2025-11-13'
-  - name: GPT-5
-    ga_date: '2025-08-07'
-    api_date: '2025-08-07'
-  - name: GPT-OSS
-    ga_date: '2025-08-05'
-    api_date: '2025-10-29'
-  - name: o3
-    ga_date: '2025-04-16'
-    api_date: '2025-04-16'
-  - name: GPT-4.5
-    ga_date: '2025-02-27'
-    api_date: '2025-02-27'
-  - name: o1
-    ga_date: '2024-09-12'
-    api_date: '2024-09-12'
+    api_date: '2026-08-11'
   microsoft:
   - name: 'Microsoft: Phi 4'
     ga_date: unknown
@@ -455,6 +316,32 @@ models:
   - name: WizardLM-2 8x22B
     ga_date: unknown
     api_date: '2024-04-15'
+  baidu:
+  - name: 'Baidu: ERNIE 4.5 VL 424B A47B '
+    ga_date: unknown
+    api_date: '2025-06-30'
+  moonshotai:
+  - name: Kimi-K2.6
+    ga_date: '2026-04-20'
+    api_date: '2026-04-20'
+  - name: Kimi-K2.5
+    ga_date: '2026-01-27'
+    api_date: '2026-01-27'
+  - name: 'MoonshotAI: Kimi K3'
+    ga_date: unknown
+    api_date: '2026-07-16'
+  - name: 'MoonshotAI: Kimi K2.7 Code'
+    ga_date: unknown
+    api_date: '2026-06-12'
+  - name: 'MoonshotAI: Kimi K2 Thinking'
+    ga_date: unknown
+    api_date: '2025-11-06'
+  - name: 'MoonshotAI: Kimi K2 0905'
+    ga_date: unknown
+    api_date: '2025-09-04'
+  - name: 'MoonshotAI: Kimi K2 0711'
+    ga_date: unknown
+    api_date: '2025-07-11'
   cohere:
   - name: 'Cohere: Command A+'
     ga_date: unknown
@@ -474,7 +361,29 @@ models:
   - name: 'Cohere: Command R+ (08-2024)'
     ga_date: unknown
     api_date: '2024-08-29'
+  nvidia:
+  - name: 'NVIDIA: Nemotron 3.5 Lightning'
+    ga_date: unknown
+    api_date: '2026-08-11'
+  - name: 'NVIDIA: Nemotron 3.5 Content Safety'
+    ga_date: unknown
+    api_date: '2026-06-04'
+  - name: 'NVIDIA: Nemotron 3 Ultra'
+    ga_date: unknown
+    api_date: '2026-06-04'
+  - name: 'NVIDIA: Nemotron 3 Nano Omni (free)'
+    ga_date: unknown
+    api_date: '2026-04-28'
+  - name: 'NVIDIA: Nemotron 3 Super'
+    ga_date: unknown
+    api_date: '2026-03-11'
+  - name: 'NVIDIA: Nemotron 3 Nano 30B A3B'
+    ga_date: unknown
+    api_date: '2025-12-14'
   qwen:
+  - name: 'Qwen: Qwen3.8 Max Prime'
+    ga_date: unknown
+    api_date: '2026-09-23'
   - name: 'Qwen: Qwen3.8 Omni Flash'
     ga_date: unknown
     api_date: '2026-09-20'
@@ -517,56 +426,155 @@ models:
   - name: 'Qwen: Qwen3.6 Plus'
     ga_date: unknown
     api_date: '2026-04-02'
-  - name: 'Qwen: Qwen3.5-9B'
+  bytedance:
+  - name: 'ByteDance: UI-TARS 7B '
     ga_date: unknown
-    api_date: '2026-03-10'
-  moonshotai:
-  - name: Kimi-K2.6
-    ga_date: '2026-04-20'
-    api_date: '2026-04-20'
-  - name: Kimi-K2.5
-    ga_date: '2026-01-27'
-    api_date: '2026-01-27'
-  - name: 'MoonshotAI: Kimi K3'
+    api_date: '2025-07-22'
+  perplexity:
+  - name: 'Perplexity: Sonar Pro Search'
     ga_date: unknown
-    api_date: '2026-07-16'
-  - name: 'MoonshotAI: Kimi K2.7 Code'
+    api_date: '2025-10-30'
+  - name: 'Perplexity: Sonar Reasoning Pro'
     ga_date: unknown
-    api_date: '2026-06-12'
-  - name: 'MoonshotAI: Kimi K2 Thinking'
+    api_date: '2025-03-06'
+  - name: 'Perplexity: Sonar Pro'
     ga_date: unknown
-    api_date: '2025-11-06'
-  - name: 'MoonshotAI: Kimi K2 0905'
+    api_date: '2025-03-06'
+  - name: 'Perplexity: Sonar Deep Research'
     ga_date: unknown
-    api_date: '2025-09-04'
-  - name: 'MoonshotAI: Kimi K2 0711'
+    api_date: '2025-03-06'
+  - name: 'Perplexity: Sonar'
     ga_date: unknown
-    api_date: '2025-07-11'
-  minimax:
-  - name: 'MiniMax: MiniMax M3'
+    api_date: '2025-01-27'
+  mistralai:
+  - name: Shieldstral
+    ga_date: '2026-08-05'
+    api_date: unknown
+  - name: Robostral-Navigate
+    ga_date: '2026-07-08'
+    api_date: unknown
+  - name: Leanstral-1.5
+    ga_date: '2026-07-03'
+    api_date: unknown
+  - name: Mistral-OCR-4
+    ga_date: '2026-06-23'
+    api_date: unknown
+  - name: Mistral-Medium-3.5
+    ga_date: '2026-05-03'
+    api_date: unknown
+  - name: Mistral-TTS
+    ga_date: '2026-03-27'
+    api_date: unknown
+  - name: Mistral-Small-4
+    ga_date: '2026-03-16'
+    api_date: unknown
+  - name: Voxtral-Transcribe-2
+    ga_date: '2026-02-05'
+    api_date: unknown
+  - name: Ministral-3
+    ga_date: '2025-12-02'
+    api_date: '2025-12-02'
+  - name: Mistral-Large-3
+    ga_date: '2025-12-01'
+    api_date: '2025-12-01'
+  - name: 'Mistral: Voxtral Small 24B 2507'
     ga_date: unknown
-    api_date: '2026-05-31'
-  - name: 'MiniMax: MiniMax M2.7'
+    api_date: '2025-10-30'
+  - name: 'Mistral: Mistral Medium 3.1'
     ga_date: unknown
-    api_date: '2026-03-18'
-  - name: 'MiniMax: MiniMax M2.5'
+    api_date: '2025-08-13'
+  - name: 'Mistral: Codestral 2508'
     ga_date: unknown
-    api_date: '2026-02-12'
-  - name: 'MiniMax: MiniMax M2-her'
+    api_date: '2025-08-01'
+  - name: 'Mistral: Mistral Small 3.2 24B'
     ga_date: unknown
-    api_date: '2026-01-23'
-  - name: 'MiniMax: MiniMax M2.1'
+    api_date: '2025-06-20'
+  - name: 'Mistral: Mistral Small 3.1 24B'
     ga_date: unknown
-    api_date: '2025-12-22'
-  - name: 'MiniMax: MiniMax M2'
+    api_date: '2025-03-17'
+  anthropic:
+  - name: Claude-Opus-5.5
+    ga_date: '2026-09-22'
+    api_date: unknown
+  - name: Claude-Fable-5.1
+    ga_date: '2026-09-01'
+    api_date: unknown
+  - name: Claude-Opus-5
+    ga_date: '2026-07-24'
+    api_date: unknown
+  - name: Claude-Sonnet-5
+    ga_date: '2026-06-30'
+    api_date: unknown
+  - name: Claude-Fable-5
+    ga_date: '2026-06-09'
+    api_date: unknown
+  - name: Claude-Mythos-5
+    ga_date: '2026-06-09'
+    api_date: unknown
+  - name: Claude-Opus-4.8
+    ga_date: '2026-05-28'
+    api_date: unknown
+  - name: Claude-Opus-4.7
+    ga_date: '2026-04-16'
+    api_date: unknown
+  - name: Claude-Mythos-Preview
+    ga_date: '2026-04-07'
+    api_date: unknown
+  - name: Claude-Sonnet-4.6
+    ga_date: '2026-02-17'
+    api_date: unknown
+  - name: Claude-Opus-4.6
+    ga_date: '2026-02-05'
+    api_date: unknown
+  - name: Claude-Opus-4.5
+    ga_date: '2025-11-24'
+    api_date: '2025-11-24'
+  - name: Claude-Haiku-4.5
+    ga_date: '2025-10-15'
+    api_date: '2025-10-15'
+  - name: Claude-Sonnet-4.5
+    ga_date: '2025-09-29'
+    api_date: '2025-09-29'
+  - name: Claude-4.1
+    ga_date: '2025-08-05'
+    api_date: '2025-08-05'
+  - name: Claude-4
+    ga_date: '2025-05-22'
+    api_date: '2025-05-22'
+  - name: Claude-3.7
+    ga_date: '2025-02-24'
+    api_date: '2025-02-24'
+  deepseek:
+  - name: DeepSeek-V4.1-Flash
+    ga_date: '2026-09-10'
+    api_date: unknown
+  - name: DeepSeek-V4-Flash-Vision-Exp
+    ga_date: '2026-08-21'
+    api_date: unknown
+  - name: DeepSeek-V4-Pro
+    ga_date: '2026-04-24'
+    api_date: unknown
+  - name: DeepSeek-V4-Flash
+    ga_date: '2026-04-24'
+    api_date: unknown
+  - name: DeepSeek-V3.2
+    ga_date: '2025-09-29'
+    api_date: '2025-12-01'
+  - name: DeepSeek-V3.1
+    ga_date: '2025-08-21'
+    api_date: '2025-08-21'
+  - name: DeepSeek-R1
+    ga_date: '2025-01-20'
+    api_date: '2025-01-20'
+  - name: DeepSeek-V3
+    ga_date: '2024-12-01'
+    api_date: '2025-03-24'
+  - name: 'DeepSeek: R1 0528'
     ga_date: unknown
-    api_date: '2025-10-23'
-  - name: 'MiniMax: MiniMax M1'
+    api_date: '2025-05-28'
+  - name: 'DeepSeek: R1 Distill Llama 70B'
     ga_date: unknown
-    api_date: '2025-06-17'
-  - name: 'MiniMax: MiniMax-01'
-    ga_date: unknown
-    api_date: '2025-01-14'
+    api_date: '2025-01-23'
   z-ai:
   - name: GLM-5.2
     ga_date: '2026-06-16'
@@ -595,23 +603,6 @@ models:
   - name: 'Z.ai: GLM 4.5'
     ga_date: unknown
     api_date: '2025-07-25'
-  - name: 'Z.ai: GLM 4.5 Air'
-    ga_date: unknown
-    api_date: '2025-07-25'
-  liquid:
-  - name: 'LiquidAI: LFM2.5-2.6B (free)'
-    ga_date: unknown
-    api_date: '2026-08-11'
-  nousresearch:
-  - name: 'Nous: Hermes 4 405B'
-    ga_date: unknown
-    api_date: '2025-08-26'
-  - name: 'Nous: Hermes 3 70B Instruct'
-    ga_date: unknown
-    api_date: '2024-08-17'
-  - name: 'Nous: Hermes 3 405B Instruct'
-    ga_date: unknown
-    api_date: '2024-08-15'
   meta-llama:
   - name: Watermelon
     ga_date: '2026-10-01'
@@ -658,41 +649,56 @@ models:
   - name: 'Meta: Llama 3.3 70B Instruct'
     ga_date: unknown
     api_date: '2024-12-06'
-  deepseek:
-  - name: DeepSeek-V4.1-Flash
-    ga_date: '2026-09-10'
+  amazon:
+  - name: 'Amazon: Nova 2 Lite'
+    ga_date: unknown
+    api_date: '2025-12-02'
+  - name: 'Amazon: Nova Premier 1.0'
+    ga_date: unknown
+    api_date: '2025-10-31'
+  - name: 'Amazon: Nova Lite 1.0'
+    ga_date: unknown
+    api_date: '2024-12-05'
+  - name: 'Amazon: Nova Micro 1.0'
+    ga_date: unknown
+    api_date: '2024-12-05'
+  - name: 'Amazon: Nova Pro 1.0'
+    ga_date: unknown
+    api_date: '2024-12-05'
+  x-ai:
+  - name: Grok-4.7
+    ga_date: '2026-09-21'
     api_date: unknown
-  - name: DeepSeek-V4-Flash-Vision-Exp
-    ga_date: '2026-08-21'
+  - name: Grok-4.6
+    ga_date: '2026-08-12'
     api_date: unknown
-  - name: DeepSeek-V4-Pro
+  - name: Grok-4.5
+    ga_date: '2026-07-08'
+    api_date: unknown
+  - name: Grok-Imagine-Video-1.5
+    ga_date: '2026-06-04'
+    api_date: unknown
+  - name: Grok-Build
+    ga_date: '2026-05-26'
+    api_date: unknown
+  - name: Grok-Voice-Think-Fast-1.0
     ga_date: '2026-04-24'
     api_date: unknown
-  - name: DeepSeek-V4-Flash
-    ga_date: '2026-04-24'
+  - name: Grok-STT
+    ga_date: '2026-04-19'
     api_date: unknown
-  - name: DeepSeek-V3.2
-    ga_date: '2025-09-29'
-    api_date: '2025-12-01'
-  - name: DeepSeek-V3.1
-    ga_date: '2025-08-21'
-    api_date: '2025-08-21'
-  - name: DeepSeek-R1
-    ga_date: '2025-01-20'
-    api_date: '2025-01-20'
-  - name: DeepSeek-V3
-    ga_date: '2024-12-01'
-    api_date: '2025-03-24'
-  - name: 'DeepSeek: R1 0528'
-    ga_date: unknown
-    api_date: '2025-05-28'
-  - name: 'DeepSeek: R1 Distill Llama 70B'
-    ga_date: unknown
-    api_date: '2025-01-23'
-  inception:
-  - name: 'Inception: Mercury 2.5'
-    ga_date: unknown
-    api_date: '2026-09-08'
-  - name: 'Inception: Mercury 2'
-    ga_date: unknown
-    api_date: '2026-03-04'
+  - name: Grok-TTS
+    ga_date: '2026-04-19'
+    api_date: unknown
+  - name: Grok-4.2
+    ga_date: '2026-03-05'
+    api_date: unknown
+  - name: Grok-4.1
+    ga_date: '2025-11-17'
+    api_date: '2025-11-19'
+  - name: Grok-4
+    ga_date: '2025-07-09'
+    api_date: '2025-07-09'
+  - name: Grok-3
+    ga_date: '2025-02-01'
+    api_date: '2025-06-10'
