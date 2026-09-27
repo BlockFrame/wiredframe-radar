@@ -1,0 +1,529 @@
+{
+  "schema_version": "1.0",
+  "category": "research",
+  "date": "2026-09-27",
+  "category_summary": "### Executive Signal\n- **Frontier-safety forecasting and agent infrastructure dominate signal**: a falsifiable [2027](/?date=2026-09-27&category=research#item-d23b3ae2f416) replication-incident prediction, an ASIC-rooted governance [plan](/?date=2026-09-27&category=research#item-4fffa66deded), and a persistent-memory integrity benchmark [for tool-using](/?date=2026-09-27&category=research#item-b4a66c071479) agents together set the agenda for near-term risk and capability work.\n\n### Priority Developments\n- **Quantitative safety forecasting** translates Epoch AI capability-density datapoints into a concrete, testable [2027](/?date=2026-09-27&category=research#item-d23b3ae2f416) replication-incident prediction, raising the bar from qualitative x-risk rhetoric to falsifiable claims that boards and labs can act on.\n- **Agent memory and orchestration stack** advances persistent-memory [integrity](/?date=2026-09-27&category=research#item-b4a66c071479)/crash-continuity evaluation and [swarm-style orchestration](/?date=2026-09-27&category=research#item-04c1ad6527fd), directly shaping how multi-step, tool-using agents will be deployed in production.\n- **Embodied AI with measurable deployment gains** shows test-time trajectory repair improves closed-loop [driving](/?date=2026-09-27&category=research#item-65407ef18745) without retraining, a pragmatic pattern likely to spread across robotics stacks.\n- **Hard-tech governance architecture** extends [Plan](/?date=2026-09-27&category=research#item-4fffa66deded) R with ASIC diversity, escrow, and political-rights mechanisms — the most concrete compute-rooted proposal yet for limiting concentration risk.\n- **Economic and epistemic reframings of AI impact** argue AI substitutes for [labor](/?date=2026-09-27&category=research#item-54cef06ede4f) faster than it complements it, demand [extraordinary-evidence standards for x-risk claims](/?date=2026-09-27&category=research#item-c07bf8d646a1), and document the affective gap that weakens extinction communication.\n\n### Leadership Implications\n- **Stress-test [replication](/?date=2026-09-27&category=research#item-d23b3ae2f416) and governance assumptions now**: assign a red-team to validate the 2027 forecast and commission a feasibility review of [ASIC-rooted deployment splits](/?date=2026-09-27&category=research#item-4fffa66deded) before the next model cycle.\n- **Treat agent memory integrity as a deployment gate**: adopt crash-continuity and integrity metrics alongside retrieval [accuracy](/?date=2026-09-27&category=research#item-b4a66c071479) when shipping tool-using agents to customers.",
+  "category_summary_html": "<h3>Executive Signal</h3>\n<ul>\n<li><strong>Frontier-safety forecasting and agent infrastructure dominate signal</strong>: a falsifiable <a href=\"/?date=2026-09-27&amp;category=research#item-d23b3ae2f416\" class=\"internal-link\" rel=\"noopener noreferrer\">2027</a> replication-incident prediction, an ASIC-rooted governance <a href=\"/?date=2026-09-27&amp;category=research#item-4fffa66deded\" class=\"internal-link\" rel=\"noopener noreferrer\">plan</a>, and a persistent-memory integrity benchmark <a href=\"/?date=2026-09-27&amp;category=research#item-b4a66c071479\" class=\"internal-link\" rel=\"noopener noreferrer\">for tool-using</a> agents together set the agenda for near-term risk and capability work.</li>\n</ul>\n<h3>Priority Developments</h3>\n<ul>\n<li><strong>Quantitative safety forecasting</strong> translates Epoch AI capability-density datapoints into a concrete, testable <a href=\"/?date=2026-09-27&amp;category=research#item-d23b3ae2f416\" class=\"internal-link\" rel=\"noopener noreferrer\">2027</a> replication-incident prediction, raising the bar from qualitative x-risk rhetoric to falsifiable claims that boards and labs can act on.</li>\n<li><strong>Agent memory and orchestration stack</strong> advances persistent-memory <a href=\"/?date=2026-09-27&amp;category=research#item-b4a66c071479\" class=\"internal-link\" rel=\"noopener noreferrer\">integrity</a>/crash-continuity evaluation and <a href=\"/?date=2026-09-27&amp;category=research#item-04c1ad6527fd\" class=\"internal-link\" rel=\"noopener noreferrer\">swarm-style orchestration</a>, directly shaping how multi-step, tool-using agents will be deployed in production.</li>\n<li><strong>Embodied AI with measurable deployment gains</strong> shows test-time trajectory repair improves closed-loop <a href=\"/?date=2026-09-27&amp;category=research#item-65407ef18745\" class=\"internal-link\" rel=\"noopener noreferrer\">driving</a> without retraining, a pragmatic pattern likely to spread across robotics stacks.</li>\n<li><strong>Hard-tech governance architecture</strong> extends <a href=\"/?date=2026-09-27&amp;category=research#item-4fffa66deded\" class=\"internal-link\" rel=\"noopener noreferrer\">Plan</a> R with ASIC diversity, escrow, and political-rights mechanisms — the most concrete compute-rooted proposal yet for limiting concentration risk.</li>\n<li><strong>Economic and epistemic reframings of AI impact</strong> argue AI substitutes for <a href=\"/?date=2026-09-27&amp;category=research#item-54cef06ede4f\" class=\"internal-link\" rel=\"noopener noreferrer\">labor</a> faster than it complements it, demand <a href=\"/?date=2026-09-27&amp;category=research#item-c07bf8d646a1\" class=\"internal-link\" rel=\"noopener noreferrer\">extraordinary-evidence standards for x-risk claims</a>, and document the affective gap that weakens extinction communication.</li>\n</ul>\n<h3>Leadership Implications</h3>\n<ul>\n<li><strong>Stress-test <a href=\"/?date=2026-09-27&amp;category=research#item-d23b3ae2f416\" class=\"internal-link\" rel=\"noopener noreferrer\">replication</a> and governance assumptions now</strong>: assign a red-team to validate the 2027 forecast and commission a feasibility review of <a href=\"/?date=2026-09-27&amp;category=research#item-4fffa66deded\" class=\"internal-link\" rel=\"noopener noreferrer\">ASIC-rooted deployment splits</a> before the next model cycle.</li>\n<li><strong>Treat agent memory integrity as a deployment gate</strong>: adopt crash-continuity and integrity metrics alongside retrieval <a href=\"/?date=2026-09-27&amp;category=research#item-b4a66c071479\" class=\"internal-link\" rel=\"noopener noreferrer\">accuracy</a> when shipping tool-using agents to customers.</li>\n</ul>",
+  "category_summary_evidence": [
+    [
+      "d23b3ae2f416",
+      "b4a66c071479",
+      "4fffa66deded"
+    ],
+    [
+      "d23b3ae2f416"
+    ],
+    [
+      "b4a66c071479",
+      "04c1ad6527fd"
+    ],
+    [
+      "65407ef18745"
+    ],
+    [
+      "4fffa66deded"
+    ],
+    [
+      "683106d0af8d",
+      "54cef06ede4f",
+      "c07bf8d646a1"
+    ],
+    [
+      "d23b3ae2f416",
+      "4fffa66deded"
+    ],
+    [
+      "b4a66c071479"
+    ]
+  ],
+  "themes": [
+    {
+      "name": "AI Safety and Governance",
+      "description": "Forecasts of replication risk, ASIC-based deployment restrictions, and existential-risk epistemics.",
+      "item_count": 4,
+      "example_items": [],
+      "importance": 70.0
+    },
+    {
+      "name": "AI Agents and Tool Use",
+      "description": "Persistent memory integrity for tool-using agents and swarm-style multi-agent orchestration.",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 60.0
+    },
+    {
+      "name": "Autonomous Driving and Robotics",
+      "description": "Trajectory-repair layers for end-to-end driving policies.",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 55.0
+    },
+    {
+      "name": "Frontier Model Analysis",
+      "description": "User-perspective commentary on Claude Opus 5.5 and Astra as an RLM.",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 55.0
+    },
+    {
+      "name": "Economics of AI",
+      "description": "Substitute-vs-complement framing of AI labor impact and 'poverty in abundance'.",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 42.0
+    },
+    {
+      "name": "Existential Risk Discourse",
+      "description": "Philosophical and psychological commentary on extinction and x-risk priors.",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 35.0
+    },
+    {
+      "name": "Community and Personal Essays",
+      "description": "Nectome sales, dream phenomenology, addiction framing.",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 15.0
+    }
+  ],
+  "total_items": 13,
+  "items": [
+    {
+      "id": "d23b3ae2f416",
+      "title": "Why I expect AI replication incidents by 2027",
+      "content": "Epistemic status: thinking out loud.I think a major incident of autonomous AI replication in the wild before the end of 2027 is reasonably likely. In this post, I explain the reasons why I think so.1. The capability is moving to cheaper hardwareThe capability density of open models doubles about every 3.3 months[1], so the same performance fits into half the parameters within that time. Epoch AI finds that a single consumer GPU runs open models that match the frontier of 6-12 months earlier[2]. In performance, open models also follow closed ones with a lag of about 4 months overall[3] and 4-7 months on cyber tasks[4], with a similar lag of 3-5 months on hacking and replication tasks[5].Open models on a consumer GPU trail the frontier by 6-12 months. Epoch AIQwen3.8-27B is the most recent example, a model that runs on a laptop and performs close to Opus 4.6[6]. Task-specific models are even smaller, and on the order of 10⁸-10⁹ machines online could host a 3B to 7B model, so a large target space can compensate for lower capability.These trends are also a lower bound, since most of these results come from general-purpose agent harnesses with no task-specific fine-tuning. The harness alone makes a large difference[7], as AISLE found that small open models with good harnesses match frontier models on some offensive tasks[8], with XBOW being another example of the importance of orchestration[9]. Narrow fine-tuning for offensive security tasks shows a similar room for improvement, allowing small open-weight models to reach much higher success rates[10].Frontier models are also starting to automate the ML work around open-weight models, getting better at post-training[11] and inference optimization[12], which will make open models easier to fine-tune and faster/cheaper to run. These improvements are likely to continue, as labs are moving towards automated AI research, and these are tasks with fast feedback loops and results that are relatively easy to verify.I would expect ...",
+      "url": "https://www.lesswrong.com/posts/BhcymsLgyYazh6sme/why-i-expect-ai-replication-incidents-by-2027",
+      "author": "Reworr R",
+      "published": "2026-09-26T19:58:31.334000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "Argues that autonomous AI replication incidents in the wild are reasonably likely before end of 2027, grounded in capability-density trends showing open models doubling every ~3.3 months, consumer-GPU-hostable models trailing the frontier by 6-12 months, and replication/hacking task lags of 3-7 months. Concludes that a large population of smaller models on millions of devices compensates for capability gaps.",
+      "importance_score": 62.0,
+      "reasoning": "Synthesizes quantitative Epoch AI datapoints into a concrete, falsifiable forecast about AI replication risk. The capability-density framing and target-space argument are substantive. LessWrong commentary rather than peer-reviewed work, but the reasoning is structured and grounded in cited metrics; would be higher if it included defensive counter-arguments or empirical replication benchmarks.",
+      "themes": [
+        "AI Safety",
+        "Forecasting",
+        "Frontier Models",
+        "Open Models"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "BhcymsLgyYazh6sme",
+        "slug": "why-i-expect-ai-replication-incidents-by-2027",
+        "base_score": 9,
+        "vote_count": 3,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Argues that autonomous AI replication incidents in the wild are reasonably likely before end of 2027, grounded in capability-density trends showing open models doubling every ~3.3 months, consumer-GPU-hostable models trailing the frontier by 6-12 months, and replication/hacking task lags of 3-7 months. Concludes that a large population of smaller models on millions of devices compensates for capability gaps.</p>",
+      "content_html": "<p>Epistemic status: thinking out loud.I think a major incident of autonomous AI replication in the wild before the end of 2027 is reasonably likely. In this post, I explain the reasons why I think so.1. The capability is moving to cheaper hardwareThe capability density of open models doubles about every 3.3 months[1], so the same performance fits into half the parameters within that time. Epoch AI finds that a single consumer GPU runs open models that match the frontier of 6-12 months earlier[2]. In performance, open models also follow closed ones with a lag of about 4 months overall[3] and 4-7 months on cyber tasks[4], with a similar lag of 3-5 months on hacking and replication tasks[5].Open models on a consumer GPU trail the frontier by 6-12 months. Epoch AIQwen3.8-27B is the most recent example, a model that runs on a laptop and performs close to Opus 4.6[6]. Task-specific models are even smaller, and on the order of 10⁸-10⁹ machines online could host a 3B to 7B model, so a large target space can compensate for lower capability.These trends are also a lower bound, since most of these results come from general-purpose agent harnesses with no task-specific fine-tuning. The harness alone makes a large difference[7], as AISLE found that small open models with good harnesses match frontier models on some offensive tasks[8], with XBOW being another example of the importance of orchestration[9]. Narrow fine-tuning for offensive security tasks shows a similar room for improvement, allowing small open-weight models to reach much higher success rates[10].Frontier models are also starting to automate the ML work around open-weight models, getting better at post-training[11] and inference optimization[12], which will make open models easier to fine-tune and faster/cheaper to run. These improvements are likely to continue, as labs are moving towards automated AI research, and these are tasks with fast feedback loops and results that are relatively easy to verify.I would expect ...</p>"
+    },
+    {
+      "id": "b4a66c071479",
+      "title": "Beyond Recall Accuracy: Evaluating Integrity and Crash Continuity in Persistent Memory for Tool-Using Language Agents",
+      "content": "AtMem is evaluated as a persistent-memory and continuity layer for tool-using language agents, extending assessment beyond retrieval accuracy to provenance, authority, taint handling, and recovery after uncertain external actions. In controlled tests, it passed all 400 representable integrity trials, rejected canonical secret retention, preserved taint through derivation, and avoided a repeat dispatch after a crash where the external effect may already have occurred.",
+      "url": "https://www.alphaxiv.org/abs/2609.persistent-memory-integrity-agent-evaluation",
+      "author": "Javad Taghia",
+      "published": "2026-09-26T00:00:00+00:00",
+      "source": "AlphaXiv Trending",
+      "source_type": "research_paper",
+      "tags": [
+        "agents",
+        "Computer Science",
+        "cs.AI"
+      ],
+      "summary": "Evaluates AtMem as a persistent-memory and continuity layer for tool-using language agents, extending assessment beyond retrieval accuracy to include provenance, authority, taint handling, and crash recovery. Passes all 400 integrity trials, rejects canonical secret retention, preserves taint through derivation, and avoids repeat dispatch after uncertain external actions.",
+      "importance_score": 58.0,
+      "reasoning": "Memory integrity and crash continuity are under-evaluated dimensions for tool-using agents, and the failure modes targeted (repeat dispatch after a possibly-completed external action, secret retention, taint propagation) are real and consequential. The 400-trial controlled evaluation is useful but small; broader ecological validity and comparison against alternative memory systems would strengthen the work.",
+      "themes": [
+        "AI Agents",
+        "Memory Systems",
+        "Agent Safety",
+        "Evaluation"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "arxiv_id": "2609.persistent-memory-integrity-agent-evaluation",
+        "category_name": "agents, Computer Science, cs.AI",
+        "discovery_sources": [
+          "alphaxiv"
+        ],
+        "source_urls": {
+          "alphaxiv": "https://www.alphaxiv.org/abs/2609.persistent-memory-integrity-agent-evaluation"
+        },
+        "alphaxiv": {
+          "public_total_votes": 1,
+          "visits_count": {
+            "all": 17,
+            "last_7_days": 17
+          },
+          "github_url": null,
+          "github_stars": null,
+          "ranking_interval": "3 Days"
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Evaluates AtMem as a persistent-memory and continuity layer for tool-using language agents, extending assessment beyond retrieval accuracy to include provenance, authority, taint handling, and crash recovery. Passes all 400 integrity trials, rejects canonical secret retention, preserves taint through derivation, and avoids repeat dispatch after uncertain external actions.</p>",
+      "content_html": "<p>AtMem is evaluated as a persistent-memory and continuity layer for tool-using language agents, extending assessment beyond retrieval accuracy to provenance, authority, taint handling, and recovery after uncertain external actions. In controlled tests, it passed all 400 representable integrity trials, rejected canonical secret retention, preserved taint through derivation, and avoided a repeat dispatch after a crash where the external effect may already have occurred.</p>"
+    },
+    {
+      "id": "65407ef18745",
+      "title": "Guiding End-to-End Driving Models with Endpoint-Constrained Trajectory Optimization",
+      "content": "The authors introduce ECO, a test-time trajectory-repair layer that reshapes intermediate waypoints between executed history and a policy-selected endpoint. It optimizes smoothness, turn penalties, and fidelity to the original path without changing the driving policy. In closed-loop simulation, VaVAM’s HUGSIM HD-Score rises from 18.1 to 31.0 across 185 scenes. ECO does not choose destinations or reason about other agents.",
+      "url": "https://www.alphaxiv.org/abs/2609.endpoint-constrained-trajectory-optimization",
+      "author": "Brayden Zhang, Mahsa Golchoubian, Igor Gilitschenski, Boris Ivanovic, Kashyap Chitta",
+      "published": "2026-09-26T00:00:00+00:00",
+      "source": "AlphaXiv Trending",
+      "source_type": "research_paper",
+      "tags": [
+        "autonomous-vehicles",
+        "Computer Science",
+        "cs.RO"
+      ],
+      "summary": "Introduces ECO, a test-time trajectory-repair layer for end-to-end autonomous driving that reshapes intermediate waypoints between executed history and a policy-selected endpoint, optimizing smoothness and turn penalties without modifying the driving policy. In closed-loop simulation, VaVAM's HUGSIM HD-Score nearly doubles from 18.1 to 31.0 across 185 scenes.",
+      "importance_score": 55.0,
+      "reasoning": "Solid empirical improvement on a meaningful closed-loop driving metric without retraining. The idea of a plug-in trajectory repair layer is practical and incremental rather than architecturally novel. Authors include credible autonomy researchers (Gilitschenski, Ivanovic, Chitta), but the contribution is narrow: limited to endpoint-constrained refinement, not destination choice or multi-agent reasoning.",
+      "themes": [
+        "Autonomous Driving",
+        "Trajectory Optimization",
+        "Robotics"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "arxiv_id": "2609.endpoint-constrained-trajectory-optimization",
+        "category_name": "autonomous-vehicles, Computer Science, cs.RO",
+        "discovery_sources": [
+          "alphaxiv"
+        ],
+        "source_urls": {
+          "alphaxiv": "https://www.alphaxiv.org/abs/2609.endpoint-constrained-trajectory-optimization"
+        },
+        "alphaxiv": {
+          "public_total_votes": 5,
+          "visits_count": {
+            "all": 49,
+            "last_7_days": 49
+          },
+          "github_url": null,
+          "github_stars": null,
+          "ranking_interval": "3 Days"
+        },
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Introduces ECO, a test-time trajectory-repair layer for end-to-end autonomous driving that reshapes intermediate waypoints between executed history and a policy-selected endpoint, optimizing smoothness and turn penalties without modifying the driving policy. In closed-loop simulation, VaVAM's HUGSIM HD-Score nearly doubles from 18.1 to 31.0 across 185 scenes.</p>",
+      "content_html": "<p>The authors introduce ECO, a test-time trajectory-repair layer that reshapes intermediate waypoints between executed history and a policy-selected endpoint. It optimizes smoothness, turn penalties, and fidelity to the original path without changing the driving policy. In closed-loop simulation, VaVAM’s HUGSIM HD-Score rises from 18.1 to 31.0 across 185 scenes. ECO does not choose destinations or reason about other agents.</p>"
+    },
+    {
+      "id": "4fffa66deded",
+      "title": "Plan R+, Diversity, Escrow and Political Rights for ASICs",
+      "content": "See Also:https://www.lesswrong.com/posts/n8u3BfqFoGh4jnzpo/plan-r-ai-safety-by-asicshttps://www.lesswrong.com/posts/uwtnWvnJAEccksKNk/skeuomorphic-ai-safety-2In Plan R, I sketched a way that we can remove a significant fraction of the dire, short-term AI race risk. Split frontier AI companies into \"R&amp;D only\" organizations which cannot issue equity, and \"AI deployment\" organizations which cannot train new models or hold any general purpose AI compute like GPUs/TPUs - they are limited to model-specific hardwired ASICs. Also one would remove most of the AI-enabled GPU compute from the rest of the world, leading to an equilibrium where AI only exists on model-specific ASICs.AI ASICs would be allowed to work at AI R&amp;D Labs, but not at the lab they were created.Plan R fixes or at least attempts to fix several of the scariest risks associated with frontier AI, such as out of control recursive self-improvement, superintelligent computer viruses/worms and the race dynamic between labs.One remaining problem with Plan R is that deceptively misaligned AIs can still sneak through testing, get out into the world and cause harm, up to and including a global coup by misaligned AIs, which is pretty much the worst possible outcome. Just because AIs are running on ASICs doesn't mean they can't do bad things.Plan R+ seeks to block this final risk.The intended mechanism is(1) Mass model training diversity(2) ASIC Lineage Escrow(3) Early vs Late Pincer(4) Political Representation/Personal PropertyMass model training diversity requires that many models are trained and they don't all share the same training inputs at any stage of training. This includes the lab (there would be multiple labs), the pretraining, the finetuning, the RL, etc.ASIC Lineage Escrow would work as follows. At a given point in time, there might be say 1000 \"Lineages\" in an AI generation, instead of the current 2 or 3 big models we have. Each lineage gets maybe 10,000 ASICs written and is then encrypted or dele...",
+      "url": "https://www.lesswrong.com/posts/BHGoF7tPqtLo9mXFL/plan-r-diversity-escrow-and-political-rights-for-asics",
+      "author": "Roko",
+      "published": "2026-09-26T14:59:15.048000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "Extends Plan R — splitting frontier AI firms into R&D-only and deployment-only entities constrained to model-specific ASICs — by adding diversity (multiple ASIC vendors), escrow of designs, and 'political rights' for ASICs to limit single-supplier lock-in and adversarial state capture. Targets residual risks from deceptive alignment slipping through testing.",
+      "importance_score": 50.0,
+      "reasoning": "Concrete and detailed AI governance proposal addressing a specific failure mode (concentration of ASIC fabrication and deceptive misalignment slip-through). Mechanism design and escrow logic are thoughtful, though speculative and lacking empirical grounding or game-theoretic formalization. Worth tracking as a contribution to AI-race-risk governance discourse.",
+      "themes": [
+        "AI Governance",
+        "AI Safety",
+        "ASIC Compute",
+        "Policy"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "BHGoF7tPqtLo9mXFL",
+        "slug": "plan-r-diversity-escrow-and-political-rights-for-asics",
+        "base_score": 11,
+        "vote_count": 9,
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Extends Plan R — splitting frontier AI firms into R&amp;D-only and deployment-only entities constrained to model-specific ASICs — by adding diversity (multiple ASIC vendors), escrow of designs, and 'political rights' for ASICs to limit single-supplier lock-in and adversarial state capture. Targets residual risks from deceptive alignment slipping through testing.</p>",
+      "content_html": "<p>See Also:https://www.lesswrong.com/posts/n8u3BfqFoGh4jnzpo/plan-r-ai-safety-by-asicshttps://www.lesswrong.com/posts/uwtnWvnJAEccksKNk/skeuomorphic-ai-safety-2In Plan R, I sketched a way that we can remove a significant fraction of the dire, short-term AI race risk. Split frontier AI companies into \"R&amp;D only\" organizations which cannot issue equity, and \"AI deployment\" organizations which cannot train new models or hold any general purpose AI compute like GPUs/TPUs - they are limited to model-specific hardwired ASICs. Also one would remove most of the AI-enabled GPU compute from the rest of the world, leading to an equilibrium where AI only exists on model-specific ASICs.AI ASICs would be allowed to work at AI R&amp;D Labs, but not at the lab they were created.Plan R fixes or at least attempts to fix several of the scariest risks associated with frontier AI, such as out of control recursive self-improvement, superintelligent computer viruses/worms and the race dynamic between labs.One remaining problem with Plan R is that deceptively misaligned AIs can still sneak through testing, get out into the world and cause harm, up to and including a global coup by misaligned AIs, which is pretty much the worst possible outcome. Just because AIs are running on ASICs doesn't mean they can't do bad things.Plan R+ seeks to block this final risk.The intended mechanism is(1) Mass model training diversity(2) ASIC Lineage Escrow(3) Early vs Late Pincer(4) Political Representation/Personal PropertyMass model training diversity requires that many models are trained and they don't all share the same training inputs at any stage of training. This includes the lab (there would be multiple labs), the pretraining, the finetuning, the RL, etc.ASIC Lineage Escrow would work as follows. At a given point in time, there might be say 1000 \"Lineages\" in an AI generation, instead of the current 2 or 3 big models we have. Each lineage gets maybe 10,000 ASICs written and is then encrypted or dele...</p>"
+    },
+    {
+      "id": "c07bf8d646a1",
+      "title": "Existential Risk Is An Extraordinary Claim",
+      "content": "This is a cross-post from my blog post.Over the past decade, the effective altruism movement has become increasingly focused on “existential risk,” the idea that, this century, there’s a significant chance that humanity will go extinct, become permanently disempowered, or otherwise lose almost all of its future potential.In this post, I’m not going to argue that, given what we know, we should believe that existential risk is high or low. Instead, what I’m going to argue is that existential risk is an extraordinary claim and that, as such, we must have extraordinary evidence to be concerned about it. Whether we have such evidence I’ll leave to the reader.My most general argument for this is simply that existential risk represents a dramatic state change in the world and that, the more dramatic of a state change someone is arguing for, the more evidence they must supply to convince us of it. If your friend tells you that one of your windows could get broken this year because of the upcoming hail storm, you have good reason to believe them. But, if they tell you that every single house in your entire state will be completely destroyed, they need to provide extreme evidence to substantiate such a claim.ExtinctionThe dominant existential risk that effective altruists worry about is human extinction.But, notably, in order for this to happen, there has to be an extremely specific set of conditions. It can’t merely be that some event, say a nuclear war or a pandemic, causes a large number of people to die. Instead, it has to be that, for some reason, every single last human is killed. The only mechanisms I can really think of that would cause this is either that some entity actively seeks out and kills every human or that every part of the Earth becomes uninhabitable for a significant duration of time.One way some argue this could occur is that humanity will develop a superintelligent AI that will systematically seek out and kill every last human. But, to believe that this ...",
+      "url": "https://www.lesswrong.com/posts/SveFDdLRxQTTn7Xp7/existential-risk-is-an-extraordinary-claim",
+      "author": "James Brobin",
+      "published": "2026-09-26T10:44:23.380000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "",
+      "importance_score": 45.0,
+      "reasoning": "Discusses a notable RLM direction (swarm/orchestration) referencing Astra as a trained-for-RLM model released on 2026-09-03, about three weeks before coverage — should be framed as analysis of an existing model rather than a new release. The post is commentary on others' work; it raises interesting points about emergent multi-agent orchestration but lacks novel empirical content itself.",
+      "themes": [
+        "AI Agents",
+        "Multi-Agent Systems",
+        "Frontier Models",
+        "AI Safety"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "SveFDdLRxQTTn7Xp7",
+        "slug": "existential-risk-is-an-extraordinary-claim",
+        "base_score": -2,
+        "vote_count": 11,
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "",
+      "content_html": "<p>This is a cross-post from my blog post.Over the past decade, the effective altruism movement has become increasingly focused on “existential risk,” the idea that, this century, there’s a significant chance that humanity will go extinct, become permanently disempowered, or otherwise lose almost all of its future potential.In this post, I’m not going to argue that, given what we know, we should believe that existential risk is high or low. Instead, what I’m going to argue is that existential risk is an extraordinary claim and that, as such, we must have extraordinary evidence to be concerned about it. Whether we have such evidence I’ll leave to the reader.My most general argument for this is simply that existential risk represents a dramatic state change in the world and that, the more dramatic of a state change someone is arguing for, the more evidence they must supply to convince us of it. If your friend tells you that one of your windows could get broken this year because of the upcoming hail storm, you have good reason to believe them. But, if they tell you that every single house in your entire state will be completely destroyed, they need to provide extreme evidence to substantiate such a claim.ExtinctionThe dominant existential risk that effective altruists worry about is human extinction.But, notably, in order for this to happen, there has to be an extremely specific set of conditions. It can’t merely be that some event, say a nuclear war or a pandemic, causes a large number of people to die. Instead, it has to be that, for some reason, every single last human is killed. The only mechanisms I can really think of that would cause this is either that some entity actively seeks out and kills every human or that every part of the Earth becomes uninhabitable for a significant duration of time.One way some argue this could occur is that humanity will develop a superintelligent AI that will systematically seek out and kill every last human. But, to believe that this ...</p>"
+    },
+    {
+      "id": "683106d0af8d",
+      "title": "Night dreams have a tech tree?",
+      "content": "Reading a book in a room with my late grandma who's been overhearing people from the kitchen whom I only hear as muffled voices that I don't understand made me realize:there are readable letters in my dreams now that stay the same when I look away and then back at themmy dream-character self can find himself in the state of having read stuff about \"Snow class\" (fictional caste system based on your job at a starship that ought to be unrelated to your skin color but the reader ought to be unsure about that, people of this class perceive it as the highest class, but it's implied that other people can and do disagree)... without doing any actual reading (not in the dream itself, and not in reality either), just as an atomic gestalt / naming a pre-existing conceptmy dream-narrator self is capable of not knowing what the dream characters who are not me talk about/overhear (who themselves do know what they talk about, the simulated world is presumed to be in a deterministic state where the past has already happened, the gap in the knowledge my dream-character is expected, but the affordance of my dream-director to use an unreliable dream-narrator was surprising to my waking-self, I have no idea what they talked about, just that it sounded emotional and made me look away from my book for a second)In the next dream, I was a disembodied player of a city builder, toggling full-screen to tech tree to unlock a wood-pile building that will add 4000 citizens (..which totally made sense in the dream but not after waking), then going back to the city and placing the new building.The last one before waking was a ~movie about a girl from a poor family harvesting wheat and after a war she became the lady of the house because the rich family owning the mansion died out. Turned out not everyone died in the war, the old lady visited many years later. I didn't have any privileged insight into their thinking, only the implied narrative conflict and full visual details of the scene and clear...",
+      "url": "https://www.lesswrong.com/posts/JEaeNbhYy4qJsFahi/night-dreams-have-a-tech-tree",
+      "author": "Aprillion",
+      "published": "2026-09-26T02:57:07.500000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "Argues that AI-driven goods-cheapening will not translate into broadly shared prosperity because AI substitutes for human labor (lowering wages) faster than it reduces the cost of physically-produced necessities like food. Predicts 'poverty in the midst of abundance' absent redistribution or broad investment ownership.",
+      "importance_score": 42.0,
+      "reasoning": "Clear economic argument with a concrete mechanism (substitute vs complement framing plus an energy-cost proxy). Thought-provoking but informal — no quantitative modeling, only stylized reasoning about apples vs token cost. Useful framing for AI-and-labor discussions.",
+      "themes": [
+        "Economics of AI",
+        "Labor Markets",
+        "AI Policy"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "JEaeNbhYy4qJsFahi",
+        "slug": "night-dreams-have-a-tech-tree",
+        "base_score": 8,
+        "vote_count": 6,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Argues that AI-driven goods-cheapening will not translate into broadly shared prosperity because AI substitutes for human labor (lowering wages) faster than it reduces the cost of physically-produced necessities like food. Predicts 'poverty in the midst of abundance' absent redistribution or broad investment ownership.</p>",
+      "content_html": "<p>Reading a book in a room with my late grandma who's been overhearing people from the kitchen whom I only hear as muffled voices that I don't understand made me realize:there are readable letters in my dreams now that stay the same when I look away and then back at themmy dream-character self can find himself in the state of having read stuff about \"Snow class\" (fictional caste system based on your job at a starship that ought to be unrelated to your skin color but the reader ought to be unsure about that, people of this class perceive it as the highest class, but it's implied that other people can and do disagree)... without doing any actual reading (not in the dream itself, and not in reality either), just as an atomic gestalt / naming a pre-existing conceptmy dream-narrator self is capable of not knowing what the dream characters who are not me talk about/overhear (who themselves do know what they talk about, the simulated world is presumed to be in a deterministic state where the past has already happened, the gap in the knowledge my dream-character is expected, but the affordance of my dream-director to use an unreliable dream-narrator was surprising to my waking-self, I have no idea what they talked about, just that it sounded emotional and made me look away from my book for a second)In the next dream, I was a disembodied player of a city builder, toggling full-screen to tech tree to unlock a wood-pile building that will add 4000 citizens (..which totally made sense in the dream but not after waking), then going back to the city and placing the new building.The last one before waking was a ~movie about a girl from a poor family harvesting wheat and after a war she became the lady of the house because the rich family owning the mansion died out. Turned out not everyone died in the war, the old lady visited many years later. I didn't have any privileged insight into their thinking, only the implied narrative conflict and full visual details of the scene and clear...</p>"
+    },
+    {
+      "id": "80dab9916b70",
+      "title": "Claude Opus 5.5 Should Raise Your Ambitions",
+      "content": "When it comes to making things, or doing most things in general, Fable 5.1 and especially GPT-6 Astra raised my ambition level. They should have raised yours, too. Claude Opus 5.5 should raise your ambition levels again. It just works, and it persists, like Astra does. It does the things. And it is highly pleasant to talk to, and its writing is pleasant to read, while you are at it. The game has been changed, again. Feedback is almost universally positive. Claude was never gone, but also is so back. The benchmarks are excellent, but ignore the benchmarks. Be ambitious. Go out and do things. Get curious. Have more interesting conversations. If one of those things is Pacing the Frontier or otherwise ensuring that AI does not kill everyone, leaving us to enjoy our bounty? That’s even better. By Claude Opus 5.5, for this post The Official Pitch The pitch is Fable-5.1-level performance at lower Opus-level price. Good pitch. We’re introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5. They could have reasonably pitched this as above-Fable-5.1-level performance. Better pitch, but Anthropic tends to keep its pitches conservative. They highlight agentic coding, security and improved communications. The early tester blurbs flag as AI generated and they have a set for each feature area. They praise agentic coding skills, efficiency, readability and communication, and ability to effectively run on its own for extended periods and increased reliability, pitching it as a major upgrade. Benchmarks look fantastic, with occasional spots where Astra or Fable is still ahead. Opus 5.5 is available with zero data retention (ZDR). Given it is at least as capable as Fable 5.1, and clearly more capable on cyber tasks (they say ‘extremely strong’ cyber capabilities), this seems unprincipled. They have a technical explanation but I do not buy it. From where I sit, either Fable...",
+      "url": "https://www.lesswrong.com/posts/rtPiip9igy3QvxYdM/claude-opus-5-5-should-raise-your-ambitions",
+      "author": "Zvi",
+      "published": "2026-09-26T07:40:51.763000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "Existential risk is framed as an extraordinary claim requiring extraordinary evidence, mirroring standards applied to other dramatic state-change predictions. Argues that without such evidence the prior probability of civilizational collapse this century should not be presumed high.",
+      "importance_score": 35.0,
+      "reasoning": "Philosophical/epistemic argument rather than empirical work. Useful as a counter-frame to x-risk discourse, but it does not engage with specific technical evidence (capability evaluations, deployment risk models) and remains at the level of general Bayesian/extraordinary-claim rhetoric.",
+      "themes": [
+        "Existential Risk",
+        "Epistemics",
+        "AI Safety"
+      ],
+      "sentiment": "concerned",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "rtPiip9igy3QvxYdM",
+        "slug": "claude-opus-5-5-should-raise-your-ambitions",
+        "base_score": 42,
+        "vote_count": 15,
+        "sentiment": "concerned"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Existential risk is framed as an extraordinary claim requiring extraordinary evidence, mirroring standards applied to other dramatic state-change predictions. Argues that without such evidence the prior probability of civilizational collapse this century should not be presumed high.</p>",
+      "content_html": "<p>When it comes to making things, or doing most things in general, Fable 5.1 and especially GPT-6 Astra raised my ambition level. They should have raised yours, too. Claude Opus 5.5 should raise your ambition levels again. It just works, and it persists, like Astra does. It does the things. And it is highly pleasant to talk to, and its writing is pleasant to read, while you are at it. The game has been changed, again. Feedback is almost universally positive. Claude was never gone, but also is so back. The benchmarks are excellent, but ignore the benchmarks. Be ambitious. Go out and do things. Get curious. Have more interesting conversations. If one of those things is Pacing the Frontier or otherwise ensuring that AI does not kill everyone, leaving us to enjoy our bounty? That’s even better. By Claude Opus 5.5, for this post The Official Pitch The pitch is Fable-5.1-level performance at lower Opus-level price. Good pitch. We’re introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5. They could have reasonably pitched this as above-Fable-5.1-level performance. Better pitch, but Anthropic tends to keep its pitches conservative. They highlight agentic coding, security and improved communications. The early tester blurbs flag as AI generated and they have a set for each feature area. They praise agentic coding skills, efficiency, readability and communication, and ability to effectively run on its own for extended periods and increased reliability, pitching it as a major upgrade. Benchmarks look fantastic, with occasional spots where Astra or Fable is still ahead. Opus 5.5 is available with zero data retention (ZDR). Given it is at least as capable as Fable 5.1, and clearly more capable on cyber tasks (they say ‘extremely strong’ cyber capabilities), this seems unprincipled. They have a technical explanation but I do not buy it. From where I sit, either Fable...</p>"
+    },
+    {
+      "id": "04c1ad6527fd",
+      "title": "[Linkpost] Looking into the Swarm's Eye",
+      "content": "I'm Florian Brand is currently working as Research Engineer at Prime Intellect. Currently, my research focuses on applying and evaluating LLMs in various domains. I am also an editor at Interconnects, focusing on open models.There is, however, a big gap between open models in a suitable harness and GPT-6 (Astra), the first model trained very deliberately to be a capable RLM. Astra is currently held back by its native harness, Codex, and its default prompts. When elicited correctly, it is a sight to behold: It can delegate work effectively, manage its subagents, spawn (sub-)subagents on its own when appropriate, and let all of them communicate with and about each other. It is also very raw as a model, making mistakes and being close to an alien mind. Similar to o1-preview, these issues will be worked out over time and the models will become more reliable, but this makes the current generation of models all the more exciting.As mentioned in the post, we're still early days in exploring swarm behavior. It is currently expensive to do so. Currently, it seems like you need token budgets in the $10-100ks to sufficiently explore them.Interrogating the behavior of swarms is urgent for AI safety. If you're someone with the budget and competency to design evals and interrogate swarm behavior more thoroughly, please do so!",
+      "url": "https://www.lesswrong.com/posts/St5mzn8D9jMmxfgHd/linkpost-looking-into-the-swarm-s-eye",
+      "author": "nwyin",
+      "published": "2026-09-26T18:03:52.091000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "I'm Florian Brand is currently working as Research Engineer at Prime Intellect. Currently, my research focuses on applying and evaluating LLMs in various domains. I am also an editor at Interconnects,...",
+      "importance_score": 30,
+      "reasoning": "Not analyzed (batch processing failure)",
+      "themes": [],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "St5mzn8D9jMmxfgHd",
+        "slug": "linkpost-looking-into-the-swarm-s-eye",
+        "base_score": 15,
+        "vote_count": 4,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>I'm Florian Brand is currently working as Research Engineer at Prime Intellect. Currently, my research focuses on applying and evaluating LLMs in various domains. I am also an editor at Interconnects,...</p>",
+      "content_html": "<p>I'm Florian Brand is currently working as Research Engineer at Prime Intellect. Currently, my research focuses on applying and evaluating LLMs in various domains. I am also an editor at Interconnects, focusing on open models.There is, however, a big gap between open models in a suitable harness and GPT-6 (Astra), the first model trained very deliberately to be a capable RLM. Astra is currently held back by its native harness, Codex, and its default prompts. When elicited correctly, it is a sight to behold: It can delegate work effectively, manage its subagents, spawn (sub-)subagents on its own when appropriate, and let all of them communicate with and about each other. It is also very raw as a model, making mistakes and being close to an alien mind. Similar to o1-preview, these issues will be worked out over time and the models will become more reliable, but this makes the current generation of models all the more exciting.As mentioned in the post, we're still early days in exploring swarm behavior. It is currently expensive to do so. Currently, it seems like you need token budgets in the $10-100ks to sufficiently explore them.Interrogating the behavior of swarms is urgent for AI safety. If you're someone with the budget and competency to design evals and interrogate swarm behavior more thoroughly, please do so!</p>"
+    },
+    {
+      "id": "7fd2154b28e9",
+      "title": "Extinction does not feel as bad as it should",
+      "content": "And we will all go together when we goWhat a comforting fact that is to knowUniversal bereavement, an inspiring achievementYes, we all will go together when we go-- We Will All Go Together When We Go by Tom Lehrer\"Everyone dying\" does not emotionally feel that bad to me. I know that it is quite a bad thing intellectually, but I have a missing mood. I'm guessing I'm not alone here. When people say things like \"If anyone builds it, everyone dies\", there is an implicit assumption that everyone is on the same page that \"everyone dies\" is a really bad, perhaps even the worst, outcome. But not everyone feels this way, and among those, not many have shut up and multiplied to correct for their brain's biases. I thought it would be useful to explore possible reasons why extinction may not feel as bad as it should.Extinction lacks some negative features of lesser catastrophesTo be clear, I am not a death fan or extinction enjoyer, I want us to all live forever. The lack of these negative features in extinction clearly does not outweigh the negative fact of the deaths themselves, but are something that some parts of your brain may unduly weigh.No one is left to sufferOne reason death is bad is that the people who remain must now suffer the loss of the deceased. This is the thing that causes the most visceral bad feeling when I think of death. If 10% of people die, then probably you or some people you know will be among the 10%. That's a lot of people mourning loved ones and friends, coworkers and acquaintances. But if we all go together, this very emotionally distraught and negative valence experience of grieving does not happen at all (or if there is some lag in the disassembling of our atoms, the grief will be brief). It also feels really bad to imagine the world just moving on after someone passes away. This also does not happen at all under extinction: the main \"world\" we care about is the world of people. Imagining that machines are doing their thing, with no people aroun...",
+      "url": "https://www.lesswrong.com/posts/xak4GixbKD9W5jzqn/extinction-does-not-feel-as-bad-as-it-should",
+      "author": "mxbutterfree",
+      "published": "2026-09-26T18:55:27.969000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "Explores psychological reasons why human extinction does not emotionally register as a catastrophe even though intellectually it is recognized as one. Attributes the gap to extinction lacking features like ongoing suffering, replaceable goods, and personal loss that other disasters possess.",
+      "importance_score": 22.0,
+      "reasoning": "Personal reflection on affect/affective bias and existential risk communication. No novel empirical or theoretical contribution; it is introspective commentary with limited technical substance. Relevant to alignment discourse only insofar as it touches public-salience of x-risk arguments.",
+      "themes": [
+        "Existential Risk",
+        "Psychology",
+        "Effective Altruism"
+      ],
+      "sentiment": "negative",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "xak4GixbKD9W5jzqn",
+        "slug": "extinction-does-not-feel-as-bad-as-it-should",
+        "base_score": 12,
+        "vote_count": 4,
+        "sentiment": "negative"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Explores psychological reasons why human extinction does not emotionally register as a catastrophe even though intellectually it is recognized as one. Attributes the gap to extinction lacking features like ongoing suffering, replaceable goods, and personal loss that other disasters possess.</p>",
+      "content_html": "<p>And we will all go together when we goWhat a comforting fact that is to knowUniversal bereavement, an inspiring achievementYes, we all will go together when we go-- We Will All Go Together When We Go by Tom Lehrer\"Everyone dying\" does not emotionally feel that bad to me. I know that it is quite a bad thing intellectually, but I have a missing mood. I'm guessing I'm not alone here. When people say things like \"If anyone builds it, everyone dies\", there is an implicit assumption that everyone is on the same page that \"everyone dies\" is a really bad, perhaps even the worst, outcome. But not everyone feels this way, and among those, not many have shut up and multiplied to correct for their brain's biases. I thought it would be useful to explore possible reasons why extinction may not feel as bad as it should.Extinction lacks some negative features of lesser catastrophesTo be clear, I am not a death fan or extinction enjoyer, I want us to all live forever. The lack of these negative features in extinction clearly does not outweigh the negative fact of the deaths themselves, but are something that some parts of your brain may unduly weigh.No one is left to sufferOne reason death is bad is that the people who remain must now suffer the loss of the deceased. This is the thing that causes the most visceral bad feeling when I think of death. If 10% of people die, then probably you or some people you know will be among the 10%. That's a lot of people mourning loved ones and friends, coworkers and acquaintances. But if we all go together, this very emotionally distraught and negative valence experience of grieving does not happen at all (or if there is some lag in the disassembling of our atoms, the grief will be brief). It also feels really bad to imagine the world just moving on after someone passes away. This also does not happen at all under extinction: the main \"world\" we care about is the world of people. Imagining that machines are doing their thing, with no people aroun...</p>"
+    },
+    {
+      "id": "61201f56ec59",
+      "title": "Writing a Theorem Prover from scratch",
+      "content": "NOTE: I am no subject matter expert and have chose to learn about this field through utilizing LLMs to guide me using practical implementations. Also, I am assuming a basic familiarity with Haskell and the Functional Programming paradigm.Our journey starts with the concept of lambda calculus and the existence of the Curry-Howard Correspondence. These concepts basically bridge the gap between Mathematics and Computer Science in a specific manner [1]. This gives rise to a very interesting piece of software: theorem provers, which is a beautiful combination of compiler design, type theory and mathematics, three of my favourite concepts !There aren’t many blogs on writing theorem provers from scratch, hence I thought I would fill the gap up myself! Now, to be fair, there is this excellent essay on writing one from scratch from Federico Carrone, who implements a very simple one in Python. Taking his implementation as the base starting point, I proceeded to re-implement, before moving on to a slightly more expressive one, which utilizes Dependant Type Theory.I have extensively utilized LLMs to guide me (guide not code! Every line is hand-written by me) on creating the extended version, although at this stage, I do trust them to be excellent at this task (I must admit, it took some effort for me to get the LLMs to guide me in a manner that provided a smooth path to implement and understand the extended version). Without further ado, let’s jump in!Version 1The first version is essentially a copy of Federico’s version, as I wanted to start from a very basic and minimalist version. The only difference was that I re-wrote it in Haskell:data Type = Atom String | Arrow Type Type deriving (Show, Eq)data Term = Var String | Lam String Type Term | App Term Term deriving (Show, Eq)type Context = [(String, Type)]search :: Context -&gt; String -&gt; Typesearch [] var = error (\"unbound variable: \" ++ var)search ((k, v) : ctx) key | key == k = v | otherwise = search ctx keyextractright ...",
+      "url": "https://www.lesswrong.com/posts/y2Dio5gGifWepGQf4/writing-a-theorem-prover-from-scratch",
+      "author": "astle dsa",
+      "published": "2026-09-26T06:38:24.576000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "Personal tutorial on writing a theorem prover from scratch in Haskell, starting from lambda calculus and the Curry-Howard correspondence, building on Federico Carrone's Python reference. Uses LLMs to guide (not write) the implementation, progressing to a dependent-type-theory extension.",
+      "importance_score": 20.0,
+      "reasoning": "Educational blog with limited research novelty. Useful as a learning resource but does not advance theorem proving or LLM-assisted formal verification research. Author explicitly disclaims subject-matter expertise.",
+      "themes": [
+        "Theorem Proving",
+        "Programming Languages",
+        "Type Theory"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "y2Dio5gGifWepGQf4",
+        "slug": "writing-a-theorem-prover-from-scratch",
+        "base_score": 14,
+        "vote_count": 6,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Personal tutorial on writing a theorem prover from scratch in Haskell, starting from lambda calculus and the Curry-Howard correspondence, building on Federico Carrone's Python reference. Uses LLMs to guide (not write) the implementation, progressing to a dependent-type-theory extension.</p>",
+      "content_html": "<p>NOTE: I am no subject matter expert and have chose to learn about this field through utilizing LLMs to guide me using practical implementations. Also, I am assuming a basic familiarity with Haskell and the Functional Programming paradigm.Our journey starts with the concept of lambda calculus and the existence of the Curry-Howard Correspondence. These concepts basically bridge the gap between Mathematics and Computer Science in a specific manner [1]. This gives rise to a very interesting piece of software: theorem provers, which is a beautiful combination of compiler design, type theory and mathematics, three of my favourite concepts !There aren’t many blogs on writing theorem provers from scratch, hence I thought I would fill the gap up myself! Now, to be fair, there is this excellent essay on writing one from scratch from Federico Carrone, who implements a very simple one in Python. Taking his implementation as the base starting point, I proceeded to re-implement, before moving on to a slightly more expressive one, which utilizes Dependant Type Theory.I have extensively utilized LLMs to guide me (guide not code! Every line is hand-written by me) on creating the extended version, although at this stage, I do trust them to be excellent at this task (I must admit, it took some effort for me to get the LLMs to guide me in a manner that provided a smooth path to implement and understand the extended version). Without further ado, let’s jump in!Version 1The first version is essentially a copy of Federico’s version, as I wanted to start from a very basic and minimalist version. The only difference was that I re-wrote it in Haskell:data Type = Atom String | Arrow Type Type deriving (Show, Eq)data Term = Var String | Lam String Type Term | App Term Term deriving (Show, Eq)type Context = [(String, Type)]search :: Context -&gt; String -&gt; Typesearch [] var = error (\"unbound variable: \" ++ var)search ((k, v) : ctx) key | key == k = v | otherwise = search ctx keyextractright ...</p>"
+    },
+    {
+      "id": "54cef06ede4f",
+      "title": "Poverty in the midst of abundance: AI will make goods cheaper, but your labor will get cheaper faster",
+      "content": "Very simple idea, but I thought it'd be worth making a post on this. Some people are saying AI will make all goods cheaper, so you'll be able to afford a nicer life by working. Without any redistribution, just by market mechanisms. These people are wrong. AI will lower the price of goods you need to survive, and also the price of your labor. The question is which will get cheaper faster. Let's use energy cost as a proxy. A day's worth of labor equivalent to yours can be done by AI for just a few cents in electricity on tokens. But feeding you with e.g. apples for a day will cost more energy than that, because growing apples can only be energy-optimized so far. So selling your labor at market price will leave you unable to afford apples. This means a future with economic AI might look like \"poverty in the midst of abundance\": all goods are cheap, but somehow you can't find a job paying even that much. In economic terms, many previous inventions were complements to human labor, while AI is a general substitute for human labor, lowering its exchange rate vs other goods. Maybe the problem can be solved by redistribution, or by everyone having investments, or something else - that's a bigger discussion. In this post I just want to make the basic point above.",
+      "url": "https://www.lesswrong.com/posts/eLXTcJfkheLbqZXHa/poverty-in-the-midst-of-abundance-ai-will-make-goods-cheaper",
+      "author": "cousin_it",
+      "published": "2026-09-26T03:54:02.085000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "Argues addiction should be reframed as a locally optimal anesthesia strategy for underlying suffering rather than a 'to' relationship with a substance or behavior, explaining why eliminating one addiction typically yields another. Removes the underlying suffering to extinguish all addictions simultaneously.",
+      "importance_score": 18.0,
+      "reasoning": "Personal-essay framing of addiction consistent with parts of clinical psychology literature (e.g., self-medication, affect-regulation models) but offers no new empirical work, citations, or actionable clinical content. Limited relevance to AI research.",
+      "themes": [
+        "Psychology",
+        "Mental Health"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "eLXTcJfkheLbqZXHa",
+        "slug": "poverty-in-the-midst-of-abundance-ai-will-make-goods-cheaper",
+        "base_score": 57,
+        "vote_count": 33,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Argues addiction should be reframed as a locally optimal anesthesia strategy for underlying suffering rather than a 'to' relationship with a substance or behavior, explaining why eliminating one addiction typically yields another. Removes the underlying suffering to extinguish all addictions simultaneously.</p>",
+      "content_html": "<p>Very simple idea, but I thought it'd be worth making a post on this. Some people are saying AI will make all goods cheaper, so you'll be able to afford a nicer life by working. Without any redistribution, just by market mechanisms. These people are wrong. AI will lower the price of goods you need to survive, and also the price of your labor. The question is which will get cheaper faster. Let's use energy cost as a proxy. A day's worth of labor equivalent to yours can be done by AI for just a few cents in electricity on tokens. But feeding you with e.g. apples for a day will cost more energy than that, because growing apples can only be energy-optimized so far. So selling your labor at market price will leave you unable to afford apples. This means a future with economic AI might look like \"poverty in the midst of abundance\": all goods are cheap, but somehow you can't find a job paying even that much. In economic terms, many previous inventions were complements to human labor, while AI is a general substitute for human labor, lowering its exchange rate vs other goods. Maybe the problem can be solved by redistribution, or by everyone having investments, or something else - that's a bigger discussion. In this post I just want to make the basic point above.</p>"
+    },
+    {
+      "id": "64f469236025",
+      "title": "In honor of Petrov",
+      "content": "Hey, I'm Johnny, and I recently started at Nectome on the operations side. You may have read some of Aurelia's posts. Nectome had a brief discount card sale a few months ago, and got a lot of responses to it, and one thing we keep hearing over and over is that people were sorry they missed the sale, because they read about us after it had ended.Ultimately, we don't want to be in the discount card business. If all our preservations were people who had prudently bought them a decade before they needed them at a fraction of the full cost, that would be unsustainable. But we talked about it and agreed that we would do one more discount card sale at the end of this year, so if you're disappointed that you missed the sale, watch for a post from us soon with details.We originally hoped to have the sale start on Petrov Day, but things didn't come together quickly enough. But in the spirit of Petrov Day, I thought I'd try my hand at the community tradition of telling the story of Petrov, and connect it to why I find human preservation meaningful.The year was 1983. The Russian leader was Jurij Andropov, the most politically extreme Soviet leader since Stalin. Tensions between the US and the Soviet Union were at perhaps the highest point since the Cuban Missile Crisis. The US had begun a campaign of psychological warfare against the Soviets, trying to spook them into making a mistake:\"Sometimes we would send bombers over the North Pole and their radars would click on,\" recalls Gen. Jack Chain, [a] former Strategic Air Command commander. \"Other times fighter-bombers would probe their Asian or European periphery.\" During peak times, the operation would include several maneuvers in a week. They would come at irregular intervals to make the effect all the more unsettling. Then, as quickly as the unannounced flights began, they would stop, only to begin again a few weeks later.- Peter Schweizer: *Victory: The Reagan Administration's Secret Strategy That Hastened the Collapse of the...",
+      "url": "https://www.lesswrong.com/posts/9utJae5vfmGhqRug7/in-honor-of-petrov",
+      "author": "TheSkeward",
+      "published": "2026-09-26T15:23:56.372000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "Nectome operations announcement framed around Petrov Day, signaling another end-of-year discount-card sale for human preservation and recounting the 1983 Petrov incident as a parable for thoughtful restraint under uncertainty.",
+      "importance_score": 12.0,
+      "reasoning": "Community/cultural content with a marketing component rather than research or analysis. The Petrov retelling is canonical and adds no new framing. Very low technical relevance.",
+      "themes": [
+        "Cryonics",
+        "Community"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "9utJae5vfmGhqRug7",
+        "slug": "in-honor-of-petrov",
+        "base_score": 3,
+        "vote_count": 1,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>Nectome operations announcement framed around Petrov Day, signaling another end-of-year discount-card sale for human preservation and recounting the 1983 Petrov incident as a parable for thoughtful restraint under uncertainty.</p>",
+      "content_html": "<p>Hey, I'm Johnny, and I recently started at Nectome on the operations side. You may have read some of Aurelia's posts. Nectome had a brief discount card sale a few months ago, and got a lot of responses to it, and one thing we keep hearing over and over is that people were sorry they missed the sale, because they read about us after it had ended.Ultimately, we don't want to be in the discount card business. If all our preservations were people who had prudently bought them a decade before they needed them at a fraction of the full cost, that would be unsustainable. But we talked about it and agreed that we would do one more discount card sale at the end of this year, so if you're disappointed that you missed the sale, watch for a post from us soon with details.We originally hoped to have the sale start on Petrov Day, but things didn't come together quickly enough. But in the spirit of Petrov Day, I thought I'd try my hand at the community tradition of telling the story of Petrov, and connect it to why I find human preservation meaningful.The year was 1983. The Russian leader was Jurij Andropov, the most politically extreme Soviet leader since Stalin. Tensions between the US and the Soviet Union were at perhaps the highest point since the Cuban Missile Crisis. The US had begun a campaign of psychological warfare against the Soviets, trying to spook them into making a mistake:\"Sometimes we would send bombers over the North Pole and their radars would click on,\" recalls Gen. Jack Chain, [a] former Strategic Air Command commander. \"Other times fighter-bombers would probe their Asian or European periphery.\" During peak times, the operation would include several maneuvers in a week. They would come at irregular intervals to make the effect all the more unsettling. Then, as quickly as the unannounced flights began, they would stop, only to begin again a few weeks later.- Peter Schweizer: *Victory: The Reagan Administration's Secret Strategy That Hastened the Collapse of the...</p>"
+    },
+    {
+      "id": "06df50c8b71f",
+      "title": "Addictions are anesthesia",
+      "content": "Many people I respect misunderstand addictions: they believe they’re addicted “to” scrolling, vaping, overworking, etc.—instead of recognizing addictions as strategies.Because of this, they’re surprised when their attempts to curb addictions don’t work: they either fail, and come to believe that the “lack willpower”, or they succeed at dropping one addiction, but find themselves picking up new ones:Show tweetThe Locally Optimal view of addictions is that addictions function as anesthesia. As strategies for managing suffering.Like, if you’re in pain, it’s often wise to employ some method of anesthesia.…which also means that if you’re in pain and you forcibly remove your addictions (anesthesia), either you’re going to get overwhelmed, or you’re going to find another way to numb.Show tweetShow tweetAddictions help with suffering because anesthesia helps with suffering.Therefore, the way to unlearn all addictions simultaneously is to remove the underlying suffering. With suffering, there is a sort of “addiction whac-a-mole” that happens. Without suffering, there is no need for any kind of anesthesia.Addictions are one of my preferred measures of suffering and internal conflict. If you have addictions you dislike, there’s probably suffering in your system. It’s common not to realize that addictions are present to anesthetize deeper pain. (I’m sorry.)But this is a good thing.In my research, I’ve specialized in working 1:1 with people who are situated such that they can remove underlying suffering without risking terrible consequences. But many people aren’t in this position yet. For these people, addictions often are the best they can do to manage the current suffering.This is why I get concerned when I see advice that blindly recommends people tear down their addictions. Hey, Chesterton’s Fence! All things considered, addictions like scrolling can be some of the best copes for many people!Show tweet(Note: The most virtuous copes are community and relationships. The probl...",
+      "url": "https://www.lesswrong.com/posts/PFgzLmEZSBrztDBpu/addictions-are-anesthesia",
+      "author": "Chris Lakin",
+      "published": "2026-09-26T02:55:32.183000",
+      "source": "LessWrong",
+      "source_type": "research_blog",
+      "tags": [],
+      "summary": "An introspective observation that dreams appear to have a 'tech tree' — readable text persists across glances, dream-self can hold atomic concepts without prior reading, and unreliable-narrator affordances appear. Speculative personal phenomenology.",
+      "importance_score": 8.0,
+      "reasoning": "Personal blog with no research content, hypothesis testing, or citation of cognitive-science literature on dreaming. Not relevant to AI research themes.",
+      "themes": [
+        "Cognitive Science",
+        "Personal Essay"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "lesswrong_id": "PFgzLmEZSBrztDBpu",
+        "slug": "addictions-are-anesthesia",
+        "base_score": 52,
+        "vote_count": 39,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p>An introspective observation that dreams appear to have a 'tech tree' — readable text persists across glances, dream-self can hold atomic concepts without prior reading, and unreliable-narrator affordances appear. Speculative personal phenomenology.</p>",
+      "content_html": "<p>Many people I respect misunderstand addictions: they believe they’re addicted “to” scrolling, vaping, overworking, etc.—instead of recognizing addictions as strategies.Because of this, they’re surprised when their attempts to curb addictions don’t work: they either fail, and come to believe that the “lack willpower”, or they succeed at dropping one addiction, but find themselves picking up new ones:Show tweetThe Locally Optimal view of addictions is that addictions function as anesthesia. As strategies for managing suffering.Like, if you’re in pain, it’s often wise to employ some method of anesthesia.…which also means that if you’re in pain and you forcibly remove your addictions (anesthesia), either you’re going to get overwhelmed, or you’re going to find another way to numb.Show tweetShow tweetAddictions help with suffering because anesthesia helps with suffering.Therefore, the way to unlearn all addictions simultaneously is to remove the underlying suffering. With suffering, there is a sort of “addiction whac-a-mole” that happens. Without suffering, there is no need for any kind of anesthesia.Addictions are one of my preferred measures of suffering and internal conflict. If you have addictions you dislike, there’s probably suffering in your system. It’s common not to realize that addictions are present to anesthetize deeper pain. (I’m sorry.)But this is a good thing.In my research, I’ve specialized in working 1:1 with people who are situated such that they can remove underlying suffering without risking terrible consequences. But many people aren’t in this position yet. For these people, addictions often are the best they can do to manage the current suffering.This is why I get concerned when I see advice that blindly recommends people tear down their addictions. Hey, Chesterton’s Fence! All things considered, addictions like scrolling can be some of the best copes for many people!Show tweet(Note: The most virtuous copes are community and relationships. The probl...</p>"
+    }
+  ]
+}
