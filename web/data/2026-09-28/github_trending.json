@@ -1,0 +1,1104 @@
+{
+  "schema_version": "1.0",
+  "category": "github_trending",
+  "date": "2026-09-28",
+  "category_summary": "### Executive Signal\n- **AI agent infrastructure is consolidating** — [memory layers](/?date=2026-09-28&category=github_trending#item-cc7155b29697), [management consoles](/?date=2026-09-28&category=github_trending#item-e68a2e567001), [office harnesses](/?date=2026-09-28&category=github_trending#item-2be98cd199e8), and mobile MCP servers are trending in parallel, signaling that production-grade agent deployment has shifted from experiment to engineering discipline.\n### Priority Developments\n- **Memory and context consolidation** is the highest-velocity theme: [hindsight](/?date=2026-09-28&category=github_trending#item-cc7155b29697)'s shared context layer directly targets duplicated infrastructure across multi-agent stacks.\n- **Agent management and orchestration tooling** ([paperclip](/?date=2026-09-28&category=github_trending#item-e68a2e567001)) reaches breakout momentum, indicating clear demand for production-grade governance of agent workforces.\n- **Office and productivity surfaces are becoming agent runtimes** — [univer](/?date=2026-09-28&category=github_trending#item-2be98cd199e8) unifies spreadsheets, docs, slides, and PDFs into a single harness.\n- **Mobile automation extends agent reach** via MCP, with [mobile-mcp](/?date=2026-09-28&category=github_trending#item-838b71ab1945) enabling real-device and emulator control as a new action surface.\n- **Media production workflows** emerge as an agent use case ([VoiceStudio](/?date=2026-09-28&category=github_trending#item-9b4a3877ccf1)), where throughput and human review become the binding constraints.\n### Leadership Implications\n- Audit current agent stacks for [redundant memory and retrieval layers](/?date=2026-09-28&category=github_trending#item-cc7155b29697); [consolidate behind a shared context substrate](/?date=2026-09-28&category=github_trending#item-e68a2e567001) to cut infrastructure spend.\n- Stand up [governance, observability, and lifecycle controls for agent fleets](/?date=2026-09-28&category=github_trending#item-e68a2e567001) before shadow deployments outpace internal policy.",
+  "category_summary_html": "<h3>Executive Signal</h3>\n<ul>\n<li><strong>AI agent infrastructure is consolidating</strong> — <a href=\"/?date=2026-09-28&amp;category=github_trending#item-cc7155b29697\" class=\"internal-link\" rel=\"noopener noreferrer\">memory layers</a>, <a href=\"/?date=2026-09-28&amp;category=github_trending#item-e68a2e567001\" class=\"internal-link\" rel=\"noopener noreferrer\">management consoles</a>, <a href=\"/?date=2026-09-28&amp;category=github_trending#item-2be98cd199e8\" class=\"internal-link\" rel=\"noopener noreferrer\">office harnesses</a>, and mobile MCP servers are trending in parallel, signaling that production-grade agent deployment has shifted from experiment to engineering discipline.</li>\n</ul>\n<h3>Priority Developments</h3>\n<ul>\n<li><strong>Memory and context consolidation</strong> is the highest-velocity theme: <a href=\"/?date=2026-09-28&amp;category=github_trending#item-cc7155b29697\" class=\"internal-link\" rel=\"noopener noreferrer\">hindsight</a>'s shared context layer directly targets duplicated infrastructure across multi-agent stacks.</li>\n<li><strong>Agent management and orchestration tooling</strong> (<a href=\"/?date=2026-09-28&amp;category=github_trending#item-e68a2e567001\" class=\"internal-link\" rel=\"noopener noreferrer\">paperclip</a>) reaches breakout momentum, indicating clear demand for production-grade governance of agent workforces.</li>\n<li><strong>Office and productivity surfaces are becoming agent runtimes</strong> — <a href=\"/?date=2026-09-28&amp;category=github_trending#item-2be98cd199e8\" class=\"internal-link\" rel=\"noopener noreferrer\">univer</a> unifies spreadsheets, docs, slides, and PDFs into a single harness.</li>\n<li><strong>Mobile automation extends agent reach</strong> via MCP, with <a href=\"/?date=2026-09-28&amp;category=github_trending#item-838b71ab1945\" class=\"internal-link\" rel=\"noopener noreferrer\">mobile-mcp</a> enabling real-device and emulator control as a new action surface.</li>\n<li><strong>Media production workflows</strong> emerge as an agent use case (<a href=\"/?date=2026-09-28&amp;category=github_trending#item-9b4a3877ccf1\" class=\"internal-link\" rel=\"noopener noreferrer\">VoiceStudio</a>), where throughput and human review become the binding constraints.</li>\n</ul>\n<h3>Leadership Implications</h3>\n<ul>\n<li>Audit current agent stacks for <a href=\"/?date=2026-09-28&amp;category=github_trending#item-cc7155b29697\" class=\"internal-link\" rel=\"noopener noreferrer\">redundant memory and retrieval layers</a>; <a href=\"/?date=2026-09-28&amp;category=github_trending#item-e68a2e567001\" class=\"internal-link\" rel=\"noopener noreferrer\">consolidate behind a shared context substrate</a> to cut infrastructure spend.</li>\n<li>Stand up <a href=\"/?date=2026-09-28&amp;category=github_trending#item-e68a2e567001\" class=\"internal-link\" rel=\"noopener noreferrer\">governance, observability, and lifecycle controls for agent fleets</a> before shadow deployments outpace internal policy.</li>\n</ul>",
+  "category_summary_evidence": [
+    [
+      "cc7155b29697",
+      "e68a2e567001",
+      "2be98cd199e8"
+    ],
+    [
+      "cc7155b29697"
+    ],
+    [
+      "e68a2e567001"
+    ],
+    [
+      "2be98cd199e8"
+    ],
+    [
+      "838b71ab1945"
+    ],
+    [
+      "9b4a3877ccf1"
+    ],
+    [
+      "cc7155b29697",
+      "e68a2e567001"
+    ],
+    [
+      "e68a2e567001",
+      "2be98cd199e8"
+    ]
+  ],
+  "themes": [
+    {
+      "name": "Agentic Automation & Web Tools",
+      "description": "Repositories focusing on autonomous agent workflows, browser automation, and MCP integrations.",
+      "item_count": 12,
+      "example_items": [
+        "9b4a3877ccf1",
+        "e68a2e567001",
+        "cc7155b29697"
+      ],
+      "importance": 88.0
+    },
+    {
+      "name": "Local LLM & Inference Infrastructure",
+      "description": "High-performance open-source runtimes, local model tooling, and quantization engines.",
+      "item_count": 4,
+      "example_items": [
+        "9b4a3877ccf1",
+        "e68a2e567001",
+        "cc7155b29697"
+      ],
+      "importance": 85.0
+    }
+  ],
+  "total_items": 26,
+  "items": [
+    {
+      "id": "9b4a3877ccf1",
+      "title": "debpalash/VoiceStudio",
+      "content": "GitHub Repository: debpalash/VoiceStudio\nDescription: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.\nLanguage: Python\nStars Today: 3,086",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "author": "debpalash",
+      "published": "2026-09-28T11:22:18.235099+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 3,086 stars today indicate breakout developer momentum. **Why it matters:** It compresses AI-assisted media production into a repeatable workflow, making content throughput and human review the key adoption questions.",
+      "importance_score": 98,
+      "reasoning": "Ranked on current community velocity (3,086 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "debpalash/VoiceStudio",
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "stars": 0,
+        "stars_today": "3,086",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:18.235099+00:00",
+        "hn_score": 3086,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 3,086 stars today indicate breakout developer momentum. <strong>Why it matters:</strong> It compresses AI-assisted media production into a repeatable workflow, making content throughput and human review the key adoption questions.</p>",
+      "content_html": "<p>GitHub Repository: debpalash/VoiceStudio</p>\n<p>Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</p>\n<p>Language: Python</p>\n<p>Stars Today: 3,086</p>"
+    },
+    {
+      "id": "e68a2e567001",
+      "title": "paperclipai/paperclip",
+      "content": "GitHub Repository: paperclipai/paperclip\nDescription: The open-source app everyone uses to manage agents at work\nLanguage: TypeScript\nStars Today: 2,401",
+      "url": "https://github.com/paperclipai/paperclip",
+      "author": "paperclipai",
+      "published": "2026-09-28T11:22:18.235375+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 2,401 stars today indicate breakout developer momentum. **Why it matters:** It is attracting attention for the open-source app everyone uses to manage agents at work; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 98,
+      "reasoning": "Ranked on current community velocity (2,401 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "TypeScript"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "paperclipai/paperclip",
+        "description": "The open-source app everyone uses to manage agents at work",
+        "stars": 0,
+        "stars_today": "2,401",
+        "language": "TypeScript",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:18.235375+00:00",
+        "hn_score": 2401,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 2,401 stars today indicate breakout developer momentum. <strong>Why it matters:</strong> It is attracting attention for the open-source app everyone uses to manage agents at work; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: paperclipai/paperclip</p>\n<p>Description: The open-source app everyone uses to manage agents at work</p>\n<p>Language: TypeScript</p>\n<p>Stars Today: 2,401</p>"
+    },
+    {
+      "id": "cc7155b29697",
+      "title": "vectorize-io/hindsight",
+      "content": "GitHub Repository: vectorize-io/hindsight\nDescription: Hindsight: Agent Memory That Learns\nLanguage: Python\nStars Today: 4,520",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "author": "vectorize-io",
+      "published": "2026-09-28T11:22:18.235635+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 4,520 stars today indicate breakout developer momentum. **Why it matters:** It consolidates agent context, memory, and retrieval into a shared layer, which can reduce duplicated infrastructure in multi-agent systems.",
+      "importance_score": 98,
+      "reasoning": "Ranked on current community velocity (4,520 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "vectorize-io/hindsight",
+        "description": "Hindsight: Agent Memory That Learns",
+        "stars": 0,
+        "stars_today": "4,520",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:18.235635+00:00",
+        "hn_score": 4520,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 4,520 stars today indicate breakout developer momentum. <strong>Why it matters:</strong> It consolidates agent context, memory, and retrieval into a shared layer, which can reduce duplicated infrastructure in multi-agent systems.</p>",
+      "content_html": "<p>GitHub Repository: vectorize-io/hindsight</p>\n<p>Description: Hindsight: Agent Memory That Learns</p>\n<p>Language: Python</p>\n<p>Stars Today: 4,520</p>"
+    },
+    {
+      "id": "2be98cd199e8",
+      "title": "dream-num/univer",
+      "content": "GitHub Repository: dream-num/univer\nDescription: The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.\nLanguage: TypeScript\nStars Today: 895",
+      "url": "https://github.com/dream-num/univer",
+      "author": "dream-num",
+      "published": "2026-09-28T11:22:18.236965+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 895 stars today indicate strong developer attention. **Why it matters:** It is attracting attention for the Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 98,
+      "reasoning": "Ranked on current community velocity (895 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "TypeScript"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "dream-num/univer",
+        "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+        "stars": 0,
+        "stars_today": "895",
+        "language": "TypeScript",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:18.236965+00:00",
+        "hn_score": 895,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 895 stars today indicate strong developer attention. <strong>Why it matters:</strong> It is attracting attention for the Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: dream-num/univer</p>\n<p>Description: The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.</p>\n<p>Language: TypeScript</p>\n<p>Stars Today: 895</p>"
+    },
+    {
+      "id": "d8881e21e158",
+      "title": "rohitg00/ai-engineering-from-scratch",
+      "content": "GitHub Repository: rohitg00/ai-engineering-from-scratch\nDescription: Learn it. Build it. Ship it for others.\nLanguage: Python\nStars Today: 790",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "author": "rohitg00",
+      "published": "2026-09-28T11:22:20.349480+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 790 stars today indicate strong developer attention. **Why it matters:** It is attracting attention for learn it. Build it. Ship it for others; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 98,
+      "reasoning": "Ranked on current community velocity (790 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "rohitg00/ai-engineering-from-scratch",
+        "description": "Learn it. Build it. Ship it for others.",
+        "stars": 0,
+        "stars_today": "790",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:20.349480+00:00",
+        "hn_score": 790,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 790 stars today indicate strong developer attention. <strong>Why it matters:</strong> It is attracting attention for learn it. Build it. Ship it for others; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: rohitg00/ai-engineering-from-scratch</p>\n<p>Description: Learn it. Build it. Ship it for others.</p>\n<p>Language: Python</p>\n<p>Stars Today: 790</p>"
+    },
+    {
+      "id": "838b71ab1945",
+      "title": "mobile-next/mobile-mcp",
+      "content": "GitHub Repository: mobile-next/mobile-mcp\nDescription: Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)\nLanguage: TypeScript\nStars Today: 577",
+      "url": "https://github.com/mobile-next/mobile-mcp",
+      "author": "mobile-next",
+      "published": "2026-09-28T11:22:21.799367+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 577 stars today indicate strong developer attention. **Why it matters:** It is attracting attention for model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices); teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 88,
+      "reasoning": "Ranked on current community velocity (577 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "TypeScript"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "mobile-next/mobile-mcp",
+        "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
+        "stars": 0,
+        "stars_today": "577",
+        "language": "TypeScript",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:21.799367+00:00",
+        "hn_score": 577,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 577 stars today indicate strong developer attention. <strong>Why it matters:</strong> It is attracting attention for model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices); teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: mobile-next/mobile-mcp</p>\n<p>Description: Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)</p>\n<p>Language: TypeScript</p>\n<p>Stars Today: 577</p>"
+    },
+    {
+      "id": "5237e3157722",
+      "title": "satnaing/shadcn-admin",
+      "content": "GitHub Repository: satnaing/shadcn-admin\nDescription: Admin Dashboard UI built with Shadcn and Vite.\nLanguage: TypeScript\nStars Today: 379",
+      "url": "https://github.com/satnaing/shadcn-admin",
+      "author": "satnaing",
+      "published": "2026-09-28T11:22:21.799110+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 379 stars today indicate strong developer attention. **Why it matters:** It is attracting attention for admin Dashboard UI built with Shadcn and Vite; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 78,
+      "reasoning": "Ranked on current community velocity (379 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "TypeScript"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "satnaing/shadcn-admin",
+        "description": "Admin Dashboard UI built with Shadcn and Vite.",
+        "stars": 0,
+        "stars_today": "379",
+        "language": "TypeScript",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:21.799110+00:00",
+        "hn_score": 379,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 379 stars today indicate strong developer attention. <strong>Why it matters:</strong> It is attracting attention for admin Dashboard UI built with Shadcn and Vite; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: satnaing/shadcn-admin</p>\n<p>Description: Admin Dashboard UI built with Shadcn and Vite.</p>\n<p>Language: TypeScript</p>\n<p>Stars Today: 379</p>"
+    },
+    {
+      "id": "9b41249156e5",
+      "title": "byoungd/up",
+      "content": "GitHub Repository: byoungd/up\nDescription: An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语\nLanguage: JavaScript\nStars Today: 310",
+      "url": "https://github.com/byoungd/up",
+      "author": "byoungd",
+      "published": "2026-09-28T11:22:18.236429+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 310 stars today indicate strong developer attention. **Why it matters:** It is attracting attention for an advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 75,
+      "reasoning": "Ranked on current community velocity (310 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "JavaScript"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "byoungd/up",
+        "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+        "stars": 0,
+        "stars_today": "310",
+        "language": "JavaScript",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:18.236429+00:00",
+        "hn_score": 310,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 310 stars today indicate strong developer attention. <strong>Why it matters:</strong> It is attracting attention for an advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: byoungd/up</p>\n<p>Description: An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语</p>\n<p>Language: JavaScript</p>\n<p>Stars Today: 310</p>"
+    },
+    {
+      "id": "c15ca209541e",
+      "title": "cs341-illinois/coursebook",
+      "content": "GitHub Repository: cs341-illinois/coursebook\nDescription: Open Source Introductory Systems Programming Textbook for the University of Illinois\nLanguage: TeX\nStars Today: 265",
+      "url": "https://github.com/cs341-illinois/coursebook",
+      "author": "cs341-illinois",
+      "published": "2026-09-28T11:22:18.236137+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 265 stars today indicate strong developer attention. **Why it matters:** It is attracting attention for open Source Introductory Systems Programming Textbook for the University of Illinois; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 73,
+      "reasoning": "Ranked on current community velocity (265 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "TeX"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "cs341-illinois/coursebook",
+        "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+        "stars": 0,
+        "stars_today": "265",
+        "language": "TeX",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:18.236137+00:00",
+        "hn_score": 265,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 265 stars today indicate strong developer attention. <strong>Why it matters:</strong> It is attracting attention for open Source Introductory Systems Programming Textbook for the University of Illinois; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: cs341-illinois/coursebook</p>\n<p>Description: Open Source Introductory Systems Programming Textbook for the University of Illinois</p>\n<p>Language: TeX</p>\n<p>Stars Today: 265</p>"
+    },
+    {
+      "id": "0a166ea4fb28",
+      "title": "practical-tutorials/project-based-learning",
+      "content": "GitHub Repository: practical-tutorials/project-based-learning\nDescription: Curated list of project-based tutorials\nLanguage: Python\nStars Today: 215",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "author": "practical-tutorials",
+      "published": "2026-09-28T11:22:20.350522+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 215 stars today indicate emerging developer interest. **Why it matters:** It is attracting attention for curated list of project-based tutorials; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 70,
+      "reasoning": "Ranked on current community velocity (215 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "practical-tutorials/project-based-learning",
+        "description": "Curated list of project-based tutorials",
+        "stars": 0,
+        "stars_today": "215",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:20.350522+00:00",
+        "hn_score": 215,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 215 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It is attracting attention for curated list of project-based tutorials; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: practical-tutorials/project-based-learning</p>\n<p>Description: Curated list of project-based tutorials</p>\n<p>Language: Python</p>\n<p>Stars Today: 215</p>"
+    },
+    {
+      "id": "c38ba8633ffe",
+      "title": "moeru-ai/airi",
+      "content": "GitHub Repository: moeru-ai/airi\nDescription: 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.\nLanguage: TypeScript\nStars Today: 216",
+      "url": "https://github.com/moeru-ai/airi",
+      "author": "moeru-ai",
+      "published": "2026-09-28T11:22:21.797997+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 216 stars today indicate emerging developer interest. **Why it matters:** It can lower the friction of deploying or operating models, so its value depends on measured gains in latency, cost, and hardware efficiency.",
+      "importance_score": 70,
+      "reasoning": "Ranked on current community velocity (216 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "TypeScript"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "moeru-ai/airi",
+        "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+        "stars": 0,
+        "stars_today": "216",
+        "language": "TypeScript",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:21.797997+00:00",
+        "hn_score": 216,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 216 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It can lower the friction of deploying or operating models, so its value depends on measured gains in latency, cost, and hardware efficiency.</p>",
+      "content_html": "<p>GitHub Repository: moeru-ai/airi</p>\n<p>Description: 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.</p>\n<p>Language: TypeScript</p>\n<p>Stars Today: 216</p>"
+    },
+    {
+      "id": "8227a6f4d1e1",
+      "title": "ashhart/TensorFold",
+      "content": "GitHub Repository: ashhart/TensorFold\nDescription: Fast, exact LLM decoding on Apple Silicon (MLX) behind an OpenAI-compatible endpoint\nLanguage: Python\nStars Today: 160",
+      "url": "https://github.com/ashhart/TensorFold",
+      "author": "ashhart",
+      "published": "2026-09-28T11:22:20.349179+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 160 stars today indicate emerging developer interest. **Why it matters:** It can lower the friction of deploying or operating models, so its value depends on measured gains in latency, cost, and hardware efficiency.",
+      "importance_score": 68,
+      "reasoning": "Ranked on current community velocity (160 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "ashhart/TensorFold",
+        "description": "Fast, exact LLM decoding on Apple Silicon (MLX) behind an OpenAI-compatible endpoint",
+        "stars": 0,
+        "stars_today": "160",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:20.349179+00:00",
+        "hn_score": 160,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 160 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It can lower the friction of deploying or operating models, so its value depends on measured gains in latency, cost, and hardware efficiency.</p>",
+      "content_html": "<p>GitHub Repository: ashhart/TensorFold</p>\n<p>Description: Fast, exact LLM decoding on Apple Silicon (MLX) behind an OpenAI-compatible endpoint</p>\n<p>Language: Python</p>\n<p>Stars Today: 160</p>"
+    },
+    {
+      "id": "19af2263cf23",
+      "title": "NawfalMotii79/PLFM_RADAR",
+      "content": "GitHub Repository: NawfalMotii79/PLFM_RADAR\nDescription: Open-source, low-cost 10.5 GHz PLFM phased array RADAR system\nLanguage: PLSQL\nStars Today: 145",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "author": "NawfalMotii79",
+      "published": "2026-09-28T11:22:18.235889+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 145 stars today indicate emerging developer interest. **Why it matters:** It is attracting attention for open-source, low-cost 10.5 GHz PLFM phased array RADAR system; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 67,
+      "reasoning": "Ranked on current community velocity (145 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "PLSQL"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "NawfalMotii79/PLFM_RADAR",
+        "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+        "stars": 0,
+        "stars_today": "145",
+        "language": "PLSQL",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:18.235889+00:00",
+        "hn_score": 145,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 145 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It is attracting attention for open-source, low-cost 10.5 GHz PLFM phased array RADAR system; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: NawfalMotii79/PLFM_RADAR</p>\n<p>Description: Open-source, low-cost 10.5 GHz PLFM phased array RADAR system</p>\n<p>Language: PLSQL</p>\n<p>Stars Today: 145</p>"
+    },
+    {
+      "id": "ec18dc6b32b7",
+      "title": "alirezarezvani/claude-skills",
+      "content": "GitHub Repository: alirezarezvani/claude-skills\nDescription: 380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.\nLanguage: Python\nStars Today: 149",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "author": "alirezarezvani",
+      "published": "2026-09-28T11:22:20.350019+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 149 stars today indicate emerging developer interest. **Why it matters:** It packages reusable agent capabilities instead of another model layer, signaling a shift toward portable, governed workflow components.",
+      "importance_score": 67,
+      "reasoning": "Ranked on current community velocity (149 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "alirezarezvani/claude-skills",
+        "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+        "stars": 0,
+        "stars_today": "149",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:20.350019+00:00",
+        "hn_score": 149,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 149 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It packages reusable agent capabilities instead of another model layer, signaling a shift toward portable, governed workflow components.</p>",
+      "content_html": "<p>GitHub Repository: alirezarezvani/claude-skills</p>\n<p>Description: 380 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.</p>\n<p>Language: Python</p>\n<p>Stars Today: 149</p>"
+    },
+    {
+      "id": "f463d4358035",
+      "title": "mvschwarz/openrig",
+      "content": "GitHub Repository: mvschwarz/openrig\nDescription: Multi-agent harness that runs Claude Code and Codex together as one system\nLanguage: TypeScript\nStars Today: 114",
+      "url": "https://github.com/mvschwarz/openrig",
+      "author": "mvschwarz",
+      "published": "2026-09-28T11:22:18.236681+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 114 stars today indicate emerging developer interest. **Why it matters:** It targets the coordination layer around agents, making it relevant for teams that need repeatable execution, isolation, and workflow control.",
+      "importance_score": 65,
+      "reasoning": "Ranked on current community velocity (114 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "TypeScript"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "mvschwarz/openrig",
+        "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+        "stars": 0,
+        "stars_today": "114",
+        "language": "TypeScript",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:18.236681+00:00",
+        "hn_score": 114,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 114 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It targets the coordination layer around agents, making it relevant for teams that need repeatable execution, isolation, and workflow control.</p>",
+      "content_html": "<p>GitHub Repository: mvschwarz/openrig</p>\n<p>Description: Multi-agent harness that runs Claude Code and Codex together as one system</p>\n<p>Language: TypeScript</p>\n<p>Stars Today: 114</p>"
+    },
+    {
+      "id": "42d29f4f85d1",
+      "title": "microsoft/SkillOpt",
+      "content": "GitHub Repository: microsoft/SkillOpt\nDescription: SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.\nLanguage: Python\nStars Today: 111",
+      "url": "https://github.com/microsoft/SkillOpt",
+      "author": "microsoft",
+      "published": "2026-09-28T11:22:20.349729+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 111 stars today indicate emerging developer interest. **Why it matters:** It packages reusable agent capabilities instead of another model layer, signaling a shift toward portable, governed workflow components.",
+      "importance_score": 65,
+      "reasoning": "Ranked on current community velocity (111 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "microsoft/SkillOpt",
+        "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
+        "stars": 0,
+        "stars_today": "111",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:20.349729+00:00",
+        "hn_score": 111,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 111 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It packages reusable agent capabilities instead of another model layer, signaling a shift toward portable, governed workflow components.</p>",
+      "content_html": "<p>GitHub Repository: microsoft/SkillOpt</p>\n<p>Description: SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.</p>\n<p>Language: Python</p>\n<p>Stars Today: 111</p>"
+    },
+    {
+      "id": "65574ad2acb1",
+      "title": "topoteretes/cognee",
+      "content": "GitHub Repository: topoteretes/cognee\nDescription: Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free\nLanguage: Python\nStars Today: 103",
+      "url": "https://github.com/topoteretes/cognee",
+      "author": "topoteretes",
+      "published": "2026-09-28T11:22:20.351613+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 103 stars today indicate emerging developer interest. **Why it matters:** It consolidates agent context, memory, and retrieval into a shared layer, which can reduce duplicated infrastructure in multi-agent systems.",
+      "importance_score": 65,
+      "reasoning": "Ranked on current community velocity (103 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "topoteretes/cognee",
+        "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
+        "stars": 0,
+        "stars_today": "103",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:20.351613+00:00",
+        "hn_score": 103,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 103 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It consolidates agent context, memory, and retrieval into a shared layer, which can reduce duplicated infrastructure in multi-agent systems.</p>",
+      "content_html": "<p>GitHub Repository: topoteretes/cognee</p>\n<p>Description: Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free</p>\n<p>Language: Python</p>\n<p>Stars Today: 103</p>"
+    },
+    {
+      "id": "70b736f1fab7",
+      "title": "vercel-labs/scriptc",
+      "content": "GitHub Repository: vercel-labs/scriptc\nDescription: TypeScript-to-Native Compiler\nLanguage: TypeScript\nStars Today: 102",
+      "url": "https://github.com/vercel-labs/scriptc",
+      "author": "vercel-labs",
+      "published": "2026-09-28T11:22:21.798248+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 102 stars today indicate emerging developer interest. **Why it matters:** It is attracting attention for typeScript-to-Native Compiler; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 65,
+      "reasoning": "Ranked on current community velocity (102 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "TypeScript"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "vercel-labs/scriptc",
+        "description": "TypeScript-to-Native Compiler",
+        "stars": 0,
+        "stars_today": "102",
+        "language": "TypeScript",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:21.798248+00:00",
+        "hn_score": 102,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 102 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It is attracting attention for typeScript-to-Native Compiler; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: vercel-labs/scriptc</p>\n<p>Description: TypeScript-to-Native Compiler</p>\n<p>Language: TypeScript</p>\n<p>Stars Today: 102</p>"
+    },
+    {
+      "id": "3dbc5a1dc100",
+      "title": "samugit83/redamon",
+      "content": "GitHub Repository: samugit83/redamon\nDescription: An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.\nLanguage: Python\nStars Today: 97",
+      "url": "https://github.com/samugit83/redamon",
+      "author": "samugit83",
+      "published": "2026-09-28T11:22:20.350268+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 97 stars today indicate emerging developer interest. **Why it matters:** It is attracting attention for an AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 64,
+      "reasoning": "Ranked on current community velocity (97 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "samugit83/redamon",
+        "description": "An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.",
+        "stars": 0,
+        "stars_today": "97",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:20.350268+00:00",
+        "hn_score": 97,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 97 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It is attracting attention for an AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: samugit83/redamon</p>\n<p>Description: An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.</p>\n<p>Language: Python</p>\n<p>Stars Today: 97</p>"
+    },
+    {
+      "id": "6ba06274c327",
+      "title": "HelpCode-ai/anythingmcp",
+      "content": "GitHub Repository: HelpCode-ai/anythingmcp\nDescription: Turn any REST, SOAP, GraphQL, OData or SQL API into MCP tools for Claude & ChatGPT. Self-hosted. 265 connectors: SAP S/4HANA & Business One, ERP, e-commerce.\nLanguage: TypeScript\nStars Today: 84",
+      "url": "https://github.com/HelpCode-ai/anythingmcp",
+      "author": "HelpCode-ai",
+      "published": "2026-09-28T11:22:21.797690+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 84 stars today indicate emerging developer interest. **Why it matters:** It is attracting attention for turn any REST, SOAP, GraphQL, OData or SQL API into MCP tools for Claude & ChatGPT. Self-hosted. 265 connectors: SAP S/4HANA & Business One, ERP, e-commerce; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 64,
+      "reasoning": "Ranked on current community velocity (84 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "TypeScript"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "HelpCode-ai/anythingmcp",
+        "description": "Turn any REST, SOAP, GraphQL, OData or SQL API into MCP tools for Claude & ChatGPT. Self-hosted. 265 connectors: SAP S/4HANA & Business One, ERP, e-commerce.",
+        "stars": 0,
+        "stars_today": "84",
+        "language": "TypeScript",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:21.797690+00:00",
+        "hn_score": 84,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 84 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It is attracting attention for turn any REST, SOAP, GraphQL, OData or SQL API into MCP tools for Claude &amp; ChatGPT. Self-hosted. 265 connectors: SAP S/4HANA &amp; Business One, ERP, e-commerce; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: HelpCode-ai/anythingmcp</p>\n<p>Description: Turn any REST, SOAP, GraphQL, OData or SQL API into MCP tools for Claude &amp; ChatGPT. Self-hosted. 265 connectors: SAP S/4HANA &amp; Business One, ERP, e-commerce.</p>\n<p>Language: TypeScript</p>\n<p>Stars Today: 84</p>"
+    },
+    {
+      "id": "9b56502a30c8",
+      "title": "code-yeongyu/oh-my-openagent",
+      "content": "GitHub Repository: code-yeongyu/oh-my-openagent\nDescription: OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.\nLanguage: TypeScript\nStars Today: 87",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent",
+      "author": "code-yeongyu",
+      "published": "2026-09-28T11:22:21.798813+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 87 stars today indicate emerging developer interest. **Why it matters:** It is attracting attention for omO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 64,
+      "reasoning": "Ranked on current community velocity (87 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "TypeScript"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "code-yeongyu/oh-my-openagent",
+        "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
+        "stars": 0,
+        "stars_today": "87",
+        "language": "TypeScript",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:21.798813+00:00",
+        "hn_score": 87,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 87 stars today indicate emerging developer interest. <strong>Why it matters:</strong> It is attracting attention for omO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: code-yeongyu/oh-my-openagent</p>\n<p>Description: OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.</p>\n<p>Language: TypeScript</p>\n<p>Stars Today: 87</p>"
+    },
+    {
+      "id": "5172bd86257e",
+      "title": "0x4m4/hexstrike-ai",
+      "content": "GitHub Repository: 0x4m4/hexstrike-ai\nDescription: HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.\nLanguage: Python\nStars Today: 56",
+      "url": "https://github.com/0x4m4/hexstrike-ai",
+      "author": "0x4m4",
+      "published": "2026-09-28T11:22:20.348915+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 56 stars today indicate emerging developer interest. **Why it matters:** Its security automation can make testing and control mapping more repeatable across AI workflows, provided teams validate coverage and benchmark quality.",
+      "importance_score": 62,
+      "reasoning": "Ranked on current community velocity (56 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "0x4m4/hexstrike-ai",
+        "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
+        "stars": 0,
+        "stars_today": "56",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:20.348915+00:00",
+        "hn_score": 56,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 56 stars today indicate emerging developer interest. <strong>Why it matters:</strong> Its security automation can make testing and control mapping more repeatable across AI workflows, provided teams validate coverage and benchmark quality.</p>",
+      "content_html": "<p>GitHub Repository: 0x4m4/hexstrike-ai</p>\n<p>Description: HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.</p>\n<p>Language: Python</p>\n<p>Stars Today: 56</p>"
+    },
+    {
+      "id": "2b9c7e189264",
+      "title": "agent0ai/agent-zero",
+      "content": "GitHub Repository: agent0ai/agent-zero\nDescription: Agent Zero AI framework\nLanguage: Python\nStars Today: 22",
+      "url": "https://github.com/agent0ai/agent-zero",
+      "author": "agent0ai",
+      "published": "2026-09-28T11:22:20.350813+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 22 stars today indicate early developer interest. **Why it matters:** It is attracting attention for agent Zero AI framework; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 61,
+      "reasoning": "Ranked on current community velocity (22 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "agent0ai/agent-zero",
+        "description": "Agent Zero AI framework",
+        "stars": 0,
+        "stars_today": "22",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:20.350813+00:00",
+        "hn_score": 22,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 22 stars today indicate early developer interest. <strong>Why it matters:</strong> It is attracting attention for agent Zero AI framework; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: agent0ai/agent-zero</p>\n<p>Description: Agent Zero AI framework</p>\n<p>Language: Python</p>\n<p>Stars Today: 22</p>"
+    },
+    {
+      "id": "8445a16224b4",
+      "title": "Rizzo-AI-Academy/rizzo-pii",
+      "content": "GitHub Repository: Rizzo-AI-Academy/rizzo-pii\nDescription: Local-first privacy guard: anonymize your documents before sharing with LLMs.\nLanguage: Python\nStars Today: 26",
+      "url": "https://github.com/Rizzo-AI-Academy/rizzo-pii",
+      "author": "Rizzo-AI-Academy",
+      "published": "2026-09-28T11:22:20.351058+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 26 stars today indicate early developer interest. **Why it matters:** It can lower the friction of deploying or operating models, so its value depends on measured gains in latency, cost, and hardware efficiency.",
+      "importance_score": 61,
+      "reasoning": "Ranked on current community velocity (26 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "Rizzo-AI-Academy/rizzo-pii",
+        "description": "Local-first privacy guard: anonymize your documents before sharing with LLMs.",
+        "stars": 0,
+        "stars_today": "26",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:20.351058+00:00",
+        "hn_score": 26,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 26 stars today indicate early developer interest. <strong>Why it matters:</strong> It can lower the friction of deploying or operating models, so its value depends on measured gains in latency, cost, and hardware efficiency.</p>",
+      "content_html": "<p>GitHub Repository: Rizzo-AI-Academy/rizzo-pii</p>\n<p>Description: Local-first privacy guard: anonymize your documents before sharing with LLMs.</p>\n<p>Language: Python</p>\n<p>Stars Today: 26</p>"
+    },
+    {
+      "id": "85b6196439a6",
+      "title": "mealie-recipes/mealie",
+      "content": "GitHub Repository: mealie-recipes/mealie\nDescription: Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor\nLanguage: Python\nStars Today: 18",
+      "url": "https://github.com/mealie-recipes/mealie",
+      "author": "mealie-recipes",
+      "published": "2026-09-28T11:22:20.351311+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 18 stars today indicate early developer interest. **Why it matters:** It is attracting attention for mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole…; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 60,
+      "reasoning": "Ranked on current community velocity (18 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "Python"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "mealie-recipes/mealie",
+        "description": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor",
+        "stars": 0,
+        "stars_today": "18",
+        "language": "Python",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:20.351311+00:00",
+        "hn_score": 18,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 18 stars today indicate early developer interest. <strong>Why it matters:</strong> It is attracting attention for mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole…; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: mealie-recipes/mealie</p>\n<p>Description: Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor</p>\n<p>Language: Python</p>\n<p>Stars Today: 18</p>"
+    },
+    {
+      "id": "a12f19fbc39c",
+      "title": "alsk1992/CloddsBot",
+      "content": "GitHub Repository: alsk1992/CloddsBot\nDescription: Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.\nLanguage: TypeScript\nStars Today: 13",
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "author": "alsk1992",
+      "published": "2026-09-28T11:22:21.798515+00:00",
+      "source": "github_trending",
+      "source_type": "github_trending",
+      "tags": [
+        "github-trending"
+      ],
+      "summary": "**Adoption signal:** 13 stars today indicate early developer interest. **Why it matters:** It is attracting attention for open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes…; teams should verify that this capability removes a concrete workflow bottleneck before adoption.",
+      "importance_score": 60,
+      "reasoning": "Ranked on current community velocity (13 stars today) and potential relevance to enterprise AI delivery.",
+      "themes": [
+        "Open Source",
+        "Developer Tools",
+        "TypeScript"
+      ],
+      "sentiment": "neutral",
+      "continuation": null,
+      "metadata": {
+        "title": "alsk1992/CloddsBot",
+        "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+        "stars": 0,
+        "stars_today": "13",
+        "language": "TypeScript",
+        "topics": [
+          "github-trending"
+        ],
+        "created": "",
+        "updated": "2026-09-28T11:22:21.798515+00:00",
+        "hn_score": 13,
+        "sentiment": "neutral"
+      },
+      "related_sources": [],
+      "summary_html": "<p><strong>Adoption signal:</strong> 13 stars today indicate early developer interest. <strong>Why it matters:</strong> It is attracting attention for open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes…; teams should verify that this capability removes a concrete workflow bottleneck before adoption.</p>",
+      "content_html": "<p>GitHub Repository: alsk1992/CloddsBot</p>\n<p>Description: Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.</p>\n<p>Language: TypeScript</p>\n<p>Stars Today: 13</p>"
+    }
+  ]
+}
