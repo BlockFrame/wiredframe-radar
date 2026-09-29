@@ -2,6 +2,28 @@
   "version": "1.0",
   "dates": [
     {
+      "date": "2026-09-29",
+      "total_items": 243,
+      "categories": {
+        "news": {
+          "count": 70,
+          "file_size": 439502
+        },
+        "research": {
+          "count": 142,
+          "file_size": 919455
+        },
+        "social": {
+          "count": 0,
+          "file_size": 267
+        },
+        "github_trending": {
+          "count": 31,
+          "file_size": 77583
+        }
+      }
+    },
+    {
       "date": "2026-09-28",
       "total_items": 64,
       "categories": {
@@ -6030,8 +6052,8 @@
       }
     }
   ],
-  "latestDate": "2026-09-28",
-  "generatedAt": "2026-09-28T07:44:57.890145",
-  "totalDates": 274,
+  "latestDate": "2026-09-29",
+  "generatedAt": "2026-09-29T07:11:44.463790",
+  "totalDates": 275,
   "schema_version": "1.0"
 }
