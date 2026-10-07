@@ -10,7 +10,7 @@
 #   - Web search verification for specific releases (Codex, etc.)
 #
 # Coverage: November 2025 onwards (post Claude Opus 4.8 knowledge cutoff)
-# Last verified: 2026-10-01
+# Last verified: 2026-10-07
 
 openai:
   # GPT-Synopsys (auto-detected 2026-10-01)
@@ -304,6 +304,15 @@ anthropic:
     api_date: "2025-02-24"  # OpenRouter
 
 google:
+  # EmbeddingGemma 2 (auto-detected 2026-10-07)
+  EmbeddingGemma 2:
+    ga_date: "2026-10-06"
+    api_date: "unknown"
+  # Nano Banana 2.1 (auto-detected 2026-10-07)
+  Nano Banana 2.1:
+    ga_date: "2026-10-06"
+    api_date: "unknown"
+
   # Gemini-4-Argon (auto-detected 2026-10-01)
   Gemini-4-Argon:
     ga_date: "2026-09-30"
@@ -663,6 +672,11 @@ deepseek:
     api_date: "2025-01-20"  # OpenRouter
 
 mistralai:
+  # Mistral Large 4 (Le Chonk) (auto-detected 2026-10-07)
+  Mistral Large 4 (Le Chonk):
+    ga_date: "2026-10-06"
+    api_date: "unknown"
+
   # Shieldstral (auto-detected 2026-08-06)
   Shieldstral:
     ga_date: "2026-08-05"
