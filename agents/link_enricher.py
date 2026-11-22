@@ -1212,11 +1212,19 @@ Remember: The anchor MUST be #item-ID (with item- prefix). Link specific actions
 
         words = re.findall(r"[A-Za-z0-9][A-Za-z0-9+._'’-]*", title)
         stopwords = {
-            "a", "an", "and", "are", "as", "at", "by", "for", "from", "in",
-            "into", "is", "it", "its", "new", "of", "on", "or", "the", "to",
-            "with", "agent", "agents", "ai", "framework", "model", "models",
-            "news", "paper", "platform", "research", "system", "systems",
-            "update",
+            "a", "an", "and", "are", "as", "at", "be", "been", "before", "after",
+            "between", "but", "by", "can", "closed", "code", "could", "daily",
+            "data", "for", "first", "from", "frontier", "full", "have", "high",
+            "in", "into", "is", "it", "its", "large", "last", "more", "most",
+            "new", "next", "of", "on", "only", "open", "or", "other", "over",
+            "real", "same", "should", "small", "some", "such", "than", "that",
+            "the", "their", "them", "then", "there", "these", "they", "this",
+            "those", "through", "time", "to", "today", "token", "tokens", "tool",
+            "tools", "under", "upon", "user", "users", "using", "was", "week",
+            "weeks", "were", "what", "when", "where", "which", "while", "will",
+            "with", "within", "without", "work", "works", "would", "year", "years",
+            "agent", "agents", "ai", "framework", "model", "models", "news",
+            "paper", "platform", "research", "system", "systems", "update",
         }
         # Organisation names alone identify a publisher, not the specific item.
         # A surrounding product/event phrase can still be linked deterministically.
@@ -1241,8 +1249,13 @@ Remember: The anchor MUST be #item-ID (with item- prefix). Link specific actions
         if evidence_bound:
             for word in words:
                 normalized = word.casefold().strip(".'’")
+                is_proper_or_technical = (
+                    word[0].isupper()
+                    or any(ch.isdigit() or ch in "._-+" for ch in word)
+                )
                 if (
                     len(normalized) >= 4
+                    and is_proper_or_technical
                     and normalized not in stopwords
                     and normalized not in organisation_only
                 ):

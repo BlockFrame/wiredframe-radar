@@ -37,7 +37,7 @@ flowchart LR
 | Social | X accounts through GetXAPI | 170 configured lines across 9 groups | `SocialGatherer` | Yes; up to 20 accounts per query chunk, with pagination |
 | GitHub Trending | GitHub Trending plus API fallback | 1 collection route | `GitHubTrendingGatherer` | None |
 
-Counts are configuration-line counts, not guaranteed daily item counts. A source may legitimately produce zero current-window items. The Social registry currently contains 170 lines and 169 case-insensitive unique handles because `jeffdean` and `JeffDean` are both present; runtime loading is line-based.
+Counts are configuration-line counts, not guaranteed daily item counts. A source may legitimately produce zero current-window items. The Social registry currently contains 170 unique, validated handles (`<= 15` characters each); runtime loading is line-based.
 
 ## Classification and freshness contract
 
@@ -149,17 +149,17 @@ These pages document intended coverage and grounding authority. They are not dai
 | Group | Configured lines |
 |---|---:|
 | AI Lab Leaders & Executives | 13 |
-| AI Researchers & Scientists | 51 |
-| AI Companies | 27 |
-| AI Journalists & Commentators | 12 |
-| Research Institutions | 7 |
+| AI Researchers & Scientists | 50 |
+| AI Companies | 33 |
+| AI Journalists & Commentators | 13 |
+| Research Institutions | 9 |
 | AI Devs and Personalities | 25 |
 | AI Startup Founders & CTOs | 12 |
 | AI Infrastructure & MLOps | 9 |
-| AI Business & Industry Voices | 14 |
+| AI Business & Industry Voices | 6 |
 | **Total** | **170** |
 
-GetXAPI queries contain at most 20 `from:` clauses, reserving two operators for `since` and `until`. With 170 configured lines, a complete first page requires nine query chunks; pagination can increase the number of billable calls. The tracker records calls, raw tweets returned, estimated spend, balance probes, empty responses, and partial chunk failures. Routine source validation must never invoke GetXAPI.
+GetXAPI queries contain at most 20 `from:` clauses (and stay within the 512-character query limit), reserving two operators for `since` and `until`. With 170 configured lines, a complete first page requires nine query chunks; pagination can increase the number of billable calls. The tracker records calls, raw tweets returned, estimated spend, balance probes, empty responses, and partial chunk failures. Routine source validation must never invoke GetXAPI.
 
 An empty response is logged and treated as a successful zero-item response unless transport or provider errors occur. If some chunks fail, Social is `partial`; if all fail, it is `failed`. Items are accepted only when the provider timestamp falls inside the exact coverage window.
 

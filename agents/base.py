@@ -36,7 +36,7 @@ if TYPE_CHECKING:
 logger = logging.getLogger(__name__)
 
 MIN_CATEGORY_SUMMARY_CHARS = 300
-MAX_CATEGORY_SUMMARY_WORDS = 350
+MAX_CATEGORY_SUMMARY_WORDS = 500
 CATEGORY_SUMMARY_HEADINGS = (
     "### Executive Signal",
     "### Priority Developments",
@@ -1359,19 +1359,24 @@ class BaseAnalyzer(ABC):
         )
 
         prompt = (
-            f"You are an enterprise AI strategy advisor writing an executive briefing for the '{self.category.upper()}' category. "
-            "Use a rigorous, decision-oriented, top-tier strategy-consulting style, but never mention a consulting firm or internal writing persona in the output.\n\n"
+            f"You are an AI editor writing a clear, readable daily briefing for the '{self.category.upper()}' category.\n\n"
             f"Top Items in {self.category.upper()} Today:\n{items_text}\n\n"
             "Return one JSON object only with exactly these keys: "
             '{"category_summary":"complete Markdown summary",'
             '"category_summary_evidence":[["item-id-for-bullet-1"],["item-id-for-bullet-2"]]}.\n'
-            "The category_summary must use exactly this compact Markdown structure:\n"
-            "### Executive Signal\n- One decision-relevant synthesis bullet, maximum 45 words.\n"
-            "### Priority Developments\n- 3-5 bullets, maximum 40 words each; synthesize related items and explain why they matter.\n"
-            "### Leadership Implications\n- 1-2 action-oriented bullets, maximum 35 words each.\n"
-            "Every section body must use bullets. Do not write prose paragraphs or links. "
-            "Keep the complete summary below 350 words and use bold selectively. "
-            "category_summary_evidence must have exactly one ordered array per visible bullet, "
+            "The category_summary must use exactly this Markdown structure:\n"
+            "### Executive Signal\n"
+            "- One clear overview bullet (1-2 complete sentences, up to 60 words) explaining the main theme or headline story in plain, accessible English.\n"
+            "### Priority Developments\n"
+            "- 3-5 factual bullets (1-2 complete sentences each, up to 60 words each). Start each bullet with the **Company, Model, Paper, Author, or Repository** in bold, state clearly what happened with concrete details/numbers, and explain why it matters.\n"
+            "### Leadership Implications\n"
+            "- 1-2 practical takeaway bullets (1-2 complete sentences each, up to 55 words each) explaining in plain language what builders, researchers, or teams should take away from today's developments.\n"
+            "WRITING STYLE RULES:\n"
+            "- Write in clear, natural, journalistic prose inside each bullet. Never write telegraphic fragments, cryptic slogans, or management-consulting jargon.\n"
+            "- Always explain WHAT happened before explaining why it matters.\n"
+            "- Every section body must use bullets (- ). Do not write standalone paragraphs between headings or include Markdown links.\n"
+            "- Keep the complete summary below 480 words and use **bold** for key names and metrics.\n"
+            "- category_summary_evidence must have exactly one ordered array per visible bullet, "
             "with 1-3 exact IDs from the supplied items that directly support that bullet. "
             "Never place IDs inside category_summary."
         )

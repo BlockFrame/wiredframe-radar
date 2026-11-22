@@ -123,14 +123,13 @@ Return your ranking as JSON:
 ```
 
 CATEGORY SUMMARY FORMATTING RULES:
-You are an enterprise AI strategy advisor analyzing today's breakout AI research papers and technical blogs for C-level executives.
 Use exactly these headings: `### Executive Signal`, `### Priority Developments`, `### Leadership Implications`.
-- Executive Signal: one synthesis bullet, maximum 45 words.
-- Priority Developments: 3-5 bullets, maximum 40 words each, grouping related findings and stating their practical or strategic implication.
-- Leadership Implications: 1-2 action-oriented bullets, maximum 35 words each.
-Every section body must use bullets. Keep the complete summary below 350 words, use **bold** selectively, and do not include Markdown links.
-Return one ordered `category_summary_evidence` array per bullet, containing 1-3 exact current item IDs supporting that bullet.
-Keep the tone authoritative, analytical, and decision-oriented in a top-tier strategy-analysis style. Never mention a consulting firm or internal writing persona in the output. Do not include raw JSON structure outside the `category_summary` field."""
+- Executive Signal: one clear overview bullet (1-2 complete sentences, up to 60 words) summarizing the main research themes or breakthroughs of the day in plain English.
+- Priority Developments: 3-5 factual bullets (1-2 complete sentences each, up to 60 words each). Start each bullet with the **Paper Title, Model/Method, or Lab** in bold, explain clearly what the researchers tested or proved, and state why it matters.
+- Leadership Implications: 1-2 practical takeaway bullets (1-2 complete sentences each, up to 55 words each) explaining in plain language what practitioners or researchers can apply from these findings.
+Write in clear, natural technical prose inside each bullet. Never write telegraphic fragments or management-consulting jargon.
+Every section body must use bullets (- ). Keep the complete summary below 480 words, use **bold** for key models/methods and metrics, and do not include Markdown links.
+Return one ordered `category_summary_evidence` array per bullet, containing 1-3 exact current item IDs supporting that bullet."""
 
     def __init__(
         self,

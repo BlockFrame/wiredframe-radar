@@ -30,6 +30,9 @@
         'MiniMax': 'minimaxi.com',
         'ByteDance': 'bytedance.com',
         'Tencent': 'tencent.com',
+        'NVIDIA': 'www.nvidia.com',
+        'Decision Models & Routing': 'arize.com',
+        'Open-Weight Community & Labs': 'huggingface.co',
         'Thinking Machines Lab': 'thinkingmachines.com'
     };
 
@@ -61,7 +64,7 @@
                     const allModels = await res.json();
                     model = allModels.find((m: any) => slugify(m.name) === slug) || null;
                     if (!model) {
-                        error = 'Modello non trovato.';
+                        error = 'Model not found.';
                     } else {
                         // Also try to fetch content client-side
                         const cRes = await fetch('/data/models-content.json');
@@ -71,11 +74,11 @@
                         }
                     }
                 } else {
-                    error = 'Errore nel caricamento dei dati.';
+                    error = 'Failed to load model data.';
                 }
             } catch (e) {
                 console.error('Failed to load model:', e);
-                error = 'Errore di connessione.';
+                error = 'Connection error.';
             } finally {
                 loading = false;
             }
@@ -156,13 +159,18 @@
                 </div>
             {:else}
                 <div class="prose prose-invert prose-p:text-[#b2b8cf] prose-p:leading-relaxed max-w-none bg-[#0c1322] p-8 rounded-2xl border border-[#2b3655]">
-                    <h3 class="text-xl font-semibold text-white mb-4">Descrizione</h3>
+                    <h3 class="text-xl font-semibold text-white mb-4">Model Overview</h3>
                     <p class="text-lg">{model.description}</p>
                     
-                    <div class="mt-8 p-4 bg-[#111d33] border border-[#2b3655] rounded-lg flex items-start gap-3">
-                        <span class="material-symbols-outlined text-[#8e94ae]">info</span>
-                        <p class="text-sm text-[#8e94ae] m-0">Nessun contenuto dettagliato trovato per questo modello.</p>
-                    </div>
+                    {#if model.url}
+                        <div class="mt-8 pt-6 border-t border-[#2b3655] flex flex-wrap items-center justify-between gap-4">
+                            <span class="text-sm text-[#8e94ae]">Tracked in the R[AI]DAR ecosystem release registry.</span>
+                            <a href={model.url} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 bg-[#1b2437] hover:bg-[#2b3655] text-[#cfd5ff] rounded-lg border border-[#2b3655] transition-colors no-underline text-sm font-medium">
+                                <span>Official Lab / Model Page</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                            </a>
+                        </div>
+                    {/if}
                 </div>
             {/if}
         </main>

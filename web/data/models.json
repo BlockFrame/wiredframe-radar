@@ -1,84 +1,903 @@
 [
   {
+    "name": "GPT-6.2 Astra",
+    "category": "OpenAI",
+    "subcategory": "GPT-6",
+    "url": "https://openai.com/",
+    "description": "OpenAI's flagship frontier reasoning and multimodal model (Nov 2026), built for deep research, complex software engineering, and long-horizon autonomous tool use."
+  },
+  {
+    "name": "GPT-6.2 Sol",
+    "category": "OpenAI",
+    "subcategory": "GPT-6",
+    "url": "https://openai.com/",
+    "description": "High-throughput frontier reasoning model in the GPT-6.2 family (Nov 2026), balancing low-latency inference with frontier coding and agentic execution."
+  },
+  {
+    "name": "GPT-6.1 Terra",
+    "category": "OpenAI",
+    "subcategory": "GPT-6",
+    "url": "https://openai.com/",
+    "description": "Enterprise-tuned GPT-6.1 release (Oct 2026) optimized for grounded synthesis, structured outputs, and multi-step workflow orchestration."
+  },
+  {
+    "name": "GPT-6.1 Sol",
+    "category": "OpenAI",
+    "subcategory": "GPT-6",
+    "url": "https://openai.com/",
+    "description": "General-purpose GPT-6.1 production model (Sep 2026) delivering upgraded tool-calling reliability and extended context reasoning over GPT-6 Sol."
+  },
+  {
+    "name": "GPT-6 Astra",
+    "category": "OpenAI",
+    "subcategory": "GPT-6",
+    "url": "https://openai.com/",
+    "description": "First heavy-compute tier of the GPT-6 generation (Sep 2026), introducing unified adaptive reasoning and native multimodal tool execution."
+  },
+  {
+    "name": "GPT-6 Sol",
+    "category": "OpenAI",
+    "subcategory": "GPT-6",
+    "url": "https://openai.com/",
+    "description": "Core GPT-6 flagship release (Sep 2026) combining fast conversational response with on-demand reasoning depth."
+  },
+  {
+    "name": "GPT-6 Luna",
+    "category": "OpenAI",
+    "subcategory": "GPT-6",
+    "url": "https://openai.com/",
+    "description": "Compact, latency-optimized member of the GPT-6 family (Sep 2026) designed for real-time agents, decision benchmarks, and high-volume API workloads."
+  },
+  {
+    "name": "GPT-6 Cyber",
+    "category": "OpenAI",
+    "subcategory": "GPT-6",
+    "url": "https://openai.com/",
+    "description": "Defensive cybersecurity and binary-analysis specialist in the GPT-6 lineup (Nov 2026) for vulnerability discovery, patching, and threat auditing."
+  },
+  {
+    "name": "Astra 6.2 & Astra (Autonomous Agent Swarm)",
+    "category": "OpenAI",
+    "subcategory": "GPT-6",
+    "url": "https://openai.com/",
+    "description": "OpenAI's autonomous multi-agent orchestration and long-horizon execution system (Aug–Nov 2026) powering coordinated agent swarms."
+  },
+  {
+    "name": "GPT-5.7 Sol & GPT-5.7 Terra",
+    "category": "OpenAI",
+    "subcategory": "GPT-5",
+    "url": "https://openai.com/",
+    "description": "Late-cycle GPT-5.7 production releases (Aug 2026) bridging the GPT-5.6 and GPT-6 architectures with high-reliability long-context retrieval and coding."
+  },
+  {
+    "name": "GPT-5.6 Sol Ultra",
+    "category": "OpenAI",
+    "subcategory": "GPT-5",
+    "url": "https://openai.com/",
+    "description": "Maximum-compute reasoning tier of the GPT-5.6 family (Jul 2026) for scientific research, theorem synthesis, and complex architecture planning."
+  },
+  {
+    "name": "GPT-5.6 (Base, Sol, Terra, Luna & Cyber)",
+    "category": "OpenAI",
+    "subcategory": "GPT-5",
+    "url": "https://openai.com/",
+    "description": "Full GPT-5.6 model generation (Jun–Aug 2026) introducing the Sol/Terra/Luna tiering across flagship, enterprise, compact, and cyberdefense workloads."
+  },
+  {
+    "name": "GPT-Live-1.1 & GPT-Live-1",
+    "category": "OpenAI",
+    "subcategory": "Multimodal & Specialized",
+    "url": "https://openai.com/",
+    "description": "Low-latency native full-duplex voice and live multimodal streaming models (Jul–Nov 2026) for real-time conversational agents."
+  },
+  {
+    "name": "ChatGPT Images 2.6 & 2.5",
+    "category": "OpenAI",
+    "subcategory": "Multimodal & Specialized",
+    "url": "https://openai.com/",
+    "description": "Native autoregressive image generation and editing models (Sep–Nov 2026) with high typography accuracy and multi-turn visual consistency."
+  },
+  {
+    "name": "GPT-Synopsys",
+    "category": "OpenAI",
+    "subcategory": "Multimodal & Specialized",
+    "url": "https://openai.com/",
+    "description": "Specialized chip-design and EDA co-pilot model (Oct 2026) developed for hardware verification, RTL synthesis, and silicon layout optimization."
+  },
+  {
+    "name": "Claude Fable 5.2",
+    "category": "Anthropic",
+    "subcategory": "Claude Fable / Mythos",
+    "url": "https://www.anthropic.com/claude",
+    "description": "Anthropic's frontier Mythos-class model (Nov 2026) with 1M context, always-on deep reasoning, and state-of-the-art autonomous coding and formal research performance."
+  },
+  {
+    "name": "Claude Mythos 5.2",
+    "category": "Anthropic",
+    "subcategory": "Claude Fable / Mythos",
+    "url": "https://www.anthropic.com/claude",
+    "description": "Partner-gated cyberdefense and critical-infrastructure edition of Fable 5.2 (Nov 2026) deployed under Project Glasswing."
+  },
+  {
+    "name": "Claude Fable 5.1",
+    "category": "Anthropic",
+    "subcategory": "Claude Fable / Mythos",
+    "url": "https://www.anthropic.com/claude",
+    "description": "Second-generation Mythos-class general release (Sep 2026), improving long-horizon agent stability and verification accuracy over Fable 5."
+  },
+  {
+    "name": "Claude Mythos 5.1",
+    "category": "Anthropic",
+    "subcategory": "Claude Fable / Mythos",
+    "url": "https://www.anthropic.com/claude",
+    "description": "Specialized cyberdefense counterpart to Claude Fable 5.1 (Sep 2026) for audited security research."
+  },
+  {
+    "name": "Claude Fable 5 & Claude Mythos 5",
+    "category": "Anthropic",
+    "subcategory": "Claude Fable / Mythos",
+    "url": "https://www.anthropic.com/claude",
+    "description": "First-generation Claude 5 Fable/Mythos deep-reasoning and cyberdefense models (Jun 2026), inaugurating Anthropic's ultra-compute frontier tier."
+  },
+  {
+    "name": "Claude Opus 5.5",
+    "category": "Anthropic",
+    "subcategory": "Claude Opus",
+    "url": "https://www.anthropic.com/claude",
+    "description": "Flagship Opus-tier model (Sep 2026) with 1M context and adaptive thinking, engineered for large-repository refactoring and complex enterprise workflows."
+  },
+  {
+    "name": "Claude Sonnet 5.5",
+    "category": "Anthropic",
+    "subcategory": "Claude Sonnet",
+    "url": "https://www.anthropic.com/claude",
+    "description": "High-efficiency frontier workhorse (Sep 2026) delivering near-Opus 5.5 coding, computer use, and agentic tool use at Sonnet latency and cost."
+  },
+  {
+    "name": "Claude Haiku 5.5",
+    "category": "Anthropic",
+    "subcategory": "Claude Haiku",
+    "url": "https://www.anthropic.com/claude",
+    "description": "Fast, low-cost Claude 5.5 family model (Oct 2026) bringing hybrid reasoning, top Decision Index v2 accuracy, and sub-second latency to production pipelines."
+  },
+  {
+    "name": "Gemini 4 Neon",
+    "category": "Google",
+    "subcategory": "Gemini 4",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google DeepMind's coding and agentic frontier release in the Gemini 4 series (Nov 2026), featuring 1M context and top-tier autonomous software engineering performance."
+  },
+  {
+    "name": "Gemini 4 Hydrogen",
+    "category": "Google",
+    "subcategory": "Gemini 4",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Foundational multimodal reasoning model in the Gemini 4 family (Nov 2026) with native audio, video, code, and long-context synthesis."
+  },
+  {
+    "name": "Gemini 4 Carbon",
+    "category": "Google",
+    "subcategory": "Gemini 4",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Enterprise and scientific reasoning model in the Gemini 4 lineup (Oct 2026), optimized for complex tool use and multi-document analysis."
+  },
+  {
+    "name": "Gemini 4 Argon",
+    "category": "Google",
+    "subcategory": "Gemini 4",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "First debut checkpoint of the Gemini 4 architecture (Sep 2026), introducing next-generation sparse MoE routing and deep thinking traces."
+  },
+  {
+    "name": "Gemini 3.8 Pro",
+    "category": "Google",
+    "subcategory": "Gemini 3",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Mature Gemini 3.8 flagship (Sep 2026) with 2M context window and strong multimodal coding and analytical performance."
+  },
+  {
+    "name": "Gemini 3.8 Flash",
+    "category": "Google",
+    "subcategory": "Gemini 3",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "High-speed reasoning model (Sep 2026) pairing 1M+ context with low-cost thinking tokens for real-time agentic applications."
+  },
+  {
+    "name": "Gemini Decision 1",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/",
+    "description": "Specialized decision-making and planning model (Nov 2026) trained for browser/OS computer-use and multi-agent coordination."
+  },
+  {
+    "name": "Gemini Omni 1.2 Flash",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/",
+    "description": "Low-latency native speech-to-speech and live video interaction model (Nov 2026) for real-time multimodal assistants."
+  },
+  {
+    "name": "Genie 4",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/",
+    "description": "Interactive foundation world model (Oct 2026) capable of generating playable, physics-consistent 3D environments in real time for embodied AI training."
+  },
+  {
+    "name": "AlphaGenome 2",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/",
+    "description": "DeepMind's second-generation genomic regulatory foundation model (Nov 2026) predicting non-coding DNA variant effects across cell types."
+  },
+  {
+    "name": "AlphaProof Code",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/",
+    "description": "Formal verification and mathematical theorem-proving model (Nov 2026) combining Lean 4 reinforcement learning with code synthesis."
+  },
+  {
+    "name": "EmbeddingGemma 2 (Open-Weight)",
+    "category": "Google",
+    "subcategory": "Gemma 4 & 3 (Open-Weight)",
+    "url": "https://ai.google.dev/gemma",
+    "description": "Compact open-weight multilingual retrieval and embedding model (Oct 2026) built on the Gemma 4 architecture for local RAG pipelines."
+  },
+  {
+    "name": "Qwen4 Max",
+    "category": "Alibaba (Qwen)",
+    "subcategory": "Qwen 4 & 3.8 (Open-Weight & API)",
+    "url": "https://qwenlm.github.io/",
+    "description": "Alibaba's flagship Qwen 4 frontier model (Nov 2026), advancing multilingual reasoning, agentic coding, and long-context synthesis."
+  },
+  {
+    "name": "Qwen3.8-2.4T-A95B (Open-Weight MoE)",
+    "category": "Alibaba (Qwen)",
+    "subcategory": "Qwen 4 & 3.8 (Open-Weight & API)",
+    "url": "https://huggingface.co/Qwen",
+    "description": "Ultra-scale 2.4-trillion-parameter open-weight Mixture-of-Experts model (95B active per token, Aug 2026) matching top proprietary frontier models."
+  },
+  {
+    "name": "Qwen3.8-27B (Open-Weight)",
+    "category": "Alibaba (Qwen)",
+    "subcategory": "Qwen 4 & 3.8 (Open-Weight & API)",
+    "url": "https://huggingface.co/Qwen",
+    "description": "Dense 27B open-weight model (Aug 2026) under Apache 2.0, delivering frontier-grade coding and math reasoning on single-workstation GPUs."
+  },
+  {
+    "name": "Qwen3.8 Max Prime",
+    "category": "Alibaba (Qwen)",
+    "subcategory": "Qwen 4 & 3.8 (Open-Weight & API)",
+    "url": "https://qwenlm.github.io/",
+    "description": "Enhanced reasoning edition of Qwen 3.8 Max (Sep 2026) with extended test-time compute for math, code, and agent tasks."
+  },
+  {
+    "name": "Qwen3.8 Omni Flash",
+    "category": "Alibaba (Qwen)",
+    "subcategory": "Qwen 4 & 3.8 (Open-Weight & API)",
+    "url": "https://qwenlm.github.io/",
+    "description": "End-to-end multimodal model (Sep 2026) processing text, audio, image, and video streams with real-time speech output."
+  },
+  {
+    "name": "Qwen3.8 Flash",
+    "category": "Alibaba (Qwen)",
+    "subcategory": "Qwen 4 & 3.8 (Open-Weight & API)",
+    "url": "https://qwenlm.github.io/",
+    "description": "Fast, cost-efficient hybrid-thinking model in the Qwen 3.8 series (Aug 2026) with 1M context support."
+  },
+  {
+    "name": "Qwen3.6-35B-A3B (Open-Weight MoE)",
+    "category": "Alibaba (Qwen)",
+    "subcategory": "Qwen 3",
+    "url": "https://huggingface.co/Qwen",
+    "description": "Highly efficient open-weight sparse MoE (35B total, 3B active parameters) designed for ultra-fast local inference and edge deployment."
+  },
+  {
+    "name": "Qwen3.6-27B (Open-Weight)",
+    "category": "Alibaba (Qwen)",
+    "subcategory": "Qwen 3",
+    "url": "https://huggingface.co/Qwen",
+    "description": "Open-weight 27B dense checkpoint in the Qwen 3.6 family with strong multilingual and tool-use benchmarks."
+  },
+  {
+    "name": "DeepSeek-V4.1-Flash (1017) (Open-Weight)",
+    "category": "DeepSeek",
+    "subcategory": "DeepSeek-V4",
+    "url": "https://github.com/deepseek-ai",
+    "description": "Updated October 2026 open-weight MoE reasoning checkpoint with faster decoding, lower memory footprint, and stronger SWE-bench coding scores."
+  },
+  {
+    "name": "DeepSeek-V4-Flash-Vision-Exp (Open-Weight)",
+    "category": "DeepSeek",
+    "subcategory": "DeepSeek-V4",
+    "url": "https://github.com/deepseek-ai",
+    "description": "Experimental open-weight multimodal vision-language reasoning model (Aug 2026) for document OCR, chart analysis, and UI grounding."
+  },
+  {
+    "name": "Muse Spark Open (Open-Weight)",
+    "category": "Meta",
+    "subcategory": "Muse / Experimental",
+    "url": "https://ai.meta.com/",
+    "description": "Meta's flagship open-weight release of the Muse Spark architecture (Oct 2026), bringing native reasoning and agentic tool use to self-hosted deployments."
+  },
+  {
+    "name": "Muse Ember",
+    "category": "Meta",
+    "subcategory": "Muse / Experimental",
+    "url": "https://ai.meta.com/",
+    "description": "Compact, low-latency model in Meta's Muse family (Nov 2026) optimized for interactive assistants and fast coding workflows."
+  },
+  {
+    "name": "Muse Wonder & Wonder Full",
+    "category": "Meta",
+    "subcategory": "Muse / Experimental",
+    "url": "https://ai.meta.com/",
+    "description": "Meta's large-scale frontier multimodal reasoning models (Oct 2026) designed for deep scientific, mathematical, and software synthesis."
+  },
+  {
+    "name": "Muse Spark 1.3",
+    "category": "Meta",
+    "subcategory": "Muse / Experimental",
+    "url": "https://ai.meta.com/",
+    "description": "Third major iteration of Meta's Muse Spark reasoning model (Sep 2026) with mandatory chain-of-thought and high throughput on OpenRouter."
+  },
+  {
+    "name": "Muse Code",
+    "category": "Meta",
+    "subcategory": "Muse / Experimental",
+    "url": "https://ai.meta.com/",
+    "description": "Software engineering specialist in Meta's Muse family (Aug 2026) trained for repository-level code generation and automated debugging."
+  },
+  {
+    "name": "Muse Glimmer & Muse Image",
+    "category": "Meta",
+    "subcategory": "Muse / Experimental",
+    "url": "https://ai.meta.com/",
+    "description": "Meta's native visual generation and multimodal understanding models (Jul–Aug 2026) for high-fidelity image and video synthesis."
+  },
+  {
+    "name": "Mistral Large 4 'Le Chonk' (Open-Weight 1.05T MoE)",
+    "category": "Mistral AI",
+    "subcategory": "Mistral Large",
+    "url": "https://mistral.ai/",
+    "description": "Europe's 1.05-trillion-parameter open-weight frontier MoE model (Oct 2026), trained on EU Grace Blackwell clusters with top-tier multilingual and coding capability."
+  },
+  {
+    "name": "Devstral 2 (2512) (Open-Weight)",
+    "category": "Mistral AI",
+    "subcategory": "Codestral / Mathstral",
+    "url": "https://mistral.ai/",
+    "description": "Open-weight agentic software engineering model built for SWE-bench workflows, multi-file edits, and autonomous terminal use."
+  },
+  {
+    "name": "Leanstral 1.5 (Open-Weight)",
+    "category": "Mistral AI",
+    "subcategory": "Codestral / Mathstral",
+    "url": "https://mistral.ai/",
+    "description": "Open-weight formal theorem-proving and mathematical verification model (Jul 2026) specialized in Lean 4 proof synthesis."
+  },
+  {
+    "name": "Ministral 3 (Open-Weight)",
+    "category": "Mistral AI",
+    "subcategory": "Mistral Small",
+    "url": "https://mistral.ai/",
+    "description": "Compact open-weight edge and on-device model family delivering high instruction-following accuracy under strict memory budgets."
+  },
+  {
+    "name": "Voxtral 3",
+    "category": "Mistral AI",
+    "subcategory": "Multimodal, Speech & Safety",
+    "url": "https://mistral.ai/",
+    "description": "Mistral's third-generation speech understanding, translation, and real-time voice dialogue model (Oct 2026)."
+  },
+  {
+    "name": "Shieldstral",
+    "category": "Mistral AI",
+    "subcategory": "Multimodal, Speech & Safety",
+    "url": "https://mistral.ai/",
+    "description": "Open-weight guardrail and prompt-injection defense model (Aug 2026) for real-time policy enforcement in enterprise AI pipelines."
+  },
+  {
+    "name": "Robostral Navigate & Mistral OCR 4",
+    "category": "Mistral AI",
+    "subcategory": "Multimodal, Speech & Safety",
+    "url": "https://mistral.ai/",
+    "description": "Mistral's specialized embodied-navigation model (Jul 2026) and fourth-generation document layout/table extraction engine (Jun 2026)."
+  },
+  {
+    "name": "GLM-5.3 (Open-Weight & API)",
+    "category": "Z.ai (Zhipu / GLM)",
+    "subcategory": "GLM-5",
+    "url": "https://z.ai/",
+    "description": "Z.ai's flagship GLM-5.3 reasoning and agentic coding model (Oct 2026) with bilingual mastery and long-horizon tool orchestration."
+  },
+  {
+    "name": "GLM-5.3-FlashX & GLM-5.3-Flash",
+    "category": "Z.ai (Zhipu / GLM)",
+    "subcategory": "GLM-5",
+    "url": "https://z.ai/",
+    "description": "High-speed reasoning models (128K output capacity, Sep 2026) offering frontier-level synthesis and coding at a fraction of traditional frontier cost."
+  },
+  {
+    "name": "Grok 4.7",
+    "category": "xAI (Grok)",
+    "subcategory": "Grok 4",
+    "url": "https://x.ai/",
+    "description": "xAI's latest Grok 4 series flagship (Sep 2026) featuring upgraded deep-thinking traces, real-time search grounding, and coding accuracy."
+  },
+  {
+    "name": "Grok 4.6",
+    "category": "xAI (Grok)",
+    "subcategory": "Grok 4",
+    "url": "https://x.ai/",
+    "description": "August 2026 Grok 4 release improving multimodal reasoning, tool use, and long-context coherence."
+  },
+  {
+    "name": "Grok Voice 3.0 & Imagine 2.0",
+    "category": "xAI (Grok)",
+    "subcategory": "Grok Build",
+    "url": "https://x.ai/",
+    "description": "xAI's low-latency native voice dialogue engine (Oct 2026) and photorealistic image/video generation suite (Aug 2026)."
+  },
+  {
+    "name": "Kimi K2.6 & Kimi K2.5 (Open-Weight MoE)",
+    "category": "Moonshot AI (Kimi)",
+    "subcategory": "Kimi K2 (Open-Weight)",
+    "url": "https://huggingface.co/moonshotai",
+    "description": "Moonshot AI's open-weight 1-trillion-parameter Mixture-of-Experts models (32B active, Jan–Apr 2026) trained with the MuonClip optimizer for agentic tool use."
+  },
+  {
+    "name": "MiniMax M3.1 Flash",
+    "category": "MiniMax",
+    "subcategory": "MiniMax M3",
+    "url": "https://www.minimax.io/",
+    "description": "High-speed hybrid-attention model in the MiniMax M3 generation (Oct 2026) built for long-context agent workflows and rapid synthesis."
+  },
+  {
+    "name": "Cohere North Mini Code (Open-Weight / Free)",
+    "category": "Cohere",
+    "subcategory": "Command A / Aya",
+    "url": "https://cohere.com/",
+    "description": "Compact coding and workspace automation model (Jun 2026) designed for Cohere North agentic enterprise deployments."
+  },
+  {
+    "name": "Hunyuan Hy4",
+    "category": "Tencent",
+    "subcategory": "Hunyuan",
+    "url": "https://hunyuan.tencent.com/",
+    "description": "Tencent's fourth-generation frontier MoE foundation model (Nov 2026) with upgraded reasoning, coding, and multimodal understanding."
+  },
+  {
+    "name": "WeVisOne-VL (Open-Weight)",
+    "category": "Tencent",
+    "subcategory": "Hunyuan",
+    "url": "https://huggingface.co/tencent",
+    "description": "Tencent's open-weight unified vision-language model (Nov 2026) for high-resolution document, video, and GUI understanding."
+  },
+  {
+    "name": "Hunyuan Hy-MT2-30B-A3B & 7B (Open-Weight)",
+    "category": "Tencent",
+    "subcategory": "Hunyuan",
+    "url": "https://huggingface.co/tencent",
+    "description": "Open-weight sparse MoE (30B total / 3B active) and dense 7B/1.8B models (Aug 2026) for efficient local deployment."
+  },
+  {
+    "name": "Nemotron 3.5 Super VL (Open-Weight)",
+    "category": "NVIDIA",
+    "subcategory": "Nemotron 3.5 & 3 (Open-Weight)",
+    "url": "https://huggingface.co/nvidia",
+    "description": "NVIDIA's open-weight multimodal vision-language reasoning model (Oct 2026) for document intelligence, chart reasoning, and visual agent workflows."
+  },
+  {
+    "name": "NVIDIA Switchyard",
+    "category": "NVIDIA",
+    "subcategory": "Nemotron 3.5 & 3 (Open-Weight)",
+    "url": "https://build.nvidia.com/",
+    "description": "NVIDIA's dynamic multi-model routing and orchestration model (Sep 2026) engineered for enterprise NIM inference pipelines."
+  },
+  {
+    "name": "Nemotron 3.5 Lightning (Open-Weight)",
+    "category": "NVIDIA",
+    "subcategory": "Nemotron 3.5 & 3 (Open-Weight)",
+    "url": "https://huggingface.co/nvidia",
+    "description": "NVIDIA's high-throughput open-weight hybrid Mamba-Transformer model (Aug 2026) optimized for low-latency reasoning and enterprise RAG."
+  },
+  {
+    "name": "Nemotron 3 Ultra & Super (Open-Weight)",
+    "category": "NVIDIA",
+    "subcategory": "Nemotron 3.5 & 3 (Open-Weight)",
+    "url": "https://huggingface.co/nvidia",
+    "description": "Open-weight frontier-scale and mid-size reasoning models trained with reinforcement learning for complex math, code, and tool calling."
+  },
+  {
+    "name": "Nemotron 3 Nano 30B-A3B & Nano Omni (Open-Weight)",
+    "category": "NVIDIA",
+    "subcategory": "Nemotron 3.5 & 3 (Open-Weight)",
+    "url": "https://huggingface.co/nvidia",
+    "description": "Ultra-fast open-weight 30B-A3B MoE and multimodal omni checkpoints for edge and single-GPU inference."
+  },
+  {
+    "name": "Nemotron 3.5 Content Safety (Open-Weight)",
+    "category": "NVIDIA",
+    "subcategory": "Nemotron 3.5 & 3 (Open-Weight)",
+    "url": "https://huggingface.co/nvidia",
+    "description": "Open-weight safety classifier and guardrail model for detecting jailbreaks, PII leaks, and policy violations in real time."
+  },
+  {
+    "name": "TypeSafe Jev 1.13 (jev-1.13.0)",
+    "category": "Decision Models & Routing",
+    "subcategory": "Choice & Noul Decision Models",
+    "url": "https://typesafe.ai/",
+    "description": "TypeSafe's flagship non-generative structured decision model (SystemOne API, Sep 2026) returning calibrated Choice and Noul primitives up to 200x faster and 400x cheaper than LLM judges."
+  },
+  {
+    "name": "Nace AI Drex Max v1.1",
+    "category": "Decision Models & Routing",
+    "subcategory": "Calibrated Decision & Document Adjudication",
+    "url": "https://artificialanalysis.ai/",
+    "description": "#1 ranked model on the Artificial Analysis Decision Index v2 (score 73, Nov 2026), optimized for calibrated confidence scoring and multi-question document extraction."
+  },
+  {
+    "name": "Fastino Labs GLiDE v1.2",
+    "category": "Decision Models & Routing",
+    "subcategory": "Calibrated Decision & Document Adjudication",
+    "url": "https://fastino.ai/",
+    "description": "Co-leader on the Artificial Analysis Decision Index v2 (score 73, Nov 2026), engineered for high-symmetry, low-latency enterprise classification and fact adjudication."
+  },
+  {
+    "name": "Perplexity pplx-decider-27b (Decider v1.2) & Decider Flash v1.2 (Open-Weight)",
+    "category": "Decision Models & Routing",
+    "subcategory": "Open-Weight Decision Models",
+    "url": "https://www.perplexity.ai/",
+    "description": "Perplexity's state-of-the-art open-weight multimodal Decision Model and Decisions API (Oct–Nov 2026), sitting on the Decision Index v2 vs. Cost Pareto frontier."
+  },
+  {
+    "name": "Cloudflare Clef (27B) & Clef-Flash (9B) (Open-Weight)",
+    "category": "Decision Models & Routing",
+    "subcategory": "Open-Weight Decision Models",
+    "url": "https://developers.cloudflare.com/workers-ai/",
+    "description": "Cloudflare's open-weight decision models (Oct 2026) post-trained from Qwen3.8-27B and Qwen3.5-9B for edge request routing, guardrail evaluation, and structured triage."
+  },
+  {
+    "name": "Base Labs Mammoth 27B",
+    "category": "Decision Models & Routing",
+    "subcategory": "Calibrated Decision & Document Adjudication",
+    "url": "https://artificialanalysis.ai/",
+    "description": "High-accuracy 27B calibrated decision model scoring 72 on the Artificial Analysis Decision Index v2 (Nov 2026) across AA-Paperclip and AA-Symmetry benchmarks."
+  },
+  {
+    "name": "Celeris-1.1 Decision",
+    "category": "Decision Models & Routing",
+    "subcategory": "Choice & Noul Decision Models",
+    "url": "https://artificialanalysis.ai/",
+    "description": "Ultra-low-cost Pareto-frontier decision model ($14 per 1M tasks on the Artificial Analysis Decision Index v2, Nov 2026) built for high-volume pipeline filtering."
+  },
+  {
+    "name": "Baidu ERNIE-Light-DT-1.0",
+    "category": "Decision Models & Routing",
+    "subcategory": "Choice & Noul Decision Models",
+    "url": "https://yiyan.baidu.com/",
+    "description": "Baidu's lightweight Decision-Thinking model (Nov 2026) combining fast structured routing with calibrated confidence estimation."
+  },
+  {
+    "name": "Thinking Machines Inkling 2 Mini (26.4B Looped MoE Open-Weight)",
+    "category": "Open-Weight Community & Labs",
+    "subcategory": "Frontier Open-Weight MoE & Dense",
+    "url": "https://thinkingmachines.ai/",
+    "description": "Thinking Machines Lab's open-weight 26.4B-parameter looped Mixture-of-Experts model (Nov 2026), delivering deep recurrent reasoning while fitting on a 32GB consumer Mac."
+  },
+  {
+    "name": "Reflection Beam (501B MoE / 23B Active Open-Weight)",
+    "category": "Open-Weight Community & Labs",
+    "subcategory": "Frontier Open-Weight MoE & Dense",
+    "url": "https://reflection.ai/",
+    "description": "US open-weight frontier MoE model (501B total, 23B active parameters, Oct 2026) delivering 3–4x compute efficiency and closed-frontier parity."
+  },
+  {
+    "name": "Marin Mochi 535B-A23B (Open-Weight MoE)",
+    "category": "Open-Weight Community & Labs",
+    "subcategory": "Frontier Open-Weight MoE & Dense",
+    "url": "https://huggingface.co/marin-community",
+    "description": "Fully open-source, reproducibly trained 535B MoE (23B active, Nov 2026) released with complete training data recipes, logs, and technical report."
+  },
+  {
+    "name": "Nous Hermes 4 405B (Open-Weight)",
+    "category": "Open-Weight Community & Labs",
+    "subcategory": "Frontier Open-Weight MoE & Dense",
+    "url": "https://huggingface.co/NousResearch",
+    "description": "Nous Research's flagship 405B open-weight model fine-tuned for steerable reasoning, structured function calling, and agentic workflows."
+  },
+  {
+    "name": "AllenAI OLMo-core 3, OLMo 2 32B & Tülu 3 405B (Open-Weight)",
+    "category": "Open-Weight Community & Labs",
+    "subcategory": "Frontier Open-Weight MoE & Dense",
+    "url": "https://allenai.org/",
+    "description": "Ai2's fully open-weight, open-data, and open-recipe MoE/dense foundation models (Oct 2026) setting the scientific standard for transparent AI."
+  },
+  {
+    "name": "Microsoft Phi-4 (14B Open-Weight) & MAI-Transcribe-2",
+    "category": "Open-Weight Community & Labs",
+    "subcategory": "Frontier Open-Weight MoE & Dense",
+    "url": "https://huggingface.co/microsoft",
+    "description": "Microsoft's compact 14B open-weight STEM/coding model and #1-ranked MAI-Transcribe-2-Streaming speech recognition model (Oct 2026)."
+  },
+  {
+    "name": "LiquidAI LFM3-1.7B & LFM2.5-24B-A2B (Open-Weight)",
+    "category": "Open-Weight Community & Labs",
+    "subcategory": "Edge, Diffusion & Multimodal Open-Weight",
+    "url": "https://www.liquid.ai/",
+    "description": "LiquidAI's third-generation 1.7B edge model (Nov 2026) and 24B-A2B hybrid Liquid Foundation Model (Oct 2026) with constant memory footprint for long context."
+  },
+  {
+    "name": "Inception Mercury 2.5 (Diffusion LLM)",
+    "category": "Open-Weight Community & Labs",
+    "subcategory": "Edge, Diffusion & Multimodal Open-Weight",
+    "url": "https://www.inceptionlabs.ai/",
+    "description": "Parallel discrete-diffusion language model (Sep 2026) generating code and text at over 1,000 tokens/sec."
+  },
+  {
+    "name": "Reka Inverse Dynamics Model & Reka Edge (Open-Weight)",
+    "category": "Open-Weight Community & Labs",
+    "subcategory": "Edge, Diffusion & Multimodal Open-Weight",
+    "url": "https://www.reka.ai/",
+    "description": "Reka AI's Apache-2.0 open-weight physical robotics inverse-dynamics model (Oct 2026) and compact multimodal edge model."
+  },
+  {
+    "name": "ByteDance UI-TARS 7B (Open-Weight GUI Agent)",
+    "category": "Open-Weight Community & Labs",
+    "subcategory": "Edge, Diffusion & Multimodal Open-Weight",
+    "url": "https://github.com/bytedance/UI-TARS",
+    "description": "Open-weight native GUI and computer-use agent model capable of visual screen grounding and autonomous desktop/mobile action execution."
+  },
+  {
+    "name": "ChatGPT Images 2.5",
+    "category": "OpenAI",
+    "subcategory": "Multimodal & Specialized",
+    "url": "https://openai.com/",
+    "description": "OpenAI release (2026-09-08) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "GPT-5.6-Cyber",
+    "category": "OpenAI",
+    "subcategory": "GPT-5",
+    "url": "https://openai.com/",
+    "description": "OpenAI release (2026-08-10) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "GPT-Realtime-2",
+    "category": "OpenAI",
+    "subcategory": "Multimodal & Specialized",
+    "url": "https://openai.com/",
+    "description": "OpenAI release (2026-05-08) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Privacy Filter",
+    "category": "OpenAI",
+    "subcategory": "Multimodal & Specialized",
+    "url": "https://openai.com/",
+    "description": "OpenAI release (2026-04-28) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "GPT-Image-2",
+    "category": "OpenAI",
+    "subcategory": "Multimodal & Specialized",
+    "url": "https://openai.com/",
+    "description": "OpenAI release (2026-04-22) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "GPT-5.4-Cyber",
+    "category": "OpenAI",
+    "subcategory": "GPT-5",
+    "url": "https://openai.com/",
+    "description": "OpenAI release (2026-04-17) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "GPT-5.4-Thinking",
+    "category": "OpenAI",
+    "subcategory": "GPT-5",
+    "url": "https://openai.com/",
+    "description": "OpenAI release (2026-03-05) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Claude Mythos Preview",
+    "category": "Anthropic",
+    "subcategory": "Claude Fable / Mythos",
+    "url": "https://www.anthropic.com/claude",
+    "description": "Anthropic release (2026-04-07) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Gemini 3.8 Live",
+    "category": "Google",
+    "subcategory": "Gemini 3",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-09-15) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "AlphaGenome Atlas",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-09-08) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "WeatherNext 3",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-09-03) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "TimesFM 3",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-08-31) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Gemini Omni 1.1 Flash",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-08-29) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Gemini 3.7 Flash",
+    "category": "Google",
+    "subcategory": "Gemini 3",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-08-13) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Gemini Robotics 2",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-07-30) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Gemini Robotics ER 2",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-07-30) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Lyria 3.5",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-07-29) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Gemini Omni Flash",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-06-30) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Gemini Spark",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-05-26) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Gemini Robotics ER 1.6",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-04-15) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Veo 3.1 Lite",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-04-01) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Gemini Embedding 2",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-03-11) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Gemini 3.1 Flash Image",
+    "category": "Google",
+    "subcategory": "Gemini 3",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-02-26) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Genie 3",
+    "category": "Google",
+    "subcategory": "Science & Agents",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google release (2026-02-06) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Grok Imagine Image 2.0",
+    "category": "xAI (Grok)",
+    "subcategory": "Grok Build",
+    "url": "https://x.ai/",
+    "description": "xAI (Grok) release (2026-08-08) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Grok Imagine Video 1.5",
+    "category": "xAI (Grok)",
+    "subcategory": "Grok Build",
+    "url": "https://x.ai/",
+    "description": "xAI (Grok) release (2026-06-04) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Grok Voice Think Fast 1.0",
+    "category": "xAI (Grok)",
+    "subcategory": "Grok Build",
+    "url": "https://x.ai/",
+    "description": "xAI (Grok) release (2026-04-24) tracked in the R[AI]DAR model release registry."
+  },
+  {
+    "name": "Sapiens 2",
+    "category": "Meta",
+    "subcategory": "Muse / Experimental",
+    "url": "https://ai.meta.com/",
+    "description": "Meta release (2026-04-27) tracked in the R[AI]DAR model release registry."
+  },
+  {
     "name": "Claude Fable 5",
-    "description": "First widely-released Mythos-class model; 1M context, 128K max output, $10/$50 per MTok. Always-on thinking; ships with safety classifiers that fall\u2026",
+    "description": "First widely-released Mythos-class model; 1M context, 128K max output, $10/$50 per MTok. Always-on thinking; ships with safety classifiers that fall…",
     "url": "https://ai-tldr.dev/models/claude-fable-5/",
     "category": "Anthropic",
     "subcategory": "Claude Fable / Mythos"
   },
   {
     "name": "Claude Mythos 5",
-    "description": "Same underlying model as Fable 5 with some safeguards lifted; available only through Project Glasswing (cyberdefense/infrastructure partners, with th\u2026",
+    "description": "Same underlying model as Fable 5 with some safeguards lifted; available only through Project Glasswing (cyberdefense/infrastructure partners, with th…",
     "url": "https://ai-tldr.dev/models/claude-mythos-5/",
     "category": "Anthropic",
     "subcategory": "Claude Fable / Mythos"
   },
   {
-    "name": "Claude Mythos Preview",
-    "description": "Invitation-only early Mythos-class model used by a small number of organizations for cybersecurity work; superseded by Mythos 5.",
-    "url": "https://ai-tldr.dev/models/claude-mythos-preview/",
-    "category": "Anthropic",
-    "subcategory": "Claude Fable / Mythos"
-  },
-  {
     "name": "Claude Opus 5",
-    "description": "Opus-tier model for complex agentic coding and enterprise work (Jul 2026). 1M context, 128K max output, adaptive thinking; $5/$25 per MTok \u2014 same price as Opus 4.8.",
+    "description": "First Claude 5 Opus release (Jul 2026) introducing next-generation adaptive thinking budgets and multi-agent software engineering.",
     "url": "https://ai-tldr.dev/models/claude-opus-5/",
     "category": "Anthropic",
     "subcategory": "Claude Opus"
   },
   {
     "name": "Claude Opus 4.8",
-    "description": "Opus-tier model (May 2026). Better coding/knowledge work and tool-calling than 4.7; ~4x less likely to let its own code flaws pass unremarked. 1M context.",
+    "description": "Final Claude 4-generation Opus release (May 2026) with upgraded long-horizon tool reliability and coding precision.",
     "url": "https://ai-tldr.dev/models/claude-opus-4-8/",
     "category": "Anthropic",
     "subcategory": "Claude Opus"
   },
   {
     "name": "Claude Opus 4.7",
-    "description": "Stronger software engineering and long-running coding; higher-resolution vision (~3.3x); new xhigh effort level. Removed sampling params and budget_t\u2026",
+    "description": "Stronger software engineering and long-running coding; higher-resolution vision (~3.3x); new xhigh effort level. Removed sampling params and budget_t…",
     "url": "https://ai-tldr.dev/models/claude-opus-4-7/",
     "category": "Anthropic",
     "subcategory": "Claude Opus"
   },
   {
     "name": "Claude Opus 4.6",
-    "description": "First Opus-class model with a 1M token context window (beta at launch). Improved planning, larger-codebase reliability, code review and debugging; ad\u2026",
+    "description": "First Opus-class model with a 1M token context window (beta at launch). Improved planning, larger-codebase reliability, code review and debugging; ad…",
     "url": "https://ai-tldr.dev/models/claude-opus-4-6/",
     "category": "Anthropic",
     "subcategory": "Claude Opus"
   },
   {
     "name": "Claude Opus 4.5",
-    "description": "Completed the Claude 4.5 family; positioned as Anthropic's most intelligent model at launch with a roughly two-thirds price cut versus Opus 4.1. Adde\u2026",
+    "description": "Completed the Claude 4.5 family; positioned as Anthropic's most intelligent model at launch with a roughly two-thirds price cut versus Opus 4.1. Adde…",
     "url": "https://ai-tldr.dev/models/claude-opus-4-5/",
     "category": "Anthropic",
     "subcategory": "Claude Opus"
   },
   {
-    "name": "Claude Opus 4.1",
-    "description": "Incremental upgrade to Opus 4 with improved coding and agentic performance.",
-    "url": "https://ai-tldr.dev/models/claude-opus-4-1/",
-    "category": "Anthropic",
-    "subcategory": "Claude Opus"
-  },
-  {
-    "name": "Claude Opus 4",
-    "description": "First Claude 4-generation flagship, launched alongside Sonnet 4 with hybrid reasoning and extended thinking.",
-    "url": "https://ai-tldr.dev/models/claude-opus-4/",
-    "category": "Anthropic",
-    "subcategory": "Claude Opus"
-  },
-  {
-    "name": "Claude 3 Opus",
-    "description": "Top-tier model of the original Claude 3 family; most capable Claude at its launch.",
-    "url": "https://ai-tldr.dev/models/claude-3-opus/",
-    "category": "Anthropic",
-    "subcategory": "Claude Opus"
-  },
-  {
     "name": "Claude Sonnet 5",
-    "description": "Sonnet tier (Jun 2026); more agentic Sonnet with autonomous planning, browser/terminal tool use, and lower cost than Opus 4.8. 1M context, 128K max output, $3/$15 per MTok ($2/$10 intro through Aug 31, 2026).",
+    "description": "Core Claude 5 Sonnet release (Jun 2026) advancing SWE-bench software engineering, interactive coding, and enterprise agent deployment.",
     "url": "https://ai-tldr.dev/models/claude-sonnet-5/",
     "category": "Anthropic",
     "subcategory": "Claude Sonnet"
@@ -98,88 +917,11 @@
     "subcategory": "Claude Sonnet"
   },
   {
-    "name": "Claude Sonnet 4",
-    "description": "Claude 4-generation Sonnet, launched with Opus 4; hybrid reasoning with extended thinking.",
-    "url": "https://ai-tldr.dev/models/claude-sonnet-4/",
-    "category": "Anthropic",
-    "subcategory": "Claude Sonnet"
-  },
-  {
-    "name": "Claude 3.7 Sonnet",
-    "description": "First Claude model with extended/visible thinking; bridged the 3.5 and 4 generations. Retired 2026-02-19.",
-    "url": "https://ai-tldr.dev/models/claude-3-7-sonnet/",
-    "category": "Anthropic",
-    "subcategory": "Claude Sonnet"
-  },
-  {
-    "name": "Claude 3.5 Sonnet (new)",
-    "description": "Upgraded 3.5 Sonnet ('new'/v2); introduced computer use in beta. Retired 2025-10-28.",
-    "url": "https://ai-tldr.dev/models/claude-3-5-sonnet-v2/",
-    "category": "Anthropic",
-    "subcategory": "Claude Sonnet"
-  },
-  {
-    "name": "Claude 3.5 Sonnet",
-    "description": "First 3.5-generation model; outperformed Claude 3 Opus at lower cost. Retired 2025-10-28.",
-    "url": "https://ai-tldr.dev/models/claude-3-5-sonnet/",
-    "category": "Anthropic",
-    "subcategory": "Claude Sonnet"
-  },
-  {
-    "name": "Claude 3 Sonnet",
-    "description": "Mid-tier of the original Claude 3 family. Retired 2025-07-21.",
-    "url": "https://ai-tldr.dev/models/claude-3-sonnet/",
-    "category": "Anthropic",
-    "subcategory": "Claude Sonnet"
-  },
-  {
     "name": "Claude Haiku 4.5",
     "description": "Haiku tier (Oct 2025); fastest and most economical Claude. 200K context, 64K max output, $1/$5 per MTok. Supports adaptive thinking.",
     "url": "https://ai-tldr.dev/models/claude-haiku-4-5/",
     "category": "Anthropic",
     "subcategory": "Claude Haiku"
-  },
-  {
-    "name": "Claude 3.5 Haiku",
-    "description": "3.5-generation small model; faster and cheaper than 3.5 Sonnet. Retired 2026-02-19.",
-    "url": "https://ai-tldr.dev/models/claude-3-5-haiku/",
-    "category": "Anthropic",
-    "subcategory": "Claude Haiku"
-  },
-  {
-    "name": "Claude 3 Haiku",
-    "description": "Fastest model of the original Claude 3 family; deprecated, retiring 2026-04-19.",
-    "url": "https://ai-tldr.dev/models/claude-3-haiku/",
-    "category": "Anthropic",
-    "subcategory": "Claude Haiku"
-  },
-  {
-    "name": "Claude 2.1",
-    "description": "Added a 200K context window and reduced hallucination rates over Claude 2. Retired 2025-07-21.",
-    "url": "https://ai-tldr.dev/models/claude-2-1/",
-    "category": "Anthropic",
-    "subcategory": "Claude (legacy 1-2.x)"
-  },
-  {
-    "name": "Claude 2",
-    "description": "Second-generation Claude with a 100K context window and improved coding/reasoning. Retired 2025-07-21.",
-    "url": "https://ai-tldr.dev/models/claude-2/",
-    "category": "Anthropic",
-    "subcategory": "Claude (legacy 1-2.x)"
-  },
-  {
-    "name": "Claude Instant",
-    "description": "Original low-latency, lower-cost Claude variant, launched alongside Claude 1.",
-    "url": "https://ai-tldr.dev/models/claude-instant/",
-    "category": "Anthropic",
-    "subcategory": "Claude (legacy 1-2.x)"
-  },
-  {
-    "name": "Claude 1",
-    "description": "Anthropic's first publicly released Claude model.",
-    "url": "https://ai-tldr.dev/models/claude-1/",
-    "category": "Anthropic",
-    "subcategory": "Claude (legacy 1-2.x)"
   },
   {
     "name": "GPT-5.6 Sol",
@@ -204,7 +946,7 @@
   },
   {
     "name": "GPT-5.5",
-    "description": "Agentic flagship (April 2026); faster and more token-efficient than GPT-5.4, 1.05M context.",
+    "description": "Mid-2026 GPT-5.5 generation (Apr–Jun 2026) delivering lower-latency tool execution, instant chat response, and specialized cyber-auditing variants.",
     "url": "https://ai-tldr.dev/models/gpt-5-5/",
     "category": "OpenAI",
     "subcategory": "GPT-5"
@@ -217,34 +959,6 @@
     "subcategory": "GPT-5"
   },
   {
-    "name": "GPT-5.2",
-    "description": "Knowledge-work upgrade in the GPT-5 series.",
-    "url": "https://ai-tldr.dev/models/gpt-5-2/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-5.1",
-    "description": "Warmer, more conversational and customizable GPT-5.",
-    "url": "https://ai-tldr.dev/models/gpt-5-1/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-5",
-    "description": "First GPT-5 generation.",
-    "url": "https://ai-tldr.dev/models/gpt-5/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-4o",
-    "description": "Prior multimodal flagship.",
-    "url": "https://ai-tldr.dev/models/gpt-4o/",
-    "category": "OpenAI",
-    "subcategory": "GPT-4o"
-  },
-  {
     "name": "GPT-5.5 Pro",
     "description": "Highest-reasoning tier; reasoning tokens, requests can take minutes.",
     "url": "https://ai-tldr.dev/models/gpt-5-5-pro/",
@@ -255,27 +969,6 @@
     "name": "GPT-5.4 Pro",
     "description": "Pro reasoning tier in the GPT-5.4 generation.",
     "url": "https://ai-tldr.dev/models/gpt-5-4-pro/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-5.2 Pro",
-    "description": "Extended-thinking Pro.",
-    "url": "https://ai-tldr.dev/models/gpt-5-2-pro/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-5.1 Pro",
-    "description": "First 5.1-generation Pro reasoning model.",
-    "url": "https://ai-tldr.dev/models/gpt-5-1-pro/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-5 Pro",
-    "description": "First GPT-5 Pro tier.",
-    "url": "https://ai-tldr.dev/models/gpt-5-pro/",
     "category": "OpenAI",
     "subcategory": "GPT-5"
   },
@@ -294,20 +987,6 @@
     "subcategory": "GPT-5"
   },
   {
-    "name": "GPT-5.2 Instant",
-    "description": "GPT-5.2-generation fast model.",
-    "url": "https://ai-tldr.dev/models/gpt-5-2-instant/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-5.1 Instant",
-    "description": "First model under the Instant branding.",
-    "url": "https://ai-tldr.dev/models/gpt-5-1-instant/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
     "name": "GPT-5.4 mini",
     "description": "Strongest mini yet; 400K context, ~2x faster than GPT-5 mini, $0.75/$4.50 per 1M.",
     "url": "https://ai-tldr.dev/models/gpt-5-4-mini/",
@@ -315,30 +994,9 @@
     "subcategory": "GPT-5"
   },
   {
-    "name": "GPT-5 mini",
-    "description": "First GPT-5-generation mini model.",
-    "url": "https://ai-tldr.dev/models/gpt-5-mini/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-4o mini",
-    "description": "Prior-generation small multimodal model.",
-    "url": "https://ai-tldr.dev/models/gpt-4o-mini/",
-    "category": "OpenAI",
-    "subcategory": "GPT-4o"
-  },
-  {
     "name": "GPT-5.4 nano",
     "description": "Cheapest model in the family; 400K context, $0.20/$1.25 per 1M, API-only.",
     "url": "https://ai-tldr.dev/models/gpt-5-4-nano/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-5 nano",
-    "description": "First GPT-5-generation nano model.",
-    "url": "https://ai-tldr.dev/models/gpt-5-nano/",
     "category": "OpenAI",
     "subcategory": "GPT-5"
   },
@@ -353,27 +1011,6 @@
     "name": "GPT-5.3-Codex-Spark",
     "description": "Smaller real-time research-preview variant; >1000 tok/s on Cerebras hardware.",
     "url": "https://ai-tldr.dev/models/gpt-5-3-codex-spark/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-5.2-Codex",
-    "description": "Advanced agentic coding model for real-world software engineering.",
-    "url": "https://ai-tldr.dev/models/gpt-5-2-codex/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-5.1-Codex",
-    "description": "Released with GPT-5.1-Codex-Max for long-horizon coding.",
-    "url": "https://ai-tldr.dev/models/gpt-5-1-codex/",
-    "category": "OpenAI",
-    "subcategory": "GPT-5"
-  },
-  {
-    "name": "GPT-5-Codex",
-    "description": "First Codex-branded GPT-5 coding model.",
-    "url": "https://ai-tldr.dev/models/gpt-5-codex/",
     "category": "OpenAI",
     "subcategory": "GPT-5"
   },
@@ -400,7 +1037,7 @@
   },
   {
     "name": "GPT-Rosalind",
-    "description": "Frontier reasoning model for life sciences \u2014 drug discovery, genomics, medicinal chemistry; research preview via trusted-access since April 2026.",
+    "description": "Frontier reasoning model for life sciences — drug discovery, genomics, medicinal chemistry; research preview via trusted-access since April 2026.",
     "url": "https://ai-tldr.dev/models/gpt-rosalind/",
     "category": "OpenAI",
     "subcategory": "Experimental / Special"
@@ -427,41 +1064,6 @@
     "subcategory": "Gemini 3"
   },
   {
-    "name": "Gemini 2.5 Pro",
-    "description": "Thinking model with chain-of-thought reasoning; later went GA.",
-    "url": "https://ai-tldr.dev/models/gemini-2-5-pro/",
-    "category": "Google",
-    "subcategory": "Gemini 2"
-  },
-  {
-    "name": "Gemini 2.0 Pro",
-    "description": "2.0-generation Pro tier (experimental release).",
-    "url": "https://ai-tldr.dev/models/gemini-2-0-pro/",
-    "category": "Google",
-    "subcategory": "Gemini 2"
-  },
-  {
-    "name": "Gemini 1.5 Pro",
-    "description": "Introduced a very long context window (up to 1M tokens).",
-    "url": "https://ai-tldr.dev/models/gemini-1-5-pro/",
-    "category": "Google",
-    "subcategory": "Gemini 1"
-  },
-  {
-    "name": "Gemini 1.0 Ultra",
-    "description": "Most capable model of the original 1.0 family.",
-    "url": "https://ai-tldr.dev/models/gemini-1-0-ultra/",
-    "category": "Google",
-    "subcategory": "Gemini 1"
-  },
-  {
-    "name": "Gemini 1.0 Pro",
-    "description": "Original mid-tier Gemini model.",
-    "url": "https://ai-tldr.dev/models/gemini-1-0-pro/",
-    "category": "Google",
-    "subcategory": "Gemini 1"
-  },
-  {
     "name": "Gemini 3.6 Flash",
     "description": "Flash-tier workhorse (July 2026); ~17% fewer output tokens than 3.5 Flash with stronger agentic, coding and 1M-token long-context scores.",
     "url": "https://ai-tldr.dev/models/gemini-3-6-flash/",
@@ -483,27 +1085,6 @@
     "subcategory": "Gemini 3"
   },
   {
-    "name": "Gemini 2.5 Flash",
-    "description": "First Flash model with thinking capability; updated 09-2025 preview improved agentic benchmarks.",
-    "url": "https://ai-tldr.dev/models/gemini-2-5-flash/",
-    "category": "Google",
-    "subcategory": "Gemini 2"
-  },
-  {
-    "name": "Gemini 2.0 Flash",
-    "description": "Multimodal, speed-focused 2.0 Flash (shut down June 1, 2026).",
-    "url": "https://ai-tldr.dev/models/gemini-2-0-flash/",
-    "category": "Google",
-    "subcategory": "Gemini 2"
-  },
-  {
-    "name": "Gemini 1.5 Flash",
-    "description": "Lightweight, fast 1.5-generation model with free tier.",
-    "url": "https://ai-tldr.dev/models/gemini-1-5-flash/",
-    "category": "Google",
-    "subcategory": "Gemini 1"
-  },
-  {
     "name": "Gemini 3.5 Flash-Lite",
     "description": "Cheapest Gemini 3 tier (July 2026); beats older Gemini 3 Flash on SWE-Bench Pro and OSWorld-Verified at $0.30/$2.50 per 1M tokens.",
     "url": "https://ai-tldr.dev/models/gemini-3-5-flash-lite/",
@@ -518,39 +1099,11 @@
     "subcategory": "Gemini 3"
   },
   {
-    "name": "Gemini 2.5 Flash-Lite",
-    "description": "Fastest/cheapest 2.5 model with optional toggleable reasoning; later GA. Updated 09-2025 preview cut output tokens ~50%.",
-    "url": "https://ai-tldr.dev/models/gemini-2-5-flash-lite/",
-    "category": "Google",
-    "subcategory": "Gemini 2"
-  },
-  {
-    "name": "Gemini 2.0 Flash-Lite",
-    "description": "Cost-efficiency-optimized 2.0 tier (shut down June 1, 2026).",
-    "url": "https://ai-tldr.dev/models/gemini-2-0-flash-lite/",
-    "category": "Google",
-    "subcategory": "Gemini 2"
-  },
-  {
-    "name": "Gemini 1.5 Flash-8B",
-    "description": "Smaller, ~50% cheaper 8B precursor to the Flash-Lite tier.",
-    "url": "https://ai-tldr.dev/models/gemini-1-5-flash-8b/",
-    "category": "Google",
-    "subcategory": "Gemini 1"
-  },
-  {
     "name": "Gemini 3 Deep Think",
     "description": "Deep Think reasoning mode (Dec 2025); rolled out to AI Ultra subscribers.",
     "url": "https://ai-tldr.dev/models/gemini-3-deep-think/",
     "category": "Google",
     "subcategory": "Gemini 3"
-  },
-  {
-    "name": "Gemini 2.5 Deep Think",
-    "description": "Parallel-thinking reasoning mode for AI Ultra; IMO-level math variant.",
-    "url": "https://ai-tldr.dev/models/gemini-2-5-deep-think/",
-    "category": "Google",
-    "subcategory": "Gemini 2"
   },
   {
     "name": "Gemini 3.5 Flash Cyber",
@@ -588,20 +1141,6 @@
     "subcategory": "Gemma 3"
   },
   {
-    "name": "Gemma 2",
-    "description": "2B/9B/27B sizes using grouped-query attention.",
-    "url": "https://ai-tldr.dev/models/gemma-2/",
-    "category": "Google",
-    "subcategory": "Gemma 2"
-  },
-  {
-    "name": "Gemma 1",
-    "description": "First open Gemma; 2B and 7B sizes, lightweight cousin of Gemini.",
-    "url": "https://ai-tldr.dev/models/gemma-1/",
-    "category": "Google",
-    "subcategory": "Gemma 1"
-  },
-  {
     "name": "DiffusionGemma",
     "description": "First open-weight (Apache 2.0) text-diffusion model; 26B MoE (~3.8B active), up to 4x faster generation; experimental, lower quality than Gemma 4.",
     "url": "https://ai-tldr.dev/models/diffusion-gemma/",
@@ -614,20 +1153,6 @@
     "url": "https://ai-tldr.dev/models/gemini-diffusion/",
     "category": "Google",
     "subcategory": "Gemini 3"
-  },
-  {
-    "name": "Gemini 1.0 Nano",
-    "description": "On-device model; first shipped in the Pixel 8 Pro.",
-    "url": "https://ai-tldr.dev/models/gemini-1-0-nano/",
-    "category": "Google",
-    "subcategory": "Gemini 1"
-  },
-  {
-    "name": "Med-PaLM 2",
-    "description": "Medical LLM that reached expert-level USMLE-style question answering (86.5% on MedQA); powers MedLM, offered to allowlisted Google Cloud customers via Vertex AI.",
-    "url": "https://ai-tldr.dev/models/med-palm-2/",
-    "category": "Google",
-    "subcategory": "PaLM"
   },
   {
     "name": "Med-Gemini",
@@ -652,21 +1177,21 @@
   },
   {
     "name": "Llama 4 Maverick",
-    "description": "17B active parameters, 128 experts, 400B total; natively multimodal (text + image in, text out), multilingual, ~1M-token context. Positioned as the h\u2026",
+    "description": "17B active parameters, 128 experts, 400B total; natively multimodal (text + image in, text out), multilingual, ~1M-token context. Positioned as the h…",
     "url": "https://ai-tldr.dev/models/llama-4-maverick/",
     "category": "Meta",
     "subcategory": "Llama 4"
   },
   {
     "name": "Llama 4 Scout",
-    "description": "17B active parameters, 16 experts, 109B total; natively multimodal MoE with an industry-leading 10M-token context window, runnable on a single H100 (\u2026",
+    "description": "17B active parameters, 16 experts, 109B total; natively multimodal MoE with an industry-leading 10M-token context window, runnable on a single H100 (…",
     "url": "https://ai-tldr.dev/models/llama-4-scout/",
     "category": "Meta",
     "subcategory": "Llama 4"
   },
   {
     "name": "Llama 4 Behemoth",
-    "description": "Announced as a 288B-active-parameter, 16-expert (~2T total) teacher model used to distill Scout and Maverick; described as still in training and NOT\u2026",
+    "description": "Announced as a 288B-active-parameter, 16-expert (~2T total) teacher model used to distill Scout and Maverick; described as still in training and NOT…",
     "url": "https://ai-tldr.dev/models/llama-4-behemoth/",
     "category": "Meta",
     "subcategory": "Llama 4"
@@ -679,71 +1204,22 @@
     "subcategory": "Llama 3.3"
   },
   {
-    "name": "Llama 3.2",
-    "description": "Added lightweight edge/mobile text models (1B, 3B) plus Meta's first Llama vision models (11B and 90B multimodal image-reasoning variants).",
-    "url": "https://ai-tldr.dev/models/llama-3-2/",
-    "category": "Meta",
-    "subcategory": "Llama 3.2"
-  },
-  {
-    "name": "Llama 3.1",
-    "description": "8B, 70B and the frontier-scale 405B; 128K context and eight-language support \u2014 the first open frontier-level Llama model.",
-    "url": "https://ai-tldr.dev/models/llama-3-1/",
-    "category": "Meta",
-    "subcategory": "Llama 3.1"
-  },
-  {
-    "name": "Llama 3",
-    "description": "Initial Llama 3 release in 8B and 70B dense text models, pretrained on a much larger token budget than Llama 2.",
-    "url": "https://ai-tldr.dev/models/llama-3/",
-    "category": "Meta",
-    "subcategory": "Llama 3"
-  },
-  {
-    "name": "Llama 2",
-    "description": "Open-weight dense text models at 7B, 13B and 70B, released with a license permitting commercial use.",
-    "url": "https://ai-tldr.dev/models/llama-2/",
-    "category": "Meta",
-    "subcategory": "Llama 2"
-  },
-  {
-    "name": "LLaMA",
-    "description": "First-generation LLaMA dense models (roughly 7B, 13B, 33B and 65B), released as research-only weights.",
-    "url": "https://ai-tldr.dev/models/llama-1/",
-    "category": "Meta",
-    "subcategory": "LLaMA 1"
-  },
-  {
-    "name": "Code Llama 70B",
-    "description": "Largest Code Llama model, trained on roughly 1T tokens of code; added to the existing 7B/13B/34B sizes.",
-    "url": "https://ai-tldr.dev/models/code-llama-70b/",
-    "category": "Meta",
-    "subcategory": "Code Llama"
-  },
-  {
-    "name": "Code Llama",
-    "description": "Initial 7B, 13B and 34B code-specialized models built on Llama 2, each trained on ~500B tokens of code and code-related data.",
-    "url": "https://ai-tldr.dev/models/code-llama/",
-    "category": "Meta",
-    "subcategory": "Code Llama"
-  },
-  {
     "name": "DeepSeek-V4-Pro",
-    "description": "Larger V4 tier: 1.6T total / 49B active MoE, 1M-token context, MIT-licensed open weights; built for coding and agentic tasks, with a V4-Pro-Max maxim\u2026",
+    "description": "Larger V4 tier: 1.6T total / 49B active MoE, 1M-token context, MIT-licensed open weights; built for coding and agentic tasks, with a V4-Pro-Max maxim…",
     "url": "https://ai-tldr.dev/models/deepseek-v4-pro/",
     "category": "DeepSeek",
     "subcategory": "DeepSeek-V4"
   },
   {
     "name": "DeepSeek-V4-Flash",
-    "description": "Smaller, faster V4 tier: 284B total / 13B active MoE, 1M-token context, MIT-licensed. Cheapest tier at $0.14/M input (miss) / $0.28/M output; legacy\u2026",
+    "description": "Smaller, faster V4 tier: 284B total / 13B active MoE, 1M-token context, MIT-licensed. Cheapest tier at $0.14/M input (miss) / $0.28/M output; legacy…",
     "url": "https://ai-tldr.dev/models/deepseek-v4-flash/",
     "category": "DeepSeek",
     "subcategory": "DeepSeek-V4"
   },
   {
     "name": "DeepSeek-V3.2",
-    "description": "Official successor to V3.2-Exp; bakes tool-use into both thinking and non-thinking modes, trained across 1,800+ environments. 685B-param open weights\u2026",
+    "description": "Official successor to V3.2-Exp; bakes tool-use into both thinking and non-thinking modes, trained across 1,800+ environments. 685B-param open weights…",
     "url": "https://ai-tldr.dev/models/deepseek-v3-2/",
     "category": "DeepSeek",
     "subcategory": "DeepSeek-V3"
@@ -789,20 +1265,6 @@
     "url": "https://ai-tldr.dev/models/deepseek-v3/",
     "category": "DeepSeek",
     "subcategory": "DeepSeek-V3"
-  },
-  {
-    "name": "DeepSeek-V2.5",
-    "description": "Merged the V2 chat and coder models into one general assistant; revised as V2.5-1210 in December 2024.",
-    "url": "https://ai-tldr.dev/models/deepseek-v2-5/",
-    "category": "DeepSeek",
-    "subcategory": "DeepSeek-V2"
-  },
-  {
-    "name": "DeepSeek-V2",
-    "description": "First DeepSeek MoE flagship (236B total / 21B active) introducing Multi-head Latent Attention; open weights.",
-    "url": "https://ai-tldr.dev/models/deepseek-v2/",
-    "category": "DeepSeek",
-    "subcategory": "DeepSeek-V2"
   },
   {
     "name": "DeepSeek-R1-0528",
@@ -875,78 +1337,15 @@
     "subcategory": "DeepSeek-R1 (Distill)"
   },
   {
-    "name": "DeepSeek-Coder-V2",
-    "description": "Open MoE code model (16B and 236B sizes, 2.4B/21B active) further pre-trained from V2; 338 languages and 128K context, GPT-4-Turbo-class on code.",
-    "url": "https://ai-tldr.dev/models/deepseek-coder-v2/",
-    "category": "DeepSeek",
-    "subcategory": "DeepSeek-V2"
-  },
-  {
-    "name": "DeepSeek Coder",
-    "description": "DeepSeek's first model: dense code LLMs (1.3B-33B) trained on 2T code-heavy tokens.",
-    "url": "https://ai-tldr.dev/models/deepseek-coder/",
-    "category": "DeepSeek",
-    "subcategory": "DeepSeek Coder"
-  },
-  {
-    "name": "DeepSeek-Math-V2",
-    "description": "685B model built on V3.2-Exp-Base using verifier-rewarded self-verification; IMO 2025 and CMO 2024 gold-level, Putnam 2024 118/120. Apache-2.0.",
-    "url": "https://ai-tldr.dev/models/deepseek-math-v2/",
-    "category": "DeepSeek",
-    "subcategory": "DeepSeek-V2"
-  },
-  {
-    "name": "DeepSeekMath",
-    "description": "Original 7B math model that introduced GRPO reinforcement learning for chain-of-thought math.",
-    "url": "https://ai-tldr.dev/models/deepseek-math/",
-    "category": "DeepSeek",
-    "subcategory": "DeepSeek V1 / Legacy"
-  },
-  {
-    "name": "DeepSeek-Prover-V2",
-    "description": "Lean 4 theorem prover in 7B and 671B sizes; RL for subgoal decomposition, state-of-the-art on formal-proof benchmarks. Open weights.",
-    "url": "https://ai-tldr.dev/models/deepseek-prover-v2/",
-    "category": "DeepSeek",
-    "subcategory": "DeepSeek-V2"
-  },
-  {
-    "name": "DeepSeek-Prover-V1.5",
-    "description": "Earlier Lean theorem-proving model combining proof-step and whole-proof generation.",
-    "url": "https://ai-tldr.dev/models/deepseek-prover-v1/",
-    "category": "DeepSeek",
-    "subcategory": "DeepSeek V1 / Legacy"
-  },
-  {
-    "name": "DeepSeek-VL2",
-    "description": "MoE vision-language models (tiny/small/base) for advanced multimodal and document/OCR understanding. Open weights.",
-    "url": "https://ai-tldr.dev/models/deepseek-vl2/",
-    "category": "DeepSeek",
-    "subcategory": "DeepSeek V1 / Legacy"
-  },
-  {
-    "name": "DeepSeek-VL",
-    "description": "First-generation dense vision-language models (1.3B and 7B) for real-world multimodal understanding.",
-    "url": "https://ai-tldr.dev/models/deepseek-vl/",
-    "category": "DeepSeek",
-    "subcategory": "DeepSeek V1 / Legacy"
-  },
-  {
-    "name": "DeepSeek LLM",
-    "description": "DeepSeek's first general LLM: dense 7B and 67B Base and Chat models; foundation for the later V-series.",
-    "url": "https://ai-tldr.dev/models/deepseek-llm/",
-    "category": "DeepSeek",
-    "subcategory": "DeepSeek V1 / Legacy"
-  },
-  {
     "name": "Qwen3.8-Max-Preview",
-    "description": "Preview of Alibaba's next Qwen-Max flagship \u2014 a 2.4-trillion-parameter multimodal MoE model unveiled at WAIC Shanghai on 2026-07-19; open weights promised, no date set.",
+    "description": "Preview of Alibaba's next Qwen-Max flagship — a 2.4-trillion-parameter multimodal MoE model unveiled at WAIC Shanghai on 2026-07-19; open weights promised, no date set.",
     "url": "https://ai-tldr.dev/models/qwen3-8-max-preview/",
     "category": "Alibaba (Qwen)",
     "subcategory": "Qwen 3"
   },
   {
     "name": "Qwen3.7-Max",
-    "description": "Text-only reasoning agent flagship with a 1M-token context window and native extended-thinking mode, built for long-horizon agentic workloads; propri\u2026",
+    "description": "Text-only reasoning agent flagship with a 1M-token context window and native extended-thinking mode, built for long-horizon agentic workloads; propri…",
     "url": "https://ai-tldr.dev/models/qwen3-7-max/",
     "category": "Alibaba (Qwen)",
     "subcategory": "Qwen 3"
@@ -959,15 +1358,8 @@
     "subcategory": "Qwen 3"
   },
   {
-    "name": "Qwen2.5-Max",
-    "description": "Large-scale MoE proprietary flagship of the 2.5 generation, available via API and Qwen Chat.",
-    "url": "https://ai-tldr.dev/models/qwen2-5-max/",
-    "category": "Alibaba (Qwen)",
-    "subcategory": "Qwen 2.5"
-  },
-  {
     "name": "Qwen3.7-Plus",
-    "description": "Multimodal agent model adding image/video understanding, deep reasoning, tool invocation and autonomous iteration on top of the 3.7 base; proprietary\u2026",
+    "description": "Multimodal agent model adding image/video understanding, deep reasoning, tool invocation and autonomous iteration on top of the 3.7 base; proprietary…",
     "url": "https://ai-tldr.dev/models/qwen3-7-plus/",
     "category": "Alibaba (Qwen)",
     "subcategory": "Qwen 3"
@@ -981,52 +1373,38 @@
   },
   {
     "name": "Qwen3.5-Plus",
-    "description": "Hosted, low-cost multimodal Plus model \u2014 1M context, reads images and video, built for agents.",
+    "description": "Hosted, low-cost multimodal Plus model — 1M context, reads images and video, built for agents.",
     "url": "https://ai-tldr.dev/models/qwen3-5-plus/",
     "category": "Alibaba (Qwen)",
     "subcategory": "Qwen 3"
   },
   {
     "name": "Qwen3.6",
-    "description": "Open-weight (Apache 2.0) generation; Qwen3.6-35B-A3B (35B total / 3B active MoE, agentic coding, thinking-context preservation) on 2026-04-16 and a Q\u2026",
+    "description": "Open-weight (Apache 2.0) generation; Qwen3.6-35B-A3B (35B total / 3B active MoE, agentic coding, thinking-context preservation) on 2026-04-16 and a Q…",
     "url": "https://ai-tldr.dev/models/qwen3-6/",
     "category": "Alibaba (Qwen)",
     "subcategory": "Qwen 3"
   },
   {
     "name": "Qwen3.5",
-    "description": "Open-weight flagship Qwen3.5-397B-A17B (397B total / 17B active) using a hybrid linear-attention + sparse-MoE architecture, native vision-language; s\u2026",
+    "description": "Open-weight flagship Qwen3.5-397B-A17B (397B total / 17B active) using a hybrid linear-attention + sparse-MoE architecture, native vision-language; s…",
     "url": "https://ai-tldr.dev/models/qwen3-5/",
     "category": "Alibaba (Qwen)",
     "subcategory": "Qwen 3"
   },
   {
     "name": "Qwen3 (2507 update)",
-    "description": "Refreshed Qwen3 checkpoints with separate Instruct/Thinking variants and extended context (up to ~1M tokens): Qwen3-235B-A22B-Instruct/Thinking-2507\u2026",
+    "description": "Refreshed Qwen3 checkpoints with separate Instruct/Thinking variants and extended context (up to ~1M tokens): Qwen3-235B-A22B-Instruct/Thinking-2507…",
     "url": "https://ai-tldr.dev/models/qwen3-2507/",
     "category": "Alibaba (Qwen)",
     "subcategory": "Qwen 3"
   },
   {
     "name": "Qwen3",
-    "description": "Hybrid 'think deeper, act faster' family with dense 0.6B/1.7B/4B/8B/14B/32B and MoE 30B-A3B/235B-A22B models, dual thinking/non-thinking modes; train\u2026",
+    "description": "Hybrid 'think deeper, act faster' family with dense 0.6B/1.7B/4B/8B/14B/32B and MoE 30B-A3B/235B-A22B models, dual thinking/non-thinking modes; train…",
     "url": "https://ai-tldr.dev/models/qwen3/",
     "category": "Alibaba (Qwen)",
     "subcategory": "Qwen 3"
-  },
-  {
-    "name": "Qwen2.5",
-    "description": "Widely-adopted open generation: dense 0.5B/1.5B/3B/7B/14B/32B/72B with longer context and stronger coding/math than Qwen2.",
-    "url": "https://ai-tldr.dev/models/qwen2-5/",
-    "category": "Alibaba (Qwen)",
-    "subcategory": "Qwen 2.5"
-  },
-  {
-    "name": "Qwen2",
-    "description": "Earlier open family with 0.5B/1.5B/7B/72B dense and a 57B-A14B MoE model.",
-    "url": "https://ai-tldr.dev/models/qwen2/",
-    "category": "Alibaba (Qwen)",
-    "subcategory": "Qwen 2"
   },
   {
     "name": "Qwen3-Coder-Next",
@@ -1037,52 +1415,24 @@
   },
   {
     "name": "Qwen3-Coder",
-    "description": "Qwen3-Coder-480B-A35B-Instruct (480B total / 35B active MoE) for agentic coding, matching frontier closed models on SWE-bench-style tasks; a smaller\u2026",
+    "description": "Qwen3-Coder-480B-A35B-Instruct (480B total / 35B active MoE) for agentic coding, matching frontier closed models on SWE-bench-style tasks; a smaller…",
     "url": "https://ai-tldr.dev/models/qwen3-coder/",
     "category": "Alibaba (Qwen)",
     "subcategory": "Qwen 3"
   },
   {
-    "name": "Qwen2.5-Coder",
-    "description": "Code models from 0.5B to 32B; the 32B was a leading open coding model of its generation.",
-    "url": "https://ai-tldr.dev/models/qwen2-5-coder/",
-    "category": "Alibaba (Qwen)",
-    "subcategory": "Qwen 2.5"
-  },
-  {
     "name": "Qwen3-VL",
-    "description": "Vision-language family with Instruct and Thinking variants, starting with 235B-A22B; later sizes (30B-A3B, 32B, 8B, 4B, 2B) rolled out through Octobe\u2026",
+    "description": "Vision-language family with Instruct and Thinking variants, starting with 235B-A22B; later sizes (30B-A3B, 32B, 8B, 4B, 2B) rolled out through Octobe…",
     "url": "https://ai-tldr.dev/models/qwen3-vl/",
     "category": "Alibaba (Qwen)",
     "subcategory": "Qwen 3"
   },
   {
-    "name": "Qwen2.5-VL",
-    "description": "VL models at 3B/7B/32B/72B with stronger document parsing, grounding and long-video understanding.",
-    "url": "https://ai-tldr.dev/models/qwen2-5-vl/",
-    "category": "Alibaba (Qwen)",
-    "subcategory": "Qwen 2.5"
-  },
-  {
-    "name": "Qwen2-VL",
-    "description": "First Qwen2-generation VL models (2B/7B/72B) with dynamic-resolution vision and strong OCR.",
-    "url": "https://ai-tldr.dev/models/qwen2-vl/",
-    "category": "Alibaba (Qwen)",
-    "subcategory": "Qwen 2"
-  },
-  {
     "name": "Qwen3-Omni",
-    "description": "Qwen3-Omni-30B-A3B (30B total / 3B active MoE) with Instruct, Thinking and Captioner variants; open-source SOTA on most of 36 audio/AV benchmarks; Ap\u2026",
+    "description": "Qwen3-Omni-30B-A3B (30B total / 3B active MoE) with Instruct, Thinking and Captioner variants; open-source SOTA on most of 36 audio/AV benchmarks; Ap…",
     "url": "https://ai-tldr.dev/models/qwen3-omni/",
     "category": "Alibaba (Qwen)",
     "subcategory": "Qwen 3"
-  },
-  {
-    "name": "Qwen2.5-Omni",
-    "description": "First Omni models (3B/7B) accepting text, image, audio and video and generating text and speech.",
-    "url": "https://ai-tldr.dev/models/qwen2-5-omni/",
-    "category": "Alibaba (Qwen)",
-    "subcategory": "Qwen 2.5"
   },
   {
     "name": "Qwen3-Next-80B-A3B",
@@ -1093,17 +1443,17 @@
   },
   {
     "name": "Kimi K3",
-    "description": "Moonshot's 2.8T-parameter MoE flagship (Stable LatentMoE, ~16 of 896 experts active) with native text/vision/video and a 1M-token context, released 2026-07-16 via the Kimi API and app; open MXFP4 weights published on Hugging Face 2026-07-26 under the Kimi K3 License.",
+    "description": "Moonshot AI's third-generation frontier reasoning and agentic model (Aug 2026) with ultra-long context mastery and autonomous multi-step research.",
     "url": "https://ai-tldr.dev/models/kimi-k3/",
     "category": "Moonshot AI (Kimi)",
     "subcategory": "Kimi K3"
   },
   {
     "name": "Kimi K2.7-Code",
-    "description": "Coding-focused agentic model built on K2.6; cuts thinking-token usage ~30% while scoring higher on coding benchmarks. Open weights on Hugging Face, M\u2026",
+    "description": "Specialized software-engineering release in the Kimi K2 series (Jun 2026) tuned for repository-scale code generation, refactoring, and terminal execution.",
     "url": "https://ai-tldr.dev/models/kimi-k2-7-code/",
     "category": "Moonshot AI (Kimi)",
-    "subcategory": "Kimi K2"
+    "subcategory": "Kimi K2 (Open-Weight)"
   },
   {
     "name": "Kimi K2.6",
@@ -1128,7 +1478,7 @@
   },
   {
     "name": "Kimi K2",
-    "description": "Original 1T-parameter MoE (32B active) released open-weight as Kimi-K2-Base and Kimi-K2-Instruct under a Modified MIT license; strong coding/math ben\u2026",
+    "description": "Original 1T-parameter MoE (32B active) released open-weight as Kimi-K2-Base and Kimi-K2-Instruct under a Modified MIT license; strong coding/math ben…",
     "url": "https://ai-tldr.dev/models/kimi-k2/",
     "category": "Moonshot AI (Kimi)",
     "subcategory": "Kimi K2"
@@ -1141,22 +1491,8 @@
     "subcategory": "Kimi K2"
   },
   {
-    "name": "Kimi K1.5",
-    "description": "Multimodal reasoning model Moonshot claimed matched OpenAI o1 on math, coding, and multimodal reasoning.",
-    "url": "https://ai-tldr.dev/models/kimi-k1-5/",
-    "category": "Moonshot AI (Kimi)",
-    "subcategory": "Moonshot v1"
-  },
-  {
-    "name": "Moonshot v1",
-    "description": "Closed API generation family: moonshot-v1-8k / 32k / 128k text models and matching -vision-preview multimodal variants on the Kimi platform.",
-    "url": "https://ai-tldr.dev/models/moonshot-v1/",
-    "category": "Moonshot AI (Kimi)",
-    "subcategory": "Moonshot v1"
-  },
-  {
     "name": "Kimi-VL-A3B-Thinking-2506",
-    "description": "Updated thinking VL model: higher multimodal-reasoning accuracy (e.g. MathVision 56.9), ~20% shorter reasoning, and 4x higher single-image resolution\u2026",
+    "description": "Updated thinking VL model: higher multimodal-reasoning accuracy (e.g. MathVision 56.9), ~20% shorter reasoning, and 4x higher single-image resolution…",
     "url": "https://ai-tldr.dev/models/kimi-vl-a3b-thinking-2506/",
     "category": "Moonshot AI (Kimi)",
     "subcategory": "Kimi (Other)"
@@ -1177,7 +1513,7 @@
   },
   {
     "name": "Kimi Linear (48B-A3B)",
-    "description": "Hybrid linear-attention model (48B total / 3B active) using Kimi Delta Attention; cuts KV cache up to 75% and reaches up to 6x decoding throughput at\u2026",
+    "description": "Hybrid linear-attention model (48B total / 3B active) using Kimi Delta Attention; cuts KV cache up to 75% and reaches up to 6x decoding throughput at…",
     "url": "https://ai-tldr.dev/models/kimi-linear-48b-a3b/",
     "category": "Moonshot AI (Kimi)",
     "subcategory": "Kimi (Other)"
@@ -1191,21 +1527,21 @@
   },
   {
     "name": "GLM-5.2",
-    "description": "~744B-parameter MoE (40B active) with a 1M-token context window \u2014 ~5x GLM-5.1's ~200K \u2014 focused on long-horizon agentic coding; open weights under MI\u2026",
+    "description": "~744B-parameter MoE (40B active) with a 1M-token context window — ~5x GLM-5.1's ~200K — focused on long-horizon agentic coding; open weights under MI…",
     "url": "https://ai-tldr.dev/models/glm-5-2/",
     "category": "Z.ai (Zhipu / GLM)",
     "subcategory": "GLM-5"
   },
   {
     "name": "GLM-5.1",
-    "description": "744B MoE (40B active), 200K context / up to 128K output; tuned for sustained autonomous execution (up to ~8 hours on one task) and engineering delive\u2026",
+    "description": "744B MoE (40B active), 200K context / up to 128K output; tuned for sustained autonomous execution (up to ~8 hours on one task) and engineering delive…",
     "url": "https://ai-tldr.dev/models/glm-5-1/",
     "category": "Z.ai (Zhipu / GLM)",
     "subcategory": "GLM-5"
   },
   {
     "name": "GLM-5",
-    "description": "First GLM-5: ~744B-parameter MoE (~40B active) with DeepSeek Sparse Attention, 200K context / up to 128K output; shifts toward agentic engineering; M\u2026",
+    "description": "First GLM-5: ~744B-parameter MoE (~40B active) with DeepSeek Sparse Attention, 200K context / up to 128K output; shifts toward agentic engineering; M…",
     "url": "https://ai-tldr.dev/models/glm-5/",
     "category": "Z.ai (Zhipu / GLM)",
     "subcategory": "GLM-5"
@@ -1261,7 +1597,7 @@
   },
   {
     "name": "GLM-4.6V",
-    "description": "106B vision-language model with native multimodal function calling (images/screenshots as tool inputs) and 128K context; MIT license. A 9B GLM-4.6V-F\u2026",
+    "description": "106B vision-language model with native multimodal function calling (images/screenshots as tool inputs) and 128K context; MIT license. A 9B GLM-4.6V-F…",
     "url": "https://ai-tldr.dev/models/glm-4-6v/",
     "category": "Z.ai (Zhipu / GLM)",
     "subcategory": "GLM-4"
@@ -1282,7 +1618,7 @@
   },
   {
     "name": "GLM-4-9B",
-    "description": "9B open model (GLM-4-9B / GLM-4-9B-Chat) with tool calling and up to 128K context (1M-context and GLM-4V-9B variants also released); 26-language supp\u2026",
+    "description": "9B open model (GLM-4-9B / GLM-4-9B-Chat) with tool calling and up to 128K context (1M-context and GLM-4V-9B variants also released); 26-language supp…",
     "url": "https://ai-tldr.dev/models/glm-4-9b/",
     "category": "Z.ai (Zhipu / GLM)",
     "subcategory": "GLM-4"
@@ -1310,14 +1646,14 @@
   },
   {
     "name": "Grok 4.20",
-    "description": "Prior flagship; beta launched Feb 17, 2026, API variants (grok-4.20-0309 reasoning/non-reasoning/multi-agent) from March 10, 2026. Emphasized speed a\u2026",
+    "description": "Prior flagship; beta launched Feb 17, 2026, API variants (grok-4.20-0309 reasoning/non-reasoning/multi-agent) from March 10, 2026. Emphasized speed a…",
     "url": "https://ai-tldr.dev/models/grok-4-20/",
     "category": "xAI (Grok)",
     "subcategory": "Grok 4"
   },
   {
     "name": "Grok 4.1",
-    "description": "Frontier conversational update: higher emotional intelligence, lower hallucination rate, stronger creative writing; topped LMArena Text Arena at laun\u2026",
+    "description": "Frontier conversational update: higher emotional intelligence, lower hallucination rate, stronger creative writing; topped LMArena Text Arena at laun…",
     "url": "https://ai-tldr.dev/models/grok-4-1/",
     "category": "xAI (Grok)",
     "subcategory": "Grok 4"
@@ -1337,29 +1673,8 @@
     "subcategory": "Grok 3"
   },
   {
-    "name": "Grok 2",
-    "description": "Upgraded performance over Grok 1.5; added image generation (initially via Flux). Grok 2.5 weights were later open-sourced on Hugging Face (Aug 24, 20\u2026",
-    "url": "https://ai-tldr.dev/models/grok-2/",
-    "category": "xAI (Grok)",
-    "subcategory": "Grok 2"
-  },
-  {
-    "name": "Grok 1.5",
-    "description": "Improved reasoning and a 128K-token context window over Grok 1.",
-    "url": "https://ai-tldr.dev/models/grok-1-5/",
-    "category": "xAI (Grok)",
-    "subcategory": "Grok 1"
-  },
-  {
-    "name": "Grok 1",
-    "description": "First Grok model; an early beta. Weights open-sourced under Apache 2.0 in March 2024.",
-    "url": "https://ai-tldr.dev/models/grok-1/",
-    "category": "xAI (Grok)",
-    "subcategory": "Grok 1"
-  },
-  {
     "name": "Grok 4 Heavy",
-    "description": "xAI's most powerful reasoning configuration; spawns multiple agents in parallel and compares results. Offered on the top SuperGrok Heavy subscription\u2026",
+    "description": "xAI's most powerful reasoning configuration; spawns multiple agents in parallel and compares results. Offered on the top SuperGrok Heavy subscription…",
     "url": "https://ai-tldr.dev/models/grok-4-heavy/",
     "category": "xAI (Grok)",
     "subcategory": "Grok 4"
@@ -1386,37 +1701,9 @@
     "subcategory": "Grok Build"
   },
   {
-    "name": "Grok Code Fast 1",
-    "description": "First dedicated agentic coding model (codename 'sonic'); 256K context, high throughput, low cost. Deprecated May 15, 2026 (retires Aug 15, 2026).",
-    "url": "https://ai-tldr.dev/models/grok-code-fast-1/",
-    "category": "xAI (Grok)",
-    "subcategory": "Grok 1"
-  },
-  {
     "name": "Mistral Large 3",
     "description": "First MoE flagship since Mixtral; 41B active / 675B total params, 256k context, Apache 2.0 open weights.",
     "url": "https://ai-tldr.dev/models/mistral-large-3/",
-    "category": "Mistral AI",
-    "subcategory": "Mistral Large"
-  },
-  {
-    "name": "Mistral Large 2.1 (24.11)",
-    "description": "123B dense refresh of Large 2 with better long-context, function calling and system-prompt handling (mistral-large-2411).",
-    "url": "https://ai-tldr.dev/models/mistral-large-2-1/",
-    "category": "Mistral AI",
-    "subcategory": "Mistral Large"
-  },
-  {
-    "name": "Mistral Large 2 (24.07)",
-    "description": "123B dense, 128k context, open weights; big jump in reasoning, math, code and multilingual (mistral-large-2407).",
-    "url": "https://ai-tldr.dev/models/mistral-large-2/",
-    "category": "Mistral AI",
-    "subcategory": "Mistral Large"
-  },
-  {
-    "name": "Mistral Large (24.02)",
-    "description": "First-generation proprietary flagship, multilingual with coding (mistral-large-2402).",
-    "url": "https://ai-tldr.dev/models/mistral-large-1/",
     "category": "Mistral AI",
     "subcategory": "Mistral Large"
   },
@@ -1442,15 +1729,8 @@
     "subcategory": "Mistral Medium"
   },
   {
-    "name": "Mistral Medium (2023)",
-    "description": "Original proprietary mid-tier model offered via API.",
-    "url": "https://ai-tldr.dev/models/mistral-medium-legacy/",
-    "category": "Mistral AI",
-    "subcategory": "Mistral Medium"
-  },
-  {
     "name": "Mistral Small 4",
-    "description": "119B-total / 6B-active MoE unifying reasoning, vision and coding with a per-request reasoning_effort control; Apache 2.0, 256k context (mistral-small\u2026",
+    "description": "119B-total / 6B-active MoE unifying reasoning, vision and coding with a per-request reasoning_effort control; Apache 2.0, 256k context (mistral-small…",
     "url": "https://ai-tldr.dev/models/mistral-small-4/",
     "category": "Mistral AI",
     "subcategory": "Mistral Small"
@@ -1477,13 +1757,6 @@
     "subcategory": "Mistral Small"
   },
   {
-    "name": "Mistral Small (24.09)",
-    "description": "Earlier proprietary Small release (mistral-small-2409).",
-    "url": "https://ai-tldr.dev/models/mistral-small-2-409/",
-    "category": "Mistral AI",
-    "subcategory": "Mistral Small"
-  },
-  {
     "name": "Magistral 1.0 (Small & Medium)",
     "description": "Mistral's first reasoning models; Small (24B, Apache 2.0) and premier Medium (magistral-*-2506).",
     "url": "https://ai-tldr.dev/models/magistral-1-0/",
@@ -1505,55 +1778,6 @@
     "subcategory": "Codestral / Mathstral"
   },
   {
-    "name": "Codestral 22B (24.05)",
-    "description": "Original 22B code model (codestral-2405).",
-    "url": "https://ai-tldr.dev/models/codestral-2405/",
-    "category": "Mistral AI",
-    "subcategory": "Codestral / Mathstral"
-  },
-  {
-    "name": "Pixtral Large (24.11)",
-    "description": "124B vision model built on Mistral Large 2, 128k context, open weights (pixtral-large-2411).",
-    "url": "https://ai-tldr.dev/models/pixtral-large/",
-    "category": "Mistral AI",
-    "subcategory": "Pixtral"
-  },
-  {
-    "name": "Pixtral 12B (24.09)",
-    "description": "First Mistral vision model, 12B with image understanding (pixtral-12b-2409).",
-    "url": "https://ai-tldr.dev/models/pixtral-12b/",
-    "category": "Mistral AI",
-    "subcategory": "Pixtral"
-  },
-  {
-    "name": "Mixtral 8x22B",
-    "description": "141B-total sparse MoE, Apache 2.0.",
-    "url": "https://ai-tldr.dev/models/mixtral-8x22b/",
-    "category": "Mistral AI",
-    "subcategory": "Mixtral"
-  },
-  {
-    "name": "Mixtral 8x7B",
-    "description": "First Mistral MoE; 46.7B total params, Apache 2.0.",
-    "url": "https://ai-tldr.dev/models/mixtral-8x7b/",
-    "category": "Mistral AI",
-    "subcategory": "Mixtral"
-  },
-  {
-    "name": "Mistral NeMo (12B)",
-    "description": "12B dense model built with NVIDIA, 128k context, Apache 2.0 (open-mistral-nemo).",
-    "url": "https://ai-tldr.dev/models/mistral-nemo/",
-    "category": "Mistral AI",
-    "subcategory": "Mistral Base"
-  },
-  {
-    "name": "Mistral 7B",
-    "description": "Mistral's debut open model; 7.3B params, Apache 2.0.",
-    "url": "https://ai-tldr.dev/models/mistral-7b/",
-    "category": "Mistral AI",
-    "subcategory": "Mistral Base"
-  },
-  {
     "name": "Mathstral 7B",
     "description": "7B model specialised for STEM/math reasoning, Apache 2.0.",
     "url": "https://ai-tldr.dev/models/mathstral/",
@@ -1561,15 +1785,8 @@
     "subcategory": "Codestral / Mathstral"
   },
   {
-    "name": "Codestral Mamba",
-    "description": "Mamba-architecture code model for efficient long-context inference (open-codestral-mamba).",
-    "url": "https://ai-tldr.dev/models/codestral-mamba/",
-    "category": "Mistral AI",
-    "subcategory": "Codestral / Mathstral"
-  },
-  {
     "name": "Command A+",
-    "description": "First Apache-2.0 Command frontier model; sparse MoE (218B total / 25B active), 128K context, vision + reasoning + tool use, 48 languages, runs on 1x\u2026",
+    "description": "Cohere's upgraded enterprise flagship model (Sep 2026) optimized for verifiable RAG citation, multi-step tool use, and high-throughput on-prem deployment.",
     "url": "https://ai-tldr.dev/models/command-a-plus-05-2026/",
     "category": "Cohere",
     "subcategory": "Command A / Aya"
@@ -1583,7 +1800,7 @@
   },
   {
     "name": "Command A Reasoning (08-2025)",
-    "description": "Cohere's first reasoning model; controllable token-budgeted thinking, 256K context, 23 languages, built for enterprise agents, tool use, and multi-st\u2026",
+    "description": "Cohere's first reasoning model; controllable token-budgeted thinking, 256K context, 23 languages, built for enterprise agents, tool use, and multi-st…",
     "url": "https://ai-tldr.dev/models/command-a-reasoning-08-2025/",
     "category": "Cohere",
     "subcategory": "Command A / Aya"
@@ -1603,46 +1820,11 @@
     "subcategory": "Command A / Aya"
   },
   {
-    "name": "Command R (08-2024)",
-    "description": "August refresh: ~50% higher throughput, 20-25% lower latency, improved multilingual RAG/tool use and math/code/reasoning, added Safety Modes; 128K co\u2026",
-    "url": "https://ai-tldr.dev/models/command-r-08-2024/",
-    "category": "Cohere",
-    "subcategory": "Command R"
-  },
-  {
-    "name": "Command R (03-2024)",
-    "description": "Original Command R: 128K context, RAG and tool-use focus, 10 primary languages; deprecated Sept 15, 2025.",
-    "url": "https://ai-tldr.dev/models/command-r-03-2024/",
-    "category": "Cohere",
-    "subcategory": "Command R"
-  },
-  {
-    "name": "Command R+ (08-2024)",
-    "description": "August refresh of the flagship R+ with improved performance and lower price ($2.50/M input); 128K context, 10+ languages.",
-    "url": "https://ai-tldr.dev/models/command-r-plus-08-2024/",
-    "category": "Cohere",
-    "subcategory": "Command R+"
-  },
-  {
-    "name": "Command R+ (04-2024)",
-    "description": "Original Command R+: most powerful Cohere LLM at launch, 128K context, 10+ languages, advanced multi-step tool use; deprecated Sept 15, 2025.",
-    "url": "https://ai-tldr.dev/models/command-r-plus-04-2024/",
-    "category": "Cohere",
-    "subcategory": "Command R+"
-  },
-  {
     "name": "Command R7B (12-2024)",
     "description": "7B-class smallest R-series model with 128K context; tuned for low latency and cost, RAG and tool use; open weights on Hugging Face.",
     "url": "https://ai-tldr.dev/models/command-r7b-12-2024/",
     "category": "Cohere",
     "subcategory": "Command R"
-  },
-  {
-    "name": "Command / Command Light",
-    "description": "Original 4K-context Command and lighter Command Light generation models; both deprecated Sept 15, 2025 in favor of Command R / Command A.",
-    "url": "https://ai-tldr.dev/models/command-legacy/",
-    "category": "Cohere",
-    "subcategory": "Command (Legacy)"
   },
   {
     "name": "Aya Expanse (8B & 32B)",
@@ -1653,21 +1835,21 @@
   },
   {
     "name": "Aya Vision (8B & 32B)",
-    "description": "Cohere Labs' first open-weight vision model in 8B and 32B sizes; multilingual captioning, VQA, and translation across 23 languages (non-commercial CC\u2026",
+    "description": "Cohere Labs' first open-weight vision model in 8B and 32B sizes; multilingual captioning, VQA, and translation across 23 languages (non-commercial CC…",
     "url": "https://ai-tldr.dev/models/aya-vision-2025-03/",
     "category": "Cohere",
     "subcategory": "Command A / Aya"
   },
   {
     "name": "Tiny Aya",
-    "description": "Open-weight 3.35B multilingual research models (global/earth/fire/water variants) covering 70+ languages, optimized for efficient local deployment un\u2026",
+    "description": "Open-weight 3.35B multilingual research models (global/earth/fire/water variants) covering 70+ languages, optimized for efficient local deployment un…",
     "url": "https://ai-tldr.dev/models/tiny-aya-2026-02/",
     "category": "Cohere",
     "subcategory": "Command A / Aya"
   },
   {
     "name": "MiniMax M3",
-    "description": "New MiniMax Sparse Attention (MSA) architecture; 1M-token context, native multimodal input, open-weight; per-token compute ~1/20 of prior gen; 59.0%\u2026",
+    "description": "MiniMax's flagship M3 reasoning and synthesis model (May 2026) featuring Lightning Attention for ultra-long context windows and disciplined JSON output.",
     "url": "https://ai-tldr.dev/models/minimax-m3/",
     "category": "MiniMax",
     "subcategory": "MiniMax M3"
@@ -1699,41 +1881,6 @@
     "url": "https://ai-tldr.dev/models/minimax-m2/",
     "category": "MiniMax",
     "subcategory": "MiniMax M2"
-  },
-  {
-    "name": "MiniMax-M1 (M1-40k / M1-80k)",
-    "description": "World's first open-weight large-scale hybrid-attention (MoE + lightning attention) reasoning model; 456B-total / 45.9B-active, 1M context, Apache-2.0\u2026",
-    "url": "https://ai-tldr.dev/models/minimax-m1/",
-    "category": "MiniMax",
-    "subcategory": "MiniMax M1"
-  },
-  {
-    "name": "MiniMax-Text-01",
-    "description": "Open-source 456B-total / 45.9B-active hybrid MoE with lightning + softmax attention; 1M-token training context, extrapolates to 4M at inference.",
-    "url": "https://ai-tldr.dev/models/minimax-text-01/",
-    "category": "MiniMax",
-    "subcategory": "MiniMax (Other)"
-  },
-  {
-    "name": "abab6.5 / abab6.5s",
-    "description": "Trillion-parameter MoE with 200K-token context; abab6.5s is a more efficient variant (same 200K context, ~30k words/sec).",
-    "url": "https://ai-tldr.dev/models/abab-6-5/",
-    "category": "MiniMax",
-    "subcategory": "abab6"
-  },
-  {
-    "name": "abab6",
-    "description": "First 100B+-parameter MoE-architecture LLM in China; predecessor to the abab6.5 series.",
-    "url": "https://ai-tldr.dev/models/abab-6/",
-    "category": "MiniMax",
-    "subcategory": "abab6"
-  },
-  {
-    "name": "abab5.5 / abab5.5s",
-    "description": "Earlier general-purpose abab models (abab5.5 ~16K-token I/O limit; abab5.5s a smaller character/persona variant); abab line opened publicly Aug 2023.",
-    "url": "https://ai-tldr.dev/models/abab-5-5/",
-    "category": "MiniMax",
-    "subcategory": "abab5"
   },
   {
     "name": "Hunyuan Hy3",

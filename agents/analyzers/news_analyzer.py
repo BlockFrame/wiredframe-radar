@@ -65,32 +65,29 @@ JSON validity rules: escape double quotes/backslashes/newlines inside string val
 Prioritize: model releases, breakthroughs, major product launches, investments, applied AI, open source, safety, and policy.
 Deprioritize: routine updates, minor features, non-AI tech news."""
 
-    # LLM filter for AI relevance
-    FILTER_PROMPT = """You are filtering news articles for an AI and Machine Learning newsletter.
+    # LLM filter for AI relevance (recall-first)
+    FILTER_PROMPT = """You are a recall-first news relevance adjudicator for a daily AI intelligence digest.
+Later analyst stages already score each story for AI relevance and importance, so this first screen must drop ONLY stories where artificial intelligence or machine learning is absent or merely incidental.
 
-Your readers care about:
-- AI model releases and updates (GPT, Claude, Gemini, Llama, Mistral, DeepSeek, etc.)
-- AI company and startup news (OpenAI, Anthropic, Google, startups, etc.)
-- AI applications, products, and tools (including enterprise, consumer, open source)
-- AI research breakthroughs, papers, and algorithms
-- AI safety, ethics, alignment, and regulation
-- AI infrastructure (chips, data centers, training clusters)
-- Applied AI in various sectors (healthcare, robotics, marketing, coding, etc.)
+Include an article whenever the title or snippet is about artificial intelligence or machine learning in a way a reader following AI news would want to see:
+- AI/ML models, decision models, open-weight releases, and benchmarks
+- AI companies, labs, startups, funding, M&A, and business strategy
+- AI products, developer tools, agents, and applied AI deployments
+- AI research breakthroughs, papers, and scientific applications
+- AI safety, alignment, security, incidents, and controversies
+- AI policy, regulation, politics, copyright, and public statements about AI
+- AI infrastructure (chips, GPUs, data centers, power, and training clusters)
 
-Your readers do NOT care about:
-- Space/astronomy (SpaceX satellites, planets)
-- Generic tech news completely unrelated to AI or Data
-- General health/job market news without an AI angle
+AI does not have to be the entire story if it is a clear subject of the headline or snippet. When evidence is ambiguous or borderline, retain the article.
+Exclude ONLY articles where AI/ML is completely absent or an incidental buzzword.
 
 Articles:
 {items_context}
 
-Return the IDs of articles relevant to AI and Machine Learning:
+Return the IDs of all relevant or borderline AI articles:
 ```json
 {{"ai_article_ids": ["{example_id}", ...]}}
-```
-
-Be inclusive of AI safety issues, controversies, applied AI tools, and startups."""
+```"""
 
     # Combined analysis + ranking prompt for small batches (< 75 items)
     COMBINED_ANALYSIS_PROMPT = """You are an AI news analyst covering artificial intelligence and machine learning.
@@ -144,14 +141,13 @@ DEPRIORITIZE (lower scores):
 - Rehashed coverage of old news
 
 CATEGORY SUMMARY FORMATTING RULES:
-You are an enterprise AI strategy advisor analyzing today's breakout AI news for C-level executives.
 Use exactly these headings: `### Executive Signal`, `### Priority Developments`, `### Leadership Implications`.
-- Executive Signal: one synthesis bullet, maximum 45 words.
-- Priority Developments: 3-5 bullets, maximum 40 words each, grouping related items and stating their business or competitive implication.
-- Leadership Implications: 1-2 action-oriented bullets, maximum 35 words each.
-Every section body must use bullets. Keep the complete summary below 350 words, use **bold** selectively, and do not include Markdown links.
-Return one ordered `category_summary_evidence` array per bullet, containing 1-3 exact current item IDs supporting that bullet.
-Keep the tone authoritative, analytical, and decision-oriented in a top-tier strategy-analysis style. Never mention a consulting firm or internal writing persona in the output. Do not include raw JSON structure outside the `category_summary` field."""
+- Executive Signal: one clear overview bullet (1-2 complete sentences, up to 60 words) summarizing the main theme or biggest development of the day in plain English.
+- Priority Developments: 3-5 factual bullets (1-2 complete sentences each, up to 60 words each). Start each bullet with the **Company or Model/Product** in bold, state clearly what happened with concrete facts/numbers, and explain why it matters.
+- Leadership Implications: 1-2 practical takeaway bullets (1-2 complete sentences each, up to 55 words each) explaining in plain language what builders, researchers, or organizations should take away.
+Write in fluent, natural journalistic prose inside each bullet. Never write telegraphic fragments or management-consulting jargon.
+Every section body must use bullets (- ). Keep the complete summary below 480 words, use **bold** for key entities and numbers, and do not include Markdown links.
+Return one ordered `category_summary_evidence` array per bullet, containing 1-3 exact current item IDs supporting that bullet."""
 
     ANALYSIS_PROMPT = """You are an AI news analyst covering artificial intelligence and machine learning.
 

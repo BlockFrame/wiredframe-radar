@@ -416,11 +416,21 @@ class CostTracker:
         mtok = 1_000_000
         model = (record.model or "").lower()
         provider_id = (record.provider_id or "").lower()
-        if provider_id.startswith("openrouter-minimax-") and model == "minimax/minimax-m3":
+        if (provider_id.startswith("openrouter-") or "minimax-m3" in model) and "minimax-m3" in model:
             input_price = ModelPricing.OPENROUTER_MINIMAX_M3_INPUT.value
             output_price = ModelPricing.OPENROUTER_MINIMAX_M3_OUTPUT.value
             cache_write_price = 0.0
             cache_hit_price = ModelPricing.OPENROUTER_MINIMAX_M3_CACHE_HIT.value
+        elif "glm-5.3-flashx" in model:
+            input_price, output_price, cache_write_price, cache_hit_price = 0.37, 1.25, 0.37, 0.09
+        elif "glm-5.3-flash" in model:
+            input_price, output_price, cache_write_price, cache_hit_price = 0.075, 0.25, 0.075, 0.015
+        elif "deepseek-v4.1-flash" in model:
+            input_price, output_price, cache_write_price, cache_hit_price = 0.15, 0.60, 0.15, 0.006
+        elif "muse-spark" in model and "contributor" in model:
+            input_price, output_price, cache_write_price, cache_hit_price = 0.10, 0.20, 0.10, 0.002
+        elif "gemini-3.8-flash" in model:
+            input_price, output_price, cache_write_price, cache_hit_price = 0.75, 3.75, 0.75, 0.075
         elif model.startswith("gemini-") or provider_id.startswith("nvidia-"):
             # This project targets the quota-limited Google AI Studio tier.
             # NVIDIA NIM routes are also currently used without token billing.

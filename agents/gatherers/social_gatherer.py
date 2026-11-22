@@ -126,13 +126,9 @@ class SocialGatherer(BaseGatherer):
             tweets = self._twitter_search(self.twitter_users)
             all_tweets.extend(tweets)
 
-            if all_tweets:
+            if self.collection_status['twitter']['status'] not in ('failed', 'partial'):
                 self.collection_status['twitter']['status'] = 'success'
-                self.collection_status['twitter']['count'] = len(all_tweets)
-            else:
-                # Got 0 tweets - might be an API issue or just no recent tweets
-                self.collection_status['twitter']['status'] = 'success'
-                self.collection_status['twitter']['count'] = 0
+            self.collection_status['twitter']['count'] = len(all_tweets)
 
             logger.info(f"Collected {len(all_tweets)} tweets from Twitter")
         except Exception as e:
@@ -187,19 +183,54 @@ class SocialGatherer(BaseGatherer):
         """Use Twitter advanced search to collect from multiple users."""
         all_tweets = []
         failed_chunks = 0
+        last_chunk_error: Optional[str] = None
 
         if not usernames:
             return []
 
-        # X silently returns an empty result set when a query exceeds its
-        # approximately 22-23 operator limit. Reserve two operators for the
-        # date range, leaving at most 20 `from:` clauses per request.
-        max_users = 20
-        chunks = [usernames[i:i + max_users] for i in range(0, len(usernames), max_users)]
+        valid_usernames: List[str] = []
+        seen_handles = set()
+        for raw_handle in usernames:
+            handle = (raw_handle or "").strip().lstrip("@")
+            if not handle:
+                continue
+            if not re.fullmatch(r"[A-Za-z0-9_]{1,15}", handle):
+                logger.warning(f"Skipping invalid X handle in config: {raw_handle!r}")
+                continue
+            key = handle.lower()
+            if key in seen_handles:
+                continue
+            seen_handles.add(key)
+            valid_usernames.append(handle)
+
+        if not valid_usernames:
+            return []
 
         # Format dates for search
         since_date = self.start_time.strftime('%Y-%m-%d')
         until_date = (self.end_time + timedelta(days=1)).strftime('%Y-%m-%d')
+
+        # X silently returns an empty result set when a query exceeds its
+        # approximately 22-23 operator limit, and rejects queries over 512
+        # characters with HTTP 400. Reserve two operators for the date range,
+        # leaving at most 20 `from:` clauses per request under 512 chars.
+        max_users = 20
+        max_query_len = 512
+        chunks: List[List[str]] = []
+        current_chunk: List[str] = []
+        for handle in valid_usernames:
+            candidate_chunk = current_chunk + [handle]
+            candidate_clauses = [f"from:{u}" for u in candidate_chunk]
+            candidate_query = f"({' OR '.join(candidate_clauses)}) since:{since_date} until:{until_date}"
+            if current_chunk and (
+                len(candidate_chunk) > max_users or len(candidate_query) > max_query_len
+            ):
+                chunks.append(current_chunk)
+                current_chunk = [handle]
+            else:
+                current_chunk = candidate_chunk
+        if current_chunk:
+            chunks.append(current_chunk)
 
         headers = {
             "Authorization": f"Bearer {GETXAPI_KEY}",
@@ -269,6 +300,7 @@ class SocialGatherer(BaseGatherer):
                 except Exception as e:
                     logger.error(f"Error in Twitter search: {e}")
                     chunk_error = str(e)
+                    last_chunk_error = chunk_error
                     failed_chunks += 1
                     break
 
@@ -277,12 +309,13 @@ class SocialGatherer(BaseGatherer):
 
         # Track partial failures
         if failed_chunks > 0:
+            detail = f": {last_chunk_error}" if last_chunk_error else ""
             if failed_chunks == len(chunks):
                 self.collection_status['twitter']['status'] = 'failed'
-                self.collection_status['twitter']['error'] = f"All {failed_chunks} API requests failed"
+                self.collection_status['twitter']['error'] = f"All {failed_chunks} API requests failed{detail}"
             else:
                 self.collection_status['twitter']['status'] = 'partial'
-                self.collection_status['twitter']['error'] = f"{failed_chunks}/{len(chunks)} API requests failed"
+                self.collection_status['twitter']['error'] = f"{failed_chunks}/{len(chunks)} API requests failed{detail}"
 
         return all_tweets
 

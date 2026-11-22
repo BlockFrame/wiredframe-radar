@@ -22,7 +22,7 @@ The pipeline is designed to degrade safely: provider fallbacks, checkpoints, sch
 ## ✨ What it delivers
 
 - **Four daily intelligence views:** AI News, Research, Social signals from X, and GitHub Trending.
-- **Curated AI directories:** searchable model and tool catalogs plus a structured directory of researchers, builders, founders, and industry voices to follow.
+- **Curated AI directories:** a searchable frontier and open-weight model catalog plus a structured directory of researchers, builders, founders, and industry voices to follow.
 - **Cross-category synthesis:** topics are accepted only when supported by current items from at least two populated categories.
 - **Evidence-grounded writing:** summaries return exact current-item IDs and cannot use historical summaries as fresh evidence.
 - **Consistent LLM quality:** price-guarded MiniMax M3 handles both high-volume analysis and high-value synthesis; Gemini and NVIDIA routes provide workload-specific fallbacks.

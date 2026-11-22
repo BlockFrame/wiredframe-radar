@@ -27,9 +27,8 @@ DrJimFan
 GaryMarcus
 AnimaAnandkumar
 timnitGebru
-jeffdean
 JeffDean
-SebastianRaschka
+rasbt
 lexfridman
 goodfellow_ian
 percyliang
@@ -73,6 +72,7 @@ amuellerml
 # ===== AI Companies =====
 OpenAI
 AnthropicAI
+ClaudeDevs
 GoogleDeepMind
 StabilityAI
 MistralAI
@@ -80,24 +80,29 @@ MetaAI
 GoogleAI
 HuggingFace
 Cohere
-CohereAI
 ReplicateHQ
 RunwayML
 EleutherAI
 xAI
 perplexity_ai
-PerplexityAI
 Midjourney
 character_ai
 NVIDIAAI
 GroqInc
-IBMData
 therundownai
 vllm_project
 camelAIOrg
 cursor_ai
 deepseek_ai
 Langfuse
+ArtificialAnlys
+Alibaba_Qwen
+Kimi_Moonshot
+MiniMax__AI
+OpenRouterAI
+UnslothAI
+ollama
+PrimeIntellect
 
 # ===== AI Journalists & Commentators =====
 simonwillison
@@ -112,6 +117,7 @@ emilychangtv
 rowancheung
 AlphaSignalAI
 tldrnewsletter
+latentspacepod
 
 # ===== Research Institutions =====
 stanfordHAI
@@ -121,6 +127,8 @@ allen_ai
 MIT_CSAIL
 NeurIPSConf
 Research_FRI
+EpochAIResearch
+lmsysorg
 
 # ===== AI Devs and Personalities =====
 bcherny
@@ -176,16 +184,8 @@ mlopscommunity
 
 # ===== AI Business & Industry Voices =====
 alliekmiller
-Ronald_vanLoon
-KirkDBorne
 tunguz
 kaifulee
 ID_AA_Carmack
-Scobleizer
 erikbryn
-YuHelenYu
-TamaraMcCleary
-antgrasso
-gp_pulipaka
-DeepLearn007
 ecsquendor

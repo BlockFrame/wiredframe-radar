@@ -227,28 +227,24 @@ class GitHubTrendingAnalyzer(BaseAnalyzer):
 
         if not prompt:
             # Fallback inline prompt (aligned with prompts.yaml style)
-            prompt = f"""You are an enterprise AI strategy advisor analyzing today's breakout open-source AI repositories from GitHub Trending for C-level executives.
+            prompt = f"""You are an open-source AI technical editor analyzing today's breakout AI repositories from GitHub Trending.
 
 Top Trending Repositories Today:
 {items_text}
 
-Use exactly this compact Markdown structure:
+Use exactly this Markdown structure:
 ### Executive Signal
-- One decision-relevant synthesis bullet, maximum 45 words.
+- One clear overview bullet (1-2 complete sentences, up to 60 words) explaining the main developer trend across today's breakout repositories in plain English.
 ### Priority Developments
-- 3-5 bullets, maximum 40 words each. Group related repositories and state why the pattern matters.
+- 3-5 factual bullets (1-2 complete sentences each, up to 60 words each). Name the **owner/repo** (and star count if available) in bold, explain clearly what the tool, framework, or project actually does, and why developers are adopting it.
 ### Leadership Implications
-- 1-2 action-oriented bullets, maximum 35 words each.
+- 1-2 practical takeaway bullets (1-2 complete sentences each, up to 55 words each) explaining what open-source tools or patterns engineering teams should evaluate.
 
 CATEGORY SUMMARY FORMATTING RULES:
-- Target audience: enterprise C-level executives and AI leaders.
-- Use a rigorous, decision-oriented, top-tier strategy-consulting style, but never mention a consulting firm or internal writing persona in the output.
-- Every section body must use bullets. Do not write prose paragraphs.
-- Keep the complete summary below 350 words.
-- A bullet must synthesize a signal or implication, not merely repeat a repository description.
+- Write in clear, natural technical prose inside each bullet. Never write telegraphic fragments or management-consulting jargon.
+- Every section body must use bullets (- ). Do not write standalone prose paragraphs between headings.
+- Keep the complete summary below 480 words.
 - Use **bold** for repository names, languages, framework names, and key metrics.
-- Synthesize related repositories into themes explaining what they signal for enterprise AI adoption, developer tooling, and competitive dynamics.
-- Keep sentences analytical and authoritative.
 - Do NOT include markdown links or URLs. Links will be added automatically in a post-processing step.
 - Return JSON only: {{"category_summary": "complete Markdown summary", "category_summary_evidence": [["id for bullet 1"], ["id 1 for bullet 2", "id 2 for bullet 2"]]}}.
 - `category_summary_evidence` must contain one ordered array per bullet, with 1-3 exact repository IDs."""

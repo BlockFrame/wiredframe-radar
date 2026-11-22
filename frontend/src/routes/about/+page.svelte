@@ -173,12 +173,11 @@
 				Beyond the daily news synthesis, R[AI]DAR hosts curated directories to help you navigate the ecosystem:
 			</p>
 			<ul>
-				<li><strong>Tools Directory:</strong> A categorized index of the most useful AI applications, frameworks, and developer tools.</li>
-				<li><strong>Models Directory:</strong> A comprehensive taxonomy of foundational models, segmented by architecture and provider.</li>
+				<li><strong>Models Directory:</strong> A comprehensive taxonomy of foundational and open-weight models, segmented by architecture and provider.</li>
 				<li><strong>Influencers:</strong> Key voices and researchers in the AI space worth following.</li>
 			</ul>
 			<p>
-				<strong>This platform is community-driven.</strong> You can actively contribute to its growth by using the "Suggest" and "Feedback" buttons found across the site. Whether you want to add a missing model, recommend a tool, or report a bug, each form prepares a public GitHub Issue for you to review before submitting.
+				<strong>This platform is community-driven.</strong> You can actively contribute to its growth by using the "Suggest" and "Feedback" buttons found across the site. Whether you want to add a missing model, recommend a researcher to follow, or report a bug, each form prepares a public GitHub Issue for you to review before submitting.
 			</p>
 		</div>
 	</section>

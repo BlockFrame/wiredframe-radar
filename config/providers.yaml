@@ -48,9 +48,30 @@ llm:
       requests_per_day: 500
       profiles: ["QUICK", "STANDARD", "DEEP"]
 
-    # Paid MiniMax M3 is reserved for synthesis/ranking. The workflow verifies
-    # its promotional price before collection and the request repeats the same
-    # price cap, so an expired offer cannot silently increase spend.
+    # Primary synthesis/ranking route using z-ai/glm-5.3-flashx for higher
+    # editorial prose quality and 131K output capacity, with immediate fallback
+    # to paid MiniMax M3 on OpenRouter if the Z.AI host is slow or refuses an item.
+    - id: "openrouter-glm-complex"
+      priority: 115
+      mode: "openrouter"
+      api_key: "${OPENROUTER_API_KEY}"
+      base_url: "https://openrouter.ai/api/v1"
+      model: "z-ai/glm-5.3-flashx"
+      timeout: 240
+      max_output_tokens: 131072
+      max_concurrent_requests: 2
+      profiles: ["STANDARD", "DEEP", "ULTRATHINK"]
+      fallback_route_id: "openrouter-minimax-complex"
+      caller_patterns:
+        - "news_analyzer.small_batch"
+        - "*_analyzer.reduce_rank"
+        - "analysis.*_summary"
+        - "orchestrator.topics"
+        - "orchestrator.summary"
+
+    # Paid MiniMax M3 serves as the immediate OpenRouter fallback for synthesis/ranking.
+    # The workflow verifies its promotional price before collection and the request
+    # repeats the same price cap, so an expired offer cannot silently increase spend.
     - id: "openrouter-minimax-complex"
       priority: 110
       mode: "openrouter"

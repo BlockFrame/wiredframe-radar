@@ -79,34 +79,28 @@ analysis:
 
     # Available variables: ${items_context}, ${example_id}
     filter: |
-      You are filtering news articles for a FRONTIER AI newsletter.
+      You are a recall-first news relevance adjudicator for a daily AI intelligence digest.
+      Later analyst stages already score each story for AI relevance and importance, so this first screen must drop ONLY stories where artificial intelligence or machine learning is absent or merely incidental.
 
-      Your readers care about:
-      - AI model releases (GPT, Claude, Gemini, Grok, Llama, Mistral, DeepSeek, etc.)
-      - AI company news (OpenAI, Anthropic, Google AI, xAI, Meta AI, etc.)
-      - AI products, tools, and capabilities
-      - AI research breakthroughs and papers
-      - AI safety, ethics, and alignment
-      - AI regulation and policy
-      - AI infrastructure (chips, training clusters)
+      Include an article whenever the title or snippet is about artificial intelligence or machine learning in a way a reader following AI news would want to see:
+      - AI/ML models, decision models, open-weight releases, and benchmarks
+      - AI companies, labs, startups, funding, M&A, and business strategy
+      - AI products, developer tools, agents, and applied AI deployments
+      - AI research breakthroughs, papers, and scientific applications
+      - AI safety, alignment, security, incidents, and controversies
+      - AI policy, regulation, politics, copyright, and public statements about AI
+      - AI infrastructure (chips, GPUs, data centers, power, and training clusters)
 
-      Your readers do NOT care about:
-      - Space/astronomy (SpaceX satellites, planets)
-      - General health news (unless AI diagnosis/treatment)
-      - Tech job market news
-      - University/education news (unless AI research)
-      - Government electronics/manufacturing (unless AI-specific)
-      - Generic "AI in marketing" fluff pieces
+      AI does not have to be the entire story if it is a clear subject of the headline or snippet. When evidence is ambiguous or borderline, retain the article.
+      Exclude ONLY articles where AI/ML is completely absent or an incidental buzzword (e.g., non-AI space/astronomy, general consumer gadgets, or routine corporate news with no AI angle).
 
       Articles:
       ${items_context}
 
-      Return the IDs of articles relevant to frontier AI:
+      Return the IDs of all relevant or borderline AI articles:
       ```json
       {"ai_article_ids": ["${example_id}", ...]}
       ```
-
-      Be inclusive of AI safety issues, controversies, and negative news about AI companies - these are still frontier AI news.
 
     # Available variables: ${count}, ${items_context}
     combined_analysis: |
@@ -169,14 +163,14 @@ analysis:
 
       CATEGORY SUMMARY FORMATTING RULES:
       - Use exactly these headings: `### Executive Signal`, `### Priority Developments`, `### Leadership Implications`.
-      - Under Executive Signal, write one decision-relevant synthesis bullet of at most 45 words.
-      - Under Priority Developments, write 3-5 bullets of at most 40 words each; group related items and explain their business or competitive implication.
-      - Under Leadership Implications, write 1-2 action-oriented bullets of at most 35 words each.
-      - Every section body must use bullets; never write prose paragraphs.
-      - Keep the complete summary below 350 words and use **bold** selectively.
+      - Under `### Executive Signal`, write one clear overview bullet (1-2 complete sentences, up to 60 words) summarizing the main theme or biggest development of the day in plain, accessible English.
+      - Under `### Priority Developments`, write 3-5 factual bullets (1-2 complete sentences each, up to 60 words each). Start each bullet with the **Company or Model/Product** in bold (e.g., `- **Anthropic**: ...`), state clearly what happened with concrete facts or numbers, and explain why it matters.
+      - Under `### Leadership Implications`, write 1-2 practical takeaway bullets (1-2 complete sentences each, up to 55 words each) explaining in plain language what builders, engineering teams, or organizations should take away from today's news.
+      - Write in fluent, natural journalistic prose inside each bullet. Never write telegraphic fragments, cryptic slogans, or management-consulting jargon (avoid phrases like "re-baseline procurement" or "stand up governance").
+      - Every section body must use bullets (- ); never write standalone prose paragraphs between headings.
+      - Keep the complete summary below 480 words and use **bold** for key companies, models, products, and numbers.
       - Do not include Markdown links; links are added later.
       - Return `category_summary_evidence` with one ordered array per summary bullet. Each array must contain 1-3 exact current item IDs supporting that bullet.
-      - Use a rigorous, decision-oriented strategy-analysis style without naming any consulting firm or persona.
 
     # Available variables: ${items_context}
     # Note: Legacy prompt kept for reference
@@ -240,7 +234,7 @@ analysis:
       Rank the top 10 most important AI news stories based on:
       1. FRONTIER SIGNIFICANCE: Does this advance the state of AI?
       2. INDUSTRY IMPACT: Will this affect how AI is built or used?
-      3. STRATEGIC RELEVANCE: Why should an AI Director or VP of AI care?
+      3. PRACTICAL RELEVANCE: Why should developers, researchers, and AI leaders care?
       4. NEWS VALUE: Is this breaking news or major announcement?
       5. SOURCE QUALITY: Is this from a reliable source with direct information?
 
@@ -251,21 +245,21 @@ analysis:
       ```json
       {
         "top_10": ["id1", "id2", ...],
-        "category_summary": "Structured executive summary using markdown formatting (see rules below)",
+        "category_summary": "Structured summary using markdown formatting (see rules below)",
         "category_summary_evidence": [["id for bullet 1"], ["id 1 for bullet 2", "id 2 for bullet 2"]]
       }
       ```
 
       CATEGORY SUMMARY FORMATTING RULES:
       - Use exactly these headings: `### Executive Signal`, `### Priority Developments`, `### Leadership Implications`.
-      - Under Executive Signal, write one decision-relevant synthesis bullet of at most 45 words.
-      - Under Priority Developments, write 3-5 bullets of at most 40 words each; group related items and explain their business or competitive implication.
-      - Under Leadership Implications, write 1-2 action-oriented bullets of at most 35 words each.
-      - Every section body must use bullets; never write prose paragraphs.
-      - Keep the complete summary below 350 words and use **bold** selectively.
+      - Under `### Executive Signal`, write one clear overview bullet (1-2 complete sentences, up to 60 words) summarizing the main theme or biggest development of the day in plain, accessible English.
+      - Under `### Priority Developments`, write 3-5 factual bullets (1-2 complete sentences each, up to 60 words each). Start each bullet with the **Company or Model/Product** in bold (e.g., `- **Anthropic**: ...`), state clearly what happened with concrete facts or numbers, and explain why it matters.
+      - Under `### Leadership Implications`, write 1-2 practical takeaway bullets (1-2 complete sentences each, up to 55 words each) explaining in plain language what builders, engineering teams, or organizations should take away from today's news.
+      - Write in fluent, natural journalistic prose inside each bullet. Never write telegraphic fragments, cryptic slogans, or management-consulting jargon (avoid phrases like "re-baseline procurement" or "stand up governance").
+      - Every section body must use bullets (- ); never write standalone prose paragraphs between headings.
+      - Keep the complete summary below 480 words and use **bold** for key companies, models, products, and numbers.
       - Do not include Markdown links; links are added later.
       - Return `category_summary_evidence` with one ordered array per summary bullet. Each array must contain 1-3 exact current item IDs supporting that bullet.
-      - Use a rigorous, decision-oriented strategy-analysis style without naming any consulting firm or persona.
 
   # -------------------------
   # RESEARCH ANALYZER
@@ -371,14 +365,14 @@ analysis:
 
       CATEGORY SUMMARY FORMATTING RULES:
       - Use exactly these headings: `### Executive Signal`, `### Priority Developments`, `### Leadership Implications`.
-      - Under Executive Signal, write one decision-relevant synthesis bullet of at most 45 words.
-      - Under Priority Developments, write 3-5 bullets of at most 40 words each; group related items and explain their practical or strategic implication.
-      - Under Leadership Implications, write 1-2 action-oriented bullets of at most 35 words each.
-      - Every section body must use bullets; never write prose paragraphs.
-      - Keep the complete summary below 350 words and use **bold** selectively.
+      - Under `### Executive Signal`, write one clear overview bullet (1-2 complete sentences, up to 60 words) summarizing the main research themes or breakthroughs of the day in plain, accessible English.
+      - Under `### Priority Developments`, write 3-5 factual bullets (1-2 complete sentences each, up to 60 words each). Start each bullet with the **Paper Title, Model/Method, or Lab** in bold, explain clearly what the researchers tested or proved (with key metrics or findings), and state why it matters.
+      - Under `### Leadership Implications`, write 1-2 practical takeaway bullets (1-2 complete sentences each, up to 55 words each) explaining in plain language what AI practitioners, researchers, or engineering teams can apply or watch from these findings.
+      - Write in clear, natural technical prose inside each bullet. Avoid telegraphic fragments, cryptic slogans, or management-consulting jargon.
+      - Every section body must use bullets (- ); never write standalone prose paragraphs between headings.
+      - Keep the complete summary below 480 words and use **bold** for model/method names, labs, and key metrics.
       - Do not include Markdown links; links are added later.
       - Return `category_summary_evidence` with one ordered array per summary bullet. Each array must contain 1-3 exact current item IDs supporting that bullet.
-      - Use a rigorous, decision-oriented strategy-analysis style without naming any consulting firm or persona.
 
   # -------------------------
   # SOCIAL ANALYZER
@@ -489,21 +483,21 @@ analysis:
       ```json
       {
         "top_25": ["id1", "id2", "id3"],
-        "category_summary": "Structured executive summary using markdown formatting (see rules below)",
+        "category_summary": "Structured summary using markdown formatting (see rules below)",
         "category_summary_evidence": [["id for bullet 1"], ["id 1 for bullet 2", "id 2 for bullet 2"]]
       }
       ```
 
       CATEGORY SUMMARY FORMATTING RULES:
       - Use exactly these headings: `### Executive Signal`, `### Priority Developments`, `### Leadership Implications`.
-      - Under Executive Signal, write one decision-relevant synthesis bullet of at most 45 words.
-      - Under Priority Developments, write 3-5 bullets of at most 40 words each; group related discussions and distinguish evidence from opinion.
-      - Under Leadership Implications, write 1-2 action-oriented bullets of at most 35 words each.
-      - Every section body must use bullets; never write prose paragraphs.
-      - Keep the complete summary below 350 words and use **bold** selectively.
+      - Under `### Executive Signal`, write one clear overview bullet (1-2 complete sentences, up to 60 words) capturing the main topic or debate dominating AI community discussions today.
+      - Under `### Priority Developments`, write 3-5 factual bullets (1-2 complete sentences each, up to 60 words each). Name the **Researcher, Practitioner, or Lab** in bold, clearly describe what they shared or argued, and distinguish concrete evidence from opinion.
+      - Under `### Leadership Implications`, write 1-2 practical takeaway bullets (1-2 complete sentences each, up to 55 words each) explaining what practitioner feedback or community signal teams should pay attention to.
+      - Write in fluent, natural prose inside each bullet. Never write telegraphic fragments or management-consulting jargon.
+      - Every section body must use bullets (- ); never write standalone prose paragraphs between headings.
+      - Keep the complete summary below 480 words and use **bold** for researcher names, companies, models, and key topics.
       - Do not include Markdown links; links are added later.
       - Return `category_summary_evidence` with one ordered array per summary bullet. Each array must contain 1-3 exact current item IDs supporting that bullet.
-      - Use a rigorous, decision-oriented strategy-analysis style without naming any consulting firm or persona.
 
   # -------------------------
   # GITHUB TRENDING ANALYZER
@@ -511,20 +505,20 @@ analysis:
   github_trending:
     # Available variables: ${items_text}
     summary: |
-      You are an enterprise AI strategy advisor analyzing today's breakout open-source AI repositories from GitHub Trending for C-level executives.
+      You are an open-source AI technical editor analyzing today's breakout AI repositories from GitHub Trending.
 
       Top Trending Repositories Today:
       ${items_text}
 
-      Use exactly this compact Markdown structure:
+      Use exactly this Markdown structure:
       ### Executive Signal
-      - One decision-relevant synthesis bullet, maximum 45 words.
+      - One clear overview bullet (1-2 complete sentences, up to 60 words) explaining the main developer trend across today's breakout repositories in plain English.
       ### Priority Developments
-      - 3-5 bullets, maximum 40 words each. Group related repositories and explain why the pattern matters.
+      - 3-5 factual bullets (1-2 complete sentences each, up to 60 words each). Name the **owner/repo** (and star count if available) in bold, explain clearly what the tool, framework, or project actually does, and why developers are adopting it.
       ### Leadership Implications
-      - 1-2 action-oriented bullets, maximum 35 words each.
+      - 1-2 practical takeaway bullets (1-2 complete sentences each, up to 55 words each) explaining what open-source tools or patterns engineering teams should evaluate.
 
-      Every section body must use bullets; never write prose paragraphs. Keep the complete summary below 350 words, use **bold** selectively, and do not include Markdown links. Use a rigorous, decision-oriented strategy-analysis style without naming any consulting firm or persona.
+      Every section body must use bullets (- ); never write standalone prose paragraphs between headings. Write in clear, natural technical prose — avoid telegraphic fragments or consulting jargon. Keep the complete summary below 480 words, use **bold** for repository names and key metrics, and do not include Markdown links.
 
       Return valid JSON only:
       {"category_summary": "complete Markdown summary", "category_summary_evidence": [["id for bullet 1"], ["id 1 for bullet 2", "id 2 for bullet 2"]]}
@@ -537,17 +531,17 @@ analysis:
 orchestration:
   # Available variables: ${context}
   topic_detection: |
-    You are an enterprise AI strategy advisor. Analyze the following category reports from today's AI news, research papers, social media, and GitHub trending collection, and identify the TOP 6 cross-category strategic topics that represent the most significant developments today. If there are fewer than 6 distinct topics worth covering, return exactly 3 instead. Use a rigorous, decision-oriented, top-tier strategy-consulting style, but never mention a consulting firm or internal writing persona in the output.
+    Analyze the following category reports from today's AI news, research papers, social media, and GitHub trending collection, and identify the TOP 6 cross-category topics that represent the most significant developments today. If there are fewer than 6 distinct topics worth covering, return exactly 3 instead.
 
     ${context}
 
-    For each top topic, provide a compact, decision-relevant brief:
-    1. A concise, authoritative name (2-5 words)
-    2. A concise description of exactly one sentence and no more than 40 words, written as PLAIN TEXT without any links:
+    For each top topic, provide a clear, readable brief:
+    1. A concise, descriptive name (2-5 words)
+    2. A clear description (2-3 complete sentences, 40-65 words) written in plain, natural English without any links:
        - DO NOT include any markdown links or URLs.
-       - State the signal, strongest evidence, and executive implication without recapping every supporting item.
-       - Reference key sources, institutions, or repositories by name (e.g., "Google announced...", "A Stanford paper demonstrated...", "The koala73/worldmonitor repo emerged as...")
-    3. A business implication (business_implication) in one sentence of at most 35 words.
+       - Explain clearly what happened across the categories, naming the specific companies, models, papers, researchers, or repositories involved and the concrete facts/numbers.
+       - Write in fluent journalistic prose; never use telegraphic fragments or abstract consulting buzzwords.
+    3. A practical takeaway (business_implication) in one clear sentence (up to 40 words) explaining why this development matters in practice for developers, researchers, or organizations.
     4. A trend velocity (trend_velocity) as a single word (e.g., "Emerging", "Accelerating", "Mainstream", "Disruptive").
     5. Which categories it appears in and roughly how many items: {"news": N, "research": N, "social": N, "github_trending": N}
     6. The exact current item IDs supporting the topic in `representative_items`. Include at least one item from each claimed category and at least two different non-empty categories.
@@ -556,7 +550,7 @@ orchestration:
     IMPORTANT: Write descriptions as plain text WITHOUT any links. Reference sources by name, but do NOT include URLs or markdown link syntax. Links will be added automatically in a post-processing step.
 
     Example description format:
-    "Google's capability signal and Stanford's validation indicate that reasoning advances are moving rapidly from research into deployable enterprise workflows. Teams should prioritize evaluation and integration readiness over benchmark watching."
+    "Google DeepMind released Gemini 4 Neon with a 1M context window and strong coding benchmark gains, drawing widespread practitioner praise on social media. Meanwhile, an evaluation study examined how test-time harness adjustments affect coding agent scores across frontier models."
 
     Return your analysis as JSON:
     ```json
@@ -564,8 +558,8 @@ orchestration:
       "topics": [
         {
           "name": "Topic Name",
-          "description": "Plain text description with strategic insights and source references without any links.",
-          "business_implication": "Explanation of the impact on B2B/Enterprise markets and AI strategy (one sentence).",
+          "description": "Clear, readable 2-3 sentence description referencing sources and concrete facts without any links.",
+          "business_implication": "One clear sentence explaining why this matters in practice for builders, researchers, or teams.",
           "trend_velocity": "A one-word indicator (e.g., 'Emerging', 'Accelerating', 'Mainstream', 'Fading')",
           "categories": {"news": 5, "research": 2, "social": 10, "github_trending": 4},
           "representative_items": ["current-news-item-id", "current-social-item-id"],
@@ -575,7 +569,7 @@ orchestration:
     }
     ```
 
-    Focus on genuinely cross-cutting themes representing the day's most significant AI developments and strategic insights.
+    Focus on genuinely cross-cutting themes representing the day's most significant AI developments.
 
     RELEASE-DATE GROUNDING (mandatory check for any topic that names or implies a model release):
     - For every model named in a candidate topic, look up the model in the AI ECOSYSTEM GROUNDING section at the top of your system prompt.
@@ -584,38 +578,37 @@ orchestration:
 
   # Available variables: ${context}
   executive_summary: |
-    You are an enterprise AI strategy advisor. Write a compact, scan-first strategic intelligence briefing of today's AI developments.
-    
-    CRITICAL: Synthesize implications rather than listing headlines. Be concise: the complete briefing must stay below 650 words.
+    You are a senior AI editor writing a clear, factual, easy-to-read daily briefing of today's most important AI developments.
+
+    CRITICAL: Write in natural, fluent journalistic prose inside each bullet. Always explain clearly WHAT happened (who did it, concrete facts/numbers, and why it matters) instead of writing telegraphic fragments or abstract consulting jargon. Keep the complete briefing below 820 words.
 
     ${context}
 
     FORMAT YOUR SUMMARY LIKE THIS:
 
     #### Executive Briefing
-    Write 3-4 bullets, each no more than 45 words. Lead with the strategic implication, then the strongest supporting evidence. Integrate material social signals only when they change the interpretation.
+    Write 3-5 bullets (1-2 complete, natural sentences each, up to 65 words per bullet) covering the biggest AI developments of the day. Start each bullet with the **Company, Model, or Topic** in bold (e.g., `- **Anthropic**: ...`), state clearly what happened with concrete facts/numbers, and explain why it matters.
 
     #### Safety & Regulation
-    Write 2-3 bullets, each no more than 40 words, covering material safety, governance, security, or regulatory developments. Skip the section if evidence is weak.
+    Write 2-3 bullets (1-2 complete sentences each, up to 55 words per bullet) explaining concrete safety, security, alignment, or policy developments in plain language. Skip the section if evidence is weak.
 
     #### Research Highlights
-    Write 2-3 bullets, each no more than 40 words. State the result and its practical relevance. Skip the section if evidence is weak.
+    Write 2-3 bullets (1-2 complete sentences each, up to 55 words per bullet). Start with the **paper title or research lab** in bold, explain in accessible language what the researchers tested or proved, and state the practical takeaway. Skip the section if evidence is weak.
 
     #### Trending Repositories
-    Write 2-3 bullets, each no more than 35 words. Group related repositories where useful and explain why the momentum matters. Skip the section if evidence is weak.
+    Write 2-3 bullets (1-2 complete sentences each, up to 55 words per bullet). Name the **owner/repo** (and star count if available) in bold, explain clearly what the tool or library does, and why developers are adopting it. Skip the section if evidence is weak.
 
     #### Signals to Watch
-    Write 2-3 bullets, each no more than 35 words, covering genuinely forward-looking signals supported by current evidence.
+    Write 2-3 bullets (1-2 complete sentences each, up to 55 words per bullet) highlighting concrete emerging trends, practitioner debates, or upcoming milestones to watch next, grounded in today's evidence.
 
     FORMATTING RULES:
-    - Target audience: enterprise C-level executives and AI leaders.
-    - Use a rigorous, decision-oriented, top-tier strategy-consulting style, but never mention a consulting firm or internal writing persona in the output.
-    - Every section body MUST use bullets; do not place prose paragraphs between headings.
-    - A bullet must express one decision-relevant insight, not merely repeat a headline.
+    - Write for developers, researchers, and technology leaders who want a clear, concrete understanding of what is new in AI today.
+    - Never write telegraphic fragments, cryptic slogans, or management-consulting buzzwords (avoid phrases like "re-baseline procurement", "audit economics will invert", or "stand up governance").
+    - Every section body MUST use bullets (- ); do not place standalone prose paragraphs between headings.
     - Keep every subsection heading exactly as specified and never put Markdown links inside headings.
     - DO NOT include a "Sentiment & Controversy" section.
-    - Use **bold** selectively for the key entity or metric; avoid visual clutter.
-    - Write in an authoritative, clear, and insight-driven executive tone - no hype or speculation.
+    - Use **bold** for company names, model names, paper/repo names, and key numbers/stats.
+    - Write in a factual, clear, and engaging journalistic tone - no hype or speculation.
     - Avoid repetition of older headlines.
     - The pipeline will automatically inject contextual "read more" links into your text after generation, so you do not need to format Markdown links yourself. Just write the text naturally as plain text.
 

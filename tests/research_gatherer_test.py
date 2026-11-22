@@ -120,14 +120,16 @@ class ResearchGathererTest(unittest.TestCase):
         )
 
     def test_alphaxiv_record_filters_and_extracts_structured_summary(self):
-        gatherer = self._gatherer_for_coverage("2026-07-10")
+        coverage_date = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+        previous_date = (datetime.now() - timedelta(days=2)).strftime("%Y-%m-%d")
+        gatherer = self._gatherer_for_coverage(coverage_date)
         matching = gatherer._alphaxiv_record_to_item(
             {
                 "universal_paper_id": "2607.09657",
                 "title": "Scalable Visual Pretraining",
                 "abstract": "Fallback abstract.",
                 "paper_summary": {"summary": "Structured AlphaXiv summary."},
-                "publication_date": "2026-07-10T17:57:03.000Z",
+                "publication_date": f"{coverage_date}T17:57:03.000Z",
                 "authors": ["Yiming Zhang", "Zhonghan Zhao"],
                 "topics": ["cs.AI", "vision-language-models"],
                 "metrics": {
@@ -139,7 +141,7 @@ class ResearchGathererTest(unittest.TestCase):
         outside_window = {
             "universal_paper_id": "2607.00001",
             "title": "Outside window",
-            "publication_date": "2026-07-09T17:57:03.000Z",
+            "publication_date": f"{previous_date}T17:57:03.000Z",
         }
 
         self.assertIsNotNone(matching)
@@ -149,6 +151,8 @@ class ResearchGathererTest(unittest.TestCase):
 
     @patch("agents.gatherers.research_gatherer.requests.get")
     def test_alphaxiv_fetch_filters_response_to_coverage_date(self, mock_get):
+        coverage_date = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+        previous_date = (datetime.now() - timedelta(days=2)).strftime("%Y-%m-%d")
         response = Mock()
         response.json.return_value = {
             "papers": [
@@ -156,19 +160,19 @@ class ResearchGathererTest(unittest.TestCase):
                     "universal_paper_id": "2607.09657",
                     "title": "Matching paper",
                     "abstract": "Inside the coverage date.",
-                    "publication_date": "2026-07-10T17:57:03.000Z",
+                    "publication_date": f"{coverage_date}T17:57:03.000Z",
                 },
                 {
                     "universal_paper_id": "2607.00001",
                     "title": "Outside paper",
                     "abstract": "Outside the coverage date.",
-                    "publication_date": "2026-07-09T17:57:03.000Z",
+                    "publication_date": f"{previous_date}T17:57:03.000Z",
                 },
             ]
         }
         response.raise_for_status.return_value = None
         mock_get.return_value = response
-        gatherer = self._gatherer_for_coverage("2026-07-10")
+        gatherer = self._gatherer_for_coverage(coverage_date)
 
         papers = gatherer._fetch_alphaxiv_trending()
 
@@ -178,14 +182,15 @@ class ResearchGathererTest(unittest.TestCase):
         self.assertIn("cs.AI", kwargs["params"]["topics"])
 
     def test_cross_source_duplicates_merge_provenance(self):
-        gatherer = self._gatherer_for_coverage("2026-07-10")
+        coverage_date = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+        gatherer = self._gatherer_for_coverage(coverage_date)
         huggingface = gatherer._huggingface_entry_to_item(
             {
                 "paper": {
                     "id": "2607.03118",
                     "title": "Shared paper",
                     "summary": "Hugging Face summary.",
-                    "submittedOnDailyAt": "2026-07-10T00:00:00.000Z",
+                    "submittedOnDailyAt": f"{coverage_date}T00:00:00.000Z",
                 }
             }
         )
@@ -194,7 +199,7 @@ class ResearchGathererTest(unittest.TestCase):
                 "universal_paper_id": "2607.03118v2",
                 "title": "Shared paper",
                 "abstract": "Longer AlphaXiv abstract for the same shared paper.",
-                "publication_date": "2026-07-10T12:00:00.000Z",
+                "publication_date": f"{coverage_date}T12:00:00.000Z",
                 "topics": ["cs.AI"],
             }
         )

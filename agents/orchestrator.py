@@ -69,8 +69,8 @@ except ImportError:
 logger = logging.getLogger(__name__)
 
 MIN_EXECUTIVE_SUMMARY_CHARS = 400
-MAX_EXECUTIVE_SUMMARY_WORDS = 650
-MAX_TOPIC_DESCRIPTION_WORDS = 40
+MAX_EXECUTIVE_SUMMARY_WORDS = 850
+MAX_TOPIC_DESCRIPTION_WORDS = 68
 
 
 @dataclass
@@ -1605,17 +1605,27 @@ RELEASE-DATE GROUNDING (mandatory check for any topic that names or implies a mo
 
     @staticmethod
     def _compact_topic_description(value: str) -> str:
-        """Enforce the topic card's concise, scan-first editorial budget."""
+        """Keep complete, readable sentences within the topic card's word budget."""
         text = " ".join((value or "").split())
         if not text:
             return text
-        sentences = re.split(r"(?<=[.!?])\s+", text)
-        candidate = sentences[0]
-        words = candidate.split()
+        words = text.split()
         if len(words) <= MAX_TOPIC_DESCRIPTION_WORDS:
-            return candidate
-        compact = " ".join(words[:MAX_TOPIC_DESCRIPTION_WORDS]).rstrip(" ,;:")
-        return compact + ("." if compact[-1] not in ".!?" else "")
+            return text
+        sentences = re.split(r"(?<=[.!?])\s+", text)
+        kept: List[str] = []
+        word_count = 0
+        for sentence in sentences:
+            s_words = sentence.split()
+            if kept and word_count + len(s_words) > MAX_TOPIC_DESCRIPTION_WORDS:
+                break
+            if not kept and len(s_words) > MAX_TOPIC_DESCRIPTION_WORDS:
+                compact = " ".join(s_words[:MAX_TOPIC_DESCRIPTION_WORDS]).rstrip(" ,;:")
+                return compact + ("." if compact[-1] not in ".!?" else "")
+            kept.append(sentence)
+            word_count += len(s_words)
+        result = " ".join(kept).rstrip(" ,;:")
+        return result + ("." if result and result[-1] not in ".!?" else "")
 
     def _load_previous_summaries(self, lookback_days: int = 3) -> str:
         """
@@ -1687,40 +1697,39 @@ RELEASE-DATE GROUNDING (mandatory check for any topic that names or implies a mo
             )
         else:
             # Fallback to inline prompt for backwards compatibility
-            instructions = f"""You are an enterprise AI strategy advisor. Write a compact, scan-first strategic intelligence briefing of today's AI developments.
+            instructions = f"""You are a senior AI editor writing a clear, factual, easy-to-read daily briefing of today's most important AI developments.
 
-CRITICAL: Synthesize implications rather than listing headlines. Be concise: the complete briefing must stay below 650 words.
+CRITICAL: Write in natural, fluent journalistic prose inside each bullet. Always explain clearly WHAT happened (who did it, key facts/numbers, and why it matters) instead of writing telegraphic fragments or abstract consulting jargon. Keep the complete briefing below 820 words.
 
 {DATA_POINTER}
 
 FORMAT YOUR SUMMARY LIKE THIS:
 
 #### Executive Briefing
-Write 3-4 bullets, each no more than 45 words. Lead with the strategic implication, then the strongest supporting evidence. Integrate material social signals only when they change the interpretation.
+Write 3-5 bullets (1-2 complete, natural sentences each, up to 65 words per bullet) covering the biggest AI developments of the day. Start each bullet with the **Company, Model, or Topic** in bold (e.g., `- **Anthropic**: ...`), state clearly what happened with concrete facts/numbers, and explain why it matters.
 
 #### Safety & Regulation
-Write 2-3 bullets, each no more than 40 words, covering material safety, governance, security, or regulatory developments. Skip the section if evidence is weak.
+Write 2-3 bullets (1-2 complete sentences each, up to 55 words per bullet) explaining concrete safety, security, alignment, or policy developments in plain language. Skip the section if evidence is weak.
 
 #### Research Highlights
-Write 2-3 bullets, each no more than 40 words. State the result and its practical relevance. Skip the section if evidence is weak.
+Write 2-3 bullets (1-2 complete sentences each, up to 55 words per bullet). Start with the **paper title or research lab** in bold, explain in accessible language what the researchers tested or proved, and state the practical takeaway. Skip the section if evidence is weak.
 
 #### Trending Repositories
-Write 2-3 bullets, each no more than 35 words. Group related repositories where useful and explain why the momentum matters. Skip the section if evidence is weak.
+Write 2-3 bullets (1-2 complete sentences each, up to 55 words per bullet). Name the **owner/repo** (and star count if available) in bold, explain clearly what the tool or library does, and why developers are adopting it. Skip the section if evidence is weak.
 
 #### Signals to Watch
-Write 2-3 bullets, each no more than 35 words, covering genuinely forward-looking signals supported by current evidence.
+Write 2-3 bullets (1-2 complete sentences each, up to 55 words per bullet) highlighting concrete emerging trends, practitioner debates, or upcoming milestones to watch next, grounded in today's evidence.
 
 FORMATTING RULES:
-- Target audience: enterprise C-level executives and AI leaders.
-- Use a rigorous, decision-oriented, top-tier strategy-consulting style, but never mention a consulting firm or internal writing persona in the output.
-- Every section body MUST use bullets; do not place prose paragraphs between headings.
-- A bullet must express one decision-relevant insight, not merely repeat a headline.
+- Write for developers, researchers, and technology leaders who want a clear, concrete understanding of what is new in AI today.
+- Never write telegraphic fragments, cryptic slogans, or management-consulting buzzwords (avoid phrases like "re-baseline procurement", "audit economics will invert", or "stand up governance").
+- Every section body MUST use bullets (- ); do not place standalone prose paragraphs between headings.
 - Keep every subsection heading exactly as specified and never put Markdown links inside headings.
 - DO NOT include a "Sentiment & Controversy" section.
-- Use **bold** selectively for the key entity or metric; avoid visual clutter.
-- Write in an authoritative, clear, and insight-driven executive tone - no hype or speculation.
+- Use **bold** for company names, model names, paper/repo names, and key numbers/stats.
+- Write in a factual, clear, and engaging journalistic tone - no hype or speculation.
 - Avoid repetition of older headlines.
-- The pipeline will automatically inject contextual "read more" links into your text after generation, so you do not need to format Markdown links yourself. Just write the text naturally as plain text.
+- The pipeline will automatically inject contextual "read more" links into your text after generation, so do not format Markdown links yourself. Just write plain text.
 
 EVIDENCE REQUIREMENT:
 - Treat everything before `=== END PREVIOUS DAYS' COVERAGE ===` as historical anti-repetition context only.

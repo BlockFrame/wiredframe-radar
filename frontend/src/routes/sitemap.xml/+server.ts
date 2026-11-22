@@ -1,6 +1,5 @@
 import { slugify } from '$lib/utils/slugify';
 import models from '../../../static/data/models.json';
-import tools from '../../../static/data/tools.json';
 import { SITE } from '$lib/site';
 import { categoryEntries, readDataIndex } from '$lib/server/briefingData';
 
@@ -12,7 +11,6 @@ export async function GET() {
         '/about',
         '/influencers',
         '/models',
-        '/tools',
         '/archive'
     ];
 

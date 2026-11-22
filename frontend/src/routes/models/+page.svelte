@@ -125,6 +125,9 @@
         'MiniMax': 'minimaxi.com',
         'ByteDance': 'bytedance.com',
         'Tencent': 'tencent.com',
+        'NVIDIA': 'www.nvidia.com',
+        'Decision Models & Routing': 'arize.com',
+        'Open-Weight Community & Labs': 'huggingface.co',
         'Thinking Machines Lab': 'thinkingmachines.com'
     };
 

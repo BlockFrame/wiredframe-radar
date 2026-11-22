@@ -122,8 +122,9 @@ class SeoConfigurationTest(unittest.TestCase):
             ROOT / "frontend/src/routes/sitemaps/briefings.xml/+server.ts"
         ).read_text()
 
-        for route in ("/about", "/influencers", "/models", "/tools", "/archive"):
+        for route in ("/about", "/influencers", "/models", "/archive"):
             self.assertIn(route, core)
+        self.assertNotIn("'/tools'", core)
         self.assertIn("slugify(model.name)", models)
         self.assertIn("briefingEntries", briefings)
         self.assertIn("categoryEntries", briefings)
