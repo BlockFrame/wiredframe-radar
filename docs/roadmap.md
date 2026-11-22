@@ -68,6 +68,23 @@ Every future capability is represented by a GitHub user story. A story must move
 - Every implementation requires mocked regression coverage; routine development must not consume paid LLM or X quota.
 - A merged capability is moved to **Delivered foundations** only after verification and production observation.
 
+## Security hardening and technical TODOs (November 2026 audit)
+
+### Security hardening TODOs
+
+- [ ] **SSRF and response-size guards in `LinkFollower`** (`agents/gatherers/link_follower.py`): validate resolved IPs across every redirect hop in `_expand_tco_url` and `fetch_article` to block private, loopback, and cloud-metadata addresses (`ipaddress.ip_address(ip).is_global`), enforce an explicit `text/html` / `application/xhtml+xml` content-type check, and stream responses with a `2 MB` body cap.
+- [ ] **JSON-LD script-breakout escaping in SSR templates** (`frontend/src/lib/components/briefings/`, `frontend/src/routes/+page.svelte`, `frontend/src/routes/models/[slug]/+page.svelte`): introduce a shared `serializeJsonLd()` helper that escapes `<` as `\u003c` before injecting structured data into `<script type="application/ld+json">` blocks so external titles or descriptions containing `</script>` cannot break out of the tag.
+- [ ] **Content-Security-Policy and HSTS hardening** (`vercel.json`): add `Strict-Transport-Security: max-age=63072000; includeSubDomains; preload` and tighten `Content-Security-Policy` with explicit `default-src`, `script-src`, `style-src`, `img-src`, and `connect-src 'self'` directives.
+- [ ] **Automatic credential redaction in pipeline logs** (`run_pipeline.py`, `agents/`): install a global `logging.Filter` at startup that scrubs any environment secret values (`OPENROUTER_API_KEY`, `GEMINI_API_KEY`, `NVIDIA_API_KEY`, `GETXAPI_KEY`, `TWITTERAPI_IO_KEY`) from exception messages and log records before they reach stdout or log files.
+- [ ] **Remove orphaned static `tools.json` assets** (`web/data/tools.json`, `frontend/static/data/tools.json`): clean up unused static payloads following the removal of `/tools` to reduce bundle size and build time.
+
+### Pipeline resilience and operational TODOs
+
+- [ ] **Resilient Social (X) fallback for top accounts** (`agents/gatherers/social_gatherer.py`): add a secondary per-account timeline or public feed fallback for the top 25–30 tier-1 lab and researcher accounts when batch `GetXAPI` search requests fail or run out of credits, preventing the Social category from dropping to zero items.
+- [ ] **Authoritative OpenRouter cost reconciliation (`usage.cost`)** (`agents/llm_client.py`, `agents/cost_tracker.py` — tracks [#17](https://github.com/BlockFrame/wiredframe-radar/issues/17)): capture the provider-reported `usage.cost` field returned by OpenRouter responses so `cost_report.json` reflects exact billed spend (including reasoning tokens and cache discounts) alongside local token estimates.
+- [ ] **Immediate host-refusal / content-filter failover** (`agents/llm_client.py`): treat HTTP 200 responses with empty completion content or `finish_reason == "content_filter"` on `z-ai/glm-5.3-flashx` as immediate route-failover triggers to `openrouter-minimax-complex` without exhausting same-provider retry attempts.
+- [ ] **Pin and harden `Dockerfile` base image for Chromium/Playwright** (`Dockerfile`): pin the Python runtime stage to `python:3.11-slim-bookworm` so `playwright install --with-deps chromium` remains stable across Debian package updates in the `Docker no-spend smoke test` CI job.
+
 ## Supporting contributor work
 
 Contributor-enablement tasks remain tracked in the same AIDLC Project even when they are not product roadmap capabilities:
