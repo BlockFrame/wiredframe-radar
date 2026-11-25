@@ -17,7 +17,7 @@ class LLMRouteConfig(BaseModel):
     max_output_tokens: Optional[int] = Field(
         default=None,
         ge=1024,
-        le=128000,
+        le=131072,
         description="Override maximum output tokens for this route"
     )
     timeout: Optional[float] = Field(
@@ -120,7 +120,7 @@ class LLMProviderConfig(BaseModel):
     max_output_tokens: int = Field(
         default=128000,
         ge=1024,
-        le=128000,
+        le=131072,
         description="Maximum output tokens the model/proxy supports. "
                     "Set lower for proxies with restrictive limits (e.g., 64000)."
     )

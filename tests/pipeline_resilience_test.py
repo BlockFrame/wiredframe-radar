@@ -1477,7 +1477,7 @@ class DeterministicLinkEnrichmentTests(unittest.TestCase):
 
 
 class TopicDescriptionCompactionTests(unittest.TestCase):
-    def test_topic_description_keeps_only_one_short_sentence(self):
+    def test_topic_description_preserves_complete_sentences_within_word_budget(self):
         text = (
             "OpenAI expands agent tooling across enterprise workflows with a new API and controls. "
             "Research and developer commentary suggest broader adoption."
@@ -1485,10 +1485,36 @@ class TopicDescriptionCompactionTests(unittest.TestCase):
 
         compact = MainOrchestrator._compact_topic_description(text)
 
-        self.assertEqual(
-            compact,
-            "OpenAI expands agent tooling across enterprise workflows with a new API and controls.",
+        self.assertEqual(compact, text)
+
+    def test_topic_description_drops_trailing_sentences_beyond_word_budget(self):
+        first = (
+            "OpenAI expands agent tooling across enterprise workflows with a new Responses API, "
+            "deterministic execution controls, and native sandboxing for production teams."
         )
+        second = (
+            "Independent researchers and open-source maintainers benchmarked the runtime across "
+            "twenty repository tasks and confirmed lower tool-call latency under sustained load."
+        )
+        third = (
+            "Meanwhile, developer commentary across X highlights rapid migration away from custom "
+            "orchestration wrappers toward standardized server-managed agent sessions in enterprise deployments "
+            "with stricter audit logging and role-based permission boundaries."
+        )
+        text = f"{first} {second} {third}"
+
+        compact = MainOrchestrator._compact_topic_description(text)
+
+        self.assertEqual(compact, f"{first} {second}")
+        self.assertLessEqual(len(compact.split()), 68)
+
+    def test_topic_description_truncates_single_overlong_sentence_with_period(self):
+        overlong = " ".join(f"word{i}" for i in range(80)) + "."
+
+        compact = MainOrchestrator._compact_topic_description(overlong)
+
+        self.assertEqual(len(compact.split()), 68)
+        self.assertTrue(compact.endswith("."))
 
 
 class GathererObservabilityTests(unittest.TestCase):
