@@ -133,6 +133,12 @@ class LLMRouteConfigTests(unittest.TestCase):
             routes["openrouter-minimax-bulk"].fallback_route_id,
             "gemini-bulk-fallback",
         )
+        self.assertEqual(routes["openrouter-glm-complex"].model, "z-ai/glm-5.3-flashx")
+        self.assertEqual(routes["openrouter-glm-complex"].max_output_tokens, 131072)
+        self.assertEqual(
+            routes["openrouter-glm-complex"].fallback_route_id,
+            "openrouter-minimax-complex",
+        )
         self.assertEqual(
             routes["openrouter-minimax-complex"].fallback_route_id,
             "gemini-quality-fallback",
@@ -187,8 +193,8 @@ class LLMRouteConfigTests(unittest.TestCase):
                 caller="news_analyzer.small_batch",
             )
             self.assertEqual(paid_link.content, "openrouter-minimax-link-fallback")
-            self.assertEqual(summary.content, "openrouter-minimax-complex")
-            self.assertEqual(small_news.content, "openrouter-minimax-complex")
+            self.assertEqual(summary.content, "openrouter-glm-complex")
+            self.assertEqual(small_news.content, "openrouter-glm-complex")
             self.assertEqual(bulk.content, "openrouter-minimax-bulk")
 
         asyncio.run(verify_routing())
@@ -242,12 +248,40 @@ class LLMRouteConfigTests(unittest.TestCase):
 
         asyncio.run(verify_link_fallback_is_exclusive())
 
+        async def verify_glm_to_minimax_fallback():
+            clients = [
+                FakeRouteClient(
+                    route.id,
+                    model=route.model,
+                    failures=(
+                        [ProviderQuotaExhaustedError("GLM unavailable")]
+                        if route.id == "openrouter-glm-complex"
+                        else None
+                    ),
+                    route_profiles=route.profiles,
+                    caller_patterns=route.caller_patterns,
+                    fallback_route_id=route.fallback_route_id,
+                    route_priority=route.priority,
+                )
+                for route in routes.values()
+            ]
+            router = AsyncLLMRouter(clients)
+            result = await router.call_with_thinking(
+                messages=[{"role": "user", "content": "summary"}],
+                profile=ThinkingLevel.DEEP,
+                caller="orchestrator.summary",
+            )
+            self.assertEqual(result.content, "openrouter-minimax-complex")
+
+        asyncio.run(verify_glm_to_minimax_fallback())
+
         async def verify_orchestration_fallback():
             clients = []
             for route in routes.values():
                 failures = (
                     [ProviderQuotaExhaustedError("20 RPD")]
                     if route.id in {
+                        "openrouter-glm-complex",
                         "openrouter-minimax-complex",
                         "gemini-quality-fallback",
                     }

@@ -39,6 +39,47 @@ jobs:
             tests.container_configuration_test \
             tests.release_readiness_test -v
 
+  pipeline-regressions:
+    name: Pipeline pre-flight regression suite
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GETXAPI_KEY: ""
+      GEMINI_API_KEY: "unit-test-key"
+      NVIDIA_API_KEY: "unit-test-key"
+      OPENROUTER_API_KEY: "unit-test-key"
+      LLM_LOG_REQUESTS: "false"
+      LLM_METRICS_PATH: ""
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            agents
+            config
+            generators
+            pipeline_support
+            scripts
+            tests
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Install pipeline dependencies
+        run: python3 -m pip install --no-input -r requirements.txt
+      - name: Run Daily Pipeline mocked regression gate
+        run: |
+          python3 -m unittest \
+            tests.research_gatherer_test \
+            tests.llm_routing_test \
+            tests.editorial_integrity_test \
+            tests.news_ai_keyword_filter_test \
+            tests.pipeline_resilience_test \
+            tests.openrouter_pricing_test \
+            tests.summary_context_test
+
   guard:
     name: Signature lockstep guard
     runs-on: ubuntu-latest
