@@ -20,7 +20,8 @@ on:
     # only the first pass that sees a bad report dispatches; later passes are capped.
     # UTC entries 08-14 cover 04-09 ET across both EDT (UTC-4) and EST (UTC-5); the
     # ET gate below lets only passes whose ET hour is in 04..09 proceed.
-    - cron: "0 8-14 * * *"
+    # Offset from :00 to :37 to avoid top-of-hour GitHub Actions scheduler queues.
+    - cron: "37 8-14 * * *"
   workflow_dispatch:
     inputs:
       target_date:

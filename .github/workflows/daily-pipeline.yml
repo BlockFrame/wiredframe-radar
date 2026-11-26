@@ -2,11 +2,12 @@ name: Daily Pipeline
 
 on:
   schedule:
-    # GitHub cron is UTC-only. These two entries cover 1 AM America/New_York
+    # GitHub cron is UTC-only. These two entries cover 1:23 AM America/New_York
     # across daylight saving time; the ET gate below lets only the nominal
-    # 1 AM run continue even when GitHub starts the runner late.
-    - cron: "0 5 * * *"
-    - cron: "0 6 * * *"
+    # 1:23 AM run continue even when GitHub starts the runner late.
+    # Offset from :00 to avoid top-of-hour GitHub Actions scheduler queues.
+    - cron: "23 5 * * *"
+    - cron: "23 6 * * *"
   workflow_dispatch:
     inputs:
       target_date:
@@ -129,7 +130,7 @@ jobs:
               tzinfo=timezone.utc,
           )
           nominal_et = nominal_utc.astimezone(ZoneInfo("America/New_York"))
-          should_run = nominal_et.hour == 1 and nominal_et.minute == 0
+          should_run = nominal_et.hour == 1 and nominal_et.minute == 23
 
           print(f"should_run={'true' if should_run else 'false'}")
           print(f"nominal_utc={nominal_utc.strftime('%Y-%m-%dT%H:%M:%SZ')}")
@@ -148,7 +149,7 @@ jobs:
             echo "Actual runner start time was $actual_et."
           else
             echo "should_run=false" >> "$GITHUB_OUTPUT"
-            echo "Scheduled cron '$SCHEDULE_CRON' maps to $nominal_et ($nominal_utc), not 1 AM ET; exiting as a no-op."
+            echo "Scheduled cron '$SCHEDULE_CRON' maps to $nominal_et ($nominal_utc), not 1:23 AM ET; exiting as a no-op."
             echo "Actual runner start time was $actual_et."
           fi
 
