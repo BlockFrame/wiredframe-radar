@@ -7,19 +7,19 @@
       "categories": {
         "news": {
           "count": 73,
-          "file_size": 584537
+          "file_size": 583523
         },
         "research": {
           "count": 135,
-          "file_size": 607117
+          "file_size": 606556
         },
         "social": {
           "count": 150,
-          "file_size": 310062
+          "file_size": 309642
         },
         "github_trending": {
           "count": 46,
-          "file_size": 115106
+          "file_size": 114758
         }
       }
     },
@@ -6251,7 +6251,7 @@
     }
   ],
   "latestDate": "2026-11-26",
-  "generatedAt": "2026-11-26T06:19:18.989817",
+  "generatedAt": "2026-11-26T11:18:41.556279",
   "totalDates": 284,
   "schema_version": "1.0"
 }
